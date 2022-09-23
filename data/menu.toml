@@ -1,0 +1,62 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "portfolio"
+  url = "portfolio"
+
+  [[entries.entries]]
+  title = "cybersecurity officer, sec+ // developer"
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  limit = 4
+  show_more = true
+  show_more_text = "see archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "posts by category"
+
+  [[entries.entries]]
+    title = "security"
+
+    [entries.entries.post_list]
+    limit = 3
+    section = "security"
+    show_more = true
+    show_more_text = "see more posts..."
+    show_more_url = "security"
+
+  [[entries.entries]]
+    title = "projects"
+
+    [entries.entries.post_list]
+    limit = 2
+    section = "projects"
+    show_more = true
+    show_more_text = "see more posts..."
+    show_more_url = "projects"
+
+[[entries]]
+  title = "elaborate"
+  url = "https://carlgaspar-puppet.netlify.app"
+
+[[entries]]
+title = "socials"
+
+  [[entries.entries]]
+  title = "linkedin"
+  url = "https://linkedin.com/in/carlignn"
+
+  [[entries.entries]]
+  title = "instagram"
+  url = "https://instagram.com/carlignn"
+
+# [[entries]]
+# title = "PRO TIP"
+# entries = [
+#    { title = "to edit this menu, edit data/menu.toml file" }
+#   ]
