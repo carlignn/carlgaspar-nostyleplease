@@ -5,7 +5,7 @@
 
   <title>
     {{ if not .IsHome }}
-      {{ .Title }}
+      {{ printf "%s | %s" .Title .Site.Title }}
     {{ else }}
       {{ $.Site.Title }}
     {{ end }}
