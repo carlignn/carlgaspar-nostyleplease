@@ -1,5 +1,5 @@
 ---
-title: "strange post with custom js"
+title: "Strange Post With Custom JS"
 custom_js: [mouse_coords]
 date: 2020-07-06T00:00:00+08:00
 category: example3

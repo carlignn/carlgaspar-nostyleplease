@@ -1,5 +1,5 @@
 ---
-title: "post example with headings and toc"
+title: "Post Example With Headings And Toc"
 date: 2020-07-09T00:00:00+08:00
 draft: false
 ---
