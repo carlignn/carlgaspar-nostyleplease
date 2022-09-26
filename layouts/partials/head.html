@@ -4,8 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    {{ if not .IsHome }}
-      {{ printf "%s | %s" .Title .Site.Title }}
+    {{ if and (not .IsHome) (eq .Title "") }}
+      {{ "Portfolio" }}
+    {{ else if not .IsHome }}
+      {{ .Title }}
     {{ else }}
       {{ $.Site.Title }}
     {{ end }}
