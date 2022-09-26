@@ -32,9 +32,7 @@ The only portfolio tracker that tracks the Philippine Stock Exchange with the op
 
 ## Screenshots
 
-Application screenshots uploaded to Imgur.
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/RV2Mpka"><a href="//imgur.com/a/RV2Mpka">Pesofolio</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+Application [screenshots ](imgur.com/a/RV2Mpka)uploaded to Imgur.
 
 ## Technologies Used
 
