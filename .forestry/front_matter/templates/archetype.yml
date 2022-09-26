@@ -18,3 +18,5 @@ fields:
 - type: text
   name: category
   label: category
+pages:
+- content/projects/it-s-more-find-in-the-philippines.md
