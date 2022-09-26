@@ -1,0 +1,16 @@
+---
+label: archetype
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: custom_js
+  label: custom_js
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: category
+  label: category
