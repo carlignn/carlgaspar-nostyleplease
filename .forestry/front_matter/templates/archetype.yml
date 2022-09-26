@@ -5,13 +5,16 @@ fields:
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
 - type: list
   name: custom_js
   label: custom_js
   description: Use "mouse_coords" if needed.
-- type: datetime
-  name: date
-  label: date
+- name: mathjax
+  type: boolean
+  label: mathjax
 - type: text
   name: category
   label: category
