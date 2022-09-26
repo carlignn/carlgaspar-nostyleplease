@@ -29,6 +29,7 @@ pluralizelisttitles = false
     tabWidth = 4
 
 [params]
+  favicon = "/logo.png"
   [params.theme_config]
     back_home_text = ".."
     date_format = "2006-01-02"
