@@ -20,9 +20,7 @@ The game was uploaded and last updated at the Google Play Store on Jan 14, 2018.
 
 ## Screenshots
 
-Screenshots of the game uploaded from Imgur.
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/2cHNX0i"  ><a href="//imgur.com/a/2cHNX0i">It's More Find in the Philippines</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[Screenshots ](imgur.com/a/2cHNX0i)of the game uploaded from Imgur.
 
 ## The Team
 
