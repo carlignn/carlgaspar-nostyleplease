@@ -20,5 +20,8 @@ fields:
   label: category
 pages:
 - content/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly.md
+- content/posts/risk-assessment-and-management.md
+- content/posts/the-philippine-government.md
+- content/posts/threat-modeling-fundamentals.md
 - content/projects/it-s-more-find-in-the-philippines.md
 - content/projects/pesofolio-philippine-stock-exchange-portfolio-tracker.md
