@@ -1,8 +1,7 @@
 ---
-title: ""
-draft: false
----
+title: ''
 
+---
 # Cyber Security Specialist
 
 Persistent, detail-oriented Cyber Security and Information Security professional with 3+ years of progressive experience operating within the private domain, securing systems and data. Highly skilled in facilitating data loss prevention as part of strengthening the overall institutional e-infrastructure. With knowledge in risk management, viruses, and a wide range of vulnerabilities and threats. Able to thrive in fast-paced and challenging environments where accuracy and efficiency matter. [Resume](https://drive.google.com/file/d/1zxxDDhL_w0Rqgkink0dVPc3kqtJW3HBE/view?usp=sharing).
@@ -13,8 +12,7 @@ Security Assessment, Security Planning, Vulnerability Scanning: Nessus and Nmap,
 
 # Industry Certifications/Training
 
-* [CompTIA Security+ (June 2021)
-  ![CompTIA Security+](/media/securityplus-logo-certified-ce.png)](https://www.credly.com/badges/d8c17809-0fb3-46b8-bc40-ade7b1df1bf0)
+* [CompTIA Security+ (June 2021)](https://www.credly.com/badges/d8c17809-0fb3-46b8-bc40-ade7b1df1bf0)
 * Symantec CloudSOC Administration R2 Course Training (March 2021)
 
 # Experience
@@ -47,10 +45,10 @@ Security Assessment, Security Planning, Vulnerability Scanning: Nessus and Nmap,
 
 * GWA – 1.68/5.0
 
-# Projects[](https://play.google.com/store/apps/details?id=com.galoreentertainment.pesofolio)
+# Projects
 
-* **[Pesofolio](https://play.google.com/store/apps/details?id=com.galoreentertainment.pesofolio)** - Android application created to simplify tracking of stocks in the Philippine Stock Market.
-  Technologies used: Kotlin, Python, AWS (IAM, DynamoDB, Lambda, CloudWatch, API Gateway)[](https://play.google.com/store/apps/details?id=com.galore.imfitphilippines)
-* **[It’s More Find in the Philippines](https://play.google.com/store/apps/details?id=com.galore.imfitphilippines)** - Android game developed by my team and I as our final thesis
+* [**Pesofolio**](https://play.google.com/store/apps/details?id=com.galoreentertainment.pesofolio) - Android application created to simplify tracking of stocks in the Philippine Stock Market.
+  Technologies used: Kotlin, Python, AWS (IAM, DynamoDB, Lambda, CloudWatch, API Gateway)
+* [**It’s More Find in the Philippines**](https://play.google.com/store/apps/details?id=com.galore.imfitphilippines) - Android game developed by my team and I as our final thesis
   at the University. I led the team of 5 people as the Project Manager and the Programmer.
   Technologies used: C#, Unity3D, Photoshop
