@@ -7,4 +7,4 @@ date: 2022-10-25T16:00:00.000Z
 
 `nslookup` can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: `nslookup`
 
-Related: [MX Record Primer](/posts/mx-record-primer "MX Record Primer")
+Related: [MX Record Primer](/security/mx-record-primer "MX Record Primer")
