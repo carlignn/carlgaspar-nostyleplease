@@ -1,9 +1,8 @@
 ---
-_template: archetype
-title: "Pesofolio - Philippine Stock Exchange Portfolio Tracker"
+title: Pesofolio - Philippine Stock Exchange Portfolio Tracker
 draft: false
-date: 2021-09-30T07:04:00Z
-category: ""
+date: 2021-09-30T07:04:00.000Z
+category: ''
 custom_js: []
 mathjax: false
 ---
@@ -34,7 +33,7 @@ The only portfolio tracker that tracks the Philippine Stock Exchange with the op
 
 ## Screenshots
 
-Application [screenshots ](imgur.com/a/RV2Mpka)uploaded to Imgur.
+Application [screenshots](imgur.com/a/RV2Mpka) uploaded to Imgur.
 
 ## Technologies Used
 
