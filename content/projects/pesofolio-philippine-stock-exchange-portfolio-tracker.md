@@ -1,11 +1,13 @@
-+++
-category = ""
-custom_js = []
-date = 2021-09-30T07:04:00Z
-mathjax = false
-title = "Pesofolio - Philippine Stock Exchange Portfolio Tracker"
+---
+_template: archetype
+title: "Pesofolio - Philippine Stock Exchange Portfolio Tracker"
+draft: false
+date: 2021-09-30T07:04:00Z
+category: ""
+custom_js: []
+mathjax: false
+---
 
-+++
 The only portfolio tracker that tracks the Philippine Stock Exchange with the option of multiple accounts to manage your assets simpler, better and easier. Sophisticated enough for professional investors but simple enough to use for enthusiastic first timers. Just browse for your stock of choice and Pesofolio will track that for you: gaining value, losing value, total net worth, percent increase, etc..
 
 ![](https://i.imgur.com/xim3YBv.jpg)

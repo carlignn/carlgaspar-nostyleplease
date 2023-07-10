@@ -1,9 +1,12 @@
 [[entries]]
+  title = ".."
+  url = "https://carlgaspar.com"
+
+[[entries]]
 title = "info"
 
   [[entries.entries]]
-  title = "portfolio"
-  url = "portfolio"
+  title = " <a href = 'portfolio'>portfolio</a> // <a href = 'core-competencies'>core competencies</a>"
 
   [[entries.entries]]
   title = "cybersecurity officer, sec+ // developer"
@@ -22,6 +25,7 @@ title = "posts by category"
 
   [[entries.entries]]
     title = "security"
+    url = "security"
 
     [entries.entries.post_list]
     limit = 3
@@ -32,6 +36,7 @@ title = "posts by category"
 
   [[entries.entries]]
     title = "projects"
+    url = "projects"
 
     [entries.entries.post_list]
     limit = 2
@@ -39,10 +44,6 @@ title = "posts by category"
     show_more = true
     show_more_text = "see more posts..."
     show_more_url = "projects"
-
-[[entries]]
-  title = "elaborate"
-  url = "https://elaborate.carlgaspar.com"
 
 [[entries]]
 title = "socials"

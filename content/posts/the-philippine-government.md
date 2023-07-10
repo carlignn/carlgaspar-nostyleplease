@@ -1,11 +1,13 @@
-+++
-category = ""
-custom_js = []
-date = 2021-09-21T14:30:00Z
-mathjax = false
-title = "The Philippine Government"
+---
+_template: archetype
+title: "The Philippine Government"
+draft: false
+date: 2021-09-21T14:30:00Z
+category: ""
+custom_js: []
+mathjax: false
+---
 
-+++
 When we were young, there are times in our studies where there are topics or lessons that our brain can't comprehend. In this blog, I will discuss what I learned reviewing the really important topic - The Philippine Government. I learned that it is all based on the Philippine Constitution.
 
 The Philippine Government (Filipino: Pamahalaan ng Pilipinas) is the national government of the Philippines. It is governed as unitary state under a presidential representative and democratic and a constitutional republic where the President function as both the head of state and the head of government of the country within a multiform multi-party system. The government has three (3) interdependent branches: the **legislative** branch, the **executive** branch and the **judicial** branch. The powers of the branches are vested by the Constitution of the Philippines.

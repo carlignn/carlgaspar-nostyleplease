@@ -1,11 +1,13 @@
-+++
-category = ""
-custom_js = []
-date = 2022-09-15T09:25:00Z
-mathjax = false
-title = "Threat Modeling Fundamentals"
+---
+_template: archetype
+title: "Threat Modeling Fundamentals"
+draft: false
+date: 2022-09-15T09:25:00Z
+category: ""
+custom_js: []
+mathjax: false
+---
 
-+++
 ## Threat Modeling, The What, Why, Who And When
 
 ### What Is Threat Modeling
