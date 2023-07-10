@@ -1,9 +1,8 @@
 ---
-_template: archetype
-title: "It's More Find in the Philippines"
+title: It's More Find in the Philippines
 draft: false
-date: 2021-09-25T06:42:00Z
-category: ""
+date: 2021-09-25T06:42:00.000Z
+category: ''
 custom_js: []
 mathjax: false
 ---
@@ -22,7 +21,7 @@ The game was uploaded and last updated at the Google Play Store on Jan 14, 2018.
 
 ## Screenshots
 
-[Screenshots ](imgur.com/a/2cHNX0i)of the game uploaded from Imgur.
+[Screenshots](imgur.com/a/2cHNX0i) of the game uploaded from Imgur.
 
 ## The Team
 
