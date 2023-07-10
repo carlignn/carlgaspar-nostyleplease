@@ -6,7 +6,8 @@
 title = "info"
 
   [[entries.entries]]
-  title = " <a href = 'portfolio'>portfolio</a> // <a href = 'core-competencies'>core competencies</a>"
+  title = "portfolio"
+  url = "portfolio"
 
   [[entries.entries]]
   title = "cybersecurity officer, sec+ // developer"
