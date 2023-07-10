@@ -30,7 +30,7 @@ MX stands for Mail Exchange. MX record does resolves to text and not IP-records.
 
 ### How To Do A DNS Lookup Of An MX Record Using CMD
 
-Related: [NSLookup Primer](/posts/nslookup-primer "NSLookup Primer")
+Related: [NSLookup Primer](/security/nslookup-primer "NSLookup Primer")
 
 `nslookup` can be used in two modes: interactive and non-interactive. to initiate interactive mode, type the command name only: `nslookup`
 
