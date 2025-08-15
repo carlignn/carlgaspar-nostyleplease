@@ -25,7 +25,7 @@ title = "posts by category"
     url = "security"
 
     [entries.entries.post_list]
-    limit = 3
+    limit = 2
     section = "security"
     show_more = true
     show_more_text = "see more posts..."
