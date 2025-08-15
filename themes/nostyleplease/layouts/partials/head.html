@@ -15,7 +15,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
-  {{ $style := $sass | resources.ToCSS $options }}
+  {{ $style := $sass | css.Sass $options }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" />
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css">
