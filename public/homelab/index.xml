@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on Carl Gaspar</title>
+    <link>//localhost:1313/homelab/</link>
+    <description>Recent content in Homelab on Carl Gaspar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Sep 2021 06:42:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>asdfasfdsadf</title>
+      <link>//localhost:1313/homelab/test/</link>
+      <pubDate>Sat, 25 Sep 2021 06:42:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/test/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.galore.imfitphilippines&#34;&gt;It&amp;rsquo;s More Find in the Philippines&lt;/a&gt; is a 2D android-based find the hidden object game. Over a hundred objects are hidden in the different regions of the Philippines. It features most of the known objects from every region which lets you explore the country as well as learn trivia provided by the game. It&amp;rsquo;s More find in the Philippines lets you explore the country. Users will be asked to look for precious objects related to certain places. Users will consume energy to play a level or a stage.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

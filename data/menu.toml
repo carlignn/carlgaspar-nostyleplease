@@ -32,6 +32,17 @@ title = "posts by category"
     show_more_url = "security"
 
   [[entries.entries]]
+    title = "homelab"
+    url = "homelab"
+
+    [entries.entries.post_list]
+    limit = 2
+    section = "homelab"
+    show_more = true
+    show_more_text = "see more posts..."
+    show_more_url = "security"
+
+  [[entries.entries]]
     title = "projects"
     url = "projects"
 
