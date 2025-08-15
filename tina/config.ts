@@ -71,6 +71,35 @@ export default defineConfig({
       },
       {
         format: "md",
+        label: "Homelab",
+        name: "Homelab",
+        path: "content/homelab",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        ui: {
+          filename: {
+            // if disabled, the editor can not edit the filename
+            readonly: false,
+            // Example of using a custom slugify function
+            slugify: values => {
+              // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
+              return `${values?.title ? values.title.toLowerCase().replace(/ /g, '-') : 'no-title'}`
+            },
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "title",
+          },
+          ...archetypeFields(),
+        ],
+      },
+      {
+        format: "md",
         label: "Projects",
         name: "projects",
         path: "content/projects",
