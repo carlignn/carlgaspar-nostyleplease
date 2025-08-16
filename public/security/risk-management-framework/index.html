@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Risk Management Framework
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-09-27 16:00:00 &#43;0000 UTC">
+            
+                2023-09-27
+            
+        </time>
+    </p>
+
+    <h1>Risk Management Framework</h1>
+
+    <h2 id="standards-for-risk-management">Standards for Risk Management</h2>
+<h3 id="nist-sp-800-30">NIST SP 800-30</h3>
+<ul>
+<li>Risk Management Guide for Information Technology Systems
+<ul>
+<li>Provides a foundation for the development of an effective risk management program</li>
+<li>Contains the definitions and the practical guidance for assessing and mitigating risks</li>
+<li>Provides information on the selection of cost-effective security controls</li>
+</ul>
+</li>
+</ul>
+<h4 id="nist-sp-800-30-risk-management">NIST SP 800-30: Risk Management</h4>
+<ul>
+<li>At a high level, risk management encompasses three processes.
+<ul>
+<li>&gt; <a href="https://carlgaspar.com/posts/risk-management-framework/#evaluation-and-assessment">Evaluation and Assessment</a> &gt; <a href="https://carlgaspar.com/posts/risk-management-framework/#step-1-system-characterization">Risk Assessment</a> &gt; <a href="https://carlgaspar.com/posts/risk-management-framework/#risk-mitigation--steps-1-and-2">Risk Mitigation</a> &gt;</li>
+</ul>
+</li>
+</ul>
+<p><img src="/img/NIST%20SP%20800-30%20Risk%20Management.png" alt=""></p>
+<h4 id="risk-assessment-steps-abstracted-from-sp-800-30">Risk Assessment Steps Abstracted from SP 800-30</h4>
+<ul>
+<li>Step 1: System Characterization</li>
+<li>Step 2: Threat Identification</li>
+<li>Step 3: Vulnerability Identification</li>
+<li>Step 4: Control Analysis</li>
+<li>Step 5: Likelihood Determination</li>
+<li>Step 6: Impact Analysis</li>
+<li>Step 7: Risk Determination</li>
+<li>Step 8: Control Recommendations</li>
+<li>Step 9: Results Documentation</li>
+</ul>
+<h4 id="step-1-system-characterization">Step 1: System Characterization</h4>
+<ul>
+<li>Input
+<ul>
+<li>Hardware</li>
+<li>Software</li>
+<li>System Interfaces</li>
+<li>Data and Information (Need to categorize how sensitive are these data)</li>
+<li>People</li>
+<li>System Mission</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>System Boundary</li>
+<li>System Functions</li>
+<li>System and Data Criticality</li>
+<li>System and Data Sensitivity</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-2-threat-identification">Step 2: Threat Identification</h4>
+<ul>
+<li>Input
+<ul>
+<li>History of system attack</li>
+<li>Data from intelligence agencies, mass media, or gov CERT</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>Threat Statement</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-3-vulnerability-identification">Step 3: Vulnerability Identification</h4>
+<ul>
+<li>Input
+<ul>
+<li>Reports from prior risk assessments</li>
+<li>Prior audits</li>
+<li>Security requirements</li>
+<li>Security test results</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>List of potential vulnerabilities</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-4-control-analysis">Step 4: Control Analysis</h4>
+<ul>
+<li>Input
+<ul>
+<li>Current controls</li>
+<li>Planned controls</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>List of current and planned controls</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-5-likelihood-determination">Step 5: Likelihood Determination</h4>
+<ul>
+<li>Input
+<ul>
+<li>Threat-source motivation</li>
+<li>Threat capacity</li>
+<li>Nature of vulnerability</li>
+<li>Current controls</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>Likelihood rating</li>
+</ul>
+</li>
+</ul>
+<h5 id="likelihood-rating-qualitative-ratings">Likelihood Rating Qualitative Ratings</h5>
+<ul>
+<li>High - The threat-source is highly motivated and sufficiently capable, and controls to prevent the vulnerability from being exercised are ineffective.</li>
+<li>Medium - The threat-source is motivated and capable, but controls are in place that may impede successful exercise of the vulnerability.</li>
+<li>Low - The threat-source lacks motivation or capability, or controls are in place to prevent, or at least significantly impede, the vulnerability from being exercised.</li>
+</ul>
+<h5 id="another-way-to-think-about-likelihood-ratings-quantitative-and-functional-risk-appetite-statement">Another Way to Think About Likelihood Ratings Quantitative and Functional Risk Appetite Statement</h5>
+<ul>
+<li>Executive Attention - Risk is between 75 - 99% likely to occur. Alternatively, this risk has come to fruition within the industry within the past year.</li>
+<li>Management Attention - Risk is between 30 - 74% likely to occur. Alternatively, this risk has come to fruition within the industry within the past two years.</li>
+<li>Front Line Attention - This risk is between 1 - 29% likely to occur. Alternatively, the risk has come to fruition within the industry within the past 5 years.</li>
+</ul>
+<h4 id="step-6-impact-analysis">Step 6: Impact Analysis</h4>
+<ul>
+<li>Input
+<ul>
+<li>Mission impact analysis</li>
+<li>Asset criticality assessment</li>
+<li>Data criticality</li>
+<li>Data sensitivity</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>Impact rating</li>
+</ul>
+</li>
+</ul>
+<h5 id="impact-rating-qualitative-ratings">Impact Rating Qualitative Ratings</h5>
+<ul>
+<li>High
+<ul>
+<li>May result in high costly loss of major tangible assets or resources</li>
+<li>May significantly violate, harm, or impede an organization’s mission, reputation, or interest</li>
+<li>May result in human death or serious injury</li>
+</ul>
+</li>
+<li>Medium
+<ul>
+<li>May result in costly loss of tangible assets or resources</li>
+<li>May violate, harm, or impede an organization’s mission, reputation, or interest</li>
+<li>May result in human injury</li>
+</ul>
+</li>
+<li>Low
+<ul>
+<li>May result in loss of some tangible assets or resources</li>
+<li>May noticeably affect an organization’s mission, reputation, or interest</li>
+</ul>
+</li>
+</ul>
+<h5 id="another-way-to-think-about-impact-ratings-quantitative-and-functional-risk-appetite-statement">Another Way to Think About Impact Ratings Quantitative and Functional Risk Appetite Statement</h5>
+<p><img src="/img/Another%20Way%20to%20Think%20About%20Impact%20Ratings%20Quantitative%20and%20Functional%20Risk.png" alt=""></p>
+<h4 id="step-7-risk-determination">Step 7: Risk Determination</h4>
+<ul>
+<li>Input
+<ul>
+<li>Likelihood of threat exploitation</li>
+<li>Magnitude of impact</li>
+<li>Adequacy of planned or current controls</li>
+</ul>
+</li>
+<li>Output
+<ul>
+<li>Risks and risk levels</li>
+<li>The final determination of risk is derived by multiplying the ratings assigned for threat likelihood (e.g., probability) and threat impact.</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-8-control-recommendations">Step 8: Control Recommendations</h4>
+<ul>
+<li>To minimize identified risks, consider the following factors when recommending control solutions
+<ul>
+<li>Effectiveness of options</li>
+<li>Legal/regulatory</li>
+<li>Organizational policy</li>
+<li>Impact to operations</li>
+<li>Safety/reliability</li>
+</ul>
+</li>
+</ul>
+<h4 id="step-9-results-documentation">Step 9: Results Documentation</h4>
+<ul>
+<li>Risk assessment reports may include
+<ul>
+<li>Threat-sources</li>
+<li>Vulnerabilities identified</li>
+<li>Risks assessed</li>
+<li>Recommended controls provided</li>
+</ul>
+</li>
+</ul>
+<h4 id="risk-mitigation--steps-1-and-2">Risk Mitigation – Steps 1 and 2</h4>
+<ul>
+<li>Step 1: Prioritize Actions
+<ul>
+<li>Based on risk levels presented in the risk assessment report, implementation actions are prioritized.</li>
+<li>Top priority should be given to highest risk.</li>
+</ul>
+</li>
+<li>Step 2: Evaluate Recommended Control Options
+<ul>
+<li>Feasibility (e.g., compatibility, user acceptance) and effectiveness (e.g., degree of protection and level of risk mitigation) of the recommended control options are analyzed.</li>
+<li>Objective is to select the most appropriate control option for minimizing risk.</li>
+</ul>
+</li>
+</ul>
+<h4 id="risk-mitigation--steps-3-4-and-5">Risk Mitigation – Steps 3, 4, and 5</h4>
+<ul>
+<li>Step 3: Conduct Cost-Benefit Analysis
+<ul>
+<li>If the cost of controls exceed the benefit, the organization may choose to accept the risk instead.</li>
+<li>Usually a trade-off between security and business operations.</li>
+</ul>
+</li>
+<li>Step 4: Select Controls
+<ul>
+<li>On the basis of the results of the cost-benefit analysis, management determines the most cost-effective control(s) for reducing risk to the organization’s mission.</li>
+</ul>
+</li>
+<li>Step 5: Assign Responsibility
+<ul>
+<li>Appropriate persons (in-house personnel or external contracting staff) who have the appropriate expertise and skill-sets to implement the selected controls are identified and responsibility is assigned.</li>
+</ul>
+</li>
+</ul>
+<h4 id="risk-mitigation--steps-6-and-7">Risk Mitigation – Steps 6 and 7</h4>
+<ul>
+<li>Step 6: Develop a Safeguard Implementation Plan
+<ul>
+<li>The plan should, at a minimum, contain the following information.
+<ul>
+<li>Risks (vulnerability/threat pairs) and associated risk levels (output from risk assessment report)</li>
+<li>Recommended controls (output from risk assessment report)</li>
+<li>Prioritized actions (with priority given to Very High and High risk)</li>
+<li>Selected planned controls (determined on the basis of feasibility, effectiveness, benefits to the organization, and cost)</li>
+<li>Required resources for implementing the selected planned controls</li>
+<li>Lists of responsible teams and staff</li>
+<li>Start date for implementation</li>
+<li>Target completion date for implementation</li>
+<li>Maintenance requirements</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Step 7: Implement Selected Control(s)</li>
+</ul>
+<h4 id="evaluation-and-assessment">Evaluation and Assessment</h4>
+<ul>
+<li>As business operations or technologies change, periodic reviews must be conducted to
+<ul>
+<li>Analyze changes</li>
+<li>Account for new threats and vulnerabilities created by changes</li>
+<li>Determine effectiveness of existing controls</li>
+</ul>
+</li>
+<li>Continuous evaluation and assessment of risks is an important component of the risk management life cycle.</li>
+<li>The result/status needs to be documented and reported to senior</li>
+</ul>
+<h3 id="nist-sp-800-39">NIST SP 800-39</h3>
+<ul>
+<li>Managing Risk from Information Systems
+<ul>
+<li>Provides guidelines for managing risk to organizational operations and assets</li>
+<li>Provides a structured yet flexible approach for managing risk</li>
+<li>A flagship document in the series of FISMA-related publications</li>
+</ul>
+</li>
+</ul>
+<h4 id="nist-sp-800-39-tiers-of-risk-management">NIST SP 800-39: Tiers of Risk Management</h4>
+<ul>
+<li>Risk management can be viewed as a holistic activity fully integrated into every aspect of the organization.
+<ol>
+<li>The organization level</li>
+<li>The mission and business process level</li>
+<li>The information system level</li>
+</ol>
+</li>
+</ul>
+<h4 id="nist-sp-800-39-process-applied">NIST SP 800-39: Process Applied</h4>
+<h4 id="nist-sp-800-39-risk-framing"><img src="/img//NIST%20SP%20800-39%20Process%20Applied.png" alt="">NIST SP 800-39: Risk Framing</h4>
+<ul>
+<li>Establishes the context and provides a common perspective on how organizations manage risk</li>
+<li>Produces a risk management strategy that addresses how organizations intend to
+<ul>
+<li>Assess risk</li>
+<li>Respond to risk, and</li>
+<li>Monitor risk</li>
+</ul>
+</li>
+<li>The risk management strategy makes explicit the specific assumptions, constraints, risk tolerances, and priorities/trade-offs used within organizations for making investment and operational decisions.</li>
+</ul>
+<h4 id="nist-sp-800-39-risk-monitoring">NIST SP 800-39: Risk Monitoring</h4>
+<ul>
+<li>Provides organizations with the means to
+<ul>
+<li>Verify compliance</li>
+<li>Determine the ongoing effectiveness of risk response measures</li>
+<li>Identify risk-impacting changes to organizational information systems and environments of operation</li>
+</ul>
+</li>
+<li>Analyzing monitoring results provides organizations the capability to
+<ul>
+<li>Maintain awareness of the risk being incurred</li>
+<li>Highlight the need to revisit other steps in the risk management process</li>
+<li>Initiate process improvement activities as needed</li>
+</ul>
+</li>
+</ul>
+<h4 id="nist-sp-800-39-risk-response">NIST SP 800-39: Risk Response</h4>
+<ul>
+<li>When organizations experience a breach/compromise to their information systems or environments of operation requiring an immediate response to address the incident and reduce additional risk resulting from the event</li>
+<li>The risk response step can receive inputs from the risk framing step.
+<ul>
+<li>When the organization is required to deploy new safeguards and countermeasures in their information systems based on security requirements in new legislation or OMB policies</li>
+<li>Shapes the resource constraints associated with selecting an appropriate course of action</li>
+</ul>
+</li>
+<li>The risk response step can receive inputs from the risk monitoring step.</li>
+</ul>
+<h3 id="nist-sp-800-37">NIST SP 800-37</h3>
+<ul>
+<li>Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach</li>
+<li>Guidelines developed to ensure that
+<ul>
+<li>Managing information system security risks is consistent with the organization’s objectives and overall risk strategy</li>
+<li>Information security requirements are integrated into the organization’s enterprise architecture and SDLC</li>
+</ul>
+</li>
+</ul>
+<h2 id="risk-management-framework">Risk Management Framework</h2>
+<h2 id="octave--operationally-critical-threat-asset-and-vulnerability-evaluation"><img src="/img//Risk%20Management%20Framework.png" alt="">OCTAVE ® (Operationally Critical Threat, Asset, and Vulnerability Evaluation)</h2>
+<h3 id="octave">OCTAVE</h3>
+<ul>
+<li>Risk-based strategic assessment</li>
+<li>Operationally Critical Threat Asset and Vulnerability Evaluation</li>
+<li>Self-directed
+<ul>
+<li>Small internal teams draw on knowledge for analysis</li>
+</ul>
+</li>
+<li>Flexible
+<ul>
+<li>Adaptable for the majority of operations and organizations</li>
+</ul>
+</li>
+<li>Focused on organizational risk
+<ul>
+<li>Balance of organizational strategy, security practices, and technology</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave--overview">OCTAVE – Overview</h4>
+<ul>
+<li>Three Phases
+<ol>
+<li>Build Asset-Based Threat Profiles - For critical assets, what are the threats?</li>
+<li>Identify Infrastructure Vulnerabilities - For the assets, evaluate to find vulnerabilities.</li>
+<li>Develop Security Strategy and Plans - Risk analysis and mitigation</li>
+</ol>
+</li>
+</ul>
+<h4 id="octave--phase-1">OCTAVE − Phase 1</h4>
+<ul>
+<li>Build Asset-Based Threat Profiles
+<ul>
+<li>Process 1: Identify Senior Management Knowledge
+<ul>
+<li>Collect information about important assets, security requirements, threats, and current organizational strengths and vulnerabilities from a representative set of senior managers.</li>
+</ul>
+</li>
+<li>Process 2: Identify Operational Area Knowledge
+<ul>
+<li>Collect information about important assets, security requirements, threats, and current organizational strengths and vulnerabilities from managers of selected operational areas.</li>
+</ul>
+</li>
+<li>Process 3: Identify Staff Knowledge
+<ul>
+<li>Collect information about important assets, security requirements, threats, and current organizational strengths and vulnerabilities from general staff and IT staff members of the selected operational areas.</li>
+</ul>
+</li>
+<li>Process 4: Create Threat Profiles
+<ul>
+<li>Select three to five critical information-related assets and define the threat profiles for those assets.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave--phase-2">OCTAVE − Phase 2</h4>
+<ul>
+<li>Identify Infrastructure Vulnerabilities
+<ul>
+<li>Process 5: Identify Key Components
+<ul>
+<li>Identify a representative set of key components from the systems that support or process the critical information-related assets, and define an approach for evaluating them.</li>
+</ul>
+</li>
+<li>Process 6: Evaluate Selected Components
+<ul>
+<li>Run tools to evaluate the selected components, and analyze the results to refine the threat profiles for the critical assets.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave--phase-3">OCTAVE − Phase 3</h4>
+<ul>
+<li>Develop Security Strategy and Plans
+<ul>
+<li>Process 7: Conduct Risk Analysis
+<ul>
+<li>Define an organizational set of impact evaluation criteria to establish the impact value.</li>
+</ul>
+</li>
+<li>Process 8: Develop Protection Strategy
+<ul>
+<li>Develop an organization-wide protection strategy to improve the organization’s security practices.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="octave-allegro">OCTAVE Allegro</h3>
+<ul>
+<li>Streamlined version of OCTAVE®</li>
+</ul>
+<h4 id="octave-allegro--step-1">OCTAVE Allegro – Step 1</h4>
+<ul>
+<li>Establish Risk Measurement Criteria
+<ul>
+<li>Activity 1 - Define a qualitative set of measures (risk measurement criteria) to evaluate a risk’s effect on your organization’s mission and business objectives.</li>
+<li>Activity 2 Prioritize the impact areas from most important to least important.</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave-allegro--step-2">OCTAVE Allegro – Step 2</h4>
+<ul>
+<li>Develop an Information Asset Profile
+<ul>
+<li>Activity 1 - Identify a collection of information assets on which an assessment might be performed.</li>
+<li>Activity 2 - Select those assets that are critical to accomplishing goals and achieving the organization’s mission, as well as those that are important because of such factors as regulatory compliance.</li>
+<li>Activity 3 - Gather information about your information asset that is necessary to begin the structured risk assessment process.</li>
+<li>Activity 4 - Document your rationale for selecting the critical information asset.</li>
+<li>Activity 5 - Record a description for the critical information asset.</li>
+<li>Activity 6 - Identify and document the owners of the critical information asset.</li>
+<li>Activity 7 - Determine the security requirements for confidentiality, integrity, and availability.</li>
+<li>Activity 8 - Identify the most important security requirement for the information asset.</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave-allegro--steps-3-and-4">OCTAVE Allegro – Steps 3 and 4</h4>
+<ul>
+<li>Step 3 – Identify Information Asset Containers
+<ul>
+<li>Activity 1 - Identify and document the containers in which your information asset is stored, transported, or processed as follows
+<ul>
+<li>Technical containers under the direct control of the organization (internal) or those managed outside of the organization (external)</li>
+<li>Physical locations where the information asset may exist either inside or outside of the organization</li>
+<li>People internal or external to the organization who may have a detailed knowledge of the information asset</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Step 4 – Identify Areas of Concern
+<ul>
+<li>Activity 1 - Identify areas of concern.</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave-allegro--steps-5-and-6">OCTAVE Allegro – Steps 5 and 6</h4>
+<ul>
+<li>Step 5 – Identify Threat Scenarios
+<ul>
+<li>Activity 1 - Identify additional threat scenarios not covered by areas of concern.</li>
+<li>Activity 2 - Identify information assets at risk for each of the generic threat scenarios identified for consideration.</li>
+</ul>
+</li>
+<li>Step 6 – Identify Risks
+<ul>
+<li>Activity 1 - Determine how the threat scenarios recorded could impact your organization.</li>
+</ul>
+</li>
+</ul>
+<h4 id="octave-allegro--steps-7-and-8">OCTAVE Allegro – Steps 7 and 8</h4>
+<ul>
+<li>Step 7 – Analyze Risks
+<ul>
+<li>Activity 1 - Evaluate the consequence relative to each of the impact areas and score as “high,” “medium,” or “low”.</li>
+<li>Activity 2 - Give impact score based on impact area ranking and impact value.</li>
+</ul>
+</li>
+<li>Step 8 – Select Mitigation Approach
+<ul>
+<li>Activity 1 - Sort each of the risks identified by their risk score.</li>
+<li>Activity 2 - Assign a mitigation approach to each of the risks (mitigate, defer, accept, etc.).</li>
+<li>Activity 3 - Develop a mitigation strategy for all of the risk profiles determined to be mitigated.</li>
+</ul>
+</li>
+</ul>
+<h3 id="updating-octave-allegro-to-octave-forte">Updating OCTAVE Allegro to OCTAVE FORTE</h3>
+<p><img src="/img//Updating%20OCTAVE%20Allegro%20to%20OCTAVE%20FORTE.png" alt=""></p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://carlgaspar.com/posts/cyber-risk-management-fundamentals/">Cyber Risk Management Fundamentals</a></li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

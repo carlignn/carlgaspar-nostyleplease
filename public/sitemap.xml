@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/security/risk-management-framework/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/security/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/security/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/write-up/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/security/cyber-risk-management-fundamentals/</loc>
+    <lastmod>2023-09-26T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/security/aws-security-maturity-roadmap-by-scott-piper/</loc>
+    <lastmod>2023-09-20T16:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/security/dns-record-types-primer/</loc>
     <lastmod>2022-10-25T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/nslookup-primer/</loc>
-    <lastmod>2022-10-25T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/security/</loc>
     <lastmod>2022-10-25T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
@@ -28,6 +46,15 @@
   </url><url>
     <loc>//localhost:1313/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
+    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/draft/</loc>
+    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/game/</loc>
+    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/risk-assessment-and-management/</loc>
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
@@ -73,12 +100,11 @@
   </url><url>
     <loc>//localhost:1313/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/socials/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/socials-internal/</loc>
+    <loc>//localhost:1313/socials/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:1313/posts/socials-internal/</loc>
+    <lastmod>0001-01-01T00:00:00+08:00</lastmod>
   </url>
 </urlset>

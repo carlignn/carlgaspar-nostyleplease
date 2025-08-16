@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      AWS Security Maturity Roadmap by Scott Piper
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2023-09-20 16:00:00 &#43;0000 UTC">
+            
+                2023-09-20
+            
+        </time>
+    </p>
+
+    <h1>AWS Security Maturity Roadmap by Scott Piper</h1>
+
+    <p>Write-up from Scott Piper&rsquo;s blog on AWS Security Maturity Roadmap</p>
+<h2 id="most-common-security-incidents">Most common security incidents</h2>
+<ol>
+<li>Publicly accessible resources such as S3 buckets or ElasticSearch clusters.</li>
+<li>Leaked access keys. For example, access keys posted to GitHub.</li>
+<li>Compromised IAM Roles through SSRF or RCE against an EC2, resulting in access to the metadata service at 169.254.169.254.</li>
+</ol>
+<h2 id="aws-security-maturity-roadmap">AWS Security Maturity Roadmap</h2>
+<h3 id="stage-1-inventory">Stage 1: Inventory</h3>
+<ol>
+<li>Identify all AWS accounts in the company and their points of contact.</li>
+<li>Integrate AWS accounts into AWS Organizations.</li>
+<li>Ensure all account root emails are on distribution lists.</li>
+<li>Opt-out of AI services using your data.</li>
+<li>Have an AWS account for Security.</li>
+<li>Create budget alarms.</li>
+</ol>
+<blockquote>
+<p>If you don’t already have lots of AWS accounts, recognize that at this point you now have a minimum of 3 AWS accounts (an account that has your business stuff in it, the AWS Organization root account with nothing in it, and the Security account).</p></blockquote>
+<h3 id="stage-2-have-backups">Stage 2: Have backups</h3>
+<ol>
+<li>Create regular backups.</li>
+</ol>
+<blockquote>
+<p>As you learn what data you have in AWS, you should ensure that data is backed up to a separate AWS account in a separate region from where the data comes from (or possibly even somewhere off of AWS)</p></blockquote>
+<h3 id="stage-3-visibility-and-initial-remediation">Stage 3: Visibility and initial remediation</h3>
+<ol>
+<li>Turn on CloudTrail, GuardDuty, and Access Analyzer for all accounts to send their logs and alerts to the Security account.</li>
+<li>Create an IAM role in every account that grants view access into the account from the Security account.</li>
+<li>Run a one-time scanning tool to identify tactical remediations.</li>
+<li>Turn on S3 Public Block Access.</li>
+<li>Develop an account initialization script and new account creation process.</li>
+</ol>
+<h3 id="stage-4-detection">Stage 4: Detection</h3>
+<ol>
+<li>Send alerts to a ticketing system.</li>
+<li>Enable investigations to logs.</li>
+<li>Perform regular scanning of the accounts for security issues.</li>
+<li>Document your security guidelines for your company.</li>
+<li>Consider turning on other logging sources.</li>
+</ol>
+<blockquote>
+<p>As a first step, most companies will create a CloudWatch Event rule that sends the alerts directly to an SNS that goes to email or Slack messages. They then quickly realize they need to filter this through a Lambda or something with logic in it in order to ignore certain types of alerts. As their alert response processes mature, they also find they need to send these to a ticketing system. This enables them to track metrics, have an audit history, and perform escalations.</p></blockquote>
+<p>You want to ensure you can minimally do the following:</p>
+<ul>
+<li>Receive a notification about a GuardDuty alert from any of your accounts and any region you enabled it in.</li>
+<li>Be able to alert on Access Denied errors from CloudTrail logs, specifically for your production accounts.</li>
+<li>Be able to search through CloudTrail logs to see all of the actions performed by a principal during a time period.</li>
+</ul>
+<p>Consider turning on more logging sources, such as the following, plus any others you might be using (full list of known log sources on AWS is <a href="https://matthewdf10.medium.com/how-to-enable-logging-on-every-aws-service-in-existence-circa-2021-5b9105b87c9">here</a>):</p>
+<ul>
+<li>VPC DNS queries</li>
+<li>VPC Flow Logs (These are not as useful as many assume)</li>
+<li>CloudTrail S3 access and Lambda invokes</li>
+<li>S3 access logs</li>
+<li>Load balancers</li>
+<li>CloudFront</li>
+</ul>
+<h3 id="stage-5-secure-iam-access">Stage 5: Secure IAM access</h3>
+<ol>
+<li>Use SSO for access.</li>
+<li>Remove all IAM users.</li>
+<li>Remove all unused IAM roles.</li>
+<li>Reduce the privileges of service roles to necessary services.</li>
+<li>Implement pre-commit hooks for secret detection.</li>
+<li>Plan how accounts will be connected.</li>
+</ol>
+<h3 id="stage-6-reduce-attack-surface-and-mitigate-compromises">Stage 6: Reduce attack surface and mitigate compromises</h3>
+<ol>
+<li>Apply SCPs.</li>
+<li>Have no publicly facing EC2s or S3 buckets.</li>
+<li>Enforce IMDSv2 on all EC2s.</li>
+</ol>
+<p>SCPs (Service Control Policies) can be used to restrict actions an account can perform. See examples in my post <a href="https://summitroute.com/blog/2020/03/25/aws_scp_best_practices/">AWS SCP Best Practices</a>. You can make exceptions so only a special IAM role, such as that used for Stack Set deployments, can bypass the restrictions. You can apply different SCPs to different accounts and these can ensure that no one, not even the root user, can perform certain actions.</p>
+<p>The SCPs to apply should include:</p>
+<ol>
+<li>Deny root user access.</li>
+<li>Allow only approved regions.</li>
+<li>Allow only approved services.</li>
+<li>Deny ability to create IAM access keys.</li>
+<li>Require the use of IMDSv2.</li>
+<li>Deny ability to leave Organization.</li>
+<li>Deny ability to make a VPC accessible from the Internet that isn’t already for specific accounts.</li>
+<li>Deny ability to disrupt GuardDuty, Access Analyzer, CloudTrail, S3 Public Block Access, and other security services.</li>
+<li>Deny ability to disrupt CloudWatch Event collection or other aspects of your monitoring and alerting pipeline.</li>
+<li>Deny ability to modify important IAM roles, such as one used for Stack Sets, incident response, or vendors performing monitoring.</li>
+</ol>
+<h3 id="stage-7-reproducibility-and-ownership">Stage 7: Reproducibility and ownership</h3>
+<ol>
+<li>Use Infrastructure as Code.</li>
+<li>Control AMI (Amazon Machine Images) and package sourcing.</li>
+<li>Apply tagging strategy</li>
+</ol>
+<p>Once you control infrastructure changes through code, you can also use two-person rule deployments, where one person proposes the changes and another signs off in order for the change to be implemented. You can also use tools to scan these proposed changes before they are deployed. Options for doing this are described <a href="https://blog.christophetd.fr/shifting-cloud-security-left-scanning-infrastructure-as-code-for-security-issues/">here</a>.</p>
+<p>With more people working in an AWS environment, you can lose track of what resources are associated with which applications or teams. When a problem is found with a resource, you want to be able to quickly identify who the owner is, without looking through the CloudTrail logs. This becomes especially important when a CI/CD system is solely responsible for creating resources, as you become less able to identify the owner. Therefore, you should have a tagging strategy. This can be enforced via SCPs or scanning or monitoring can be used to detect when required tags are not used</p>
+<h3 id="stage-8-enhance-detection-and-least-privilege-refinement">Stage 8: Enhance detection and least privilege refinement</h3>
+<ol>
+<li>Implement real-time monitoring.</li>
+<li>Implement automated remediation.</li>
+<li>Refine IAM policies.</li>
+<li>Deploy honey tokens.</li>
+</ol>
+<h3 id="stage-9-secure-network-communications">Stage 9: Secure network communications</h3>
+<ol>
+<li>Move all non-public network resources into private subnets and proxy outbound requests so you can filter and block them.</li>
+<li>Restrict egress network traffic.</li>
+</ol>
+<h3 id="stage-10-incident-preparation">Stage 10: Incident preparation</h3>
+<ol>
+<li>Limit the blast radius of incidents.</li>
+<li>Practice responding to incidents.</li>
+</ol>
+<blockquote>
+<p>Consider breaking up services into pieces so that if one is compromised the blast radius is more limited.</p></blockquote>
+<blockquote>
+<p>Ensure there is a separation of duties so the security team can monitor the production accounts without being able to cause incidents there, and those with production access, cannot impact the security team.</p></blockquote>
+<blockquote>
+<p>If you are lucky enough to not have any security incidents, you should practice what happens when systems or IAM roles are compromised, either via a planned exercise, or red team engagement. How long does it take you to identify, understand, and react? Use the lessons learned to improve</p></blockquote>
+<h2 id="references">References</h2>
+<p><a href="https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf">AWS Security Maturity Roadmap by Scott Piper</a></p>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>
