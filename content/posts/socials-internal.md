@@ -1,11 +1,12 @@
 ---
-title: Socials
+title: Socials Internal
 draft: false
+date: 0001-01-01T00:00:00+08:00
 category: ''
 custom_js: []
 ---
 
-Cybersecurity Officer, Developer, Minimalist, Gamer, Jack of all trades, Master of none. I'm @carlignn everywhere.
+*This is the same with the official [socials](/socials) link but with additional not-super-important links. For internal tracking only.*
 
 ***
 
@@ -49,3 +50,27 @@ The hobbyist.
 |                                                |                                                                  |                                                                |       |
 
 ***
+
+## Question marks
+
+About.me
+
+Gravatar
+
+Reddit
+
+Fix youtube accounts?
+
+Fix twitch bot username?
+
+Kick
+
+Kit
+
+Chess.com?
+
+Lichess?
+
+Paypal
+
+**Remove ridiculous ones**
