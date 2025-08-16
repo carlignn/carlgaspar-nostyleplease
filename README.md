@@ -1,141 +1,71 @@
-~~This is and should always be a copy of the [Puppet - Getting Started](https://carlgaspar.com/posts/puppet-getting-started/) post~~
+# no style, please!
 
-Puppet is a responsive, simple and clean [Hugo](https://gohugo.io/) theme based on the [Huxblog Jekyll theme](https://github.com/Huxpro/huxpro.github.io).
+<img src="https://raw.githubusercontent.com/Masellum/hugo-theme-nostyleplease/main/logo.png" width="64" align="left" />A (nearly) no-CSS, fast, minimalist [Hugo](https://gohugo.io/) theme ported from [riggraz
+/
+no-style-please](https://github.com/riggraz/no-style-please/).
 
-<!--more-->
 
-## Install Hugo
+<img src="https://raw.githubusercontent.com/Masellum/hugo-theme-nostyleplease/main/images/screenshot-both.png" />
 
-Make sure you have installed the latest version of [Hugo-extented](https://gohugo.io/getting-started/installing/).
+## Features
 
-## Create a New Site
+* Fast (**1kb of CSS!**)
+* Light, dark and auto modes
+* Responsive
+* Content first (typography optimized for maximum readability)
+* RSS feed (using Hugo's embedded RSS template)
 
-```shell
-hugo new site mysite
-```
+## Installation
 
-## Add the Theme
+Just the same as any other Hugo theme. Pages shipped with theme as examples have `draft: true` in their frontmatters, use `--buildDrafts` to build them.
 
-You can download and unpack the theme manually from Github or use git to clone the theme into your site's `themes` directory.
+## Usage
 
-```shell
-cd mysite
-git init
-git clone https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-```
+You can edit `config.toml` file to customize your blog. You can change things such as the name of the blog, the author, the appearance of the theme (light, dark or auto), how dates are formatted, etc. Customizable fields should be straightforward to understand. Still, `config.toml` contains some comments to help you understand what each field does.
 
-Or you can add the theme as a submodule.
+### Customize the menu
 
-```shell
-cd mysite
-git init
-git submodule add https://github.com/roninro/hugo-theme-puppet.git themes/puppet
-git submodule update --init --recursive
-```
+In order to add/edit/delete entries from the main menu, you have to edit the `menu.toml` file inside `data` folder. Through that file you can define the structure of the menu. Take a look at the default configuration to get an idea of how it works and read on for a more comprehensive explanation.
 
-That’s all, Puppet is ready to be used.
+The `menu.toml` file accepts the following fields:
 
-## Add Config Files
+- `entries` define a new unordered list that will contain menu entries
+- each entry is a member of the TOML array `entries` in question
+- each entry can have the following attributes:
+    - `title`, which defines the text to render for this menu entry (**NB: you can also specify HTML!**)
+    - `url`, which can be used to specify an URL for this entry. If not specified, `title` will be rendered as-is; otherwise `title` will be sorrounded by a link tag pointing to the specified URL. Note that the URL can either be relative or absolute. Also note that you can get the same result by placing an ```<a>``` tag in the `title` field.
+    - `post_list`, which can be set either to `true` or to an object. If it is true, the entry will have a list of all posts as subentries. This is used to render your post list. If you want to customize which posts to render (e.g. by section), you can add one or more of the following attributes under `post_list`:
+        - `section`, which can be set to a string. It is used to render a list of posts of the specified section only. If you don't set it, then posts of all sections will be rendered.
+        - `limit`, which can be set to a number. It specifies the number of posts to show. If not set, all posts will be rendered.
+        - `show_more`, which can be true. If it is true and if the number of posts to show is greater than the specified `limit`, render a link to another page. To specify the URL and the text of the link, you can set `show_more_url` and `show_more_text` attributes, which are documented below.
+        - `show_more_url`, which can be a string. It specifies the URL for the show more link. Use only if `show_more` is true. This will usually redirect to a page containing all posts, which you can easily create using an section page (see [section pages](#section-pages) section)
+        - `show_more_text`, which can be a string. It specifies the text for the show more link. Use only if `show_more` is true.
+    - `entries`, yes, you can have entries inside entries. In this way you can create nested sublists!
 
-For getting started, you can copy the `config.toml` file from the theme's exampleSite directory to the root directory of your site.
+### Section pages
 
-```shell
-cp themes/puppet/exampleSite/config.toml .
-```
+A so-called section page is a page that shows a list of posts in a specific section. It should be automatically created by hugo when a new section is created.
 
-> Note: You may need to delete the `themesDir` line in the config file.
+### Customize the index page
 
-## Add Some Content
+The `index.md` page should use layout `home`, which is the layout that displays the menu. If you want to have some content after the menu, you can just add that content in the `_index.md` file, and it will automatically show under the menu.
 
-Create a new post with the following command.
+Another thing you can do to customize the index page is show the description of your blog between the title and the menu. To do this, just edit `config.toml` and change `params.theme_config.show_description` to `true`.
 
-```shell
-hugo new posts/my-first-post.md
-```
+### Pro tips
 
-Edit the content of the post.
+#### Dark mode for images
 
-```markdown
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-description = ""
-draft = true
-subtitle = ""
-header_img = ""
-toc = true
-tags = []
-categories = []
-series = []
-comment = true
-+++
+This theme provides dark mode by inverting all colors of light mode throught the CSS `invert()` function. This approach would also invert the color of all images, but, since this is not the behaviour one would expect, images are not inverted by default.
 
-Your content here...
-```
+However, if you would like to force the color inversion on a specific image you can do so by applying `class="ioda"` to that image ("ioda" stands for "invert on dark appearance"). See the image in the [overview post](https://github.com/riggraz/no-style-please/blob/master/_posts/2020-07-07-overview-post.md) for an example of this approach. Note that color inversion will take place only when the theme has dark appearance!
 
-Some front-matter used for SEO, others used for displaying contents, configuration, etc.
+For example, if you have a black and white image it could make sense to invert it in dark mode. On the other hand, a colorful image will probably look bad if inverted.
 
-## Run Example Site
+## Contributing
 
-From the root of themes/puppet/exampleSite:
+Bug reports and pull requests are welcome on GitHub at https://github.com/Masellum/hugo-theme-nostyleplease. 
 
-```shell
-hugo server --themesDir ../..
-```
+## License
 
-## Run Tina Locally
-
-```javascript
-npx tinacms dev - c "hugo server -D"
-```
-
-## Rules
-
-### Layout a Post
-
-```markdown
-The main title will only be H1
-Succeeding titles will be H2 and lower
-```
-
-## Conditional Rules
-
-### Images
-
-Inline images: Uploaded to imgur, then linked\
-Header_img: Uploaded to tina media manager\
-
-```html
-![](https://imgur.com/SdQF4AX.jpg)
-```
-
-Screenshots: Uploaded to imgur, then coded
-
-```html
-
-[Screenshots](imgur.com/a/2cHNX0i) of the game uploaded to Imgur.
-
-```
-
-### Write-up
-
-References on the bottom: Write-up from Kevin Henry's Risk Assessment and Management in Pluralsight
-
-### Draft
-
-Subtitle: (Draft) ...\
-Tags: draft
-
-#### Search for Drafts
-
-Use search: (Draft)
-
-### References
-
-Bulleted Links: Risk Assessment and Management by Kevin Henry on Pluralsight
-
-## Errors
-
-### Shortcodes
-
-Temporarily removed due to being unsupported in TinaCMS. So far, only the "Rich Content" is not working.
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
