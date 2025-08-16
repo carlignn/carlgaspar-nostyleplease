@@ -14,7 +14,7 @@ The socializer.
 |                                                      |                                                               |                                                |                                            |
 | :--------------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------: |
 |      [facebook](https://facebook.com/carlignn/)      |          [instagram](https://instagram.com/carlignn/)         |      [twitch](https://twitch.tv/carlignn/)     |  [youtube](https://youtube.com/@carlignn/) |
-|       [threads](https://threads.net/carlignn/)       |  [bluesky](https://bsky.app/profile/carlignn@carlgaspar.com/) |    [twitter](https://twitter.com/cxrlignn/)    | [tiktok](https://www.tiktok.com/@carlignn) |
+|       [threads](https://threads.net/carlignn/)       |  [bluesky](https://bsky.app/profile/carlignn.carlgaspar.com/) |    [twitter](https://twitter.com/cxrlignn/)    | [tiktok](https://www.tiktok.com/@carlignn) |
 |     [anilist](https://anilist.co/user/carlignn/)     | [storygraph](https://app.thestorygraph.com/profile/carlignn/) | [letterboxd](https://letterboxd.com/carlignn/) |  [trakt](https://trakt.tv/users/carlignn)  |
 | [strava](https://www.strava.com/athletes/143231181/) |                               -                               |                        -                       |                      -                     |
 |                                                      |                                                               |                                                |                                            |
