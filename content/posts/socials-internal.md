@@ -2,8 +2,8 @@
 title: Socials Internal
 draft: false
 date: 0001-01-01T00:00:00+08:00
-category: ''
-custom_js: []
+tags:
+  - all
 ---
 
 *This is the same with the official [socials](/socials) link but with additional not-super-important links. For internal tracking only.*

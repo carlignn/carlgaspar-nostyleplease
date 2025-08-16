@@ -1,6 +1,12 @@
 ---
-title: ''
+title: 'Portfolio'
+tags:
+  - all
 ---
+
+You can reach me at emaiL@carlgaspar.com.
+
+***
 
 # Cyber Security Specialist
 

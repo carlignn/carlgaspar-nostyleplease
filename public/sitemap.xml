@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/all/</loc>
+    <lastmod>2025-08-15T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-08-15T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-08-15T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/ttteee/</loc>
+    <lastmod>2025-08-15T16:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/security/risk-management-framework/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +21,6 @@
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/security/</loc>
-    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/write-up/</loc>
@@ -35,7 +44,7 @@
     <loc>//localhost:1313/security/threat-modeling-fundamentals/</loc>
     <lastmod>2022-09-15T09:25:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>//localhost:1313/tags/guide/</loc>
     <lastmod>2022-08-26T22:28:10+08:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/test-hans/</loc>
@@ -50,16 +59,16 @@
     <loc>//localhost:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
     <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/draft/</loc>
-    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/game/</loc>
+    <loc>//localhost:1313/tags/human/</loc>
     <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/risk-assessment-and-management/</loc>
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
+    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/project/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
@@ -71,11 +80,20 @@
     <loc>//localhost:1313/homelab/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/homelab/</loc>
+    <lastmod>2021-09-25T06:42:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/projects/it-s-more-find-in-the-philippines/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/product/</loc>
+    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/philippines/</loc>
+    <lastmod>2021-09-21T14:30:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/the-philippine-government/</loc>
     <lastmod>2021-09-21T14:30:00+00:00</lastmod>
@@ -98,9 +116,9 @@
     <loc>//localhost:1313/posts/strange-post/</loc>
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/portfolio/</loc>
   </url><url>
     <loc>//localhost:1313/socials/</loc>
   </url><url>

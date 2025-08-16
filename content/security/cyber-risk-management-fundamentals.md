@@ -3,12 +3,10 @@ title: Cyber Risk Management Fundamentals
 subtitle: Write-up from FedVTE’s Fundamentals of Cyber Risk Management
 date: 2023-09-26T16:00:00.000Z
 tags:
+  - all
   - security
   - write-up
-toc: true
 ---
-
-Write-up from FedVTE’s Fundamentals of Cyber Risk Management
 
 ### Fundamentals of Cyber Risk Management Course Introduction
 

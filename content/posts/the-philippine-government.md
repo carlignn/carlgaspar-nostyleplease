@@ -3,9 +3,9 @@ _template: archetype
 title: "The Philippine Government"
 draft: false
 date: 2021-09-21T14:30:00Z
-category: ""
-custom_js: []
-mathjax: false
+tags:
+  - all
+  - philippines
 ---
 
 When we were young, there are times in our studies where there are topics or lessons that our brain can't comprehend. In this blog, I will discuss what I learned reviewing the really important topic - The Philippine Government. I learned that it is all based on the Philippine Constitution.

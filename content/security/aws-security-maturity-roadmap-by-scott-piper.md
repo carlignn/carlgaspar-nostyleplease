@@ -2,9 +2,11 @@
 title: AWS Security Maturity Roadmap by Scott Piper
 subtitle: Write-up from Scott Piper's blog on AWS Security Maturity Roadmap
 date: 2023-09-20T16:00:00.000Z
+tags:
+  - all
+  - security
+  - write-up
 ---
-
-Write-up from Scott Piper's blog on AWS Security Maturity Roadmap
 
 ## Most common security incidents
 

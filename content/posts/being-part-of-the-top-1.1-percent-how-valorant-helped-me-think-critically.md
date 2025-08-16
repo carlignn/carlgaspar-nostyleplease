@@ -1,13 +1,11 @@
 ---
 title: Being Part of the Top 1.1% - How Valorant Helped Me Think Critically
-subtitle: (Draft) You're given multiple chances to solve a problem
-description: >-
-  I can't believe it took me 3 years to post this. This post is just being
-  posted and finalized in 2024, you know "procrastination".
+
+draft: false
 date: 2021-11-30T16:00:00.000Z
 tags:
-  - draft
-  - game
+  - all
+  - human
 ---
 
 ## Introduction
@@ -98,3 +96,4 @@ Experience (PUT EXPERIENCE WITH TEAMMATES, PUT AGENTS USE ON EVERY MAP, ALSO TWI
 * Few more things I've learned since drafting this blog:
   * The food I eat matters too - it's an esports game - sports. Just like an athlete, you need to eat healthy foods and **TIMELY**. If you're hungry and nutrition deficient, it's impossible to play at your highest capacity. I forgot about eating on tie because the game became an addition for me.
   * Addiction - I learned that I need to **ALWAYS** look out of the box. That I'd need to see myself on a third-person view. Heck, even fourth-person view or even higher. I've learned that journey is more important than the destination. Don't focus too much on the goal or I'll start missing the point. I forgot the literal quote but it's something along those lines LOL.
+  * Digital Games - You'll always have the chance to repeat the scenario without putting too much effort. Just hit **RESET** and you're good to go again.

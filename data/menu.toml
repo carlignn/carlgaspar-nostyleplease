@@ -14,44 +14,48 @@ title = "all posts"
   [entries.post_list]
   limit = 4
   show_more = true
-  show_more_text = "see archive..."
-  show_more_url = "posts"
+  show_more_text = "see all posts..."
+  show_more_url = "tags/all"
 
 [[entries]]
-title = "posts by category"
+title = "posts by tag"
+
+  [[entries.entries]]
+    title = "tags"
+    url = "tags"
 
   [[entries.entries]]
     title = "security"
-    url = "security"
+    url = "tags/security"
 
     [entries.entries.post_list]
     limit = 2
     section = "security"
     show_more = true
     show_more_text = "see more posts..."
-    show_more_url = "security"
+    show_more_url = "tags/security"
 
   [[entries.entries]]
     title = "homelab"
-    url = "homelab"
+    url = "tags/homelab"
 
     [entries.entries.post_list]
     limit = 2
     section = "homelab"
     show_more = true
     show_more_text = "see more posts..."
-    show_more_url = "security"
+    show_more_url = "tags/homelab"
 
   [[entries.entries]]
     title = "projects"
-    url = "projects"
+    url = "tags/project"
 
     [entries.entries.post_list]
     limit = 2
     section = "projects"
     show_more = true
     show_more_text = "see more posts..."
-    show_more_url = "projects"
+    show_more_url = "tags/project"
 
 [[entries]]
 title = "socials"

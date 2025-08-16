@@ -1,8 +1,8 @@
 ---
 title: Socials
 draft: false
-category: ''
-custom_js: []
+tags:
+  - all
 ---
 
 Cybersecurity Officer, Developer, Minimalist, Gamer, Jack of all trades, Master of none. I'm @carlignn everywhere.

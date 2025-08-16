@@ -1,11 +1,10 @@
 ---
-_template: archetype
 title: "Threat Modeling Fundamentals"
 draft: false
 date: 2022-09-15T09:25:00Z
-category: ""
-custom_js: []
-mathjax: false
+tags:
+  - all
+  - security
 ---
 
 ## Threat Modeling, The What, Why, Who And When

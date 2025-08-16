@@ -1,6 +1,9 @@
 ---
 title: Hide Yourself When Using the Internet With ProxyChains
 date: 2022-09-18T16:00:00.000Z
+tags:
+  - all
+  - security
 ---
 
 ## Configuring ProxyChains
