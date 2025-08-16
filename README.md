@@ -1,4 +1,4 @@
-## This is and should always be a copy of the [Puppet - Getting Started](https://carlgaspar.com/posts/puppet-getting-started/) post
+~~This is and should always be a copy of the [Puppet - Getting Started](https://carlgaspar.com/posts/puppet-getting-started/) post~~
 
 Puppet is a responsive, simple and clean [Hugo](https://gohugo.io/) theme based on the [Huxblog Jekyll theme](https://github.com/Huxpro/huxpro.github.io).
 
