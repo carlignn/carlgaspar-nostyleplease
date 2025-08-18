@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/all/</loc>
+    <loc>//localhost:4505/tags/all/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/risk-management-framework/</loc>
+    <loc>//localhost:4505/security/risk-management-framework/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/</loc>
+    <loc>//localhost:4505/security/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
+    <loc>//localhost:4505/tags/security/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:4505/tags/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/write-up/</loc>
+    <loc>//localhost:4505/tags/write-up/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/cyber-risk-management-fundamentals/</loc>
+    <loc>//localhost:4505/security/cyber-risk-management-fundamentals/</loc>
     <lastmod>2023-09-26T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/aws-security-maturity-roadmap-by-scott-piper/</loc>
+    <loc>//localhost:4505/security/aws-security-maturity-roadmap-by-scott-piper/</loc>
     <lastmod>2023-09-20T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/dns-record-types-primer/</loc>
+    <loc>//localhost:4505/security/dns-record-types-primer/</loc>
     <lastmod>2022-10-25T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/nslookup-primer/</loc>
+    <loc>//localhost:4505/security/nslookup-primer/</loc>
     <lastmod>2022-10-25T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
+    <loc>//localhost:4505/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
     <lastmod>2022-09-18T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/threat-modeling-fundamentals/</loc>
+    <loc>//localhost:4505/security/threat-modeling-fundamentals/</loc>
     <lastmod>2022-09-15T09:25:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/guide/</loc>
+    <loc>//localhost:4505/tags/guide/</loc>
     <lastmod>2022-08-26T22:28:10+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>//localhost:4505/posts/</loc>
     <lastmod>2022-08-26T22:28:10+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/test-hans/</loc>
+    <loc>//localhost:4505/posts/test-hans/</loc>
     <lastmod>2022-08-26T22:28:10+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/test-tex/</loc>
+    <loc>//localhost:4505/posts/test-tex/</loc>
     <lastmod>2022-08-26T14:28:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:4505/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
+    <loc>//localhost:4505/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
     <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/human/</loc>
+    <loc>//localhost:4505/tags/human/</loc>
     <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/security/risk-assessment-and-management/</loc>
+    <loc>//localhost:4505/security/risk-assessment-and-management/</loc>
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
+    <loc>//localhost:4505/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/project/</loc>
+    <loc>//localhost:4505/tags/project/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>//localhost:4505/projects/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/test/</loc>
+    <loc>//localhost:4505/homelab/test/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/</loc>
+    <loc>//localhost:4505/homelab/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/homelab/</loc>
+    <loc>//localhost:4505/tags/homelab/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/it-s-more-find-in-the-philippines/</loc>
+    <loc>//localhost:4505/projects/it-s-more-find-in-the-philippines/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
+    <loc>//localhost:4505/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/product/</loc>
+    <loc>//localhost:4505/tags/product/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/philippines/</loc>
+    <loc>//localhost:4505/tags/philippines/</loc>
     <lastmod>2021-09-21T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/the-philippine-government/</loc>
+    <loc>//localhost:4505/posts/the-philippine-government/</loc>
     <lastmod>2021-09-21T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/post-example-with-headings-and-toc/</loc>
+    <loc>//localhost:4505/posts/post-example-with-headings-and-toc/</loc>
     <lastmod>2020-07-09T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/post-example-with-hr/</loc>
+    <loc>//localhost:4505/posts/post-example-with-hr/</loc>
     <lastmod>2020-07-09T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/language-tests/</loc>
+    <loc>//localhost:4505/posts/language-tests/</loc>
     <lastmod>2020-07-08T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/very-very-very-long-title-and-very-very-very-short-content/</loc>
+    <loc>//localhost:4505/posts/very-very-very-long-title-and-very-very-very-short-content/</loc>
     <lastmod>2020-07-08T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/overview-post/</loc>
+    <loc>//localhost:4505/posts/overview-post/</loc>
     <lastmod>2020-07-07T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/strange-post/</loc>
+    <loc>//localhost:4505/posts/strange-post/</loc>
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:4505/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>//localhost:4505/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/socials/</loc>
+    <loc>//localhost:4505/socials/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/socials-internal/</loc>
+    <loc>//localhost:4505/posts/socials-internal/</loc>
   </url>
 </urlset>

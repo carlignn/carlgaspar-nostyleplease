@@ -63,7 +63,12 @@ pre {
   padding: 1em;
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+  // make the table smaller and break the words apart once the screen gets smaller
+  table-layout: fixed;
+  word-wrap: break-word;
+}
 
 table, th, td {
   border: thin solid black;
@@ -99,4 +104,16 @@ img {
 
 a {
   color:blue
+}
+
+table {
+  // makes the table fonts smaller on smaller screens
+
+  @media (max-width: 430px) {
+    font-size: 14px;
+
+    th, td {
+      padding: 4px; // optional, makes it less cramped
+    }
+  }
 }
