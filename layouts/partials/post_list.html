@@ -28,7 +28,9 @@
     <ul>
         {{- range $post := $posts -}}
         <li>
-            <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
+            {{ if not (findRE "^/tags/" .RelPermalink) }} <!-- This is to not show dates where the links goes to /tags/* -->
+                <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
+            {{ end }}
             <a href="{{ $post.Permalink }}">{{ $post.Title | lower }}</a>
         </li>
         {{ end }}
