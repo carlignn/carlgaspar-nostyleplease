@@ -4,7 +4,7 @@ tags:
   - all
 ---
 
-You can reach me at emaiL@carlgaspar.com.
+You can reach me at [socials](/socials).
 
 ***
 
