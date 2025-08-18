@@ -29,10 +29,10 @@ The jobseeker.
 
 The developer.
 
-|                                        |                                          |     |     |
-| :------------------------------------: | :--------------------------------------: | :-: | :-: |
-| [github](https://github.com/carlignn/) | [imgur](https://imgur.com/user/carlignn) |  -  |  -  |
-|                                        |                                          |     |     |
+|                                        |                                             |
+| :------------------------------------: | :--------------------------------------:  |
+| [github](https://github.com/carlignn/) | [imgur](https://imgur.com/user/carlignn)  |
+|                                        |                                              |
 
 The youtuber.
 
