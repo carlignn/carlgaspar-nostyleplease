@@ -77,4 +77,10 @@ Lichess?
 
 Paypal
 
+Binance referral?
+
+Twitch Bot - https://www.twitch.tv/carlboopp
+
+Wordpress - https://wordpress.com/reader/users/carlignn
+
 **Remove ridiculous ones**
