@@ -40,10 +40,10 @@ The developer.
 
 The youtuber.
 
-|                                            |                                           |                                                 |                                                   |
-| :----------------------------------------: | :---------------------------------------: | :---------------------------------------------: | :-----------------------------------------------: |
-| [carlignn](https://youtube.com/@carlignn/) | [tooo](https://youtube.com/@carlignntoo/) | [gamingg](https://youtube.com/@carlignngaming/) | [archivee](https://youtube.com/@carlignnarchive/) |
-|                                            |                                           |                                                 |                                                   |
+|                                            |                                        |                                            |                                                |
+| :----------------------------------------: | :------------------------------------: | :----------------------------------------: | :--------------------------------------------: |
+| [carlignn](https://youtube.com/@carlignn/) | [tooo](https://youtube.com/@carltooo/) | [gaminn](https://youtube.com/@carlgaminn/) | [archivee](https://youtube.com/@carlarchivee/) |
+|                                            |                                        |                                            |                                                |
 
 The streamer.
 
