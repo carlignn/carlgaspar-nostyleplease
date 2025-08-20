@@ -118,8 +118,8 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
-  </url><url>
     <loc>//localhost:1313/socials/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
   </url>
 </urlset>

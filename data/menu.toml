@@ -2,8 +2,8 @@
 title = "info"
 
   [[entries.entries]]
-  title = "portfolio"
-  url = "portfolio"
+  title = "whoami"
+  url = "about"
 
   [[entries.entries]]
   title = "cybersecurity officer, sec+ // developer"
