@@ -4,8 +4,6 @@ tags:
   - all
 ---
 
-You can reach me at [socials](/socials).
-
 ***
 
 # Cyber Security Specialist
