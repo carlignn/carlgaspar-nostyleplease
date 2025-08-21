@@ -6,14 +6,35 @@
     <description>Recent content in Homelab on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Sep 2021 06:42:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>asdfasfdsadf</title>
-      <link>//localhost:1313/homelab/test/</link>
-      <pubDate>Sat, 25 Sep 2021 06:42:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/test/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.galore.imfitphilippines&#34;&gt;It&amp;rsquo;s More Find in the Philippines&lt;/a&gt; is a 2D android-based find the hidden object game. Over a hundred objects are hidden in the different regions of the Philippines. It features most of the known objects from every region which lets you explore the country as well as learn trivia provided by the game. It&amp;rsquo;s More find in the Philippines lets you explore the country. Users will be asked to look for precious objects related to certain places. Users will consume energy to play a level or a stage.&lt;/p&gt;</description>
+      <title>Pi-hole LXC Setup</title>
+      <link>//localhost:1313/homelab/pi-hole-lxc-setup/</link>
+      <pubDate>Wed, 01 Jan 2025 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/pi-hole-lxc-setup/</guid>
+      <description>&lt;p&gt;Pi-hole &lt;a href=&#34;https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole&#34;&gt;helper script&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash -c &lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;$(&lt;/span&gt;wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh&lt;span style=&#34;color:#f00&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After the installation, make sure to change the hostname to your preference. Just edit /etc/hosts and /etc/hostname and you&amp;rsquo;re good to go.&lt;/p&gt;&#xA;&lt;p&gt;Add the blacklists to improve adblocking &lt;a href=&#34;https://firebog.net/&#34;&gt;https://firebog.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For NSFW, try &lt;a href=&#34;https://github.com/blocklistproject/Lists&#34;&gt;https://coygeek.com/docs/pihole-adult/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;unbound&#34;&gt;Unbound&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://docs.pi-hole.net/guides/dns/unbound/?h=unbound&#34;&gt;GUIDE&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>i3wm Configuration and Setup on Alpine Linux</title>
+      <link>//localhost:1313/homelab/i3wm-configuration-and-setup-on-alpine-linux/</link>
+      <pubDate>Sun, 22 Dec 2024 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/i3wm-configuration-and-setup-on-alpine-linux/</guid>
+      <description>&lt;p&gt;I was looking for a lightweight operating system to host my dashboard and a few static movies/videos that I can play in the background and I landed on..&lt;/p&gt;&#xA;&lt;p&gt;This tutorial is deprecated. I have to move from Alpine to Debian since Alpine doesn&amp;rsquo;t have native support for my NVIDIA graphics card.&lt;/p&gt;&#xA;&lt;h2 id=&#34;alpine&#34;&gt;Alpine&lt;/h2&gt;&#xA;&lt;p&gt;On Alpine download page, you can choose the &lt;strong&gt;Standard&lt;/strong&gt; or the &lt;strong&gt;VM&lt;/strong&gt; version. I used the &lt;strong&gt;VM&lt;/strong&gt; version in this setup since I will be installing it in Proxmox. Standard will work, too. I am really not sure what is the difference, aside from the slimmed down kernel as stated in their &lt;a href=&#34;https://alpinelinux.org/downloads/&#34;&gt;WEBSITE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homelab Configuration Series</title>
+      <link>//localhost:1313/homelab/homelab-configuration-series/</link>
+      <pubDate>Tue, 10 Dec 2024 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/homelab-configuration-series/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I started this homelab journey because I already exhausted my 1 TB external SSD. I looked for options and I found NAS as the best one. I&amp;rsquo;ve been trying to justify buying/creating a server for years, it will help with upskilling they (I) said, but that reason is just not enough. Cloud options are always available and some are also free. But now that I have a NAS requirement, I figured that relying in the cloud for storage will really be costly. That&amp;rsquo;s why I&amp;rsquo;m here writing the documentation so that when I got lost midway, I have something I can get back to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NSLookup Primer</title>
+      <link>//localhost:1313/homelab/nslookup-primer/</link>
+      <pubDate>Tue, 25 Oct 2022 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/nslookup-primer/</guid>
+      <description>&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: &lt;code&gt;nslookup&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Related: &lt;a href=&#34;//localhost:1313/security/mx-record-primer&#34; title=&#34;MX Record Primer&#34;&gt;MX Record Primer&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

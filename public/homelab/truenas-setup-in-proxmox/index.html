@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      TrueNAS Setup in Proxmox
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2024-12-30 16:00:00 &#43;0000 UTC">
+            
+                2024-12-30
+            
+        </time>
+    </p>
+
+    <h1>TrueNAS Setup in Proxmox</h1>
+
+    
+
+    <p></p>
+
+    <p>From this guide, there&rsquo;s a comment <a href="https://www.youtube.com/watch?v=M3pKprTdNqQ&amp;t=799s">https://www.youtube.com/watch?v=M3pKprTdNqQ</a></p>
+<p>This video is really really the top of the iceberg. A few crucial thing is missing from this like:
+- excluding the disks from pve, or else you will wonder why it periodically interrupts disk operations or wakes up sleeping disks
+- disabling the &ldquo;use tablet for pointer&rdquo; as that in itself causes 10+% CPU load on the host side for some reason
+- disabling &ldquo;hardware&rdquo; acceleration of virtIO as this is known to cause problems
+- doing smart configuration (like APM, idle times) on the host side as the guest won&rsquo;t have access to smart data and alerts
+- optionally moving the system dataset to the boot disk</p>
+<p>Drives were disconnecting randomly. Add this on Your host: cat /etc/modprobe.d/mpt3sas.conf</p>
+<p>blacklist mpt3sas</p>
+<p>Then</p>
+<p>Full grub line: GRUB_CMDLINE_LINUX_DEFAULT=&ldquo;vfio-pci.ids=1000:0087 pcie_acs_override=downstream,multifunction&rdquo;</p>
+<p><strong>pcie_acs_override=downstream,multifunction</strong>: will make the IOMMU groups separate of each other.</p>
+<p>Guide: here <a href="https://www.reddit.com/r/truenas/comments/x0tgub/scale_drive_resets_with_lsi_93008i_looking_for/">https://www.reddit.com/r/truenas/comments/x0tgub/scale_drive_resets_with_lsi_93008i_looking_for/</a></p>
+<h2 id="things-to-do-in-truenas">Things to do in TrueNAS</h2>
+<p>Update the fields in Network &gt; Global Settings</p>
+<p>To get internet connection in TrueNAS, go to Network &gt; Global Settings &gt; Fill out the gateway and the DNS Servers.</p>
+<h2 id="best-practices-for-datasets">Best practices for datasets</h2>
+<p><a href="https://www.truenas.com/community/threads/path-to-success-for-structuring-datasets-in-your-pool.85460/">https://www.truenas.com/community/threads/path-to-success-for-structuring-datasets-in-your-pool.85460/</a></p>
+<h2 id="naming-convention">Naming convention</h2>
+<p>datasets - dataset_name</p>
+<p>folders within datasets - Whatever</p>
+<h2 id="to-give-access-to-truenas-nfs-share-to-proxmox">To give access to TrueNAS NFS share to Proxmox</h2>
+<p>Datacenter &gt; Storage &gt; Add NFS &gt; Fill the fields</p>
+<h2 id="make-sure-in-truenas">Make sure in TrueNAS</h2>
+<ul>
+<li>That there is an NFS share</li>
+<li>Network is set</li>
+<li>Maproot User is set to root (this and the group below is the account that is used to modify the NFS share)</li>
+<li>Maproot Group is set to wheel</li>
+</ul>
+<h2 id="roadblocks">Roadblocks</h2>
+<h3 id="lxcs-cant-be-backed-up-permission-denied">LXCs can&rsquo;t be backed up (permission denied)</h3>
+<p>The <a href="https://blog.doussan.info/posts/container-backup-permission-denied-nfs/">post</a> to the guide, the <a href="https://forum.proxmox.com/threads/tmp-cannot-open-permission-denied.87730/post-462646">thread</a> if the error still persists, direct <a href="https://www.bachmann-lan.de/proxmox-unprivileged-container-backup-failed-permission-denied/">link </a>to the guide (this is the one that worked).</p>
+<p>Basically, you can&rsquo;t backup LXCs that are unprivileged. If you really need the LXCs to be unprivileged, edit /etc/vzdump.conf in Proxmox and add tmpdir: / tmp</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano /etc/vzdump.conf
+</span></span><span style="display:flex;"><span>tmpdir: / tmp
+</span></span></code></pre></div><h3 id="use-truenas-on-lxcs-only-available-on-privileged-lxcs">Use TrueNAS on LXCs (only available on privileged LXCs)</h3>
+<p>What this will do is mount the NFS to the LXC</p>
+<p>Enable NFS in TrueNAS</p>
+<p>On the LXC, go to Options &gt; Features &gt; Check the NFS</p>
+<p>Install NFS client packages on the LXC</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt install nfs-common
+</span></span></code></pre></div><p>You&rsquo;d want to mount the NFS to the LXC on boot, so edit /etc/fstab then add</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#0f0"># UNCONFIGURED FSTAB FOR BASE SYSTEM</span>
+</span></span><span style="display:flex;"><span>IP:/mnt/NFS/NFS /home/admin/NFS nfs defaults <span style="color:#f60">0</span> <span style="color:#f60">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0"># In my case, this is how it looked like</span>
+</span></span><span style="display:flex;"><span>hl1truenas1.carlgaspar.local:/mnt/hdd/standard/media_library /home/admin/truenas1_media_library nfs defaults <span style="color:#f60">0</span> <span style="color:#f60">0</span>
+</span></span></code></pre></div><p>Reboot to mount</p>
+<p>To mount without restarting</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mount  truenas1_media_library
+</span></span></code></pre></div><p>To check if it&rsquo;s mounted, type</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>df -h
+</span></span></code></pre></div><p><a href="https://harish2k01.in/mounting-an-nfs-share-in-proxmox-lxc/">Full guide</a></p>
+<h3 id="cant-see-files-in-truenas-when-queried-by-plex">Can&rsquo;t see files in TrueNAS when queried by Plex</h3>
+<p>The files are being created by a user in TrueNAS but when passed as a shared NFS/SMB, it is being read as a different user, therefore not having access anymore. Make sure that the reader is root so it can see everything.</p>
+<h3 id="standby-mode-to-save-electricity">Standby mode to save electricity</h3>
+<p><a href="https://www.youtube.com/watch?v=WvCURgT151c">https://www.youtube.com/watch?v=WvCURgT151c</a></p>
+<h3 id="best-practices">Best practices</h3>
+<p><a href="https://www.youtube.com/watch?v=WvCURgT151c">https://www.youtube.com/watch?v=WvCURgT151c</a></p>
+<h2 id="truenas-has-been-moved-to-a-separate-server">TrueNAS has been moved to a separate server</h2>
+<h3 id="when-connecting-to-ipad-i-can-see-all-the-available-datasets-even-if-i-dont-have-access-to-them">When connecting to iPad, I can see all the available datasets even if I don&rsquo;t have access to them.</h3>
+<p>Go to Shares &gt; SMB Share &gt; Purpose &gt; No Presets &gt; Advanced Options &gt; Enable
+Access Based Share Enumeration</p>
+<h3 id="error-when-creating-nextcloud">Error when creating nextcloud</h3>
+<p>Enable auto permissions under db</p>
+<p><a href="https://forums.truenas.com/t/ee-install-of-nextcloud-fails-failed-up-action/14788/5">https://forums.truenas.com/t/ee-install-of-nextcloud-fails-failed-up-action/14788/5</a></p>
+<h3 id="error-nextcloud-access-through-untrusted-domain-docker">Error (nextcloud) Access through untrusted domain docker</h3>
+<p>Put the nextcloud domain: <a href="https://forums.unraid.net/topic/77853-solved-nextcloud-access-through-untrusted-domain/">https://forums.unraid.net/topic/77853-solved-nextcloud-access-through-untrusted-domain/</a></p>
+<p>Add this to the end of the config/config.php file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#87ceeb">&#39;trusted_domains&#39;</span> =&gt; 
+</span></span><span style="display:flex;"><span><span style="color:#f00">array</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#f60">0</span> =&gt; <span style="color:#87ceeb">&#39;10.10.20.2:30028&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f60">1</span> =&gt; <span style="color:#87ceeb">&#39;127.0.0.1&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f60">2</span> =&gt; <span style="color:#87ceeb">&#39;localhost&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f60">3</span> =&gt; <span style="color:#87ceeb">&#39;nextcloud&#39;</span>,
+</span></span><span style="display:flex;"><span>  ),
+</span></span><span style="display:flex;"><span><span style="color:#87ceeb">&#39;overwrite.cli.url&#39;</span> =&gt; <span style="color:#87ceeb">&#39;https://10.10.20.2:30028&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#87ceeb">&#39;overwritehost&#39;</span> =&gt; <span style="color:#87ceeb">&#39;10.10.20.2:30028&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#87ceeb">&#39;overwriteprotocol&#39;</span> =&gt; <span style="color:#87ceeb">&#39;https&#39;</span>,
+</span></span></code></pre></div><ol>
+<li>overwrite.cli.url
+<ul>
+<li>Defines the base URL Nextcloud uses for command-line operations (e.g., occ commands).</li>
+<li>If not set correctly, CLI commands may generate incorrect URLs.</li>
+</ul>
+</li>
+<li>overwritehost
+<ul>
+<li>Forces Nextcloud to use this hostname for all web requests, even if the request comes from a different hostname or IP.</li>
+<li>Useful when running behind a reverse proxy or when users access Nextcloud from multiple domains.</li>
+</ul>
+</li>
+<li>overwriteprotocol
+<ul>
+<li>Defines whether Nextcloud should use HTTP or HTTPS for URLs.</li>
+<li>If https is set, Nextcloud will force secure connections, even if accessed over http.</li>
+</ul>
+</li>
+</ol>
+<p>Only use HTTP if you&rsquo;re not using HTTPS or if HTTPS is breaking things.</p>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

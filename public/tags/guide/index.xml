@@ -23,6 +23,13 @@
       <description>&lt;p&gt;&amp;lt; texi &lt;code&gt;\varphi&lt;/code&gt; &amp;gt;&#xA;&amp;lt; texd &lt;code&gt;\begin{aligned}&#xD; \varphi &amp;amp;\Rightarrow \psi \\&#xD; \varnothing &amp;amp;\rightarrow A&#xD; \end{aligned}&lt;/code&gt; &amp;gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Puppet - Getting Started</title>
+      <link>//localhost:1313/homelab/puppet-getting-started/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/puppet-getting-started/</guid>
+      <description>&lt;p&gt;Puppet is a responsive, simple and clean &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; theme based on the &lt;a href=&#34;https://github.com/Huxpro/huxpro.github.io&#34;&gt;Huxblog Jekyll theme&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Post Example With Headings And Toc</title>
       <link>//localhost:1313/posts/post-example-with-headings-and-toc/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0800</pubDate>

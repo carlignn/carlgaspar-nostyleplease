@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab</title>
+      <link>//localhost:1313/tags/homelab/</link>
+      <pubDate>Wed, 01 Jan 2025 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>//localhost:1313/tags/security/</link>
+      <pubDate>Tue, 10 Dec 2024 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Server</title>
+      <link>//localhost:1313/tags/server/</link>
+      <pubDate>Tue, 10 Dec 2024 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communication</title>
+      <link>//localhost:1313/tags/communication/</link>
+      <pubDate>Mon, 09 Oct 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Write-Up</title>
+      <link>//localhost:1313/tags/write-up/</link>
+      <pubDate>Mon, 09 Oct 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/write-up/</guid>
+      <description></description>
+    </item>
     <item>
       <title>All</title>
       <link>//localhost:1313/tags/all/</link>
@@ -16,17 +51,80 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>//localhost:1313/tags/security/</link>
-      <pubDate>Wed, 27 Sep 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/security/</guid>
+      <title>Blueteam</title>
+      <link>//localhost:1313/tags/blueteam/</link>
+      <pubDate>Wed, 06 Sep 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/blueteam/</guid>
       <description></description>
     </item>
     <item>
-      <title>Write-Up</title>
-      <link>//localhost:1313/tags/write-up/</link>
-      <pubDate>Wed, 27 Sep 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/write-up/</guid>
+      <title>Draft</title>
+      <link>//localhost:1313/tags/draft/</link>
+      <pubDate>Wed, 12 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/draft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>//localhost:1313/tags/game/</link>
+      <pubDate>Wed, 12 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Application</title>
+      <link>//localhost:1313/tags/application/</link>
+      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/application/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatgpt</title>
+      <link>//localhost:1313/tags/chatgpt/</link>
+      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>//localhost:1313/tags/documentation/</link>
+      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>//localhost:1313/tags/project/</link>
+      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redteam</title>
+      <link>//localhost:1313/tags/redteam/</link>
+      <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/redteam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheatsheet</title>
+      <link>//localhost:1313/tags/cheatsheet/</link>
+      <pubDate>Thu, 08 Dec 2022 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking</title>
+      <link>//localhost:1313/tags/hacking/</link>
+      <pubDate>Mon, 19 Sep 2022 06:11:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devsecops</title>
+      <link>//localhost:1313/tags/devsecops/</link>
+      <pubDate>Thu, 15 Sep 2022 09:25:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/devsecops/</guid>
       <description></description>
     </item>
     <item>
@@ -44,17 +142,24 @@
       <description></description>
     </item>
     <item>
-      <title>Project</title>
-      <link>//localhost:1313/tags/project/</link>
-      <pubDate>Thu, 30 Sep 2021 07:04:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/project/</guid>
+      <title>Management</title>
+      <link>//localhost:1313/tags/management/</link>
+      <pubDate>Thu, 04 Nov 2021 00:48:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/management/</guid>
       <description></description>
     </item>
     <item>
-      <title>Homelab</title>
-      <link>//localhost:1313/tags/homelab/</link>
+      <title> Philippines</title>
+      <link>//localhost:1313/tags/-philippines/</link>
+      <pubDate>Thu, 30 Sep 2021 07:04:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/-philippines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philippines</title>
+      <link>//localhost:1313/tags/philippines/</link>
       <pubDate>Sat, 25 Sep 2021 06:42:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/homelab/</guid>
+      <guid>//localhost:1313/tags/philippines/</guid>
       <description></description>
     </item>
     <item>
@@ -65,10 +170,80 @@
       <description></description>
     </item>
     <item>
-      <title>Philippines</title>
-      <link>//localhost:1313/tags/philippines/</link>
+      <title>Review</title>
+      <link>//localhost:1313/tags/review/</link>
+      <pubDate>Wed, 22 Sep 2021 01:31:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skincare</title>
+      <link>//localhost:1313/tags/skincare/</link>
+      <pubDate>Wed, 22 Sep 2021 01:31:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/skincare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Government</title>
+      <link>//localhost:1313/tags/government/</link>
       <pubDate>Tue, 21 Sep 2021 14:30:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/philippines/</guid>
+      <guid>//localhost:1313/tags/government/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>//localhost:1313/tags/css/</link>
+      <pubDate>Sun, 10 Mar 2019 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>//localhost:1313/tags/html/</link>
+      <pubDate>Sun, 10 Mar 2019 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>//localhost:1313/tags/markdown/</link>
+      <pubDate>Sun, 10 Mar 2019 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>//localhost:1313/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>//localhost:1313/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text</title>
+      <link>//localhost:1313/tags/text/</link>
+      <pubDate>Fri, 08 Mar 2019 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/text/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>//localhost:1313/tags/emoji/</link>
+      <pubDate>Mon, 04 Mar 2019 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/emoji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redirect</title>
+      <link>//localhost:1313/tags/redirect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/redirect/</guid>
       <description></description>
     </item>
   </channel>

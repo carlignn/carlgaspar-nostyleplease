@@ -30,27 +30,6 @@
       <description>&lt;h2 id=&#34;most-common-security-incidents&#34;&gt;Most common security incidents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Publicly accessible resources such as S3 buckets or ElasticSearch clusters.&lt;/li&gt;&#xA;&lt;li&gt;Leaked access keys. For example, access keys posted to GitHub.&lt;/li&gt;&#xA;&lt;li&gt;Compromised IAM Roles through SSRF or RCE against an EC2, resulting in access to the metadata service at 169.254.169.254.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;aws-security-maturity-roadmap&#34;&gt;AWS Security Maturity Roadmap&lt;/h2&gt;&#xA;&lt;h3 id=&#34;stage-1-inventory&#34;&gt;Stage 1: Inventory&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Identify all AWS accounts in the company and their points of contact.&lt;/li&gt;&#xA;&lt;li&gt;Integrate AWS accounts into AWS Organizations.&lt;/li&gt;&#xA;&lt;li&gt;Ensure all account root emails are on distribution lists.&lt;/li&gt;&#xA;&lt;li&gt;Opt-out of AI services using your data.&lt;/li&gt;&#xA;&lt;li&gt;Have an AWS account for Security.&lt;/li&gt;&#xA;&lt;li&gt;Create budget alarms.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If you don’t already have lots of AWS accounts, recognize that at this point you now have a minimum of 3 AWS accounts (an account that has your business stuff in it, the AWS Organization root account with nothing in it, and the Security account).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DNS Record Types Primer</title>
-      <link>//localhost:1313/security/dns-record-types-primer/</link>
-      <pubDate>Tue, 25 Oct 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/security/dns-record-types-primer/</guid>
-      <description>&lt;p&gt;When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-records&#34;&gt;A Records&lt;/h2&gt;&#xA;&lt;p&gt;These are also called Address Records or sometimes &lt;strong&gt;Host Records&lt;/strong&gt;. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting. Let’s say that you own the domain name name.com and the IP address of your hosting server is 127.0.0.1. Usually you would have two DNS records to point your domain to the hosting that look like this:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NSLookup Primer</title>
-      <link>//localhost:1313/security/nslookup-primer/</link>
-      <pubDate>Tue, 25 Oct 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/security/nslookup-primer/</guid>
-      <description>&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: &lt;code&gt;nslookup&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Related: &lt;a href=&#34;//localhost:1313/security/mx-record-primer&#34; title=&#34;MX Record Primer&#34;&gt;MX Record Primer&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hide Yourself When Using the Internet With ProxyChains</title>
-      <link>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</link>
-      <pubDate>Sun, 18 Sep 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</guid>
-      <description>&lt;h2 id=&#34;configuring-proxychains&#34;&gt;Configuring ProxyChains&lt;/h2&gt;&#xA;&lt;p&gt;ProxyChains come preinstalled in Kali Linux. All you have to do is find it. I wasn&amp;rsquo;t able to make the locate command work, but I found it in /etc directory.&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;&#xA;&lt;p&gt;What you want to do is edit the configuration file. I will be using vim, feel free to use any text editor as you would prefer.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo vim /etc/proxychains4.conf&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is what the configuration file would look like. It may look like a lot, but you only need to configure a few things.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Threat Modeling Fundamentals</title>
       <link>//localhost:1313/security/threat-modeling-fundamentals/</link>
       <pubDate>Thu, 15 Sep 2022 09:25:00 +0000</pubDate>

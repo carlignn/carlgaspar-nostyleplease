@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      i3wm Configuration and Setup on Debian Linux
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-01-02 16:00:00 &#43;0000 UTC">
+            
+                2025-01-02
+            
+        </time>
+    </p>
+
+    <h1>i3wm Configuration and Setup on Debian Linux</h1>
+
+    
+
+    <p></p>
+
+    <p>I was looking for a lightweight operating system to host my dashboard and a few static movies/videos that I can play in the background and I landed on Alpine Linux. But apparently, NVIDIA drivers are hard to install in Alpine so I moved to Debian.</p>
+<p>This VM will passthrough my 1050TI so that I can watch movies, use the browser, and use software that requires hardware transcoding with ease. The other software will be in this VM because once you passthrough a GPU, it&rsquo;s hard to create a vGPU out of it.</p>
+<p>Install a headless Debian by following the instructions in the installer.</p>
+<p>apt install xorg (equivalent to setup-xorg-base in Alpine Linux)</p>
+<p>apt install i3 i3status</p>
+<p>To install Brave browser</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt install apt-transport-https curl gnupg
+</span></span></code></pre></div><p>These are the required dependencies to install the browser.</p>
+<p>Download Brave&rsquo;s GPG key</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl -fsS https://brave-browser-apt-release.s3.brave.com/brave-core.asc | gpg --dearmor -o /usr/share/keyrings/brave-archive-keyring.gpg
+</span></span></code></pre></div><p>Add the Brave&rsquo;s repository</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo <span style="color:#87ceeb">&#34;deb [signed-by=/usr/share/keyrings/brave-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main&#34;</span> | tee /etc/apt/sources.list.d/brave-browser-release.list
+</span></span></code></pre></div><p>apt update</p>
+<p>apt install brave-browser</p>
+<p>Note that you can&rsquo;t run Brave browser using the root account. Change to regular user account using</p>
+<p>su - yourusername</p>
+<p>You need to install the graphics card as it might cause issues later on (e.g. brave not launching)</p>
+<p>Update the repository to add nvidia repository. NVIDIA drivers are included in contrib and non-free repositories.</p>
+<p>Edit the /etc/apt/sources.list file:</p>
+<p>Add contrib and non-free sections to your repositories. For example:</p>
+<p>deb http://deb.debian.org/debian/ stable main contrib non-free</p>
+<p>deb-src http://deb.debian.org/debian/ stable main contrib non-free</p>
+<p>apt update</p>
+<p>apt install nvidia-driver</p>
+<p>reboot</p>
+<p>Verify installation</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nvidia-smi
+</span></span></code></pre></div><p>(Optional) I received an error about conflicting nouveau kernel module. Even though the NVIDIA driver installation went smoothly, blacklist the nouveau driver to avoid conflicts in the future. Upon checking the file, NVIDIA already blacklisted the nouveau driver for me.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano /etc/modprobe.d/blacklist-nouveau.conf
+</span></span></code></pre></div><p>ss</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>blacklist nouveau
+</span></span><span style="display:flex;"><span>options nouveau <span style="color:#eedd82">modeset</span>=<span style="color:#f60">0</span>
+</span></span></code></pre></div><p>Update the intramfs (initial RAM filesystem) so that changes take effect:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo update-initramfs -u
+</span></span></code></pre></div><p>reboot</p>
+<h3 id="configuring-i3-config">Configuring i3 config</h3>
+<p>I will be creating users here, I need to make sure that all users will have a default setup aside from their setup. On the default location of i3 config, add to the very top (before any other config)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>include /etc/i3/config
+</span></span></code></pre></div><p>This tells i3 to load /etc/i3/config in addition to the user&rsquo;s personal config file. With this setup, you can have a common set of configurations defined in /etc/i3/config, and user-specific customizations can be added in the user-specific file.</p>
+<p>Copy the config to /etc/i3/config (so that it&rsquo;s readable by all users)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo cp ~/.config/i3/config /etc/i3/config
+</span></span></code></pre></div><p>Make sure the configuration file has the correct permissions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo chmod <span style="color:#f60">644</span> /etc/i3/config
+</span></span><span style="display:flex;"><span>sudo chown root:root /etc/i3/config
+</span></span></code></pre></div><p>This ensures that the configuration file is readable by all users, but only writable by root.</p>
+<h4 id="i-have-to-remove-the-default-terminal-and-nano-i-want-to-use-alacritty-and-vim">I have to remove the default terminal and nano. I want to use alacritty and vim</h4>
+<h3 id="how-to-remove-packages-in-debian">How to remove packages in debian</h3>
+<p>Remove a package (but keep configuration files):</p>
+<p>sudo apt remove &lt;package-name&gt;</p>
+<p>Remove a package and its configuration files:</p>
+<p>sudo apt purge &lt;package-name&gt;</p>
+<p>Remove unused dependencies that were installed automatically:</p>
+<p>sudo apt autoremove</p>
+<p>Clean up downloaded package files (to free up space):</p>
+<p>sudo apt clean</p>
+<h4 id="how-to-copy-the-configuration-from-one-user-to-another-in-this-case-user-to-cgaspar">How to copy the configuration from one user to another, in this case, user to cgaspar</h4>
+<p>cp /root/.config/i3/config /home/username/.config/i3/config</p>
+<p>If there are config changes, do it in the root then copy to the user</p>
+<h4 id="how-to-remove-ipv6">How to remove ipv6</h4>
+<p>Update and add nano /etc/sysctl.conf</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>net.ipv6.conf.all.disable_ipv6 = <span style="color:#f60">1</span>
+</span></span><span style="display:flex;"><span>net.ipv6.conf.default.disable_ipv6 = <span style="color:#f60">1</span>
+</span></span></code></pre></div><p>apply changes</p>
+<p>sysctl -p</p>
+<h3 id="configuring-i3status">Configuring i3status</h3>
+<p>Make the config file mkdir -p ~/.config/i3status</p>
+<p>Copy the default config to the config folder cp /etc/i3status.conf ~/.config/i3status/config</p>
+<p>alt shift r to refresh i3</p>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>
