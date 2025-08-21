@@ -24,9 +24,9 @@ title = "all posts"
 [[entries]]
 title = "posts by tag"
 
-  [[entries.entries]]
-    title = "tags"
-    url = "tags"
+#  [[entries.entries]] # Tag link moved to menu_item.html (manual)
+#    title = "tags"
+#    url = "tags"
 
   [[entries.entries]]
     title = "security"

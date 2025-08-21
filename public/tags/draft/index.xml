@@ -44,25 +44,11 @@
       <description>&lt;h2 id=&#34;research-the-domain&#34;&gt;Research The Domain&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dns-dumpster&#34;&gt;&lt;a href=&#34;https://dnsdumpster.com/&#34; title=&#34;DNS Dumpster&#34;&gt;DNS Dumpster&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Doing a research on the domain using DNS Dumpster will provide &lt;a href=&#34;//localhost:1313/posts/dns-record-types-primer&#34; title=&#34;DNS Record Types Primer&#34;&gt;DNS Records&lt;/a&gt;, much like the same information you&amp;rsquo;ll get when you register a web server.&lt;/p&gt;&#xA;&lt;h3 id=&#34;shodanio&#34;&gt;&lt;a href=&#34;https://www.shodan.io/&#34; title=&#34;Shodan.io&#34;&gt;Shodan.io&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;virustotal&#34;&gt;&lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34; title=&#34;VirusTotal&#34;&gt;VirusTotal&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cybersecurity Interview &#34;Answers&#34;</title>
-      <link>//localhost:1313/homelab/cybersecurity-interview-answers/</link>
-      <pubDate>Sun, 23 Oct 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/cybersecurity-interview-answers/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://danielmiessler.com/study/infosec_interview_questions/&#34; title=&#34;https://danielmiessler.com/study/infosec_interview_questions/&#34;&gt;https://danielmiessler.com/study/infosec_interview_questions/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Red Team Adversary Emulation With Caldera Part 1</title>
       <link>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</link>
       <pubDate>Wed, 14 Sep 2022 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</guid>
       <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Being Part of the Top 1.1% - How Valorant Helped Me Think Critically</title>
-      <link>//localhost:1313/homelab/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</link>
-      <pubDate>Tue, 30 Nov 2021 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Valorant is a free-to play 5 versus 5 FPS (first-person tactical hero shooter) game developed and published by Riot Games on 2020. Simply put, it&amp;rsquo;s like CS:GO but with abilities.&lt;/p&gt;&#xA;&lt;p&gt;I played this game because I don&amp;rsquo;t have anything to play at that time, the system requirements is pretty low, and my computer can easily handle it. It is not my first FPS game but I can confidently say that it is the first FPS game that I seriously played.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

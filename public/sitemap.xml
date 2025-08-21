@@ -8,9 +8,6 @@
     <loc>//localhost:1313/homelab/my-arr-stack-in-proxmox/</loc>
     <lastmod>2025-01-09T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/i3wm-configuration-and-setup-on-debian-linux/</loc>
-    <lastmod>2025-01-02T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/homelab/portainer-configuration/</loc>
     <lastmod>2025-01-02T16:00:00+00:00</lastmod>
   </url><url>
@@ -26,29 +23,20 @@
     <loc>//localhost:1313/homelab/truenas-setup-in-proxmox/</loc>
     <lastmod>2024-12-30T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/i3wm-configuration-and-setup-on-alpine-linux/</loc>
-    <lastmod>2024-12-22T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/homelab-configuration-series/</loc>
-    <lastmod>2024-12-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
-    <lastmod>2024-12-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/server/</loc>
-    <lastmod>2024-12-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/communication/</loc>
+    <loc>//localhost:1313/tags/all/</loc>
     <lastmod>2023-10-09T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/top-8-soft-skills/</loc>
+    <loc>//localhost:1313/tags/human/</loc>
+    <lastmod>2023-10-09T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2023-10-09T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/top-8-soft-skills/</loc>
     <lastmod>2023-10-09T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/write-up/</loc>
     <lastmod>2023-10-09T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/all/</loc>
-    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/risk-management-framework/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
@@ -56,17 +44,11 @@
     <loc>//localhost:1313/security/</loc>
     <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/cyber-risk-management-fundamentals/</loc>
-    <lastmod>2023-09-26T16:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/security/</loc>
+    <lastmod>2023-09-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/cyber-risk-management-fundamentals/</loc>
     <lastmod>2023-09-26T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/risk-management-framework/</loc>
-    <lastmod>2023-09-26T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/aws-security-maturity-roadmap-by-scott-piper/</loc>
-    <lastmod>2023-09-20T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/aws-security-maturity-roadmap-by-scott-piper/</loc>
     <lastmod>2023-09-20T16:00:00+00:00</lastmod>
@@ -76,9 +58,6 @@
   </url><url>
     <loc>//localhost:1313/homelab/malware-analysis-fundamentals/</loc>
     <lastmod>2023-09-06T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/can-you-be-a-ciso/</loc>
-    <lastmod>2023-07-19T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/draft/</loc>
     <lastmod>2023-07-12T16:00:00+00:00</lastmod>
@@ -125,29 +104,8 @@
     <loc>//localhost:1313/homelab/incident-response-tools/</loc>
     <lastmod>2022-11-09T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/nslookup-primer/</loc>
-    <lastmod>2022-10-25T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/cybersecurity-interview-answers/</loc>
-    <lastmod>2022-10-23T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/homelab/incident-response/</loc>
     <lastmod>2022-10-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/hacking/</loc>
-    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/hide-yourself-when-using-the-internet-with-proxychains/</loc>
-    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
-    <lastmod>2022-09-18T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/devsecops/</loc>
-    <lastmod>2022-09-15T09:25:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/threat-modeling-fundamentals/</loc>
-    <lastmod>2022-09-15T09:25:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/threat-modeling-fundamentals/</loc>
     <lastmod>2022-09-15T09:25:00+00:00</lastmod>
@@ -156,9 +114,6 @@
     <lastmod>2022-09-14T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/guide/</loc>
-    <lastmod>2022-08-26T22:28:10+08:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
     <lastmod>2022-08-26T22:28:10+08:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/test-hans/</loc>
@@ -170,32 +125,11 @@
     <loc>//localhost:1313/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/puppet-getting-started/</loc>
-    <lastmod>2022-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
-    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
     <lastmod>2021-11-30T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/human/</loc>
-    <lastmod>2021-11-30T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/management/</loc>
-    <lastmod>2021-11-04T00:48:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/risk-assessment-and-management/</loc>
-    <lastmod>2021-11-04T00:48:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/security/risk-assessment-and-management/</loc>
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/-philippines/</loc>
-    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
-    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
@@ -203,17 +137,8 @@
     <loc>//localhost:1313/projects/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/it-s-more-find-in-the-philippines/</loc>
-    <lastmod>2021-09-25T06:42:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/projects/it-s-more-find-in-the-philippines/</loc>
     <lastmod>2021-09-25T06:42:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/philippines/</loc>
-    <lastmod>2021-09-25T06:42:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
-    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
@@ -221,16 +146,7 @@
     <loc>//localhost:1313/tags/product/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/review/</loc>
-    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/skincare/</loc>
-    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/government/</loc>
-    <lastmod>2021-09-21T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/the-philippine-government/</loc>
+    <loc>//localhost:1313/tags/philippines/</loc>
     <lastmod>2021-09-21T14:30:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/the-philippine-government/</loc>
@@ -254,65 +170,15 @@
     <loc>//localhost:1313/posts/strange-post/</loc>
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/syntax/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/themes/</loc>
-    <lastmod>2019-03-10T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/placeholder-text/</loc>
-    <lastmod>2019-03-08T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/text/</loc>
-    <lastmod>2019-03-08T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/math-typesetting/</loc>
-    <lastmod>2019-03-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/emoji/</loc>
-    <lastmod>2019-03-04T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/emoji-support/</loc>
-    <lastmod>2019-03-04T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/posts/socials-internal/</loc>
     <lastmod>1901-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/no-title/</loc>
-  </url><url>
     <loc>//localhost:1313/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/redirect/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/socials/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
-  </url><url>
-    <loc>//localhost:1313/homelab/commands/</loc>
-    <lastmod>0000-12-31T15:54:17+00:00</lastmod>
   </url>
 </urlset>
