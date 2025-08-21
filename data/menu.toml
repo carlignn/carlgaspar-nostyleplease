@@ -16,7 +16,7 @@ title = "info"
 title = "all posts"
 
   [entries.post_list]
-  limit = 4
+  limit = 3
   show_more = true
   show_more_text = "see all posts..."
   show_more_url = "tags/all"
@@ -55,10 +55,10 @@ title = "posts by tag"
     url = "tags/project"
 
     [entries.entries.post_list]
-    limit = 2
+    limit = 1
     section = "projects"
     show_more = true
-    show_more_text = "see more posts..."
+    show_more_text = "see more projects..."
     show_more_url = "tags/project"
 
 [[entries]]
