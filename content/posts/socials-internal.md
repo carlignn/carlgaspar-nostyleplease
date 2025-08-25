@@ -1,7 +1,7 @@
 ---
 title: Socials Internal
 draft: false
-date: 1901-01-01T00:00:00.000Z
+date: 0001-01-01T00:00:00.000Z
 tags:
   - all
 ---
@@ -79,8 +79,28 @@ Paypal
 
 Binance referral?
 
-Twitch Bot - https://www.twitch.tv/carlboopp
+Twitch Bot - [https://www.twitch.tv/carlboopp](https://www.twitch.tv/carlboopp)
 
-Wordpress - https://wordpress.com/reader/users/carlignn
+Wordpress - [https://wordpress.com/reader/users/carlignn](https://wordpress.com/reader/users/carlignn)
 
 **Remove ridiculous ones**
+
+**Discord shit**
+
+**Nickname: Carl**
+
+**Age: 27**
+
+**Describe your work in a funny way: Give me your credit card information**
+
+**IT Security**
+
+**Work type (wfh/hybrid/onsite): WFH**
+
+**Shift (morning/mid/night): Night**
+
+**Rate your current work happiness/satisfaction between lowest to highest, 1-10: 9**
+
+**Kung di ka nasa work mo now anong dream job mo? (keep it sfw): Celebrity 🧢 **
+
+**Interests: Sports, esports, photography/cinematography, streaming, homelabbing, studying, anime, looking into 3D modeling, etc. (I'm everywhere as of the moment :okaycry:) **

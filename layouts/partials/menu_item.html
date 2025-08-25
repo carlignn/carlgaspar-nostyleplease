@@ -4,7 +4,9 @@
             {{- with $item.url -}}
                 <a href="{{ $item.url }}">{{ safeHTML $item.title }}</a>
             {{- else -}}
-                {{ if eq $item.title "posts by tag" }} <!-- If tag, add the link to the tag word only -->
+                {{ if eq $item.title "whoami, portfolio" }} <!-- If whoami, portfolio, add the link to custom -->
+                    <a href="about">whoami</a>, <a href="portfolio">portfolio</a>
+                {{ else if eq $item.title "posts by tag" }} <!-- If tag, add the link to the tag word only -->
                     posts by <a href="tags">tags</a>
                 {{ else }}
                     {{ safeHTML $item.title }} <!--  Normal title -->

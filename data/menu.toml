@@ -2,15 +2,14 @@
 title = "info"
 
   [[entries.entries]]
-  title = "whoami"
-  url = "about"
+  title = "now"
+  url = "now"
+
+  [[entries.entries]] # whoami  and portfolio has been modified to menu_item.html
+  title = "whoami, portfolio"
 
   [[entries.entries]]
-  title = "portfolio"
-  url = "portfolio"
-
-  [[entries.entries]]
-  title = "cybersecurity officer, sec+ // developer"
+  title = "it security analyst iii, sec+ // developer"
 
 [[entries]]
 title = "all posts"

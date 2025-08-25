@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/tags/all/</loc>
+    <lastmod>2025-08-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-08-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/now/</loc>
+    <lastmod>2025-08-25T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/homelab/</loc>
     <lastmod>2025-01-09T16:00:00+00:00</lastmod>
   </url><url>
@@ -17,14 +26,8 @@
     <loc>//localhost:1313/homelab/pi-hole-lxc-setup/</loc>
     <lastmod>2025-01-01T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-01-01T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/homelab/truenas-setup-in-proxmox/</loc>
     <lastmod>2024-12-30T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/all/</loc>
-    <lastmod>2023-10-09T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/human/</loc>
     <lastmod>2023-10-09T16:00:00+00:00</lastmod>
@@ -170,14 +173,13 @@
     <loc>//localhost:1313/posts/strange-post/</loc>
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/socials-internal/</loc>
-    <lastmod>1901-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/portfolio/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/socials/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/socials-internal/</loc>
   </url><url>
     <loc>//localhost:1313/about/</loc>
   </url>
