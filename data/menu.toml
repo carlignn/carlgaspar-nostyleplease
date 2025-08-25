@@ -1,11 +1,7 @@
-[[entries]]
+[[entries]] # info has been overriden in menu_item.html
 title = "info"
 
-  [[entries.entries]]
-  title = "now"
-  url = "now"
-
-  [[entries.entries]] # whoami  and portfolio has been modified to menu_item.html
+  [[entries.entries]] # whoami and portfolio has been overriden in menu_item.html
   title = "whoami, portfolio"
 
   [[entries.entries]]
