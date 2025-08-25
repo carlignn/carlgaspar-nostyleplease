@@ -8,6 +8,14 @@ tags:
 
 ***
 
+End of hiatus
+
+Reading a book
+
+Updating this website
+
+Habitica
+
 I'm currently working on this blogpost. I was on a 2-year hiatus and focused on everything else other than my career.
 
 Growth on:
