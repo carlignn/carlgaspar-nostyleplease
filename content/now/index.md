@@ -10,11 +10,16 @@ tags:
 
 End of hiatus
 
-Reading a book
+Reading a book and books that I've read
 
 Updating this website
 
 Habitica
+
+Knee surgery, ACL and patellar tendinitis
+
+
+
 
 I'm currently working on this blogpost. I was on a 2-year hiatus and focused on everything else other than my career.
 
