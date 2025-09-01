@@ -45,7 +45,7 @@ If there's only one thing, don't put it on a bullet
 ## Updating
 Before the actual body, put in
 ```
-First posted on: `2025-01-09T16:00:00.000Z`
+First posted on: `2025-01-09T00:00:00.000Z`
 ```
 
 ## Notes

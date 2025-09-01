@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity Interview "Answers"
-date: 2022-10-23T16:00:00.000Z
+date: 2022-10-23T00:00:00.000Z
 draft: true
 subtitle: My answers to the 60 Cybersecurity Interview Questions by DanielMiessler
 tags:

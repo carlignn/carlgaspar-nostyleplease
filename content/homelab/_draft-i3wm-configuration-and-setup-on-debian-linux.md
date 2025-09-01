@@ -1,7 +1,7 @@
 ---
 title: i3wm Configuration and Setup on Debian Linux
 subtitle: 'Uhh, why am I here?'
-date: 2025-01-02T16:00:00.000Z
+date: 2025-01-02T00:00:00.000Z
 draft: true
 tags:
   - all

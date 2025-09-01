@@ -1,7 +1,7 @@
 ---
 title: i3wm Configuration and Setup on Alpine Linux
 subtitle: 'Uhh, why am I here?'
-date: 2024-12-22T16:00:00.000Z
+date: 2024-12-22T00:00:00.000Z
 draft: true
 tags:
   - all

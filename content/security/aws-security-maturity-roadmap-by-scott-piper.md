@@ -1,7 +1,7 @@
 ---
 title: AWS Security Maturity Roadmap by Scott Piper
 subtitle: Write-up from Scott Piper's blog on AWS Security Maturity Roadmap
-date: 2023-09-20T16:00:00.000Z
+date: 2023-09-20T00:00:00.000Z
 tags:
   - all
   - security

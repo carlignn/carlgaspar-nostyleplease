@@ -2,7 +2,7 @@
 title: My Postiz Documentation
 subtitle: ''
 draft: false
-date: 2025-08-27T16:00:00.000Z
+date: 2025-08-27T00:00:00.000Z
 tags:
   - all
   - homelab

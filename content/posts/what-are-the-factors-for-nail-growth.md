@@ -2,7 +2,7 @@
 title: What Are the Factors for Nail Growth?
 subtitle: null
 draft: false
-date: 2025-08-28T16:00:00.000Z
+date: 2025-08-28T00:00:00.000Z
 tags:
   - all
   - human

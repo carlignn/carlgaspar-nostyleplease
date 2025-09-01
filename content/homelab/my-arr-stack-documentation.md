@@ -4,13 +4,13 @@ subtitle: >-
   The title used to be Arr Stack in Proxmox but has sinced changed and moved to
   TrueNAS
 draft: false
-date: 2025-08-25T16:00:00.000Z
+date: 2025-08-25T00:00:00.000Z
 tags:
   - all
   - homelab
 ---
 
-First posted on: `2025-01-09T16:00:00.000Z`
+First posted on: `2025-01-09T00:00:00.000Z`
 
 ***
 

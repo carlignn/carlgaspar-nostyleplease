@@ -2,13 +2,13 @@
 title: My Pi-Hole Documentation
 subtitle: ''
 draft: false
-date: 2025-08-25T16:00:00.000Z
+date: 2025-08-25T00:00:00.000Z
 tags:
   - all
   - homelab
 ---
 
-First posted on: `2025-01-01T16:00:00.000Z`
+First posted on: `2025-01-01T00:00:00.000Z`
 
 ***
 
