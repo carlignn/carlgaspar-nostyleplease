@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/homelab/</loc>
+    <lastmod>2025-09-02T16:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/all/</loc>
     <lastmod>2025-08-28T16:00:00+00:00</lastmod>
   </url><url>
@@ -16,9 +19,6 @@
   </url><url>
     <loc>//localhost:1313/posts/what-are-the-factors-for-nail-growth/</loc>
     <lastmod>2025-08-28T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/</loc>
-    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/homelab/</loc>
     <lastmod>2025-08-27T16:00:00+00:00</lastmod>

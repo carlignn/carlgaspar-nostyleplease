@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      My Notification Documentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-09-01 16:00:00 &#43;0000 UTC">
+            
+                2025-09-01
+            
+        </time>
+    </p>
+
+    <h1>My Notification Documentation</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <p>For this project, I&rsquo;ve seen options between Discord, SMS, and email. I ended up with email as it seems like it&rsquo;s the best for my use case: open industry standard, has been around forever, and isn&rsquo;t going anywhere.</p>
+<h2 id="problem">Problem</h2>
+<p>The guides are only set for Gmail. Why? They already offer a standard SMTP interface. I use ProtonMail - and they don&rsquo;t.</p>
+<h2 id="fix">Fix</h2>
+<p>I&rsquo;ve done my research and here are the options that I found:</p>
+<ul>
+<li>ProtonMail Bridge - makes sense, I have the prerequisites that were needed</li>
+<li>SMTP Relay Service - I have an AWS account for my homelab and there&rsquo;s AWS SES for cheap!</li>
+<li>Gmail - <strong>BIG NOPE!</strong></li>
+</ul>
+<p>It looks like my ProtonMail subscription already supports SMTP Relay, might as well use the one that already exists instead of reinventing the wheel.</p>
+<h2 id="main-setup">Main Setup</h2>
+<h3 id="protonmail-smtp-relay">Protonmail SMTP Relay</h3>
+<p>Go to Settings &gt; Proton Mail &gt; IMAP/SMTP &gt; SMTP submission &gt; Generate token &gt; Input Token name</p>
+<p>It is advisable to use a different token for each service. When a token gets compromised, you&rsquo;ll only need to change that single one.</p>
+<h2 id="per-app-setup">Per App Setup</h2>
+<h3 id="opnsense">OPNSense</h3>
+<p>Go to Services &gt; Monit &gt; Settings:</p>
+<ul>
+<li>Enable Monit</li>
+<li>Polling Interval - this is not so important that I&rsquo;d need to put it to 30 seconds. Defaulting to default(120)</li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>
