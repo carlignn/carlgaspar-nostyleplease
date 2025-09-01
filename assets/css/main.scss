@@ -79,6 +79,11 @@ table, th, td {
 code {
   color: white;
   background: black;
+
+  // Added to wrap the texts on codeblocks, it's overflowing without this
+  white-space: pre-wrap;   /* allow wrapping */
+  word-wrap: break-word;   /* old browsers */
+  overflow-wrap: break-word; /* modern browsers */
 }
 
 code.has-jax {
