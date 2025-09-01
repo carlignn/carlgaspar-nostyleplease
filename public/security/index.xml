@@ -30,13 +30,6 @@
       <description>&lt;h2 id=&#34;most-common-security-incidents&#34;&gt;Most common security incidents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Publicly accessible resources such as S3 buckets or ElasticSearch clusters.&lt;/li&gt;&#xA;&lt;li&gt;Leaked access keys. For example, access keys posted to GitHub.&lt;/li&gt;&#xA;&lt;li&gt;Compromised IAM Roles through SSRF or RCE against an EC2, resulting in access to the metadata service at 169.254.169.254.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;aws-security-maturity-roadmap&#34;&gt;AWS Security Maturity Roadmap&lt;/h2&gt;&#xA;&lt;h3 id=&#34;stage-1-inventory&#34;&gt;Stage 1: Inventory&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Identify all AWS accounts in the company and their points of contact.&lt;/li&gt;&#xA;&lt;li&gt;Integrate AWS accounts into AWS Organizations.&lt;/li&gt;&#xA;&lt;li&gt;Ensure all account root emails are on distribution lists.&lt;/li&gt;&#xA;&lt;li&gt;Opt-out of AI services using your data.&lt;/li&gt;&#xA;&lt;li&gt;Have an AWS account for Security.&lt;/li&gt;&#xA;&lt;li&gt;Create budget alarms.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If you don’t already have lots of AWS accounts, recognize that at this point you now have a minimum of 3 AWS accounts (an account that has your business stuff in it, the AWS Organization root account with nothing in it, and the Security account).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Red Team Adversary Emulation With Caldera Part 2</title>
-      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</link>
-      <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</guid>
-      <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Incident Response: Detection and Analysis</title>
       <link>//localhost:1313/security/incident-response-detection-and-analysis/</link>
       <pubDate>Wed, 09 Nov 2022 16:00:00 +0000</pubDate>
@@ -56,13 +49,6 @@
       <pubDate>Thu, 15 Sep 2022 09:25:00 +0000</pubDate>
       <guid>//localhost:1313/security/threat-modeling-fundamentals/</guid>
       <description>&lt;h2 id=&#34;threat-modeling-the-what-why-who-and-when&#34;&gt;Threat Modeling, The What, Why, Who And When&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-is-threat-modeling&#34;&gt;What Is Threat Modeling&lt;/h3&gt;&#xA;&lt;p&gt;Threat Modeling is a process of systematically listing all potential ways one can attack an application.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Systematic approach - repeatable and consistent process during the whole development lifecycle&lt;/li&gt;&#xA;&lt;li&gt;Looking at attacks - actively looking at what can be abused&lt;/li&gt;&#xA;&lt;li&gt;Probable threat scenarios - list of threats&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;definitions&#34;&gt;Definitions&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Weakness - software defect, bug&lt;/li&gt;&#xA;&lt;li&gt;Vulnerability - weakness that can be exploited&lt;/li&gt;&#xA;&lt;li&gt;Attack/Incident - target, attack vector, threat actor&lt;/li&gt;&#xA;&lt;li&gt;Attack surface - anything that can be obtained, used, or attacked by a threat actor&lt;/li&gt;&#xA;&lt;li&gt;Risk = Impact * Likelihood&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-should-one-perform-threat-modeling&#34;&gt;Why Should One Perform Threat Modeling&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pro-active approach - security upfront&lt;/li&gt;&#xA;&lt;li&gt;Efficient - the sooner a bug or a vulnerability is discovered in the SDLC, the cheaper it is&lt;/li&gt;&#xA;&lt;li&gt;Prioritize bugs - the outcome is the list of potential threats and/or risks of the application, which is used to determine further mitigation strategies that will allow to prioritize the workload&lt;/li&gt;&#xA;&lt;li&gt;Better understanding - will give the developers a whole overview of the system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;The ultimate objective of threat modeling is risk reduction.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Red Team Adversary Emulation With Caldera Part 1</title>
-      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</link>
-      <pubDate>Wed, 14 Sep 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</guid>
-      <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Risk Assessment and Management</title>

@@ -44,20 +44,6 @@
       <description></description>
     </item>
     <item>
-      <title>Draft</title>
-      <link>//localhost:1313/tags/draft/</link>
-      <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/draft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Redteam</title>
-      <link>//localhost:1313/tags/redteam/</link>
-      <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/redteam/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hacking</title>
       <link>//localhost:1313/tags/hacking/</link>
       <pubDate>Mon, 19 Sep 2022 06:11:00 +0000</pubDate>

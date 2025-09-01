@@ -65,18 +65,25 @@
       <description>&lt;h2 id=&#34;storage-increase&#34;&gt;Storage Increase&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk.&lt;/li&gt;&#xA;&lt;li&gt;Click Resize disk and add the extra GBs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ext4&#34;&gt;ext4&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;xfs&#34;&gt;xfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xfs_growfs /&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;zfs&#34;&gt;zfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No need to &lt;span style=&#34;color:#f00&#34;&gt;do&lt;/span&gt; anything.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>My Archivebox Documentation</title>
-      <link>//localhost:1313/homelab/my-archivebox-documentation-copy/</link>
-      <pubDate>Thu, 09 Jan 2025 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/my-archivebox-documentation-copy/</guid>
-      <description>&lt;p&gt;Last updated on: 2025-08-25&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;overseerr - request manager&lt;/li&gt;&#xA;&lt;li&gt;plex - media manager&lt;/li&gt;&#xA;&lt;li&gt;prowlarr - indexer (for radarr and sonarr)&lt;/li&gt;&#xA;&lt;li&gt;qbittorrent - torrent client&lt;/li&gt;&#xA;&lt;li&gt;radarr - movie collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;li&gt;sonarr - tv show collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
       <title>My Arr Stack Documentation</title>
       <link>//localhost:1313/homelab/my-arr-stack-documentation/</link>
-      <pubDate>Thu, 09 Jan 2025 16:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/homelab/my-arr-stack-documentation/</guid>
-      <description>&lt;p&gt;Last updated on: 2025-08-25&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;overseerr - request manager&lt;/li&gt;&#xA;&lt;li&gt;plex - media manager&lt;/li&gt;&#xA;&lt;li&gt;prowlarr - indexer (for radarr and sonarr)&lt;/li&gt;&#xA;&lt;li&gt;qbittorrent - torrent client&lt;/li&gt;&#xA;&lt;li&gt;radarr - movie collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;li&gt;sonarr - tv show collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;First posted on: &lt;code&gt;2025-01-09T16:00:00.000Z&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;overseerr - request manager&lt;/li&gt;&#xA;&lt;li&gt;plex - media manager&lt;/li&gt;&#xA;&lt;li&gt;prowlarr - indexer (for radarr and sonarr)&lt;/li&gt;&#xA;&lt;li&gt;qbittorrent - torrent client&lt;/li&gt;&#xA;&lt;li&gt;radarr - movie collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;li&gt;sonarr - tv show collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My Pi-Hole Documentation</title>
+      <link>//localhost:1313/homelab/my-pi-hole-documentation/</link>
+      <pubDate>Mon, 25 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/my-pi-hole-documentation/</guid>
+      <description>&lt;p&gt;First posted on: &lt;code&gt;2025-01-01T16:00:00.000Z&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Run the &lt;a href=&#34;https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole&#34;&gt;Pi-Hole helper script&lt;/a&gt; to simplify the LXC creation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash -c &lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;$(&lt;/span&gt;wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh&lt;span style=&#34;color:#f00&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the blacklists to improve adblocking &lt;a href=&#34;https://firebog.net/&#34;&gt;https://firebog.net/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For NSFW, try &lt;a href=&#34;https://github.com/blocklistproject/Lists&#34;&gt;This doesn&amp;rsquo;t look like it&amp;rsquo;s working&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;unbound&#34;&gt;Unbound&lt;/h2&gt;&#xA;&lt;p&gt;Just follow the &lt;a href=&#34;https://docs.pi-hole.net/guides/dns/unbound/?h=unbound&#34;&gt;official guide&lt;/a&gt;. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to use Pi-Hole but want to use Unbound, you can use OPNSense with Unbound plugin to make things easier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Archivebox Documentation</title>
+      <link>//localhost:1313/homelab/my-archivebox-documentation-copy/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/my-archivebox-documentation-copy/</guid>
+      <description>&lt;p&gt;First posted on: &lt;code&gt;2025-01-09T16:00:00.000Z&lt;/code&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;overseerr - request manager&lt;/li&gt;&#xA;&lt;li&gt;plex - media manager&lt;/li&gt;&#xA;&lt;li&gt;prowlarr - indexer (for radarr and sonarr)&lt;/li&gt;&#xA;&lt;li&gt;qbittorrent - torrent client&lt;/li&gt;&#xA;&lt;li&gt;radarr - movie collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;li&gt;sonarr - tv show collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Portainer Configuration</title>
@@ -84,13 +91,6 @@
       <pubDate>Thu, 02 Jan 2025 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/homelab/portainer-configuration/</guid>
       <description>&lt;p&gt;Create a VM or an LXC container. In this case, I will use a Debian LXC.&lt;/p&gt;&#xA;&lt;p&gt;Install docker: &lt;a href=&#34;https://docs.docker.com/engine/install/debian/&#34;&gt;https://docs.docker.com/engine/install/debian/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Install portainer: &lt;a href=&#34;https://docs.portainer.io/start/install-ce/server/docker/linux&#34;&gt;https://docs.portainer.io/start/install-ce/server/docker/linux&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Or just use the docker LXC: &lt;a href=&#34;https://community-scripts.github.io/ProxmoxVE/scripts?id=docker&#34;&gt;https://community-scripts.github.io/ProxmoxVE/scripts?id=docker&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Pi-Hole Documentation</title>
-      <link>//localhost:1313/homelab/my-pi-hole-documentation/</link>
-      <pubDate>Wed, 01 Jan 2025 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/my-pi-hole-documentation/</guid>
-      <description>&lt;p&gt;Last updated on: 2025-08-25&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Run the &lt;a href=&#34;https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole&#34;&gt;Pi-Hole helper script&lt;/a&gt; to simplify the LXC creation.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash -c &lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f00&#34;&gt;$(&lt;/span&gt;wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh&lt;span style=&#34;color:#f00&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#87ceeb&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the blacklists to improve adblocking &lt;a href=&#34;https://firebog.net/&#34;&gt;https://firebog.net/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For NSFW, try &lt;a href=&#34;https://github.com/blocklistproject/Lists&#34;&gt;This doesn&amp;rsquo;t look like it&amp;rsquo;s working&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;unbound&#34;&gt;Unbound&lt;/h2&gt;&#xA;&lt;p&gt;Just follow the &lt;a href=&#34;https://docs.pi-hole.net/guides/dns/unbound/?h=unbound&#34;&gt;official guide&lt;/a&gt;. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to use Pi-Hole but want to use Unbound, you can use OPNSense with Unbound plugin to make things easier.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TrueNAS Setup in Proxmox</title>
