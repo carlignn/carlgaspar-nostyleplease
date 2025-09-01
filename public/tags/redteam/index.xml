@@ -10,16 +10,16 @@
     <atom:link href="//localhost:1313/tags/redteam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 2</title>
-      <link>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-2/</link>
+      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</link>
       <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-2/</guid>
+      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</guid>
       <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 1</title>
-      <link>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</link>
+      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</link>
       <pubDate>Wed, 14 Sep 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</guid>
+      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</guid>
       <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

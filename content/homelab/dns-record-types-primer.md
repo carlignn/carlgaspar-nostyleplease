@@ -1,6 +1,7 @@
 ---
 title: DNS Record Types Primer
-draft: true
+subtitle: ''
+draft: false
 date: 2022-10-25T16:00:00.000Z
 tags:
   - all
@@ -26,7 +27,7 @@ Using this method, you can also point subdomains to different servers than your 
 
 ## CNAME Records
 
-CNAME stands for Canonical Name Record. CName records only resolves to domains and subdomains. A CNAME record points one of your subdomains to a different domain name. A CNAME cannot be set up on your bare domain! You could set up a CNAME record on [www.name.com](https://www.name.com) but not on simply name.com. One thing that CNAME records are commonly used for is to direct a part of your site to a site you have set up elsewhere, such as an eCommerce shop or something similar.
+CNAME stands for Canonical Name Record. CName records only resolves to domains and subdomains. A CNAME record points one of your subdomains to a different domain name. A CNAME cannot be set up on your bare domain! You could set up a CNAME record on www.name.com but not on simply name.com. One thing that CNAME records are commonly used for is to direct a part of your site to a site you have set up elsewhere, such as an eCommerce shop or something similar.
 
 ## MX Records
 
@@ -34,7 +35,7 @@ MX stands for Mail Exchange. MX record does resolves to text and not IP-records.
 
 ### How To Do A DNS Lookup Of An MX Record Using CMD
 
-Related: [NSLookup Primer](/security/nslookup-primer "NSLookup Primer")
+Related: [NSLookup Primer](/homelab/nslookup-primer "NSLookup Primer")
 
 `nslookup` can be used in two modes: interactive and non-interactive. to initiate interactive mode, type the command name only: `nslookup`
 

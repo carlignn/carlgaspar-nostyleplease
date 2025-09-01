@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      My Frigate Documentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-08-27 16:00:00 &#43;0000 UTC">
+            
+                2025-08-27
+            
+        </time>
+    </p>
+
+    <h1>My Frigate Documentation</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="hardware">Hardware</h2>
+<p>I wanted something that would last a long time, the common brands based from my research are HikVision and Dahua. Here are my requirements:</p>
+<ul>
+<li>Supports Frigate</li>
+<li>High quality - atleast 4mp</li>
+<li>With POE - so that there are less wires and no more trouble of looking for the nearest power outlet</li>
+<li>Lightweight - I need it to be as light as possible because I can&rsquo;t drill in my current place so I have to stick it on the ceiling. I ended up going with a dome type CCTV since they are the lightest</li>
+<li>With audio - I need to record what people are talking about (plus points for digital memories)</li>
+<li>IR - the most common CCTVs have lights that will be activated when it&rsquo;s dark. I don&rsquo;t want to flash everyone around my place in the middle of the night.</li>
+</ul>
+<p>This requirement is really hard to find locally for me. But after more research, I finally found the perfect one - <a href="https://shopee.ph/Dahua-HD-5MP-WDR-IR-Dome-Network-Camera-Wired-Outdoor-Intelligent-Detection-Night-Vision-IP-Camera-i.702273837.17463707511">Dahua DH-IPC-HDBW2541E-S</a>. It has checked all the boxes, I don&rsquo;t need to worry about anything else. Put in the heavy duty tape, put it on the ceiling, open it, point to the best angle, and you&rsquo;re good to go.</p>
+<h2 id="configuration-file">Configuration File</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>mqtt:
+</span></span><span style="display:flex;"><span>  enabled: <span style="color:#f00">false</span>
+</span></span><span style="display:flex;"><span>audio: <span style="color:#0f0"># &lt;- enable audio events for all camera</span>
+</span></span><span style="display:flex;"><span>  enabled: <span style="color:#f00">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>go2rtc:
+</span></span><span style="display:flex;"><span>  streams:
+</span></span><span style="display:flex;"><span>    living_room_main:
+</span></span><span style="display:flex;"><span>      - rtsp://{FRIGATE_RTSP_USER}:{FRIGATE_RTSP_PASSWORD}@10.10.50.1:554/live0
+</span></span><span style="display:flex;"><span>    living_room_sub:
+</span></span><span style="display:flex;"><span>      - rtsp://{FRIGATE_RTSP_USER}:{FRIGATE_RTSP_PASSWORD}@10.10.50.1:554/live1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cameras:
+</span></span><span style="display:flex;"><span>  living_room: <span style="color:#0f0"># &lt;------ Name the camera</span>
+</span></span><span style="display:flex;"><span>    enabled: <span style="color:#f00">true</span>
+</span></span><span style="display:flex;"><span>    ffmpeg:
+</span></span><span style="display:flex;"><span>      output_args:
+</span></span><span style="display:flex;"><span>        record: preset-record-generic-audio-aac
+</span></span><span style="display:flex;"><span>      inputs:
+</span></span><span style="display:flex;"><span>        - path: rtsp://{FRIGATE_RTSP_USER}:{FRIGATE_RTSP_PASSWORD}@127.0.0.1:8554/living_room_main     <span style="color:#0f0"># &lt;----- The stream you want to use for record</span>
+</span></span><span style="display:flex;"><span>          input_args: preset-rtsp-restream
+</span></span><span style="display:flex;"><span>          roles:
+</span></span><span style="display:flex;"><span>            - record
+</span></span><span style="display:flex;"><span>        - path: rtsp://{FRIGATE_RTSP_USER}:{FRIGATE_RTSP_PASSWORD}@127.0.0.1:8554/living_room_sub     <span style="color:#0f0"># &lt;----- The stream you want to use for detection</span>
+</span></span><span style="display:flex;"><span>          input_args: preset-rtsp-restream
+</span></span><span style="display:flex;"><span>          roles:
+</span></span><span style="display:flex;"><span>            - detect
+</span></span><span style="display:flex;"><span>            - audio
+</span></span><span style="display:flex;"><span>    live:
+</span></span><span style="display:flex;"><span>      stream_name: living_room_main
+</span></span><span style="display:flex;"><span>    detect:
+</span></span><span style="display:flex;"><span>      enabled: <span style="color:#f00">true</span> <span style="color:#0f0"># &lt;---- disable detection until you have a working camera feed</span>
+</span></span><span style="display:flex;"><span>      width: <span style="color:#f60">704</span>
+</span></span><span style="display:flex;"><span>      height: <span style="color:#f60">576</span>
+</span></span><span style="display:flex;"><span>      fps: <span style="color:#f60">5</span>
+</span></span><span style="display:flex;"><span>    objects:
+</span></span><span style="display:flex;"><span>      track:
+</span></span><span style="display:flex;"><span>        - person
+</span></span><span style="display:flex;"><span>        - dog
+</span></span><span style="display:flex;"><span>        - cat
+</span></span><span style="display:flex;"><span>      filters:
+</span></span><span style="display:flex;"><span>        person:
+</span></span><span style="display:flex;"><span>          threshold: <span style="color:#f60">0.8</span>
+</span></span><span style="display:flex;"><span>    snapshots:
+</span></span><span style="display:flex;"><span>      enabled: <span style="color:#f00">true</span>
+</span></span><span style="display:flex;"><span>      timestamp: <span style="color:#f00">false</span>
+</span></span><span style="display:flex;"><span>      bounding_box: <span style="color:#f00">true</span>
+</span></span><span style="display:flex;"><span>      retain:
+</span></span><span style="display:flex;"><span>        default: <span style="color:#f60">5</span>
+</span></span><span style="display:flex;"><span>    record:
+</span></span><span style="display:flex;"><span>      enabled: <span style="color:#f00">true</span>
+</span></span><span style="display:flex;"><span>      retain:
+</span></span><span style="display:flex;"><span>        days: <span style="color:#f60">3</span>
+</span></span><span style="display:flex;"><span>        mode: all
+</span></span><span style="display:flex;"><span>      alerts:
+</span></span><span style="display:flex;"><span>        retain:
+</span></span><span style="display:flex;"><span>          days: <span style="color:#f60">7</span>
+</span></span><span style="display:flex;"><span>          mode: motion
+</span></span><span style="display:flex;"><span>      detections:
+</span></span><span style="display:flex;"><span>        retain:
+</span></span><span style="display:flex;"><span>          days: <span style="color:#f60">7</span>
+</span></span><span style="display:flex;"><span>          mode: motion
+</span></span><span style="display:flex;"><span>    motion:
+</span></span><span style="display:flex;"><span>      mask: <span style="color:#f60">0.551</span>,<span style="color:#f60">0.034</span>,<span style="color:#f60">0.958</span>,<span style="color:#f60">0.034</span>,<span style="color:#f60">0.957</span>,<span style="color:#f60">0.082</span>,<span style="color:#f60">0.552</span>,<span style="color:#f60">0.081</span>
+</span></span><span style="display:flex;"><span>version: <span style="color:#f60">0.15-1</span>
+</span></span></code></pre></div>
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

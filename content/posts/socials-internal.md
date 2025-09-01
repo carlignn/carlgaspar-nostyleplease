@@ -85,6 +85,11 @@ Wordpress - [https://wordpress.com/reader/users/carlignn](https://wordpress.com/
 
 **Remove ridiculous ones**
 
+kit.co
+
+
+--
+
 **Discord shit**
 
 **Nickname: Carl**

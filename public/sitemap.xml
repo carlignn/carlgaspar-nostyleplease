@@ -3,37 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/tags/all/</loc>
-    <lastmod>2025-08-25T00:00:00+08:00</lastmod>
+    <lastmod>2025-08-28T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/human/</loc>
+    <lastmod>2025-08-28T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-08-28T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-08-25T00:00:00+08:00</lastmod>
+    <lastmod>2025-08-28T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/what-are-the-factors-for-nail-growth/</loc>
+    <lastmod>2025-08-28T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/homelab/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/linux-hostname-primer/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-backblaze-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-frigate-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-opnsense-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-portainer-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-postiz-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/my-truenas-documentation/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/homelab/proxmox-lxc-and-vm-primer/</loc>
+    <lastmod>2025-08-27T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/now/</loc>
     <lastmod>2025-08-25T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/</loc>
+    <loc>//localhost:1313/homelab/my-archivebox-documentation-copy/</loc>
     <lastmod>2025-01-09T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/my-arr-stack-in-proxmox/</loc>
+    <loc>//localhost:1313/homelab/my-arr-stack-documentation/</loc>
     <lastmod>2025-01-09T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/homelab/portainer-configuration/</loc>
     <lastmod>2025-01-02T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/homelab/</loc>
-    <lastmod>2025-01-01T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/pi-hole-lxc-setup/</loc>
+    <loc>//localhost:1313/homelab/my-pi-hole-documentation/</loc>
     <lastmod>2025-01-01T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/homelab/truenas-setup-in-proxmox/</loc>
     <lastmod>2024-12-30T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/human/</loc>
-    <lastmod>2023-10-09T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2023-10-09T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/top-8-soft-skills/</loc>
     <lastmod>2023-10-09T16:00:00+00:00</lastmod>
@@ -56,64 +86,34 @@
     <loc>//localhost:1313/security/aws-security-maturity-roadmap-by-scott-piper/</loc>
     <lastmod>2023-09-20T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/blueteam/</loc>
-    <lastmod>2023-09-06T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/malware-analysis-fundamentals/</loc>
-    <lastmod>2023-09-06T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/draft/</loc>
-    <lastmod>2023-07-12T16:00:00+00:00</lastmod>
+    <lastmod>2023-07-05T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/game/</loc>
-    <lastmod>2023-07-12T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/my-pokemmo-pokemon-guide/</loc>
-    <lastmod>2023-07-12T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/owasp-zap-zed-attack-proxy/</loc>
-    <lastmod>2023-07-09T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/application/</loc>
-    <lastmod>2023-07-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/chatgpt/</loc>
-    <lastmod>2023-07-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/documentation/</loc>
-    <lastmod>2023-07-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/learning-flutter-from-csereviewer/</loc>
-    <lastmod>2023-07-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/project/</loc>
-    <lastmod>2023-07-07T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-2/</loc>
+    <loc>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</loc>
     <lastmod>2023-07-05T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/redteam/</loc>
     <lastmod>2023-07-05T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cheatsheet/</loc>
-    <lastmod>2022-12-08T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/incident-response-phishing-email-investigation-cheatsheet/</loc>
-    <lastmod>2022-12-08T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/homelab/incident-response-detection-and-analysis/</loc>
+    <loc>//localhost:1313/security/incident-response-detection-and-analysis/</loc>
     <lastmod>2022-11-09T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/incident-response-tools/</loc>
-    <lastmod>2022-11-09T16:00:00+00:00</lastmod>
+    <loc>//localhost:1313/homelab/nslookup-primer/</loc>
+    <lastmod>2022-10-25T16:00:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/incident-response/</loc>
-    <lastmod>2022-10-10T16:00:00+00:00</lastmod>
+    <loc>//localhost:1313/homelab/dns-record-types-primer/</loc>
+    <lastmod>2022-10-25T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/hacking/</loc>
+    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
+    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/security/threat-modeling-fundamentals/</loc>
     <lastmod>2022-09-15T09:25:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</loc>
+    <loc>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</loc>
     <lastmod>2022-09-14T16:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/guide/</loc>
@@ -135,6 +135,9 @@
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
+    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/project/</loc>
     <lastmod>2021-09-30T07:04:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/</loc>

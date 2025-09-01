@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      My OPNSense Documentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-08-27 16:00:00 &#43;0000 UTC">
+            
+                2025-08-27
+            
+        </time>
+    </p>
+
+    <h1>My OPNSense Documentation</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="hardware">Hardware</h2>
+<p>I have no choice but to buy a new hardware because we moved to a new place, therefore the internet has changed too - for the worse. Just like before, it has the option to configure subnet but it&rsquo;s not working!</p>
+<p>My options were the NanoPI R5S router, Gl.inet stuff, then this one - the Lenovo m720q - the best mini PC that you could get for cheap.</p>
+<p>I chose this one because of the upgradability and <em>aesthetics</em>, and the price difference is also not that high so might as well settle for the one that pleases my eyes the most.</p>
+<ul>
+<li>Chassis - <a href="https://shopee.ph/Lenovo-M710Q-M720Q-M73-Mini-Desktop-Computer-I3i5-Quad-Core-Commercial-Office-Finance-Mini-Host-i.1290300602.27804148815">Lenovo m720q mini PC</a></li>
+<li>CPU - Intel i5 8500T</li>
+<li>System storage - <a href="https://shopee.ph/Kingston-NV1-M.2-Nvme-SSD-250GB-500GB-1TB-PcIe-2280-Solid-State-Hard-Drive-For-Laptop-Desktop-PC-i.745034587.22835084403">Kingston NV1 M.2 Nvme</a> - 120gb * 1</li>
+<li>RAM - <a href="https://shopee.ph/Kingston-Hyperx-Impact-Laptop-DDR4-RAM-4GB-8GB-16GB-2133-2400Mhz-2666Mhz-3200Mhz-SOIDMM-RAM-Memory-i.745034587.24265223941">Kingston Hyperx 2666mhz</a> - 16gb * 1 (this is from one of my Lenovo mini PC, I can&rsquo;t justify buying a new 8gb stick for this)</li>
+<li>NIC - <a href="https://shopee.ph/2-Port-Gigabit-PCIe-Network-Card-1000M-Dual-Ports-PCI-Express-Ethernet-Adapter-with-82571EB-LAN-NIC-Card-for-Windows-i.181060955.19440116949">2-Port Gigabit PCIe network card</a> - this is an old NIC that I was planning on using with my NAS but ended up not doing so. Good thing I remembered I have this before buying a new one</li>
+<li>Misc - <a href="https://shopee.ph/-UTnus9ddL-PCI-E-Graphic-Card-Adapter-Card-Tiny-4-Riser-Card-for-Lenovo-Tiny4-Series-Models-M720Q-01AJ940-PCIE-Riser-Card-i.371192636.26516030851">Riser card adapter</a></li>
+</ul>
+<h2 id="setup">Setup</h2>
+<p>Diagram: Modem/Router &gt; OPNSense Firewall &gt; Switch &gt; Devices</p>
+<p>For this setup, I&rsquo;ve decided to not put my modem into bridge mode and use it as a regular WiFi. I don&rsquo;t want to go through the stress of routing all our (mobile phones) traffic through my entire network. So this will just do for now.</p>
+<p>From the command line (directly connected to OPNSense) setup the interface. Bind the <strong>WAN</strong> to the port between the firewall and the modem, and <strong>LAN</strong> to the port between the firewall and the switch.</p>
+<ul>
+<li>WAN IP 192.168.0.2</li>
+<li>LAN IP 10.10.0.1</li>
+</ul>
+<p>In the web interface (LAN IP) &gt; Go to System &gt; Firmware &gt; Updates and update OPNSense.</p>
+<p>I&rsquo;d like my setup to be as simple as possible, a WAN and a LAN (I only have one switch, for now).</p>
+<p>Go to Interface &gt; WAN/LAN &gt; Enable Interface &gt; Set the IP address to static on IPv4 (because I want it to be static) &gt; Disable IPv6 (case-to-case basis) &gt; The subnet will be at /16 for the meantime.</p>
+<h3 id="firewall">Firewall</h3>
+<p>For some reason, the NATting is not working automatically by default. I have to set it to hybrid for it to work. Go to Firewall &gt; NAT &gt; Outbound &gt; Chec Hybrid &gt; Add any to any rule.</p>
+<h3 id="dns">DNS</h3>
+<p>For some reason, the machines are not being provided with DNS (only DHCP). You need to check what services are running. Go to Lobby &gt; Dashboard &gt; Services. There I found the culprit - Dnsmasq DNS &amp; DHCP are enabled. I just had to disable it  in Services &gt; Dnsmasq DNS &amp; DHCP &gt; General &gt; Uncheck Enable.</p>
+<p>Then set it up with the (outdated) ISC DHCPv4. Go to Servcices &gt; LAN &gt; Enable &gt; And setup the DHCP Range, DNS servers (10.10.10.5, 1.1.1.1), and Gateway (10.10.0.1).</p>
+<h4 id="unbound">Unbound</h4>
+<p>I just found out the Unbound DNS was enabled by default. If I&rsquo;m not using pihole, I&rsquo;d just use this one since it&rsquo;s better looking and easier to manage. Disabling..</p>
+<h2 id="vlans">VLANs</h2>
+<p>I want to configure VLANs but I don&rsquo;t have the capacity for that yet. I think I&rsquo;m not smart enough as of the moment. For the meantime, everything is on /16 subnet so that they could all see each other :))</p>
+<h2 id="tailscale">Tailscale</h2>
+<p>Wow, OPNSense has a Tailscale plugin. This had made things a lot easier. Go to System &gt; Firmware &gt; Plugins &gt; Check Show community plugins &gt; Add tailscale &gt; Tailscale should start showing up in the VPN tab together with other VPN providers</p>
+<p>I chose tailscale because of ease of use. I want people to be able to connect to my network then my NAS for their storage needs, and tailscale is the app for that.</p>
+<p>To set it up, go to VPN &gt; Tailscale &gt; Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire <a href="/tags/homelab">homelab</a>. It feels unsafe but it can change in the future after researching more.</p>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

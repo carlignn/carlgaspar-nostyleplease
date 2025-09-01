@@ -1,4 +1,62 @@
-# no style, please!
+# my documentation
+
+## Hugoing
+
+To run: npm run dev
+Install TinaCMS if not yet installed: npm install @tinacms/cli
+Remove and reinstall old modules if outdated:
+```
+	rm -rf node_modules package-lock.json
+	npm install
+```
+
+## Commiting
+
+If there are changes: git add .
+If ready to commit: git commit -m "Message"
+If ready to push: git push origin master
+
+## Tags
+Needs to be alphabetical.
+
+Every post needs to have the **all** tag.
+
+* all - all posts should have this tag
+* guide - for guides
+* human - human related
+* philippines
+* project
+* security
+* write-up
+
+## Draft
+* draft: true
+* If you can't update yet, add "_draft-" in front of the filename so that it's visibly visible.
+* If archiving for memories sake, add "zzz-" in front of the filename so that it goes all the way down on sorting.
+
+## Referencing
+If there's only one thing, don't put it on a bullet
+```
+## Reference
+
+* [Title Title](https:www.www.com)
+```
+
+## Updating
+Before the actual body, put in
+```
+First posted on: `2025-01-09T16:00:00.000Z`
+```
+
+## Notes
+
+* Internal use or guides are dated - `0001-01-01T00:00:00+08:00`.
+* Some post doesn't use date although very rare.
+* **NEVER USE H1, ONLY THE TITLE IS H1**.
+
+***
+
+# no style, please! official documentation
 
 <img src="https://raw.githubusercontent.com/Masellum/hugo-theme-nostyleplease/main/logo.png" width="64" align="left" />A (nearly) no-CSS, fast, minimalist [Hugo](https://gohugo.io/) theme ported from [riggraz
 /

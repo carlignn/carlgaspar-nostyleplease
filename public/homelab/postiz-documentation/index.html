@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Postiz Documentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-08-27 16:00:00 &#43;0000 UTC">
+            
+                2025-08-27
+            
+        </time>
+    </p>
+
+    <h1>Postiz Documentation</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="installation">Installation</h2>
+<p>Run this Proxmox helper script to create a Debian LXC with Docker inside.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash -c <span style="color:#87ceeb">&#34;</span><span style="color:#f00">$(</span>curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh<span style="color:#f00">)</span><span style="color:#87ceeb">&#34;</span>
+</span></span></code></pre></div><ul>
+<li>IPv4 = static</li>
+<li>IPv6 = disabled</li>
+<li>Docker compose = enabled</li>
+<li>Portainer GUI = disabled</li>
+<li>Portainer agent = enabled</li>
+<li>Expose docker TCP socket = disabled</li>
+</ul>
+<p>Create a postiz folder in the root</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir /postiz
+</span></span></code></pre></div><p>Create a <code>docker-compose.yml</code> file on that directory</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano docker-compose.yml
+</span></span></code></pre></div><p>And paste the <a href="https://docs.postiz.com/installation/docker-compose">Network Requirements</a> changing below code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>MAIN_URL: <span style="color:#87ceeb">&#34;http://localhost:5000&#34;</span>
+</span></span><span style="display:flex;"><span>FRONTEND_URL: <span style="color:#87ceeb">&#34;http://localhost:5000&#34;</span>
+</span></span><span style="display:flex;"><span>NEXT_PUBLIC_BACKEND_URL: <span style="color:#87ceeb">&#34;http://localhost:5000/api&#34;</span>
+</span></span><span style="display:flex;"><span>JWT_SECRET: <span style="color:#87ceeb">&#34;whateveryoulike&#34;</span>
+</span></span></code></pre></div><p>Replace <code>localhost</code> with the IP of the machine (if you&rsquo;re not using the localhost for Postiz).</p>
+<p>Run <code>docker compose up -d</code>. No dash in between docker and compose due to the different requirement from the helper script (newer docker compose version I guess?)</p>
+<p>Doing so will make docker run whatever is inside the <code>docker-compose.yml</code> file. Meaning, you can just create another folder, put another <code>docker-compose.yml</code> file and run the command to have a new separate docker container.</p>
+<h2 id="providers-configuration">Providers Configuration</h2>
+<p>Follow the <a href="https://docs.postiz.com/providers">guide</a> on their official documentation.</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://youtu.be/A6CjAmJOWvA?si=RFVoNxUgPR0RgVOx">Postiz: Installing Tutorial (Local, Docker(-Compose))</a></li>
+<li><a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=docker">Proxmox Helper Scripts for Docker</a></li>
+<li><a href="https://docs.postiz.com/installation/docker-compose">Docker Compose Postiz Docs</a></li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

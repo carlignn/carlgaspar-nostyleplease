@@ -1,7 +1,8 @@
 ---
 title: NSLookup Primer
-date: 2022-10-25T16:00:00.000Z
-draft: true
+subtitle: ''
+date: 2022-10-25T16:00:01.000Z
+draft: false
 tags:
   - all
   - homelab
@@ -11,4 +12,4 @@ tags:
 
 `nslookup` can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: `nslookup`
 
-Related: [MX Record Primer](/security/mx-record-primer "MX Record Primer")
+Related: [MX Record Primer](/homelab/mx-record-primer "MX Record Primer")

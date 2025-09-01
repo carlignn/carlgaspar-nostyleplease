@@ -38,30 +38,23 @@
     </item>
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 2</title>
-      <link>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-2/</link>
+      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</link>
       <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-2/</guid>
+      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-2/</guid>
       <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Incident Response: Detection and Analysis</title>
-      <link>//localhost:1313/homelab/incident-response-detection-and-analysis/</link>
+      <link>//localhost:1313/security/incident-response-detection-and-analysis/</link>
       <pubDate>Wed, 09 Nov 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/incident-response-detection-and-analysis/</guid>
-      <description>&lt;h2 id=&#34;research-the-domain&#34;&gt;Research The Domain&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dns-dumpster&#34;&gt;&lt;a href=&#34;https://dnsdumpster.com/&#34; title=&#34;DNS Dumpster&#34;&gt;DNS Dumpster&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Doing a research on the domain using DNS Dumpster will provide &lt;a href=&#34;//localhost:1313/posts/dns-record-types-primer&#34; title=&#34;DNS Record Types Primer&#34;&gt;DNS Records&lt;/a&gt;, much like the same information you&amp;rsquo;ll get when you register a web server.&lt;/p&gt;&#xA;&lt;h3 id=&#34;shodanio&#34;&gt;&lt;a href=&#34;https://www.shodan.io/&#34; title=&#34;Shodan.io&#34;&gt;Shodan.io&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;virustotal&#34;&gt;&lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34; title=&#34;VirusTotal&#34;&gt;VirusTotal&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Incident Response: Detection and Analysis</title>
-      <link>//localhost:1313/homelab/incident-response-tools/</link>
-      <pubDate>Wed, 09 Nov 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/incident-response-tools/</guid>
+      <guid>//localhost:1313/security/incident-response-detection-and-analysis/</guid>
       <description>&lt;h2 id=&#34;research-the-domain&#34;&gt;Research The Domain&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dns-dumpster&#34;&gt;&lt;a href=&#34;https://dnsdumpster.com/&#34; title=&#34;DNS Dumpster&#34;&gt;DNS Dumpster&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Doing a research on the domain using DNS Dumpster will provide &lt;a href=&#34;//localhost:1313/posts/dns-record-types-primer&#34; title=&#34;DNS Record Types Primer&#34;&gt;DNS Records&lt;/a&gt;, much like the same information you&amp;rsquo;ll get when you register a web server.&lt;/p&gt;&#xA;&lt;h3 id=&#34;shodanio&#34;&gt;&lt;a href=&#34;https://www.shodan.io/&#34; title=&#34;Shodan.io&#34;&gt;Shodan.io&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;virustotal&#34;&gt;&lt;a href=&#34;https://www.virustotal.com/gui/home/upload&#34; title=&#34;VirusTotal&#34;&gt;VirusTotal&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 1</title>
-      <link>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</link>
+      <link>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</link>
       <pubDate>Wed, 14 Sep 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/red-team-adversary-emulation-with-caldera-part-1/</guid>
+      <guid>//localhost:1313/security/red-team-adversary-emulation-with-caldera-part-1/</guid>
       <description>&lt;p&gt;how to use the Mitre ATT&amp;amp;CK.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://youtu.be/EIHLXWnK1Dw&#34;&gt;https://youtu.be/EIHLXWnK1Dw&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

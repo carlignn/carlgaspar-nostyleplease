@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Portainer Configuration
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-08-27 16:00:00 &#43;0000 UTC">
+            
+                2025-08-27
+            
+        </time>
+    </p>
+
+    <h1>Portainer Configuration</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="installation">Installation</h2>
+<p>Run this Proxmox helper script to create a Debian LXC with Docker inside. Then enabled portainer from the initial configuration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash -c <span style="color:#87ceeb">&#34;</span><span style="color:#f00">$(</span>curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh<span style="color:#f00">)</span><span style="color:#87ceeb">&#34;</span>
+</span></span></code></pre></div><ul>
+<li>IPv4 = static</li>
+<li>IPv6 = disabled</li>
+<li>Docker compose = enabled</li>
+<li>Portainer GUI = enabled</li>
+<li>Portainer agent = disabled</li>
+<li>Expose docker TCP socket = disabled</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<p>Nothing yet</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=docker">Proxmox Helper Scripts for Docker</a></li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

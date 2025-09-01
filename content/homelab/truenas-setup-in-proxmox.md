@@ -1,9 +1,16 @@
 ---
 title: TrueNAS Setup in Proxmox
-subtitle: ''
-description: It's working!
+subtitle: "This guide is outdated, it is not recommended to virtualize TrueNAS in Proxmox. I've decided to have a dedicated machine for my NAS."
 date: 2024-12-30T16:00:00.000Z
+draft: false
+tags:
+  - all
+  - homelab
 ---
+
+Check [dedicated TrueNAS setup](/truenas-setup).
+
+***
 
 From this guide, there's a comment [https://www.youtube.com/watch?v=M3pKprTdNqQ](https://www.youtube.com/watch?v=M3pKprTdNqQ\&t=799s)
 

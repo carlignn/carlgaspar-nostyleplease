@@ -1,6 +1,11 @@
 ---
 title: Portainer Configuration
+subtitle: ''
 date: 2025-01-02T16:00:00.000Z
+draft: false
+tags:
+  - all
+  - homelab
 ---
 
 Create a VM or an LXC container. In this case, I will use a Debian LXC.

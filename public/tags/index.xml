@@ -6,27 +6,27 @@
     <description>Recent content in Tags on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All</title>
       <link>//localhost:1313/tags/all/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 28 Aug 2025 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/all/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Homelab</title>
-      <link>//localhost:1313/tags/homelab/</link>
-      <pubDate>Wed, 01 Jan 2025 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>Human</title>
       <link>//localhost:1313/tags/human/</link>
-      <pubDate>Mon, 09 Oct 2023 16:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Aug 2025 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/human/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>//localhost:1313/tags/homelab/</link>
+      <pubDate>Wed, 27 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
@@ -44,52 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Blueteam</title>
-      <link>//localhost:1313/tags/blueteam/</link>
-      <pubDate>Wed, 06 Sep 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/blueteam/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Draft</title>
       <link>//localhost:1313/tags/draft/</link>
-      <pubDate>Wed, 12 Jul 2023 16:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Jul 2023 16:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/draft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game</title>
-      <link>//localhost:1313/tags/game/</link>
-      <pubDate>Wed, 12 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/game/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Application</title>
-      <link>//localhost:1313/tags/application/</link>
-      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/application/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chatgpt</title>
-      <link>//localhost:1313/tags/chatgpt/</link>
-      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Documentation</title>
-      <link>//localhost:1313/tags/documentation/</link>
-      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/documentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Project</title>
-      <link>//localhost:1313/tags/project/</link>
-      <pubDate>Fri, 07 Jul 2023 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/project/</guid>
       <description></description>
     </item>
     <item>
@@ -100,10 +58,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cheatsheet</title>
-      <link>//localhost:1313/tags/cheatsheet/</link>
-      <pubDate>Thu, 08 Dec 2022 16:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/cheatsheet/</guid>
+      <title>Hacking</title>
+      <link>//localhost:1313/tags/hacking/</link>
+      <pubDate>Mon, 19 Sep 2022 06:11:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
@@ -111,6 +69,13 @@
       <link>//localhost:1313/tags/guide/</link>
       <pubDate>Fri, 26 Aug 2022 22:28:10 +0800</pubDate>
       <guid>//localhost:1313/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>//localhost:1313/tags/project/</link>
+      <pubDate>Thu, 30 Sep 2021 07:04:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/project/</guid>
       <description></description>
     </item>
     <item>

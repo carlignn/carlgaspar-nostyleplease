@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      TrueNAS Setup
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-08-27 16:00:00 &#43;0000 UTC">
+            
+                2025-08-27
+            
+        </time>
+    </p>
+
+    <h1>TrueNAS Setup</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/homelab">homelab</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="hardware">Hardware</h2>
+<p>A lot of the hardware came from my old PC. I was thinking of a reason to upgrade my computer parts and thought..</p>
+<blockquote>
+<p>I think I need a NAS.. maybe?</p></blockquote>
+<ul>
+<li>Case - <a href="https://shopee.ph/Sagittarius-Chassis-NAS-8-Discs-Hot-Plug-10-Slots-MATX-Full-Height-Sylvania-AIO-Storage-UNRAID-Household-Cloud-Personal-i.1256014764.22564629999">Sagittarius 8-bay</a></li>
+<li>Motherboard - ASUS TUF GAMING B550M-PLUS (WIFI)</li>
+<li>CPU - AMD Ryzen 5 3600</li>
+<li>RAM - TEAMGROUP-UD4-3600 - 16gb * 2</li>
+<li>HBA - <a href="https://shopee.ph/LSI-9208-8I-(-9207-8i-)-PCI-E-3-0-HBA-FW-P20-mode-for-ZFS-FreeNAS-unRAID-i.141818198.26204769467">LSI 9208-8I</a> (used)</li>
+<li>GPU - <a href="https://shopee.ph/New-GT210-PCIE-X1-1GB-Support-PCIE-X4-X8-X16-Graphics-Slot-Video-Card-GPU-i.985604463.22938831431">Nvdia GT210</a>
+<ul>
+<li>I needed a GPU because the CPU that I have isn&rsquo;t capable of running headless.</li>
+<li>I have to note that I tried plugging in a display simulator but it&rsquo;s not working all the time.</li>
+<li>I bought an ultra old GPU to occupy the lowest sized PCIe slot - x1. It&rsquo;s more expensive because I can&rsquo;t find used PCIe x1 GPU anywhere near me. The reason is I wanted to be able to use the extra slot for 10gbit networking in the future.</li>
+<li>It used to be a spare GTX 1050TI.</li>
+</ul>
+</li>
+<li>System storage - <a href="https://shopee.ph/Kingston-NV2-250GB-500GB-1TB-2TB-M.2-2280-PCIe-4.0-NVMe-SSD-SNVS2-i.21380649.17885923754">KINGSTON SNV2S250G</a> - 250gb * 1
+<ul>
+<li>I just remembered that I have 1tb * 1 ssd plugged in that I was planning on using but forgot that it exists.</li>
+</ul>
+</li>
+<li>Data storage - <a href="https://shopee.ph/HGST-WD-Ultrastar-DC-HC520%EF%BC%88HUH721212ALE600-HUH721212ALE601%EF%BC%897K2-Enterprise-Hard-Drive-12TB-7200-RPM-512e-SATA-6Gb-s-256MB-Cache-i.1046168692.22775867489">HGST WD Ultrastar DC HC520</a> - 12tb * 4 - RAIDZ1</li>
+</ul>
+<h2 id="datasets">Datasets</h2>
+<p>I was looking for a good way to manage my files but eventually ended up with this structure. It might change in the future.</p>
+<ul>
+<li>critical - digital files, memories, and personal data</li>
+<li>important - NAS app config, projects, and VM backups</li>
+<li>standard - other NAS app config, isos, media library</li>
+<li>share - shared storage for friends and family</li>
+</ul>
+<p>SMB shared - everything</p>
+<p>NFS shared - VM backups and isos (for Proxmox)</p>
+<h2 id="data-protection">Data Protection</h2>
+<ul>
+<li>Scrub Tasks - entire pool at 12:00 AM, only on Sunday</li>
+<li>Cloud Sync Tasks - critical and important at 12:00 AM, every day</li>
+<li>Periodic Snapshot Tasks - entire pool at 12:00 AM, every day. Keep for 1 week</li>
+<li>Periodic S.M.A.R.T. Tests -
+<ul>
+<li>SHORT - All Disks at 12:00 AM, only on Sunday</li>
+<li>LONG - All Disks at 12:00 AM, on day 1 of the month, and on Saturday, only in February, April, June, August, October, and December</li>
+</ul>
+</li>
+</ul>
+<h2 id="users">Users</h2>
+<p>I have created root, local administrator, admin accounts, and user accounts with the naming convention like</p>
+<ul>
+<li>Admin accounts - e.g. cgaspar_admin
+<ul>
+<li>first letter of first name and last name &lt;underscore&gt; admin</li>
+</ul>
+</li>
+<li>User accounts - e.g. cgaspar
+<ul>
+<li>first letter of first name and last name</li>
+</ul>
+</li>
+</ul>
+<h2 id="virtualization">Virtualization</h2>
+<p>Virtualization is not supported</p>
+<h2 id="apps">Apps</h2>
+<p>I&rsquo;m using this NAS for a few services as well. I thought that if I could lift up some of the tasks on my cluster to this NAS, that would be great.</p>
+<ul>
+<li>drawio</li>
+<li>filebrowser</li>
+<li>frigate</li>
+<li>immich (under maintenance)</li>
+<li>metube</li>
+<li>overseer</li>
+<li>paperless (under maintenance)</li>
+<li>plex</li>
+<li>prowlarr</li>
+<li>qbittorrent</li>
+<li>radarr</li>
+<li>sonarr</li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>
