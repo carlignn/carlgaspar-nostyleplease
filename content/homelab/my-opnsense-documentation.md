@@ -52,7 +52,17 @@ Then set it up with the (outdated) ISC DHCPv4. Go to Servcices > LAN > Enable > 
 
 #### Unbound
 
-I just found out the Unbound DNS was enabled by default. If I'm not using pihole, I'd just use this one since it's better looking and easier to manage. Disabling..
+~~I just found out the Unbound DNS was enabled by default. If I'm not using pihole, I'd just use this one since it's better looking and easier to manage. Disabling..~~
+
+* Go to Services > Unbound DNS > General > Enable Unbound
+  * Blocklist > Type of DNSBL > Steven Black List (This one blocks ads)
+* Change DNS  servers in Services > ISC DHCPv4 > LAN > DNS servers > Put the OPNSense IP
+  * Same on System > Settings > General > DNS servers
+* Enable Unbound DNS Reporting, go to Reporting > Unbound DNS > Go to the Reporting configuration > Enable local gathering of statistics
+  * Reset DNS on devices
+
+[Guide](https://www.youtube.com/watch?v=NdvKIAMfnUM)
+
 
 ## VLANs
 
@@ -64,4 +74,25 @@ Wow, OPNSense has a Tailscale plugin. This had made things a lot easier. Go to S
 
 I chose tailscale because of ease of use. I want people to be able to connect to my network then my NAS for their storage needs, and tailscale is the app for that.
 
-To set it up, go to VPN > Tailscale > Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire [homelab](/tags/homelab). It feels unsafe but it can change in the future after researching more. 
+To set it up, go to VPN > Tailscale > Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire [homelab](/tags/homelab). It feels unsafe but it can change in the future after researching more.
+
+## ~~Ntop~~
+
+* This has been uninstalled. I just don't see any use for it as of the moment
+* Go to System > Firmware > Plugins and install nTop and redis
+* Go to Services > Enable Redis
+* Go to Services > Enable Ntopng
+  * HTTPS Port - 3001
+  * Certificate - Web GUI TLS certificate
+
+## Notification
+
+[My Notification Documentation](/homelab/my-notification-documentation)
+
+## Backup
+
+To backup the configuration, I figured it would be easier to do it automatically. Go to System > Firmware > Plugins > Show comunity plugins > Search for backup > Install os-sftp-backup
+
+This is too much, I think. Aborting..
+
+[Guide](https://docs.opnsense.org/manual/sftp-backup.html)

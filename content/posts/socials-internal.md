@@ -77,7 +77,17 @@ Lichess?
 
 Paypal
 
+Gcash?
+Coins?
+Pinterest
+
 Binance referral?
+
+Bitcoin
+
+Paypal
+
+[My Drama List](https://mydramalist.com/profile/carlignn)
 
 Twitch Bot - [https://www.twitch.tv/carlboopp](https://www.twitch.tv/carlboopp)
 

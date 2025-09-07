@@ -81,13 +81,49 @@
 <p>For some reason, the machines are not being provided with DNS (only DHCP). You need to check what services are running. Go to Lobby &gt; Dashboard &gt; Services. There I found the culprit - Dnsmasq DNS &amp; DHCP are enabled. I just had to disable it  in Services &gt; Dnsmasq DNS &amp; DHCP &gt; General &gt; Uncheck Enable.</p>
 <p>Then set it up with the (outdated) ISC DHCPv4. Go to Servcices &gt; LAN &gt; Enable &gt; And setup the DHCP Range, DNS servers (10.10.10.5, 1.1.1.1), and Gateway (10.10.0.1).</p>
 <h4 id="unbound">Unbound</h4>
-<p>I just found out the Unbound DNS was enabled by default. If I&rsquo;m not using pihole, I&rsquo;d just use this one since it&rsquo;s better looking and easier to manage. Disabling..</p>
+<p><del>I just found out the Unbound DNS was enabled by default. If I&rsquo;m not using pihole, I&rsquo;d just use this one since it&rsquo;s better looking and easier to manage. Disabling..</del></p>
+<ul>
+<li>Go to Services &gt; Unbound DNS &gt; General &gt; Enable Unbound
+<ul>
+<li>Blocklist &gt; Type of DNSBL &gt; Steven Black List (This one blocks ads)</li>
+</ul>
+</li>
+<li>Change DNS  servers in Services &gt; ISC DHCPv4 &gt; LAN &gt; DNS servers &gt; Put the OPNSense IP
+<ul>
+<li>Same on System &gt; Settings &gt; General &gt; DNS servers</li>
+</ul>
+</li>
+<li>Enable Unbound DNS Reporting, go to Reporting &gt; Unbound DNS &gt; Go to the Reporting configuration &gt; Enable local gathering of statistics
+<ul>
+<li>Reset DNS on devices</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=NdvKIAMfnUM">Guide</a></p>
 <h2 id="vlans">VLANs</h2>
 <p>I want to configure VLANs but I don&rsquo;t have the capacity for that yet. I think I&rsquo;m not smart enough as of the moment. For the meantime, everything is on /16 subnet so that they could all see each other :))</p>
 <h2 id="tailscale">Tailscale</h2>
 <p>Wow, OPNSense has a Tailscale plugin. This had made things a lot easier. Go to System &gt; Firmware &gt; Plugins &gt; Check Show community plugins &gt; Add tailscale &gt; Tailscale should start showing up in the VPN tab together with other VPN providers</p>
 <p>I chose tailscale because of ease of use. I want people to be able to connect to my network then my NAS for their storage needs, and tailscale is the app for that.</p>
 <p>To set it up, go to VPN &gt; Tailscale &gt; Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire <a href="/tags/homelab">homelab</a>. It feels unsafe but it can change in the future after researching more.</p>
+<h2 id="ntop"><del>Ntop</del></h2>
+<ul>
+<li>This has been uninstalled. I just don&rsquo;t see any use for it as of the moment</li>
+<li>Go to System &gt; Firmware &gt; Plugins and install nTop and redis</li>
+<li>Go to Services &gt; Enable Redis</li>
+<li>Go to Services &gt; Enable Ntopng
+<ul>
+<li>HTTPS Port - 3001</li>
+<li>Certificate - Web GUI TLS certificate</li>
+</ul>
+</li>
+</ul>
+<h2 id="notification">Notification</h2>
+<p><a href="/homelab/my-notification-documentation">My Notification Documentation</a></p>
+<h2 id="backup">Backup</h2>
+<p>To backup the configuration, I figured it would be easier to do it automatically. Go to System &gt; Firmware &gt; Plugins &gt; Show comunity plugins &gt; Search for backup &gt; Install os-sftp-backup</p>
+<p>This is too much, I think. Aborting..</p>
+<p><a href="https://docs.opnsense.org/manual/sftp-backup.html">Guide</a></p>
 
 </article>
 

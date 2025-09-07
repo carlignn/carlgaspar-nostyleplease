@@ -8,7 +8,9 @@ tags:
 
 ***
 
-I was on a 2-year hiatus and focused on everything else other than my career.
+Okay, so here's what's up.
+
+I was on a 2-year hiatus and my focus went everywhere.
 
 Growth on:
 - self improvement
@@ -19,6 +21,7 @@ Growth on:
 
 Now I'm back catching up.
 
+I was told to be the commissioner for our next basketball league. I need to create a blog post about it. The usual league is called WKND(short for weakend since it only happens every weekend) League. This one that I'm commissioning is the shorter and older(35 yo and up only) version of the league. I think I'll be calling it Sprint Cup S1. 
 
 ## Productivity
 
@@ -56,6 +59,15 @@ I have implemeted this system where when I'm consuming media, you can only consu
 * Binging(2) - Another one is the Juvenile Justice korean drama. I saw people watching this on Discord channel named Movie Marathon and decided to join. I was bummed that how could a media be good but give us only **the movie**. Well, I've never been glad that I was wrong. It is a *series*, WOOO! [Letterboxd](https://letterboxd.com/carlignn/)
 * Movie - on a weekend to keep my emotions under control. I don't want it to be forgotten.
 * Completed - Toradora - I just watched it for the nostalgia, and the nostalgia got me. [Review](https://anilist.co/activity/945410280)
+
+## Gaming
+
+I've been heavy into simracing these days. I've bought the gears and subscribed to iRacing. I forgot what it's called but it's like when someone is a newbie into a new hobby and decided to buy all the stuff without thinking much about it. What do I have:
+
+* Steering wheel - Moza ES Formula Wheel Mod
+* Wheel base - Moza DD R5
+* Pedal - SR-P Lite w Performance Kit w Alien Mods Load-Cell Kit
+* Wheel Stand - Next Level Racing 2.0
 
 ***
 

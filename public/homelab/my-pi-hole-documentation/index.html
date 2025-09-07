@@ -52,8 +52,9 @@
 
     <p></p>
 
-    <p>First posted on: <code>2025-01-01T00:00:00.000Z</code></p>
+    <p>First posted on: 2025-01-01T00:00:00.000Z</p>
 <hr>
+<p>I have since moved Pi-Hole + Unbound to OPNSense. <a href="/homelab/my-opnsense-documentation/#unbound">My OPNSense Documentation - Unbound</a></p>
 <p>Run the <a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole">Pi-Hole helper script</a> to simplify the LXC creation.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bash -c <span style="color:#87ceeb">&#34;</span><span style="color:#f00">$(</span>wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh<span style="color:#f00">)</span><span style="color:#87ceeb">&#34;</span>
 </span></span></code></pre></div><p>Add the blacklists to improve adblocking <a href="https://firebog.net/">https://firebog.net/</a>.</p>
@@ -61,6 +62,8 @@
 <h2 id="unbound">Unbound</h2>
 <p>Just follow the <a href="https://docs.pi-hole.net/guides/dns/unbound/?h=unbound">official guide</a>. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.</p>
 <p>If you don&rsquo;t want to use Pi-Hole but want to use Unbound, you can use OPNSense with Unbound plugin to make things easier.</p>
+<h2 id="local-dns-issue">Local DNS Issue</h2>
+<p>When I SSH to hl1homepage1 for example, it redirects me to the NGINX Proxy Manager which is not what I want to do. To go around this, you&rsquo;d need to add another entry in local DNS that would point to the server (e.g. hl1homepage1-ssh)</p>
 <h2 id="reference">Reference</h2>
 <ul>
 <li><a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole">Proxmox Helper Scripts for Pi-Hole</a></li>

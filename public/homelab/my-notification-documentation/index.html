@@ -69,11 +69,64 @@
 <p>It is advisable to use a different token for each service. When a token gets compromised, you&rsquo;ll only need to change that single one.</p>
 <h2 id="per-app-setup">Per App Setup</h2>
 <h3 id="opnsense">OPNSense</h3>
-<p>Go to Services &gt; Monit &gt; Settings:</p>
+<p>Go to Services &gt; Monit &gt; Settings &gt; General Settings:</p>
 <ul>
 <li>Enable Monit</li>
 <li>Polling Interval - this is not so important that I&rsquo;d need to put it to 30 seconds. Defaulting to default(120)</li>
+<li>Mail Server Address - smtp.protonmail.ch, this was given by ProtonMail</li>
+<li>Mail Server Port - 582, this was given by ProtonMail</li>
+<li>Mail Server Username - this was given by ProtonMail</li>
+<li>Mail Server Password - this was given by ProtonMail</li>
+<li>Mail Server SSL Connection - ProtonMail recommends that  enable this</li>
 </ul>
+<p>Go to Services &gt; Monit &gt; Settings &gt; Alert Settings:</p>
+<ul>
+<li>Add entry</li>
+<li>Enable Alert</li>
+<li>Recipient - your ProtonMail email address</li>
+<li>Not on - reserve selection. If this box is checked, Monit will not send alerts for the selected events but for all others.</li>
+<li>Events - I&rsquo;ve enabled Connection failed, Content failed, Link down, Monit instance changed, Ping failed, Status failed</li>
+<li>Mail format - you can use my custom template below. From field needs to be your email address.</li>
+</ul>
+<pre tabindex="0"><code>From: validemailaddress@carlgaspar.com
+Reply-To: noreply@carlgaspar.com
+Subject: OPNSense Alerts $DATE
+Message: $SERVICE $DATE $DESCRIPTION
+
+Yours sincerely,
+Tech Support
+</code></pre><ul>
+<li>Reminder - 10, it will wait for 10 more instances of the alert before sending a new email. I have to set this to none for now.</li>
+</ul>
+<p>Go to Services &gt; Monit &gt; Settings &gt; Service Settings:</p>
+<ul>
+<li>$HOST - monitor load average, CPU Usage, Memory Usage, etc.</li>
+<li>$RootFs - monitor for disk space usage, health, or errors</li>
+<li>carp_status_change - specific to CARP (Common Address Redundancy Protocol), which is used for high availability (HA) in OPNsense. You can use this variable to monitor the status of the CARP interfaces and get alerts when there is a failover or a change in the status of your HA system. For example, if your primary node fails, the secondary node will take over, and Monit will alert you that there has been a CARP status change</li>
+<li>gateway_alert - useful for alerting when a gateway becomes unreachable or is back online. If your system is configured with multiple gateways (e.g., for redundancy or load balancing), you can set up Monit to notify you if one of the gateways goes down or comes back online
+<ul>
+<li>Note - OPNSense uses a custom script for gateway_alert, which requires Gateways Group to be configured</li>
+</ul>
+</li>
+<li>Custom Alerts - custom alerts are available</li>
+</ul>
+<h3 id="truenas">TrueNAS</h3>
+<p>Go to Credentials &gt; Users &gt; Edit root &gt; Add your email</p>
+<p>Go to System &gt; General Settings &gt; Email &gt; Settings</p>
+<ul>
+<li>Send Mail Method - SMTP</li>
+<li>From Email - <a href="mailto:validemailaddress@carlgaspar.com">validemailaddress@carlgaspar.com</a></li>
+<li>From Name - Valid Name</li>
+<li>Outgoing Mail Server - this was given by ProtonMail</li>
+<li>Mail Server Port - this was given by ProtonMail</li>
+<li>Security - TLS</li>
+<li>SMTP Authentication</li>
+<li>Username - <a href="mailto:validemailaddress@carlgaspar.com">validemailaddress@carlgaspar.com</a></li>
+<li>Password - SMTP Token given by ProtonMail</li>
+</ul>
+<p>Go to Alert Settings &gt; You can leave everything to default</p>
+<hr>
+<p>The email being duplicated is an issue with ProtonMail. It has something to do with the <a href="mailto:validemailaddress@carlgaspar.com">validemailaddress@carlgaspar.com</a> being the sender and the recipient.</p>
 
 </article>
 

@@ -5,7 +5,7 @@
 To run: npm run dev
 Install TinaCMS if not yet installed: npm install @tinacms/cli
 Remove and reinstall old modules if outdated:
-```
+```shell
 	rm -rf node_modules package-lock.json
 	npm install
 ```
@@ -36,7 +36,7 @@ Every post needs to have the **all** tag.
 
 ## Referencing
 If there's only one thing, don't put it on a bullet
-```
+```markdown
 ## Reference
 
 * [Title Title](https:www.www.com)
@@ -44,8 +44,8 @@ If there's only one thing, don't put it on a bullet
 
 ## Updating
 Before the actual body, put in
-```
-First posted on: `2025-01-09T00:00:00.000Z`
+```markdown
+First posted on: 2025-01-09T00:00:00.000Z
 ```
 
 ## Notes
