@@ -52,4 +52,4 @@ The streamer.
 | [twitch](https://twitch.tv/carlignn/) | [kick](https://kick.com/carlignn/) | [facebook](https://facebook.com/carlignn/) | [youtube](https://youtube.com/@carlignn/) |
 |                                       |                                    |                                            |                                           |
 
-[My Drama List](https://mydramalist.com/profile/carlignn)
+[MyDramaList](https://mydramalist.com/profile/carlignn)

@@ -122,3 +122,31 @@ table {
     }
   }
 }
+
+// Used in My ACL Reconstruction Log Post
+table.my-acl-reconstruction-log-table {
+  width: 100% !important;
+  table-layout: fixed !important; // force equal-width cols
+  border-collapse: collapse;
+}
+
+table.my-acl-reconstruction-log-table th,
+table.my-acl-reconstruction-log-table td {
+  white-space: normal !important; // allow wrapping
+  word-break: break-word !important; // break long words if needed
+  padding: 0.5em;
+}
+
+// Column widths
+table.my-acl-reconstruction-log-table td:nth-child(1),
+table.my-acl-reconstruction-log-table th:nth-child(1) { width: 20%; text-align: center;}
+
+table.my-acl-reconstruction-log-table td:nth-child(2),
+table.my-acl-reconstruction-log-table th:nth-child(2) { width: 55%; }
+
+table.my-acl-reconstruction-log-table td:nth-child(3),
+table.my-acl-reconstruction-log-table th:nth-child(3) { width: 13%; text-align: center;}
+
+table.my-acl-reconstruction-log-table td:nth-child(4),
+table.my-acl-reconstruction-log-table th:nth-child(4) { width: 13%; text-align: center;}
+// Used in My ACL Reconstruction Log Post

@@ -6,8 +6,15 @@
     <description>Recent content in Homelab on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Paperless Documentation</title>
+      <link>//localhost:1313/homelab/my-paperless-documentation/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/homelab/my-paperless-documentation/</guid>
+      <description>&lt;p&gt;The installation will be as a container in TrueNAS Scale to centralize media/document storage and processing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;paperless-ngx&#34;&gt;Paperless-ngx&lt;/h2&gt;&#xA;&lt;p&gt;Write in all the passwords, username, email, etc. No need to change anything aside for the &lt;strong&gt;Storage Configuration&lt;/strong&gt;. I&amp;rsquo;ve decided to create my own Host Path to easily manage the configurations.&lt;/p&gt;&#xA;&lt;p&gt;This installation will also have an android applicatoin called &lt;a href=&#34;https://play.google.com/store/apps/details?id=de.astubenbord.paperless_mobile&amp;amp;hl=en-US&#34;&gt;Paperless Mobile&lt;/a&gt;. It works well, just add the IP address and port when logging in.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Notification Documentation</title>
       <link>//localhost:1313/homelab/my-notification-documentation/</link>
@@ -70,13 +77,6 @@
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/homelab/proxmox-lxc-and-vm-primer/</guid>
       <description>&lt;h2 id=&#34;storage-increase&#34;&gt;Storage Increase&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk.&lt;/li&gt;&#xA;&lt;li&gt;Click Resize disk and add the extra GBs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ext4&#34;&gt;ext4&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;xfs&#34;&gt;xfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xfs_growfs /&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;zfs&#34;&gt;zfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No need to &lt;span style=&#34;color:#f00&#34;&gt;do&lt;/span&gt; anything.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>My Archivebox Documentation</title>
-      <link>//localhost:1313/homelab/my-archivebox-documentation-copy/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/my-archivebox-documentation-copy/</guid>
-      <description>&lt;p&gt;First posted on: 2025-01-09T00:00:00.000Z&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;overseerr - request manager&lt;/li&gt;&#xA;&lt;li&gt;plex - media manager&lt;/li&gt;&#xA;&lt;li&gt;prowlarr - indexer (for radarr and sonarr)&lt;/li&gt;&#xA;&lt;li&gt;qbittorrent - torrent client&lt;/li&gt;&#xA;&lt;li&gt;radarr - movie collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;li&gt;sonarr - tv show collection manager (connects to qbt)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>My Arr Stack Documentation</title>
