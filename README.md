@@ -42,7 +42,7 @@ If there's only one thing, don't put it on a bullet
 * [Title Title](https:www.www.com)
 ```
 
-## Updating
+## Updating Post
 Before the actual body, put in
 ```markdown
 First posted on: 2025-01-09T00:00:00.000Z
@@ -52,6 +52,7 @@ First posted on: 2025-01-09T00:00:00.000Z
 
 * Internal use or guides are dated - `0001-01-01T00:00:00+08:00`.
 * Some post doesn't use date although very rare.
+* Adding classes in markdown is possible through Goldmark renders, just search it. 
 * **NEVER USE H1, ONLY THE TITLE IS H1**.
 
 ***
