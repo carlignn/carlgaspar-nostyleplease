@@ -150,3 +150,12 @@ table.my-acl-reconstruction-log-table th:nth-child(3) { width: 13%; text-align: 
 table.my-acl-reconstruction-log-table td:nth-child(4),
 table.my-acl-reconstruction-log-table th:nth-child(4) { width: 13%; text-align: center;}
 // Used in My ACL Reconstruction Log Post
+
+// Used in My ACL Reconstruction Log Post
+.carldss img {
+  min-width: 255px;
+  width: 41%; // make the carldss card sized
+  border-radius: 3%;
+  box-shadow: 5px 5px 5px gray;
+}
+// Used in My ACL Reconstruction Log Post

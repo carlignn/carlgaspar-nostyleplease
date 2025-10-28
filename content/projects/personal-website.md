@@ -1,7 +1,7 @@
 ---
-title: Carlds
+title: Personal Website
 draft: false
-date: 2025-10-29T00:00:00.000Z
+date: 2025-10-28T00:00:00.000Z
 tags:
   - all
   - project

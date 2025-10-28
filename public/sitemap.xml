@@ -6,7 +6,19 @@
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/all/</loc>
-    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/carldss/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/carldss-custom-playing-cards/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/project/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/human/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
@@ -15,9 +27,6 @@
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/my-acl-reconstruction-log/</loc>
@@ -135,13 +144,10 @@
     <lastmod>2021-11-04T00:48:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/</loc>
-    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/project/</loc>
-    <lastmod>2021-09-30T07:04:00+00:00</lastmod>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/it-s-more-find-in-the-philippines/</loc>
-    <lastmod>2021-09-25T06:42:00+00:00</lastmod>
+    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
     <lastmod>2021-09-22T01:31:00+00:00</lastmod>
@@ -176,8 +182,6 @@
     <loc>//localhost:1313/portfolio/</loc>
   </url><url>
     <loc>//localhost:1313/carldss/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/carldss/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
