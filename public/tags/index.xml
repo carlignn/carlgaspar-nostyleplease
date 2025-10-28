@@ -78,5 +78,12 @@
       <guid>//localhost:1313/tags/philippines/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Carldss</title>
+      <link>//localhost:1313/tags/carldss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/carldss/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
