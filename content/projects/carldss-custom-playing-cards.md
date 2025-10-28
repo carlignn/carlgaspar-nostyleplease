@@ -10,7 +10,7 @@ tags:
 
 `
 
-![](https://i.imgur.com/IE7mzvw.png)
+![](https://i.imgur.com/cKoP1ED.png)
 {.carldss}
 
 ## Details
