@@ -7,7 +7,7 @@ draft: false
 date: 2025-08-25T00:00:00.000Z
 tags:
   - all
-  - homelab
+  - documentation
 ---
 
 First posted on: 2025-01-09T00:00:00.000Z

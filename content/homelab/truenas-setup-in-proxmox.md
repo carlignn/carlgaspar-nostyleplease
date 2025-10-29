@@ -5,7 +5,6 @@ date: 2024-12-30T00:00:00.000Z
 draft: false
 tags:
   - all
-  - homelab
 ---
 
 Check [dedicated TrueNAS setup](/truenas-setup).

@@ -5,7 +5,7 @@ date: 2022-10-25T16:00:01.000Z
 draft: false
 tags:
   - all
-  - homelab
+  - primer
 ---
 
 `nslookup` is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.

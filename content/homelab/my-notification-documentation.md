@@ -5,7 +5,7 @@ draft: false
 date: 2025-09-01T00:00:00.000Z
 tags:
   - all
-  - homelab
+  - documentation
 ---
 
 For this project, I've seen options between Discord, SMS, and email. I ended up with email as it seems like it's the best for my use case: open industry standard, has been around forever, and isn't going anywhere.

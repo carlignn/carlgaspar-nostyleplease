@@ -5,7 +5,7 @@ draft: false
 date: 2022-10-25T00:00:00.000Z
 tags:
   - all
-  - homelab
+  - primer
 ---
 
 When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.

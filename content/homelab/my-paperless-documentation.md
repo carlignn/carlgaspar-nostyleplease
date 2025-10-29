@@ -5,7 +5,7 @@ draft: false
 date: 2025-09-08T00:00:00.000Z
 tags:
   - all
-  - homelab
+  - documentation
 ---
 
 The installation will be as a container in TrueNAS Scale to centralize media/document storage and processing.

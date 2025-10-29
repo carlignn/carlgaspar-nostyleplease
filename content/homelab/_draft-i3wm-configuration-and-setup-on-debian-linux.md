@@ -5,7 +5,6 @@ date: 2025-01-02T00:00:00.000Z
 draft: true
 tags:
   - all
-  - homelab
 ---
 
 This post has been paused for the meantime due to priorities.

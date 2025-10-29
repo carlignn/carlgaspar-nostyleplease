@@ -4,6 +4,7 @@ draft: false
 date: 2025-10-04T01:31:00.000Z
 tags:
   - all
+  - exercise
   - human
 ---
 
