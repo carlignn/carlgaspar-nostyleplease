@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carldss on Carl Gaspar</title>
+    <link>//localhost:1313/carldss/</link>
+    <description>Recent content in Carldss on Carl Gaspar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/carldss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WKND G League Season 1</title>
+      <link>//localhost:1313/carldss/wknd-g-league-season-1/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/carldss/wknd-g-league-season-1/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/wkndbasketball&#34;&gt;WKND Basketball&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;r2-fourth-wknd---251026&#34;&gt;R2 Fourth WKND - 251026&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/wkndbasketball&#34;&gt;Poster&lt;/a&gt;&lt;/p&gt;&#xA;&lt;table class=&#34;carldss&#34;&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cKoP1ED.png&#34; alt=&#34;&#34;&gt; &lt;a href=&#34;https://www.facebook.com/wkndbasketball&#34;&gt;Poster&lt;/a&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cKoP1ED.png&#34; alt=&#34;&#34;&gt; &lt;a href=&#34;https://www.facebook.com/wkndbasketball&#34;&gt;Poster&lt;/a&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

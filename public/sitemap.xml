@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/projects/</loc>
-    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/all/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/carldss/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/carldss/</loc>
@@ -14,10 +14,19 @@
     <loc>//localhost:1313/projects/carldss-custom-playing-cards/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/projects/personal-website/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/project/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/carldss/wknd-g-league-season-1/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/human/</loc>
@@ -180,8 +189,6 @@
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
     <loc>//localhost:1313/portfolio/</loc>
-  </url><url>
-    <loc>//localhost:1313/carldss/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>

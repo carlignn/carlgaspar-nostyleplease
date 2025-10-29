@@ -151,11 +151,19 @@ table.my-acl-reconstruction-log-table td:nth-child(4),
 table.my-acl-reconstruction-log-table th:nth-child(4) { width: 13%; text-align: center;}
 // Used in My ACL Reconstruction Log Post
 
-// Used in My ACL Reconstruction Log Post
+// Used in Carldss - Custom Playing Cards - Round corners and irl size
 .carldss img {
   min-width: 255px;
   width: 41%; // make the carldss card sized
-  border-radius: 3%;
+  border-radius: 4%;
   box-shadow: 5px 5px 5px gray;
 }
-// Used in My ACL Reconstruction Log Post
+// Used in Carldss - Custom Playing Cards - Round corners and irl size
+
+// Used in Carldss - Remove all borders of tables in /carldss
+table.carldss,
+table.carldss th,
+table.carldss td {
+  border: none !important;
+}
+// Used in Carldss - Remove all borders of tables in /carldss

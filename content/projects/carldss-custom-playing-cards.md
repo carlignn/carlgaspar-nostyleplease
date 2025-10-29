@@ -8,7 +8,13 @@ tags:
   - carldss
 ---
 
-`
+##
+
+I've created Carldss as a token/reward for the basketball players of our [rec league](/posts/i-was-an-announcer-today). It's a custom designed card with the players' information, stats, the league and image.
+
+I'm hoping to include more leagues and improve my network. Reach out to me in my [SOCIALS](/socials) if you want one.
+
+##
 
 ![](https://i.imgur.com/cKoP1ED.png)
 {.carldss}
@@ -21,11 +27,11 @@ tags:
 * GASPAR CARL with 99 overall rating, 45pts, 12stls, 2rebs, and 8asts
 * More details: Rare, Original Card, 1 of 1, Batch 0
 
+## Poster
+
+![](https://i.imgur.com/Ow0Ztzn.png)
+
 ---
-
-I've created Carldss as a token/reward for the basketball players of our [rec league](/posts/i-was-an-announcer-today). It's a custom designed card with the players' information, stats, league, and image.
-
-I'm hoping to include more leagues and improve my network. Reach out to me in my [SOCIALS](/socials) if you want one.
 
 [More screenshots](https://imgur.com/a/t5LeA1r) of the game uploaded from Imgur.
 
@@ -33,7 +39,7 @@ I'm hoping to include more leagues and improve my network. Reach out to me in my
 
 Below are the leagues that I've worked on.
 
-* WKND Basketball 35+ Season 1
+* [WKND G League Season 1](/carldss/wknd-g-league-season-1)
 
 ## Technologies Used
 
