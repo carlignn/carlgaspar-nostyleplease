@@ -33,7 +33,7 @@ I'm hoping to include more leagues and improve my network. Reach out to me in my
 
 ---
 
-[More screenshots](https://imgur.com/a/t5LeA1r) of the game uploaded from Imgur.
+[More screenshots](https://imgur.com/a/t5LeA1r) of the game uploaded to Imgur.
 
 ## Leagues
 

@@ -21,7 +21,7 @@ The game was uploaded and last updated at the Google Play Store on Jan 14, 2018.
 
 ## Screenshots
 
-[Screenshots](https://imgur.com/a/2cHNX0i) of the game uploaded from Imgur.
+[Screenshots](https://imgur.com/a/2cHNX0i) of the game uploaded to Imgur.
 
 ## The Team
 
