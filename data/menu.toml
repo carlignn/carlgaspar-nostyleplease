@@ -25,36 +25,36 @@ title = "posts by tag"
 
   [[entries.entries]]
     title = "security"
-    url = "tags/security"
+    url = "security"
 
     [entries.entries.post_list]
     limit = 2
     section = "security"
     show_more = true
     show_more_text = "see more posts..."
-    show_more_url = "tags/security"
+    show_more_url = "security"
 
   [[entries.entries]]
     title = "homelab"
-    url = "tags/homelab"
+    url = "homelab"
 
     [entries.entries.post_list]
     limit = 2
     section = "homelab"
     show_more = true
     show_more_text = "see more posts..."
-    show_more_url = "tags/homelab"
+    show_more_url = "homelab"
 
   [[entries.entries]]
     title = "projects"
-    url = "tags/project"
+    url = "projects"
 
     [entries.entries.post_list]
     limit = 1
     section = "projects"
     show_more = true
     show_more_text = "see more projects..."
-    show_more_url = "tags/project"
+    show_more_url = "projects"
 
 [[entries]]
 title = "socials"
