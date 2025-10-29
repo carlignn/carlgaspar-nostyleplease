@@ -8,7 +8,7 @@ tags:
 
 ##
 
-I've created Carldss as a token/reward for the basketball players of our [rec league](/posts/i-was-an-announcer-today). It's a custom designed card with the players' information, stats, the league, and player image.
+I've created Carldss as a token/reward for the basketball players of our [REC LEAGUE](/posts/i-was-an-announcer-today). It's a custom designed card with the players' information, stats, the league, and player image. Check my [RANGE](/carldss).
 
 I'm hoping to include more leagues and improve my network. Reach out to me in my [SOCIALS](/socials) if you want one.
 
@@ -31,13 +31,7 @@ I'm hoping to include more leagues and improve my network. Reach out to me in my
 
 ---
 
-[More screenshots](https://imgur.com/a/t5LeA1r) of the game uploaded to Imgur.
-
-## Leagues
-
-Below are the leagues that I've worked on.
-
-* [WKND G League Season 1](/carldss/wknd-g-league-season-1)
+More [DEMO SCREENSHOTS](https://imgur.com/a/t5LeA1r) uploaded to Imgur.
 
 ## Technologies Used
 
