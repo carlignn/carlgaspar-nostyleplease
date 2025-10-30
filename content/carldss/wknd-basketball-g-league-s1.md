@@ -1,19 +1,19 @@
 ---
-title: WKND G League Season 1
+title: WKND Basketball G League S1
 draft: false
-date: 2025-10-28T00:00:00.000Z
+date: 2025-10-30T00:00:00.000Z
 tags:
   - all
   - carldss
 ---
 
-##
+## 
 
-This has started in Round 2 so there will be no Round 1. Follow the league here [WKND Basketball](https://www.facebook.com/wkndbasketball).
+This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND Basketball](https://www.facebook.com/wkndbasketball) or [HIRE ME](https://www.facebook.com/carldsscom). Check out [All LEAGUES](/tags/carldss).
 
 ## R2 Fourth WKND - 251026
 
-| ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) | ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
+| ![](https://i.imgur.com/cKoP1ED.png) [👍](https://www.facebook.com/wkndbasketball) [📷](https://imgur.com/Ow0Ztzn) 📹Artist? | ![](https://i.imgur.com/cKoP1ED.png) [Fb](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
 |:------------------------------:|:------------------------------:|
 {.carldss}
 
