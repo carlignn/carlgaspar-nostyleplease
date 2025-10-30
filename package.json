@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tinacms dev -c \"hugo server\"",
-    "build": "tinacms build && hugo",
+    "dev": "tinacms dev -c \"hugo server --cleanDestinationDir\"",
+    "build": "tinacms build && hugo --cleanDestinationDir",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -6,19 +6,19 @@
     <description>Recent content in Tags on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All</title>
       <link>//localhost:1313/tags/all/</link>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/all/</guid>
       <description></description>
     </item>
     <item>
       <title>Carldss</title>
       <link>//localhost:1313/tags/carldss/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/carldss/</guid>
       <description></description>
     </item>
@@ -37,10 +37,10 @@
       <description></description>
     </item>
     <item>
-      <title>Homelab</title>
-      <link>//localhost:1313/tags/homelab/</link>
+      <title>Documentation</title>
+      <link>//localhost:1313/tags/documentation/</link>
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/homelab/</guid>
+      <guid>//localhost:1313/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
@@ -51,10 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Documentation</title>
-      <link>//localhost:1313/tags/documentation/</link>
+      <title>Game</title>
+      <link>//localhost:1313/tags/game/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/documentation/</guid>
+      <guid>//localhost:1313/tags/game/</guid>
       <description></description>
     </item>
     <item>
@@ -93,13 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Game</title>
-      <link>//localhost:1313/tags/game/</link>
-      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/game/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Product</title>
       <link>//localhost:1313/tags/product/</link>
       <pubDate>Wed, 22 Sep 2021 01:31:00 +0000</pubDate>
@@ -111,13 +104,6 @@
       <link>//localhost:1313/tags/philippines/</link>
       <pubDate>Tue, 21 Sep 2021 14:30:00 +0000</pubDate>
       <guid>//localhost:1313/tags/philippines/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Project</title>
-      <link>//localhost:1313/tags/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/project/</guid>
       <description></description>
     </item>
   </channel>
