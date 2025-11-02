@@ -4,20 +4,19 @@ draft: false
 date: 2025-10-30T00:00:00.000Z
 tags:
   - all
-  - carldss
 ---
 
 ## 
 
-This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND Basketball](https://www.facebook.com/wkndbasketball) or [HIRE ME](https://www.facebook.com/carldsscom). Check out [All LEAGUES](/tags/carldss).
+This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND BASKETBALL](https://www.facebook.com/wkndbasketball), [HIRE ME](https://www.facebook.com/carldsscom), check out [All LEAGUES](/carldss), or read about [PROJECT CARLDSS](/projects/carldss-custom-collectible-cards/).
 
-## R2 Fourth WKND - 251026
+## Round 2 Game 4 - 251026
 
 | ![](https://i.imgur.com/cKoP1ED.png) [👍](https://www.facebook.com/wkndbasketball) [📷](https://imgur.com/Ow0Ztzn) 📹Artist? | ![](https://i.imgur.com/cKoP1ED.png) [Fb](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
 |:------------------------------:|:------------------------------:|
 {.carldss}
 
-## R2 Fourth WKND - 251109
+## Round 2 Game 5 - 251109
 
 | ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) | ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
 |:------------------------------:|:------------------------------:|

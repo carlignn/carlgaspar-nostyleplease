@@ -1,6 +1,6 @@
 ---
 title: I Was an Announcer Today
-subtitle: I played as the announcer on our basketball rec league and it's fucking amazing! That's the first time for me and I want more!
+subtitle: I was the announcer on our basketball rec league and it's fucking amazing! That's the first time for me and I want more!
 draft: false
 date: 2025-10-19T00:00:00.000Z
 tags:
@@ -18,4 +18,4 @@ As the commissioner, aside from managing things, in the court - I am the camera 
 
 The league is at the end of the first round robin and the game will be against the only undefeated teams which made it more exciting. At first, I'm just announcing the time, then I got used to talking to the mic, I've started adding things (e.g. timeout, substitution, foul, hyped shots, and player surnames).
 
-It was a really fun experience and I want more! Having the ability to add more emotions to the game feels like a really important task. Making it more enjoyable for the players, audiences, and everyone involved. This is the funnest off-season for me so far. On to the next! [THE GAME](https://www.youtube.com/watch?v=qVoYdzdXd4Y) | [REC LEAGUE](https://www.facebook.com/wkndbasketball)
+It was a really fun experience and I want more! Having the ability to add more emotions to the game feels like a really important task. Making it more enjoyable for the players, audiences, and everyone involved. This is the funnest off-season for me so far. On to the next! [THE GAME](https://www.youtube.com/watch?v=qVoYdzdXd4Y) | [REC LEAGUE](https://www.facebook.com/wkndbasketball) | [CARLDSS](/carldss)

@@ -33,7 +33,7 @@ The only portfolio tracker that tracks the Philippine Stock Exchange with the op
 
 ## Screenshots
 
-Application [SCREENSHOTS](https://imgur.com/a/RV2Mpka) uploaded to Imgur.
+Application [SCREENSHOTS](https://imgur.com/a/RV2Mpka) uploaded in Imgur.
 
 ## Technologies Used
 

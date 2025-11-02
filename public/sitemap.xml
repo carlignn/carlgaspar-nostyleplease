@@ -8,16 +8,16 @@
     <loc>//localhost:1313/carldss/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/carldss/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/carldss/wknd-basketball-g-league-s1/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/carldss-custom-collectible-cards/</loc>
+    <loc>//localhost:1313/tags/business/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/carldsscom-custom-collectible-cards/</loc>
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/</loc>
@@ -198,6 +198,10 @@
     <lastmod>2020-07-06T00:00:00+08:00</lastmod>
   </url><url>
     <loc>//localhost:1313/portfolio/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/carldss/</loc>
+  </url><url>
+    <loc>//localhost:1313/carldss/carldsscom-socials/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
