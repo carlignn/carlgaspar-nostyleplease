@@ -8,7 +8,7 @@ tags:
 
 ## 
 
-This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND BASKETBALL](https://www.facebook.com/wkndbasketball), [HIRE ME](https://www.facebook.com/carldsscom), check out [All LEAGUES](/carldss), or read about [PROJECT CARLDSS](/projects/carldss-custom-collectible-cards/).
+This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND BASKETBALL](https://www.facebook.com/wkndbasketball), [HIRE US](https://www.facebook.com/carldsscom), check out [All LEAGUES](/carldss), or read about [PROJECT CARLDSS](/projects/carldsscom-custom-collectible-cards/).
 
 ## Round 2 Game 4 - 251026
 
