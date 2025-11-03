@@ -9,9 +9,9 @@ tags:
 
 ##
 
-I've created Carldss as a token/reward for the basketball players of our [REC LEAGUE](/posts/i-was-an-announcer-today). carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more. To see all leagues that I'm working on, check [ALL LEAGUES](/carldss).
+I've created Carldss as a token/reward for the basketball players of our [REC LEAGUE](/posts/i-was-an-announcer-today). carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more. To see all leagues that I'm working on, check [ALL LEAGUES](/carldsscom).
 
-I'm hoping to reach more leagues. Reach out to any of the [SOCIALS](/carldss/carldsscom-socials) if you want one.
+I'm hoping to reach more leagues. Reach out to any of the [SOCIALS](/carldsscom/carldsscom-socials) if you want one.
 
 ##
 
