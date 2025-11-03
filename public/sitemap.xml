@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/tags/all/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/carldss/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/posts/dota-2-reaching-divine-rank/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/game/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/human/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/carldsscom/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/carldss/wknd-basketball-g-league-s1/</loc>
+    <loc>//localhost:1313/carldsscom/wknd-basketball-g-league-s1/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/business/</loc>
@@ -26,13 +38,7 @@
     <loc>//localhost:1313/projects/personal-website/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/human/</loc>
-    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/posts/i-was-an-announcer-today/</loc>
-    <lastmod>2025-10-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/exercise/</loc>
@@ -84,9 +90,6 @@
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</loc>
-    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/game/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/homelab/my-arr-stack-documentation/</loc>
@@ -199,9 +202,7 @@
   </url><url>
     <loc>//localhost:1313/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/carldss/</loc>
-  </url><url>
-    <loc>//localhost:1313/carldss/carldsscom-socials/</loc>
+    <loc>//localhost:1313/carldsscom/carldsscom-socials/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>

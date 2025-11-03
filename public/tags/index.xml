@@ -6,27 +6,34 @@
     <description>Recent content in Tags on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All</title>
       <link>//localhost:1313/tags/all/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/all/</guid>
       <description></description>
     </item>
     <item>
-      <title>Carldss</title>
-      <link>//localhost:1313/tags/carldss/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/carldss/</guid>
+      <title>Game</title>
+      <link>//localhost:1313/tags/game/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/game/</guid>
       <description></description>
     </item>
     <item>
       <title>Human</title>
       <link>//localhost:1313/tags/human/</link>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/human/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>//localhost:1313/tags/business/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/business/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +55,6 @@
       <link>//localhost:1313/tags/primer/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/primer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game</title>
-      <link>//localhost:1313/tags/game/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/game/</guid>
       <description></description>
     </item>
     <item>
