@@ -1,7 +1,7 @@
 ---
 title: It's More Find in the Philippines
 draft: false
-date: 2021-09-25T00:00:00.000Z
+date: 2021-09-25T00:00:00+08:00
 tags:
   - all
   - game

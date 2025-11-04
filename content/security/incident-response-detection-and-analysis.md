@@ -2,7 +2,7 @@
 title: 'Incident Response: Detection and Analysis'
 subtitle: Write up from Aaron Rosenmund's Incident Response - Detection and Analysis in PluralSite
 draft: false
-date: 2022-11-09T00:00:00.000Z
+date: 2022-11-09T00:00:00+08:00
 tags:
   - all
   - write-up

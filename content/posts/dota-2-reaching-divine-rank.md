@@ -2,7 +2,7 @@
 title: DotA 2 - Reaching Divine Rank
 subtitle: This is from my Twitter post back in 24/04/25
 draft: false
-date: 2025-11-02T00:00:00.000Z
+date: 2025-11-02T00:00:00+08:00
 tags:
   - all
   - human

@@ -49,7 +49,7 @@ If there's only one thing, don't put it on a bullet
 ## Updating Post
 Before the actual body, put in
 ```markdown
-First posted on: 2025-01-09T00:00:00.000Z
+First posted on: 2025-01-09T00:00:00+08:00
 ```
 
 ## Notes

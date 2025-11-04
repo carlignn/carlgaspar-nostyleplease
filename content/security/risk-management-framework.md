@@ -1,7 +1,7 @@
 ---
 title: Risk Management Framework
 subtitle: From My Write-up of FedVTE’s Fundamentals of Cyber Risk Management
-date: 2023-09-27T00:00:00.000Z
+date: 2023-09-27T00:00:00+08:00
 tags:
     - all
     - security

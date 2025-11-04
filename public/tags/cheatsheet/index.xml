@@ -6,12 +6,12 @@
     <description>Recent content in Cheatsheet on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Incident Response: Phishing Email Investigation Cheatsheet</title>
       <link>http://10.10.30.2:1313/security/zzz-incident-response-phishing-email-investigation-cheatsheet/</link>
-      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-incident-response-phishing-email-investigation-cheatsheet/</guid>
       <description>URLs *VirusTotal - will give a reputation.&#xA;Google Safe Browsing - will tell if it&amp;rsquo;s on a blacklist&#xA;urlscan - best and quickest, it will flag if they are active phishing, will give a screenshot, and has an awesome API.&#xA;(NOTE) If you detect any as malicious, block them on your firewalls and do a search across your logs.&#xA;CheckPhish&#xA;PhishCheck&#xA;DNSDumpster&#xA;*Hybrid Analysis&#xA;*any.run&#xA;URLhaus&#xA;JOE Sandbox&#xA;*Can scan files</description>
     </item>

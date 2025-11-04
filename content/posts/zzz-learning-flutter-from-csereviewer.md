@@ -1,7 +1,7 @@
 ---
 title: Learning Flutter From CSEReviewer
 subtitle: Documentation for CSEReviewer - Codes that I learned and used in this project. Mostly with the help of ChatGPT.
-date: 2023-07-07T00:00:00.000Z
+date: 2023-07-07T00:00:00+08:00
 draft: true
 tags:
   - all

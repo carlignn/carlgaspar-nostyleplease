@@ -1,14 +1,14 @@
 ---
 title: Being Part of the Top 1.1% - How Valorant Helped Me Think Critically
 draft: false
-date: 2025-08-25T00:00:00.000Z
+date: 2025-08-25T00:00:00+08:00
 tags:
   - all
   - human
   - game
 ---
 
-First posted on: 2021-11-30T00:00:00.000Z
+First posted on: 2021-11-30T00:00:00+08:00
 
 ***
 

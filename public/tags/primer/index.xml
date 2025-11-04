@@ -6,19 +6,19 @@
     <description>Recent content in Primer on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/primer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Hostname Primer</title>
       <link>http://10.10.30.2:1313/homelab/linux-hostname-primer/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/linux-hostname-primer/</guid>
       <description>LXC and VM On the LXC/VM, change the hostname in LXC &amp;gt; DNS &amp;gt; Hostname and update in shell:&#xA;nano /etc/hosts nano /etc/hostname </description>
     </item>
     <item>
       <title>Proxmox LXC and VM Primer</title>
       <link>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</guid>
       <description>Storage Increase Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk. Click Resize disk and add the extra GBs. ext4 resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0 xfs xfs_growfs / zfs No need to do anything. </description>
     </item>
@@ -32,7 +32,7 @@
     <item>
       <title>DNS Record Types Primer</title>
       <link>http://10.10.30.2:1313/homelab/dns-record-types-primer/</link>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/dns-record-types-primer/</guid>
       <description>When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&#xA;A Records These are also called Address Records or sometimes Host Records. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting.</description>
     </item>

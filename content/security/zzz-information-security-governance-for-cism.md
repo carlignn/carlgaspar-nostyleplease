@@ -1,7 +1,7 @@
 ---
 title: Information Security Governance for CISM®
 subtitle: 'I forgot what the reference is.'
-date: 2022-10-10T00:00:00.000Z
+date: 2022-10-10T00:00:00+08:00
 draft: true
 tags:
   - all

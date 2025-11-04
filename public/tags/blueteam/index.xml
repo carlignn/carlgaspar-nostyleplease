@@ -6,12 +6,12 @@
     <description>Recent content in Blueteam on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/blueteam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Malware Analysis Fundamentals</title>
       <link>http://10.10.30.2:1313/security/zzz-malware-analysis-fundamentals/</link>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-malware-analysis-fundamentals/</guid>
       <description>This blog is inspired by the Certified Blue Team Level 2 Certification that covers 4 domains:&#xA;Malware Analysis Threat Hunting Advanced SIEM Vulnerability Management The Malware Analysis Process Obtain the malware &amp;gt; (Static Analysis &amp;lt;&amp;gt; Dynamic Analysis) &amp;gt; Reporting&#xA;Static Analysis - Analyzing malware without execution&#xA;Dynamic Analysis - Analyzing the behavior of malware through execution&#xA;Focus Your Analysis Is the file malicious? How does the malware modify the system? Who does the malware contact and why?</description>
     </item>

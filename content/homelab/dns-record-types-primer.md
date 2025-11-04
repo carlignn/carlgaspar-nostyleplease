@@ -2,7 +2,7 @@
 title: DNS Record Types Primer
 subtitle: ''
 draft: false
-date: 2022-10-25T00:00:00.000Z
+date: 2022-10-25T00:00:00+08:00
 tags:
   - all
   - primer

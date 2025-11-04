@@ -6,124 +6,124 @@
     <description>Recent content in Homelab on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Paperless Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-paperless-documentation/</link>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-paperless-documentation/</guid>
       <description>The installation will be as a container in TrueNAS Scale to centralize media/document storage and processing.&#xA;Paperless-ngx Write in all the passwords, username, email, etc. No need to change anything aside for the Storage Configuration. I&amp;rsquo;ve decided to create my own Host Path to easily manage the configurations.&#xA;This installation will also have an android applicatoin called Paperless Mobile. It works well, just add the IP address and port when logging in.</description>
     </item>
     <item>
       <title>My Notification Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-notification-documentation/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-notification-documentation/</guid>
       <description>For this project, I&amp;rsquo;ve seen options between Discord, SMS, and email. I ended up with email as it seems like it&amp;rsquo;s the best for my use case: open industry standard, has been around forever, and isn&amp;rsquo;t going anywhere.&#xA;Problem The guides are only set for Gmail. Why? They already offer a standard SMTP interface. I use ProtonMail - and they don&amp;rsquo;t.&#xA;Fix I&amp;rsquo;ve done my research and here are the options that I found:</description>
     </item>
     <item>
       <title>Linux Hostname Primer</title>
       <link>http://10.10.30.2:1313/homelab/linux-hostname-primer/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/linux-hostname-primer/</guid>
       <description>LXC and VM On the LXC/VM, change the hostname in LXC &amp;gt; DNS &amp;gt; Hostname and update in shell:&#xA;nano /etc/hosts nano /etc/hostname </description>
     </item>
     <item>
       <title>My Backblaze Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-backblaze-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-backblaze-documentation/</guid>
       <description>I&amp;rsquo;m worried about the state of my digital memories and personal data after seeing a lot of people failed by their NAS. I&amp;rsquo;m thinking about putting this existing one onto my parents house as an offsite backup and build a new one that I can rack to save space. I thought that was a good idea but at the same time, it&amp;rsquo;s really expensive, so I&amp;rsquo;ve just decided (maybe for the meantime, until I can find another reason to build a new computer LOL) to put the backup in the cloud.</description>
     </item>
     <item>
       <title>My Frigate Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-frigate-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-frigate-documentation/</guid>
       <description>Hardware I wanted something that would last a long time, the common brands based from my research are HikVision and Dahua. Here are my requirements:&#xA;Supports Frigate High quality - atleast 4mp With POE - so that there are less wires and no more trouble of looking for the nearest power outlet Lightweight - I need it to be as light as possible because I can&amp;rsquo;t drill in my current place so I have to stick it on the ceiling.</description>
     </item>
     <item>
       <title>My OPNSense Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-opnsense-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-opnsense-documentation/</guid>
       <description>Hardware I have no choice but to buy a new hardware because we moved to a new place, therefore the internet has changed too - for the worse. Just like before, it has the option to configure subnet but it&amp;rsquo;s not working!&#xA;My options were the NanoPI R5S router, Gl.inet stuff, then this one - the Lenovo m720q - the best mini PC that you could get for cheap.&#xA;I chose this one because of the upgradability and aesthetics, and the price difference is also not that high so might as well settle for the one that pleases my eyes the most.</description>
     </item>
     <item>
       <title>My Portainer Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-portainer-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-portainer-documentation/</guid>
       <description>Installation Run this Proxmox helper script to create a Debian LXC with Docker inside. Then enabled portainer from the initial configuration.&#xA;bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)&amp;#34; IPv4 = static IPv6 = disabled Docker compose = enabled Portainer GUI = enabled Portainer agent = disabled Expose docker TCP socket = disabled Configuration Connect the agents in Environments &amp;gt; Docker Standalone&#xA;Name - hl1postiz1 all lowercase Environment address - 10.10.30.2:9001 always at 9001 port so far Reference Proxmox Helper Scripts for Docker </description>
     </item>
     <item>
       <title>My Postiz Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-postiz-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-postiz-documentation/</guid>
       <description>Installation Run this Proxmox helper script to create a Debian LXC with Docker inside.&#xA;bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)&amp;#34; IPv4 = static IPv6 = disabled Docker compose = enabled Portainer GUI = disabled Portainer agent = enabled Expose docker TCP socket = disabled Create a postiz folder in the root&#xA;mkdir /postiz Create a docker-compose.yml file on that directory&#xA;nano docker-compose.yml And paste the Network Requirements changing below code:&#xA;MAIN_URL: &amp;#34;http://localhost:5000&amp;#34; FRONTEND_URL: &amp;#34;http://localhost:5000&amp;#34; NEXT_PUBLIC_BACKEND_URL: &amp;#34;http://localhost:5000/api&amp;#34; JWT_SECRET: &amp;#34;whateveryoulike&amp;#34; Replace localhost with the IP of the machine (if you&amp;rsquo;re not using the localhost for Postiz).</description>
     </item>
     <item>
       <title>My TrueNAS Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-truenas-documentation/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-truenas-documentation/</guid>
       <description>Hardware A lot of the hardware came from my old PC. I was thinking of a reason to upgrade my computer parts and thought..&#xA;I think I need a NAS.. maybe?&#xA;Case - Sagittarius 8-bay Motherboard - ASUS TUF GAMING B550M-PLUS (WIFI) CPU - AMD Ryzen 5 3600 RAM - TEAMGROUP-UD4-3600 - 16gb * 2 HBA - LSI 9208-8I (used) GPU - Nvdia GT210 I needed a GPU because the CPU that I have isn&amp;rsquo;t capable of running headless.</description>
     </item>
     <item>
       <title>Proxmox LXC and VM Primer</title>
       <link>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</link>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</guid>
       <description>Storage Increase Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk. Click Resize disk and add the extra GBs. ext4 resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0 xfs xfs_growfs / zfs No need to do anything. </description>
     </item>
     <item>
       <title>My Arr Stack Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-arr-stack-documentation/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-arr-stack-documentation/</guid>
-      <description>First posted on: 2025-01-09T00:00:00.000Z&#xA;overseerr - request manager plex - media manager prowlarr - indexer (for radarr and sonarr) qbittorrent - torrent client radarr - movie collection manager (connects to qbt) sonarr - tv show collection manager (connects to qbt) </description>
+      <description>First posted on: 2025-01-09T00:00:00+08:00&#xA;overseerr - request manager plex - media manager prowlarr - indexer (for radarr and sonarr) qbittorrent - torrent client radarr - movie collection manager (connects to qbt) sonarr - tv show collection manager (connects to qbt) </description>
     </item>
     <item>
       <title>My Pi-Hole Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-pi-hole-documentation/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-pi-hole-documentation/</guid>
-      <description>First posted on: 2025-01-01T00:00:00.000Z&#xA;I have since moved Pi-Hole + Unbound to OPNSense. My OPNSense Documentation - Unbound&#xA;Run the Pi-Hole helper script to simplify the LXC creation.&#xA;bash -c &amp;#34;$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh)&amp;#34; Add the blacklists to improve adblocking https://firebog.net/.&#xA;For NSFW, try This doesn&amp;rsquo;t look like it&amp;rsquo;s working.&#xA;Unbound Just follow the official guide. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.</description>
+      <description>First posted on: 2025-01-01T00:00:00+08:00&#xA;I have since moved Pi-Hole + Unbound to OPNSense. My OPNSense Documentation - Unbound&#xA;Run the Pi-Hole helper script to simplify the LXC creation.&#xA;bash -c &amp;#34;$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh)&amp;#34; Add the blacklists to improve adblocking https://firebog.net/.&#xA;For NSFW, try This doesn&amp;rsquo;t look like it&amp;rsquo;s working.&#xA;Unbound Just follow the official guide. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.</description>
     </item>
     <item>
       <title>i3wm Configuration and Setup on Debian Linux</title>
       <link>http://10.10.30.2:1313/homelab/_draft-i3wm-configuration-and-setup-on-debian-linux/</link>
-      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/_draft-i3wm-configuration-and-setup-on-debian-linux/</guid>
       <description>This post has been paused for the meantime due to priorities.&#xA;I was looking for a lightweight operating system to host my dashboard and a few static movies/videos that I can play in the background and I landed on Alpine Linux. But apparently, NVIDIA drivers are hard to install in Alpine so I moved to Debian.&#xA;This VM will passthrough my 1050TI so that I can watch movies, use the browser, and use software that requires hardware transcoding with ease.</description>
     </item>
     <item>
       <title>Portainer Configuration</title>
       <link>http://10.10.30.2:1313/homelab/portainer-configuration/</link>
-      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/portainer-configuration/</guid>
       <description>Create a VM or an LXC container. In this case, I will use a Debian LXC.&#xA;Install docker: https://docs.docker.com/engine/install/debian/&#xA;Install portainer: https://docs.portainer.io/start/install-ce/server/docker/linux&#xA;Or just use the docker LXC: https://community-scripts.github.io/ProxmoxVE/scripts?id=docker</description>
     </item>
     <item>
       <title>TrueNAS Setup in Proxmox</title>
       <link>http://10.10.30.2:1313/homelab/truenas-setup-in-proxmox/</link>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/truenas-setup-in-proxmox/</guid>
       <description>Check dedicated TrueNAS setup.&#xA;From this guide, there&amp;rsquo;s a comment https://www.youtube.com/watch?v=M3pKprTdNqQ&#xA;This video is really really the top of the iceberg. A few crucial thing is missing from this like: - excluding the disks from pve, or else you will wonder why it periodically interrupts disk operations or wakes up sleeping disks - disabling the &amp;ldquo;use tablet for pointer&amp;rdquo; as that in itself causes 10+% CPU load on the host side for some reason - disabling &amp;ldquo;hardware&amp;rdquo; acceleration of virtIO as this is known to cause problems - doing smart configuration (like APM, idle times) on the host side as the guest won&amp;rsquo;t have access to smart data and alerts - optionally moving the system dataset to the boot disk</description>
     </item>
     <item>
       <title>i3wm Configuration and Setup on Alpine Linux</title>
       <link>http://10.10.30.2:1313/homelab/_draft-i3wm-configuration-and-setup-on-alpine-linux/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/_draft-i3wm-configuration-and-setup-on-alpine-linux/</guid>
       <description>This post has been paused for the meantime due to priorities.&#xA;I was looking for a lightweight operating system to host my dashboard and a few static movies/videos that I can play in the background and I landed on..&#xA;This tutorial is deprecated. I have to move from Alpine to Debian since Alpine doesn&amp;rsquo;t have native support for my NVIDIA graphics card.&#xA;Alpine On Alpine download page, you can choose the Standard or the VM version.</description>
     </item>
     <item>
       <title>Homelab Configuration Series</title>
       <link>http://10.10.30.2:1313/homelab/_draft-homelab-configuration-series/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/_draft-homelab-configuration-series/</guid>
       <description>Introduction I started this homelab journey because I already exhausted my 1 TB external SSD. I looked for options and I found NAS as the best one. I&amp;rsquo;ve been trying to justify buying/creating a server for years, it will help with upskilling they (I) said, but that reason is just not enough. Cloud options are always available and some are also free. But now that I have a NAS requirement, I figured that relying in the cloud for storage will really be costly.</description>
     </item>
@@ -137,7 +137,7 @@
     <item>
       <title>DNS Record Types Primer</title>
       <link>http://10.10.30.2:1313/homelab/dns-record-types-primer/</link>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/dns-record-types-primer/</guid>
       <description>When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&#xA;A Records These are also called Address Records or sometimes Host Records. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting.</description>
     </item>

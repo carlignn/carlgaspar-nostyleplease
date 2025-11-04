@@ -6,82 +6,82 @@
     <description>Recent content in Security on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Risk Management Framework</title>
       <link>http://10.10.30.2:1313/security/risk-management-framework/</link>
-      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/risk-management-framework/</guid>
       <description>Standards for Risk Management NIST SP 800-30 Risk Management Guide for Information Technology Systems Provides a foundation for the development of an effective risk management program Contains the definitions and the practical guidance for assessing and mitigating risks Provides information on the selection of cost-effective security controls NIST SP 800-30: Risk Management At a high level, risk management encompasses three processes. &amp;gt; Evaluation and Assessment &amp;gt; Risk Assessment &amp;gt; Risk Mitigation &amp;gt; Risk Assessment Steps Abstracted from SP 800-30 Step 1: System Characterization Step 2: Threat Identification Step 3: Vulnerability Identification Step 4: Control Analysis Step 5: Likelihood Determination Step 6: Impact Analysis Step 7: Risk Determination Step 8: Control Recommendations Step 9: Results Documentation Step 1: System Characterization Input Hardware Software System Interfaces Data and Information (Need to categorize how sensitive are these data) People System Mission Output System Boundary System Functions System and Data Criticality System and Data Sensitivity Step 2: Threat Identification Input History of system attack Data from intelligence agencies, mass media, or gov CERT Output Threat Statement Step 3: Vulnerability Identification Input Reports from prior risk assessments Prior audits Security requirements Security test results Output List of potential vulnerabilities Step 4: Control Analysis Input Current controls Planned controls Output List of current and planned controls Step 5: Likelihood Determination Input Threat-source motivation Threat capacity Nature of vulnerability Current controls Output Likelihood rating Likelihood Rating Qualitative Ratings High - The threat-source is highly motivated and sufficiently capable, and controls to prevent the vulnerability from being exercised are ineffective.</description>
     </item>
     <item>
       <title>Cyber Risk Management Fundamentals</title>
       <link>http://10.10.30.2:1313/security/cyber-risk-management-fundamentals/</link>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/cyber-risk-management-fundamentals/</guid>
       <description>Fundamentals of Cyber Risk Management Course Introduction Course Agenda Risk Management Overview Risk Management Frameworks Critical Assets and Operations Threats and Vulnerabilities Risk Analysis and Mitigation Security Controls Mitigation Strategy Maintenance Response and Recovery Risk Management Overview NIST SP 800-30 Defines risk as “a measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence” At a high level, this is accomplished by balancing exposure to risks against cost of mitigation and implementing appropriate countermeasures/controls.</description>
     </item>
     <item>
       <title>AWS Security Maturity Roadmap by Scott Piper</title>
       <link>http://10.10.30.2:1313/security/aws-security-maturity-roadmap-by-scott-piper/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/aws-security-maturity-roadmap-by-scott-piper/</guid>
       <description>Most common security incidents Publicly accessible resources such as S3 buckets or ElasticSearch clusters. Leaked access keys. For example, access keys posted to GitHub. Compromised IAM Roles through SSRF or RCE against an EC2, resulting in access to the metadata service at 169.254.169.254. AWS Security Maturity Roadmap Stage 1: Inventory Identify all AWS accounts in the company and their points of contact. Integrate AWS accounts into AWS Organizations. Ensure all account root emails are on distribution lists.</description>
     </item>
     <item>
       <title>Malware Analysis Fundamentals</title>
       <link>http://10.10.30.2:1313/security/zzz-malware-analysis-fundamentals/</link>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-malware-analysis-fundamentals/</guid>
       <description>This blog is inspired by the Certified Blue Team Level 2 Certification that covers 4 domains:&#xA;Malware Analysis Threat Hunting Advanced SIEM Vulnerability Management The Malware Analysis Process Obtain the malware &amp;gt; (Static Analysis &amp;lt;&amp;gt; Dynamic Analysis) &amp;gt; Reporting&#xA;Static Analysis - Analyzing malware without execution&#xA;Dynamic Analysis - Analyzing the behavior of malware through execution&#xA;Focus Your Analysis Is the file malicious? How does the malware modify the system? Who does the malware contact and why?</description>
     </item>
     <item>
       <title>Can You Be A CISO?</title>
       <link>http://10.10.30.2:1313/security/zzz-can-you-be-a-ciso/</link>
-      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-can-you-be-a-ciso/</guid>
       <description>I found this blog on Reddit and I will try my best to answer them. I will answer them on my own, then I will answer from a different perspective based on my research.&#xA;Questions Who are the clients of the information security team? Answer: Stakeholders. Research Stakeholder A stakeholder is a party that has an interest in a company and can either affect or be affected by the business. Can be internal or external.</description>
     </item>
     <item>
       <title>OWASP ZAP (Zed Attack Proxy)</title>
       <link>http://10.10.30.2:1313/security/zzz-owasp-zap-zed-attack-proxy/</link>
-      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-owasp-zap-zed-attack-proxy/</guid>
       <description></description>
     </item>
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 2</title>
       <link>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-2/</link>
-      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-2/</guid>
       <description>how to use the Mitre ATT&amp;amp;CK.&#xA;Source: https://youtu.be/EIHLXWnK1Dw</description>
     </item>
     <item>
       <title>Incident Response: Phishing Email Investigation Cheatsheet</title>
       <link>http://10.10.30.2:1313/security/zzz-incident-response-phishing-email-investigation-cheatsheet/</link>
-      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-incident-response-phishing-email-investigation-cheatsheet/</guid>
       <description>URLs *VirusTotal - will give a reputation.&#xA;Google Safe Browsing - will tell if it&amp;rsquo;s on a blacklist&#xA;urlscan - best and quickest, it will flag if they are active phishing, will give a screenshot, and has an awesome API.&#xA;(NOTE) If you detect any as malicious, block them on your firewalls and do a search across your logs.&#xA;CheckPhish&#xA;PhishCheck&#xA;DNSDumpster&#xA;*Hybrid Analysis&#xA;*any.run&#xA;URLhaus&#xA;JOE Sandbox&#xA;*Can scan files</description>
     </item>
     <item>
       <title>Incident Response: Detection and Analysis</title>
       <link>http://10.10.30.2:1313/security/incident-response-detection-and-analysis/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/incident-response-detection-and-analysis/</guid>
       <description>Research The Domain DNS Dumpster Doing a research on the domain using DNS Dumpster will provide DNS Records, much like the same information you&amp;rsquo;ll get when you register a web server.&#xA;Shodan.io Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&#xA;VirusTotal If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.</description>
     </item>
     <item>
       <title>Incident Response: Detection and Analysis</title>
       <link>http://10.10.30.2:1313/security/zzz-incident-response-tools/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-incident-response-tools/</guid>
       <description>Research The Domain DNS Dumpster Doing a research on the domain using DNS Dumpster will provide DNS Records, much like the same information you&amp;rsquo;ll get when you register a web server.&#xA;Shodan.io Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&#xA;VirusTotal If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.</description>
     </item>
     <item>
       <title>Cybersecurity Interview &#34;Answers&#34;</title>
       <link>http://10.10.30.2:1313/security/zzz-cybersecurity-interview-answers/</link>
-      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-cybersecurity-interview-answers/</guid>
       <description>https://danielmiessler.com/study/infosec_interview_questions/</description>
     </item>
@@ -95,7 +95,7 @@
     <item>
       <title>Information Security Governance for CISM®</title>
       <link>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</link>
-      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</guid>
       <description>Enterprise Governance&#xA;Information Security Governance&#xA;Exam Topics&#xA;Organizational culture&#xA;Legal, regulatory, and contractual requirements&#xA;Organizational structure, roles, and responsibilities&#xA;GRC = Governance, Risk, Compliance&#xA;Key points&#xA;Governance is key to the establishment of accountability and direction&#xA;Governance should eb addressed from an enterprise-wide viewpoint&#xA;Information security strategy must be aligned with organizational mission and goals&#xA;Factors That Influence Governance Organizational Culture Organizational norms and behaviors Management style: Autocratic (Taylorism) - All decisions are made by managers and everyone who&amp;rsquo;s not a manager just does what their tool to do.</description>
     </item>
@@ -116,7 +116,7 @@
     <item>
       <title>Red Team Adversary Emulation With Caldera Part 1</title>
       <link>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</link>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</guid>
       <description>how to use the Mitre ATT&amp;amp;CK.&#xA;Source: https://youtu.be/EIHLXWnK1Dw</description>
     </item>

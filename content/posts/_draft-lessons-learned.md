@@ -1,7 +1,7 @@
 ---
 title: My Lessons Learned
 subtitle: This is for AI to query once it's capable.
-date: 2025-09-08T00:00:00.000Z
+date: 2025-09-08T00:00:00+08:00
 draft: true
 tags:
   - all
