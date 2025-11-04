@@ -2,13 +2,17 @@
 
 ## Hugoing
 
-To run: npm run dev
-Install TinaCMS if not yet installed: npm install @tinacms/cli
-Remove and reinstall old modules if outdated:
+* Install NPM: sudo apt install npm
+* Install TinaCMS if not yet installed: npm install @tinacms/cli
+* Install Hugo if not yet installed: sudo apt install hugo -y
+* Remove and reinstall old modules if outdated:
 ```shell
 	rm -rf node_modules package-lock.json
 	npm install
 ```
+* To run the code: npm run dev (this only runs inside the VM)
+* To run the code: hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D (this tells Hugo to listen on all interfaces)
+
 
 ## Commiting
 

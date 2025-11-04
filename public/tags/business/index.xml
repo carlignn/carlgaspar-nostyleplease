@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Business on Carl Gaspar</title>
-    <link>//localhost:1313/tags/business/</link>
+    <link>http://10.10.30.2:1313/tags/business/</link>
     <description>Recent content in Business on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/business/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.10.30.2:1313/tags/business/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>carldss.com - Custom Collectible Cards</title>
-      <link>//localhost:1313/projects/carldsscom-custom-collectible-cards/</link>
+      <link>http://10.10.30.2:1313/projects/carldsscom-custom-collectible-cards/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/carldsscom-custom-collectible-cards/</guid>
-      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve created Carldss as a token/reward for the basketball players of our &lt;a href=&#34;//localhost:1313/posts/i-was-an-announcer-today&#34;&gt;REC LEAGUE&lt;/a&gt;. carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more. To see all leagues that I&amp;rsquo;m working on, check &lt;a href=&#34;//localhost:1313/carldsscom&#34;&gt;ALL LEAGUES&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m hoping to reach more leagues. Reach out to any of the &lt;a href=&#34;//localhost:1313/carldsscom/carldsscom-socials&#34;&gt;SOCIALS&lt;/a&gt; if you want one.&lt;/p&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p class=&#34;carldss&#34;&gt;&lt;img src=&#34;https://i.imgur.com/cKoP1ED.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WKND G League Season 1&lt;/li&gt;&#xA;&lt;li&gt;Best Player of the Game - Round 1 vs Black - October 29, 2025&lt;/li&gt;&#xA;&lt;li&gt;From Red Team, Point Guard / Center&lt;/li&gt;&#xA;&lt;li&gt;GASPAR CARL with 99 overall rating, 45pts, 12stls, 2rebs, and 8asts&lt;/li&gt;&#xA;&lt;li&gt;More details: Rare, Original Card, 1 of 1, Batch 0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;poster&#34;&gt;Poster&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Ow0Ztzn.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://10.10.30.2:1313/projects/carldsscom-custom-collectible-cards/</guid>
+      <description>I&amp;rsquo;ve created Carldss as a token/reward for the basketball players of our REC LEAGUE. carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more. To see all leagues that I&amp;rsquo;m working on, check ALL LEAGUES.&#xA;I&amp;rsquo;m hoping to reach more leagues. Reach out to any of the SOCIALS if you want one.&#xA;Details WKND G League Season 1 Best Player of the Game - Round 1 vs Black - October 29, 2025 From Red Team, Point Guard / Center GASPAR CARL with 99 overall rating, 45pts, 12stls, 2rebs, and 8asts More details: Rare, Original Card, 1 of 1, Batch 0 Poster More DEMO SCREENSHOTS uploaded in Imgur.</description>
     </item>
   </channel>
 </rss>

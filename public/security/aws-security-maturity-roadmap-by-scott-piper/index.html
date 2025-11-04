@@ -15,7 +15,7 @@
   
   
   
-  <link rel="stylesheet" href="//localhost:1313/css/main.css" />
+  <link rel="stylesheet" href="/css/main.css" />
   
   
 </head>
@@ -73,13 +73,15 @@
 <li>Create budget alarms.</li>
 </ol>
 <blockquote>
-<p>If you don’t already have lots of AWS accounts, recognize that at this point you now have a minimum of 3 AWS accounts (an account that has your business stuff in it, the AWS Organization root account with nothing in it, and the Security account).</p></blockquote>
+<p>If you don’t already have lots of AWS accounts, recognize that at this point you now have a minimum of 3 AWS accounts (an account that has your business stuff in it, the AWS Organization root account with nothing in it, and the Security account).</p>
+</blockquote>
 <h3 id="stage-2-have-backups">Stage 2: Have backups</h3>
 <ol>
 <li>Create regular backups.</li>
 </ol>
 <blockquote>
-<p>As you learn what data you have in AWS, you should ensure that data is backed up to a separate AWS account in a separate region from where the data comes from (or possibly even somewhere off of AWS)</p></blockquote>
+<p>As you learn what data you have in AWS, you should ensure that data is backed up to a separate AWS account in a separate region from where the data comes from (or possibly even somewhere off of AWS)</p>
+</blockquote>
 <h3 id="stage-3-visibility-and-initial-remediation">Stage 3: Visibility and initial remediation</h3>
 <ol>
 <li>Turn on CloudTrail, GuardDuty, and Access Analyzer for all accounts to send their logs and alerts to the Security account.</li>
@@ -97,7 +99,8 @@
 <li>Consider turning on other logging sources.</li>
 </ol>
 <blockquote>
-<p>As a first step, most companies will create a CloudWatch Event rule that sends the alerts directly to an SNS that goes to email or Slack messages. They then quickly realize they need to filter this through a Lambda or something with logic in it in order to ignore certain types of alerts. As their alert response processes mature, they also find they need to send these to a ticketing system. This enables them to track metrics, have an audit history, and perform escalations.</p></blockquote>
+<p>As a first step, most companies will create a CloudWatch Event rule that sends the alerts directly to an SNS that goes to email or Slack messages. They then quickly realize they need to filter this through a Lambda or something with logic in it in order to ignore certain types of alerts. As their alert response processes mature, they also find they need to send these to a ticketing system. This enables them to track metrics, have an audit history, and perform escalations.</p>
+</blockquote>
 <p>You want to ensure you can minimally do the following:</p>
 <ul>
 <li>Receive a notification about a GuardDuty alert from any of your accounts and any region you enabled it in.</li>
@@ -168,11 +171,14 @@
 <li>Practice responding to incidents.</li>
 </ol>
 <blockquote>
-<p>Consider breaking up services into pieces so that if one is compromised the blast radius is more limited.</p></blockquote>
+<p>Consider breaking up services into pieces so that if one is compromised the blast radius is more limited.</p>
+</blockquote>
 <blockquote>
-<p>Ensure there is a separation of duties so the security team can monitor the production accounts without being able to cause incidents there, and those with production access, cannot impact the security team.</p></blockquote>
+<p>Ensure there is a separation of duties so the security team can monitor the production accounts without being able to cause incidents there, and those with production access, cannot impact the security team.</p>
+</blockquote>
 <blockquote>
-<p>If you are lucky enough to not have any security incidents, you should practice what happens when systems or IAM roles are compromised, either via a planned exercise, or red team engagement. How long does it take you to identify, understand, and react? Use the lessons learned to improve</p></blockquote>
+<p>If you are lucky enough to not have any security incidents, you should practice what happens when systems or IAM roles are compromised, either via a planned exercise, or red team engagement. How long does it take you to identify, understand, and react? Use the lessons learned to improve</p>
+</blockquote>
 <h2 id="references">References</h2>
 <p><a href="https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf">AWS Security Maturity Roadmap by Scott Piper</a></p>
 

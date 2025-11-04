@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philippines on Carl Gaspar</title>
-    <link>//localhost:1313/tags/philippines/</link>
+    <link>http://10.10.30.2:1313/tags/philippines/</link>
     <description>Recent content in Philippines on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Sep 2021 14:30:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/philippines/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.10.30.2:1313/tags/philippines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Philippine Government</title>
-      <link>//localhost:1313/posts/the-philippine-government/</link>
+      <link>http://10.10.30.2:1313/posts/the-philippine-government/</link>
       <pubDate>Tue, 21 Sep 2021 14:30:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/the-philippine-government/</guid>
-      <description>&lt;p&gt;When we were young, there are times in our studies where there are topics or lessons that our brain can&amp;rsquo;t comprehend. In this blog, I will discuss what I learned reviewing the really important topic - The Philippine Government. I learned that it is all based on the Philippine Constitution.&lt;/p&gt;&#xA;&lt;p&gt;The Philippine Government (Filipino: Pamahalaan ng Pilipinas) is the national government of the Philippines. It is governed as unitary state under a presidential representative and democratic and a constitutional republic where the President function as both the head of state and the head of government of the country within a multiform multi-party system. The government has three (3) interdependent branches: the &lt;strong&gt;legislative&lt;/strong&gt; branch, the &lt;strong&gt;executive&lt;/strong&gt; branch and the &lt;strong&gt;judicial&lt;/strong&gt; branch. The powers of the branches are vested by the Constitution of the Philippines.&lt;/p&gt;</description>
+      <guid>http://10.10.30.2:1313/posts/the-philippine-government/</guid>
+      <description>When we were young, there are times in our studies where there are topics or lessons that our brain can&amp;rsquo;t comprehend. In this blog, I will discuss what I learned reviewing the really important topic - The Philippine Government. I learned that it is all based on the Philippine Constitution.&#xA;The Philippine Government (Filipino: Pamahalaan ng Pilipinas) is the national government of the Philippines. It is governed as unitary state under a presidential representative and democratic and a constitutional republic where the President function as both the head of state and the head of government of the country within a multiform multi-party system.</description>
     </item>
   </channel>
 </rss>

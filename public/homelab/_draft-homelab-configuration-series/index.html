@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Homelab Configuration Series
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2024-12-10 00:00:00 &#43;0000 UTC">
+            
+                2024-12-10
+            
+        </time>
+    </p>
+
+    <h1>Homelab Configuration Series</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/security">security</a></p>
+        
+    
+
+    <p>The beginning of the configuration of my homelab</p>
+
+    <h2 id="introduction">Introduction</h2>
+<p>I started this homelab journey because I already exhausted my 1 TB external SSD. I looked for options and I found NAS as the best one. I&rsquo;ve been trying to justify buying/creating a server for years, it will help with upskilling they (I) said, but that reason is just not enough. Cloud options are always available and some are also free. But now that I have a NAS requirement, I figured that relying in the cloud for storage will really be costly. That&rsquo;s why I&rsquo;m here writing the documentation so that when I got lost midway, I have something I can get back to.</p>
+<p>I&rsquo;m a software person, but I really enjoyed building the hardware on stream. Thank you all for the support and let&rsquo;s get to the documentation.</p>
+<h2 id="tech-specs">Tech Specs</h2>
+<h3 id="storage">Storage</h3>
+<ul>
+<li>2 * 256 GB Kingston NVME - <strong>Proxmox</strong> setup in RAID 1</li>
+<li>1 TB Samsung SSD - <strong>VM</strong> and other stuff</li>
+<li>4 * 12 TB HGST WD Ultrastar DC HC520 HDD - <strong>NAS</strong></li>
+</ul>
+<h3 id="more">More</h3>
+<ul>
+<li><strong>Motherboard</strong> - ASUS TUF B550M Motherboard</li>
+<li><strong>CPU</strong> - AMD Ryzen 5 3600</li>
+<li><strong>RAM</strong> - 4 * 8 GB TEAMGROUP TForce DARK ZA 3600Mhz DDR4</li>
+<li><strong>GPU</strong> - NVIDIA GTX 1050 TI</li>
+<li><strong>HBA</strong> - LSI 9208-8I</li>
+<li><strong>PSU</strong> - Seasonic Focus SGX 500 650 80+ Gold Full Modular</li>
+<li><strong>CPU FAN</strong> - Noctua NH-L9a-AM4</li>
+<li><strong>Case</strong> - Sagittarius Chassis NAS 8 Discs</li>
+<li><strong>Case FANS</strong> - 4 * Noctua NF-A12x15</li>
+</ul>
+<h2 id="proxmox-basic-configuration">Proxmox Basic Configuration</h2>
+<ul>
+<li><strong>HL1PROXMOX1</strong> (Hostname)</li>
+<li>IP <strong>10.10.0.2 /16</strong></li>
+<li>Gateway <strong>10.10.0.1 /16</strong> (Router IP)</li>
+<li>DNS <strong>1.1.1.3</strong> and <strong>1.0.0.3</strong> (Cloudflare&rsquo;s DNS for Malware and Adult Content)</li>
+<li>DNS <strong>1.1.1.1</strong> and <strong>8.8.8.8</strong> (Cloudflare and Google DNS if needed)</li>
+</ul>
+<h3 id="ip-and-naming-convention">IP and Naming Convention</h3>
+<ul>
+<li>10.<strong>Location</strong>.<strong>VLAN</strong>.0 /24</li>
+<li><strong>Location</strong> and <strong>VLAN</strong> starts and increases by 10.</li>
+</ul>
+<h3 id="server-and-machine-naming-convention">Server and Machine Naming Convention</h3>
+<h4 id="location">Location</h4>
+<ul>
+<li><strong>HL2PROXMOX1</strong> - Second instance of the Homelab</li>
+</ul>
+<h4 id="clusters">Clusters</h4>
+<ul>
+<li><strong>HL1PROXMOX2</strong> - Second Proxmox instance</li>
+</ul>
+<h4 id="servers">Servers</h4>
+<p>Name the servers of their function. Add the OS as a tag afterwards.</p>
+<ul>
+<li><strong>HL1PROXMOX1</strong> - First Proxmox instance</li>
+<li><strong>HL1WEBSERVER1</strong> - First homelab web server</li>
+<li><strong>HL1MEDIASERVER2</strong> - Second media server</li>
+</ul>
+<h4 id="machines">Machines</h4>
+<p>Also starts with HL1 since I don&rsquo;t think I&rsquo;m in an office to be using OF1.</p>
+<ul>
+<li><strong>HL1PC1</strong> - First PC in the homelab</li>
+<li><strong>HL1LAPTOP1</strong> - First laptop in the homelab</li>
+<li><strong>HL1WS1</strong> - First workstation in the homelab</li>
+<li><strong>HL1VM1</strong> - First virtual machine in the homelab</li>
+</ul>
+<h4 id="users">Users</h4>
+<ul>
+<li><strong>Full Name</strong> - Carl Christian Gaspar</li>
+<li><strong>Username</strong> - cgaspar &lt;first letter of first name&gt;&lt;surname&gt;</li>
+</ul>
+<h2 id="proxmox-advanced-configuration">Proxmox Advanced Configuration</h2>
+<ul>
+<li><a href="https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install">Helper scripts</a> after installing Proxmox.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>bash -c <span style="color:#87ceeb">&#34;</span><span style="color:#f00">$(</span>wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/misc/post-pve-install.sh<span style="color:#f00">)</span><span style="color:#87ceeb">&#34;</span>
+</span></span></code></pre></div><ul>
+<li>Create a Directory for storage (<a href="https://youtu.be/xD9Xyt2mdSI?si=vYLbN19b0KBlsnBC">guide</a>).</li>
+</ul>
+<h3 id="opnsense-documentation">OPNSense Documentation</h3>
+<p>OPNSense configuration has been postponed. I&rsquo;ve decided to move it to a dedicated machine.</p>
+<p>OPNSense was setup to use the router-on-a-stick configuration.</p>
+<ul>
+<li><strong>IP</strong>: 10.10.10.2/16</li>
+<li><strong>Hostname</strong>: HL1OPNSENSE1</li>
+<li><strong>Domain</strong>: carlgaspar.local</li>
+<li><strong>Primary DNS Server</strong>: 1.1.1.3</li>
+<li><strong>Secondary DNS Server</strong>: 1.0.0.3</li>
+<li><strong>LAN</strong>: 10.10.0.3/16</li>
+<li><strong>WAN</strong>: 10.10.0.5/30: WAN is used so that OPNSense can connect to the router</li>
+</ul>
+<h4 id="creating-vlans">Creating VLANs</h4>
+<ul>
+<li>Go to Interfaces &gt; Other Types &gt; VLAN
+<ul>
+<li>Add the <strong>VLAN tag</strong> and the <strong>Description</strong> as the name of the VLAN</li>
+</ul>
+</li>
+<li>Go to Assignments
+<ul>
+<li>Assign the VLANs to the Interface</li>
+</ul>
+</li>
+<li>Tag the VMs in Proxmox with the VLAN ID that was set in OPNSense</li>
+<li>Head to ISC DHCPv4 &gt; VLAN to configure DHCP on the VLAN</li>
+<li>To practice routing, head over to Firewall &gt; Rules</li>
+</ul>
+<h3 id="vlan-segmentation">VLAN Segmentation</h3>
+<ul>
+<li>VLAN10 - 10.10.10.0/24 - MGMT</li>
+<li>VLAN20 - 10.10.20.0/24 - DATA</li>
+<li>VLAN30 - 10.10.30.0/24 - MEDIA</li>
+<li>VLAN40 - 10.10.40.0/24 - IOT</li>
+<li>VLAN50 - 10.10.50.0/24 - AI</li>
+<li>VLAN60 - 10.10.60.0/24 - SERVER</li>
+<li>VLAN70 - 10.10.70.0/24 - CLIENT</li>
+<li>VLAN80 - 10.10.80.0/24 - DMZ</li>
+</ul>
+<h3 id="vlan-documentation-vlan-and-routing-moved-to-opnsense">VLAN Documentation (VLAN and Routing Moved to OPNSense)</h3>
+<ul>
+<li>Make the main bridge VLAN aware. The main bridge is usually named vmbr0.</li>
+<li>Assign VLAN to VMs - just tag with 10, 20, 30, etc.</li>
+</ul>
+<h3 id="dhcp-documentation">DHCP Documentation</h3>
+<ul>
+<li>Create VLANs in the Node &gt; System &gt; Network &gt; Create &gt; Linux VLAN</li>
+<li>Assign VLAN to VMs - just tag with 10, 20, 30, etc.</li>
+<li>Install the dhcp server (isc-dhcp-server)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt update
+</span></span><span style="display:flex;"><span>apt install isc-dhcp-server
+</span></span></code></pre></div><ul>
+<li>Configure DHCP Server config file and add the following code</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano /etc/dhcp/dhcpd.conf
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>subnet 10.10.10.0 netmask 255.255.255.0 {
+</span></span><span style="display:flex;"><span>    range 10.10.10.2 10.10.10.254;
+</span></span><span style="display:flex;"><span>    option routers 10.10.10.1;
+</span></span><span style="display:flex;"><span>    option domain-name-servers 8.8.8.8, 8.8.4.4;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>subnet 10.10.20.0 netmask 255.255.255.0 {
+</span></span><span style="display:flex;"><span>    range 10.10.20.2 10.10.20.254;
+</span></span><span style="display:flex;"><span>    option routers 10.10.20.1;
+</span></span><span style="display:flex;"><span>    option domain-name-servers 8.8.8.8, 8.8.4.4;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Bind DHCP to VLAN Interfaces, specify which interfaces the DHCP server should listen to. Edit the /etc/default/isc-dhcp-server file</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano /etc/default/isc-dhcp-server
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#eedd82">INTERFACESv4</span>=<span style="color:#87ceeb">&#34;vmbr0.10 vmbr0.20&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#eedd82">INTERFACESv6</span>=<span style="color:#87ceeb">&#34;&#34;</span>
+</span></span></code></pre></div><ul>
+<li>Enable and Start the DHCP Server</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>systemctl enable isc-dhcp-server
+</span></span><span style="display:flex;"><span>systemctl start isc-dhcp-server
+</span></span></code></pre></div><ul>
+<li>Restart if needed using restart.</li>
+<li>Verify DHCP Configuration</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>systemctl status isc-dhcp-server
+</span></span></code></pre></div><h3 id="vm-documentation">VM Documentation</h3>
+<ul>
+<li>When creating a VM make sure to check discard on the hard disk tab when using SSD for better performance.</li>
+<li>Install SSH to connect to the VM and navigate better</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt install openssh - server
+</span></span></code></pre></div><h3 id="unofficial-nat-documentation">Unofficial NAT Documentation</h3>
+<p>So that the VLANs can access the internet.</p>
+<ul>
+<li>Create the VLANs and tag the VMs with VLAN tag</li>
+<li>Set up IP Forwarding (NAT) - in Proxmox shell, edit the sysctl configuration file</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo nano /etc/sysctl.conf
+</span></span></code></pre></div><ul>
+<li>Uncomment or add</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>net.ipv4.ip_forward=<span style="color:#f60">1</span>
+</span></span></code></pre></div><ul>
+<li>Apply changes</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo sysctl -p
+</span></span></code></pre></div><ul>
+<li>Configure NAT - this will allow Proxmox to route traffic from VLAN 20 to the internet via the main network interface. Replace eth0 with the external interface. Use ip link show to show all interfaces. enp7s0</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo iptables -t nat -A POSTROUTING -s 10.10.10.0/24 -o enp7s0 -j MASQUERADE
+</span></span></code></pre></div><p>To ensure the iptables rules persist after reboot, install iptables-persistent:</p>
+<p>sudo apt install iptables-persistent</p>
+<p>Get back to chatgpt with this prompt &ldquo;Any way to do this via web interface?&rdquo; <a href="https://chatgpt.com/c/6758b4c3-4bb0-800a-bc11-115f2718ca31">https://chatgpt.com/c/6758b4c3-4bb0-800a-bc11-115f2718ca31</a></p>
+<h3 id="machine-tagging">Machine Tagging</h3>
+<ul>
+<li>Configure in Datacenter &gt; Options &gt; Tag Style Override
+<ul>
+<li>Tree Shape: Full</li>
+<li>Ordering: Configuration</li>
+</ul>
+</li>
+<li>On the machine, add the tags on the top (<a href="https://www.reddit.com/r/homelab/comments/14siou2/how_do_you_manage_your_ubuntu_vms/">guide</a>).</li>
+</ul>
+<h4 id="tagging-convention">Tagging Convention</h4>
+<ul>
+<li>&lt;os&gt;&lt;if docker&gt;&lt;if cs (community script)&gt;</li>
+</ul>
+<h3 id="passthrough">Passthrough</h3>
+<h4 id="gpu">GPU</h4>
+<p><a href="https://www.youtube.com/watch?v=TWX3iWcka_0">GUIDE</a></p>
+<ul>
+<li>Go to Datacenter &gt; Resource Mappings &gt; Add the GPU group</li>
+<li>On the VM go to Hardware &gt; Add PCI Device &gt; Tick Primary GPU if needed</li>
+</ul>
+<h4 id="mouse-and-keyboard-passthrough">Mouse and Keyboard Passthrough</h4>
+<ul>
+<li>Go to Datacenter &gt; Resource Mappings &gt; Add the USB device</li>
+<li>In the VM, go to Hardware &gt; Add USB Device &gt; Add Mapped Device &gt; Tick the USB Device you want to add</li>
+</ul>
+<h2 id="for-your-information">For your Information</h2>
+<h3 id="local-dns">Local DNS</h3>
+<p>Local DNS is the server that translates IP addresses to domain names. It is also just another client at the network that is being query every time someone requests for it. I will be using Unbound for this one.</p>
+<h3 id="storage-types">Storage Types</h3>
+<p>VZDump - VM/CT backups for restore/migration. - dump subdirectory.</p>
+<p>Snippets - Automation scripts/templates. - snippets subdirectory.</p>
+<p>Import - For importing external disk images. - import subdirectory.</p>
+<h2 id="roadblocks">Roadblocks</h2>
+<h3 id="pc-cant-connect-to-router-and-server-at-the-same-time">PC can&rsquo;t connect to router and server at the same time</h3>
+<ul>
+<li>Router is at <code>192.168.254.254/24</code> and the server is at <code>10.10.10.1/16</code> making both of them in a different network.</li>
+<li>I&rsquo;ve managed to change the configuration of the router to use <code>10.10.0.1/16</code>.</li>
+</ul>
+<h3 id="get-a-new-ip-from-the-dhcp-server-without-restarting-the-whole-machine">Get a new IP from the DHCP server without restarting the whole machine</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rc-service networking restart
+</span></span></code></pre></div><h3 id="pcie-and-other-components-sharing-the-same-iommu-group">PCIE and other components sharing the same IOMMU group</h3>
+<ul>
+<li>To separate and assign a separate group to each component</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano /etc/default/grub
+</span></span></code></pre></div><ul>
+<li>Add the following to GRUB_CMDLINE_LINUX_DEFAULT:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#eedd82">pcie_acs_override</span>=downstream,multifunction
+</span></span></code></pre></div><ul>
+<li>Update Grub and reboot</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>update-grub
+</span></span><span style="display:flex;"><span>reboot
+</span></span></code></pre></div><h3 id="truenas-scale-wont-boot-in-proxmox-saying-no-boot-device-available">TrueNAS Scale won&rsquo;t boot in Proxmox saying no boot device available</h3>
+<ul>
+<li>Disable ROM-bar when passing through the HBA</li>
+</ul>
+<h3 id="truenas-has-a-lot-of-logs-in-the-proxmox-console-when-starting-up-the-vm">TrueNAS has a lot of logs in the Proxmox console when starting up the VM</h3>
+<ul>
+<li>Edit /etc/default/grub in the VM and add</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#eedd82">GRUB_CMDLINE_LINUX_DEFAULT</span> = <span style="color:#87ceeb">&#34;quiet loglevel=3&#34;</span>
+</span></span></code></pre></div><ul>
+<li>Update and reboot</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>update-grub
+</span></span><span style="display:flex;"><span>reboot
+</span></span></code></pre></div><ul>
+<li>And adjust Proxmox Host Logging Settings. Edit /etc/sysctl.conf to reduce kernel verbosity. Add the following line:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>kernel.printk = <span style="color:#f60">3</span> <span style="color:#f60">3</span> <span style="color:#f60">3</span> <span style="color:#f60">3</span>
+</span></span></code></pre></div><ul>
+<li>Update</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sysctl -p
+</span></span></code></pre></div><h3 id="hostname-is-wrong">Hostname is wrong</h3>
+<ul>
+<li>Update /etc/hosts and /etc/hostname.</li>
+<li>To view hostname, type</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hostnamectl
+</span></span></code></pre></div><ul>
+<li>This will pull the hostname form /etc/hostname</li>
+</ul>
+<h3 id="how-to-convert-lxc-from-unprivilege-to-privilege">How to convert LXC from unprivilege to privilege</h3>
+<p><a href="https://forum.proxmox.com/threads/change-lxc-from-unprivileged-back-to-privileged.65552/">https://forum.proxmox.com/threads/change-lxc-from-unprivileged-back-to-privileged.65552/</a></p>
+<h3 id="update-the-motd-the-console-stats-after-logging-in">Update the MOTD (The console stats after logging in)</h3>
+<ul>
+<li>nano /etc/motd</li>
+</ul>
+<h4 id="update-the-ip-of-a-vm">Update the IP of a VM</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vi /etc/network/interfaces
+</span></span></code></pre></div><h3 id="proxmox-cannot-connect-to-the-internet-make-sure-dns-is-set">Proxmox cannot connect to the internet (make sure DNS is set)</h3>
+<ul>
+<li>Added the DNS server using</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nano / etc / resolv.conf
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>nameserver 1.1.1.1
+</span></span><span style="display:flex;"><span>nameserver 8.8.8.8
+</span></span></code></pre></div><ul>
+<li>Don&rsquo;t forget to restart networking</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>systemctl restart networking
+</span></span></code></pre></div><ul>
+<li>Make sure that the gateway is the same as the router IP.</li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

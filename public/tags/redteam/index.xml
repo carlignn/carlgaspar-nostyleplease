@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redteam on Carl Gaspar</title>
+    <link>http://10.10.30.2:1313/tags/redteam/</link>
+    <description>Recent content in Redteam on Carl Gaspar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://10.10.30.2:1313/tags/redteam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Team Adversary Emulation With Caldera Part 2</title>
+      <link>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-2/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-2/</guid>
+      <description>how to use the Mitre ATT&amp;amp;CK.&#xA;Source: https://youtu.be/EIHLXWnK1Dw</description>
+    </item>
+    <item>
+      <title>Red Team Adversary Emulation With Caldera Part 1</title>
+      <link>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</guid>
+      <description>how to use the Mitre ATT&amp;amp;CK.&#xA;Source: https://youtu.be/EIHLXWnK1Dw</description>
+    </item>
+  </channel>
+</rss>

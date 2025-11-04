@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Incident Response: Phishing Email Investigation Cheatsheet
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2022-12-08 00:00:00 &#43;0000 UTC">
+            
+                2022-12-08
+            
+        </time>
+    </p>
+
+    <h1>Incident Response: Phishing Email Investigation Cheatsheet</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/cheatsheet">cheatsheet</a>, <a href="/tags/security">security</a></p>
+        
+    
+
+    <p></p>
+
+    <h2 id="urls">URLs</h2>
+<p>*<a href="https://www.virustotal.com/gui/home/upload">VirusTotal</a> - will give a reputation.</p>
+<p><a href="https://transparencyreport.google.com/safe-browsing/search?hl=en">Google Safe Browsing</a> - will tell if it&rsquo;s on a blacklist</p>
+<p><a href="https://urlscan.io/">urlscan</a> - best and quickest, it will flag if they are active phishing, will give a screenshot, and has an awesome API.</p>
+<p>(NOTE) If you detect any as malicious, block them on your firewalls and do a search across your logs.</p>
+<p><a href="https://checkphish.ai/">CheckPhish</a></p>
+<p><a href="https://phishcheck.me/">PhishCheck</a></p>
+<p><a href="https://dnsdumpster.com/">DNSDumpster</a></p>
+<p>*<a href="https://www.hybrid-analysis.com/">Hybrid Analysis</a></p>
+<p>*<a href="https://app.any.run/">any.run</a></p>
+<p><a href="https://urlhaus.abuse.ch/browse/">URLhaus</a></p>
+<p><a href="https://www.joesandbox.com/#windows">JOE Sandbox</a></p>
+<p>*Can scan files</p>
+<h3 id="ips">IPs</h3>
+<p><a href="https://www.ipvoid.com/">IPVOID</a></p>
+<p><a href="https://gchq.github.io/CyberChef/">CyberChef</a> - Decoder</p>
+<p><a href="https://mxtoolbox.com/EmailHeaders.aspx">Email Header Analyzer</a> - Analyze email headers</p>
+<p><a href="https://www.blockchain.com/explorer">Blockchain Explorer</a> - Track blockchain activities</p>
+<h2 id="attachments">Attachments</h2>
+<p>Check the hash of the attachments. If it&rsquo;s there, check the reputation, if it&rsquo;s not, upload the file and scan analyze it privately in a sandbox</p>
+<p><a href="https://www.virustotal.com/gui/home/upload">VirusTotal</a> - will give a reputation.</p>
+<p>*<a href="https://www.hybrid-analysis.com/">Hybrid Analysis</a></p>
+<h3 id="sandboxes">Sandboxes</h3>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

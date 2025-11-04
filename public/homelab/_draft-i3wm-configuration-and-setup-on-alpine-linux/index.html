@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      i3wm Configuration and Setup on Alpine Linux
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2024-12-22 00:00:00 &#43;0000 UTC">
+            
+                2024-12-22
+            
+        </time>
+    </p>
+
+    <h1>i3wm Configuration and Setup on Alpine Linux</h1>
+
+    
+        
+        
+        
+            
+        
+        
+    
+
+    <p>Uhh, why am I here?</p>
+
+    <p>This post has been paused for the meantime due to priorities.</p>
+<p>I was looking for a lightweight operating system to host my dashboard and a few static movies/videos that I can play in the background and I landed on..</p>
+<p>This tutorial is deprecated. I have to move from Alpine to Debian since Alpine doesn&rsquo;t have native support for my NVIDIA graphics card.</p>
+<h2 id="alpine">Alpine</h2>
+<p>On Alpine download page, you can choose the <strong>Standard</strong> or the <strong>VM</strong> version. I used the <strong>VM</strong> version in this setup since I will be installing it in Proxmox. Standard will work, too. I am really not sure what is the difference, aside from the slimmed down kernel as stated in their <a href="https://alpinelinux.org/downloads/">WEBSITE</a>.</p>
+<p>Once installed login using:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>root
+</span></span></code></pre></div><p>To proceed with the setup, type:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>setup-alpine
+</span></span></code></pre></div><p>Follow the prompts. When it&rsquo;s time to select a mirror, enable the community mirror, then select the fastest mirror.</p>
+<h2 id="i3wm">i3wm</h2>
+<p>For basics, start with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>setup-xorg-base
+</span></span></code></pre></div><p>This is a convenient script that sets up the basic components required to run the X Window System (X11) on Alpine Linux</p>
+<p>You can now add the apps that you need. For starters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apk add i3wm i3status alacritty xrandr feh dbus firefox font-dejavu thunar picom
+</span></span></code></pre></div><ul>
+<li><strong>i3wm</strong>: the tiling window manager</li>
+<li><strong>i3status</strong>: status bar generator for i3wm</li>
+<li><strong>alacritty</strong>: cross-platform, GPU-accelerated terminal emulator</li>
+<li><strong>xrandr</strong>: tool for managing screen resolutions, rotation, and multi-monitor setups on X11</li>
+<li><strong>feh</strong>: tool for managing wallpapers</li>
+<li><strong>dbus</strong>: message bus system for communication between applications and the system</li>
+<li><strong>firefox</strong>: browser</li>
+<li><strong>font-dejavu</strong>: commong font. The configuration will not work without this.</li>
+<li><strong>thunar</strong>: XFCE based file manager</li>
+<li><strong>picom</strong>: lightweight compositor for transparency, shadows, and VSync on X11</li>
+</ul>
+<p>Enable dbus:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rc-update add dbus
+</span></span></code></pre></div><p>Guide I&rsquo;m following - \</p>
+<p>I added dmenu, i3lock, arandr, vim as well.</p>
+<ul>
+<li>arandr: is the GUI version of xrandr</li>
+</ul>
+<p>Add exec i3 to .xinitrc file</p>
+<p>startx to start</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li>Alpine Linux: Installation and Setup Guide for i3wm - <a href="https://www.youtube.com/watch?v=BRBuH-1dM3g">https://www.youtube.com/watch?v=BRBuH-1dM3g</a></li>
+<li>i3wm: Jump Start (1/3) - <a href="https://www.youtube.com/watch?v=j1I63wGcvU4&amp;list=PL0rXAycsylvXxyPDT5kGQ5MiHcqrZWv69&amp;index=1">https://www.youtube.com/watch?v=j1I63wGcvU4</a></li>
+<li>How to change IP in Alpine Linux - <a href="https://wiki.alpinelinux.org/wiki/Configure_Networking">https://wiki.alpinelinux.org/wiki/Configure_Networking</a></li>
+</ul>
+
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

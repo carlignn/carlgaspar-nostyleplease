@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primer on Carl Gaspar</title>
-    <link>//localhost:1313/tags/primer/</link>
+    <link>http://10.10.30.2:1313/tags/primer/</link>
     <description>Recent content in Primer on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/primer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.10.30.2:1313/tags/primer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Hostname Primer</title>
-      <link>//localhost:1313/homelab/linux-hostname-primer/</link>
+      <link>http://10.10.30.2:1313/homelab/linux-hostname-primer/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/linux-hostname-primer/</guid>
-      <description>&lt;h2 id=&#34;lxc-and-vm&#34;&gt;LXC and VM&lt;/h2&gt;&#xA;&lt;p&gt;On the LXC/VM, change the hostname in &lt;code&gt;LXC &amp;gt; DNS &amp;gt; Hostname &lt;/code&gt;and update in shell:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nano /etc/hosts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nano /etc/hostname&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>http://10.10.30.2:1313/homelab/linux-hostname-primer/</guid>
+      <description>LXC and VM On the LXC/VM, change the hostname in LXC &amp;gt; DNS &amp;gt; Hostname and update in shell:&#xA;nano /etc/hosts nano /etc/hostname </description>
     </item>
     <item>
       <title>Proxmox LXC and VM Primer</title>
-      <link>//localhost:1313/homelab/proxmox-lxc-and-vm-primer/</link>
+      <link>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/proxmox-lxc-and-vm-primer/</guid>
-      <description>&lt;h2 id=&#34;storage-increase&#34;&gt;Storage Increase&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk.&lt;/li&gt;&#xA;&lt;li&gt;Click Resize disk and add the extra GBs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ext4&#34;&gt;ext4&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;xfs&#34;&gt;xfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xfs_growfs /&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;zfs&#34;&gt;zfs&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No need to &lt;span style=&#34;color:#f00&#34;&gt;do&lt;/span&gt; anything.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>http://10.10.30.2:1313/homelab/proxmox-lxc-and-vm-primer/</guid>
+      <description>Storage Increase Go to Datacenter &amp;gt; Node &amp;gt; LXC or VM &amp;gt; Resources &amp;gt; Root Disk. Click Resize disk and add the extra GBs. ext4 resize2fs /dev/mapper/pve-vm--&amp;lt;ID&amp;gt;--disk--0 xfs xfs_growfs / zfs No need to do anything. </description>
     </item>
     <item>
       <title>NSLookup Primer</title>
-      <link>//localhost:1313/homelab/nslookup-primer/</link>
+      <link>http://10.10.30.2:1313/homelab/nslookup-primer/</link>
       <pubDate>Tue, 25 Oct 2022 16:00:01 +0000</pubDate>
-      <guid>//localhost:1313/homelab/nslookup-primer/</guid>
-      <description>&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;nslookup&lt;/code&gt; can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: &lt;code&gt;nslookup&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Related: &lt;a href=&#34;//localhost:1313/homelab/mx-record-primer&#34; title=&#34;MX Record Primer&#34;&gt;MX Record Primer&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://10.10.30.2:1313/homelab/nslookup-primer/</guid>
+      <description>nslookup is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&#xA;nslookup can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: nslookup&#xA;Related: MX Record Primer</description>
     </item>
     <item>
       <title>DNS Record Types Primer</title>
-      <link>//localhost:1313/homelab/dns-record-types-primer/</link>
+      <link>http://10.10.30.2:1313/homelab/dns-record-types-primer/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/homelab/dns-record-types-primer/</guid>
-      <description>&lt;p&gt;When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-records&#34;&gt;A Records&lt;/h2&gt;&#xA;&lt;p&gt;These are also called Address Records or sometimes &lt;strong&gt;Host Records&lt;/strong&gt;. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting. Let’s say that you own the domain name name.com and the IP address of your hosting server is 127.0.0.1. Usually you would have two DNS records to point your domain to the hosting that look like this:&lt;/p&gt;</description>
+      <guid>http://10.10.30.2:1313/homelab/dns-record-types-primer/</guid>
+      <description>When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&#xA;A Records These are also called Address Records or sometimes Host Records. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting.</description>
     </item>
   </channel>
 </rss>
