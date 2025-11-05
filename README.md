@@ -36,6 +36,15 @@ Every post needs to have the **all** tag.
 * draft: false (It still won't show since there's still an index.md)
 * If need to update, duplicate, rename file to now-date-mm-dd.md.
 * (INFO) _index.md will be the filename so that the other posts inside will be rendered.
+* End of /now template
+```markdown
+
+***
+
+This [now](/tags/now) page was inspired by [Derek Sivers - How and why to make a /now page on your site](https://sive.rs/now2).
+
+## Previous /nows
+```
 
 ## Draft
 * draft: true
