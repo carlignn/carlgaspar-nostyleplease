@@ -76,3 +76,5 @@ I've been heavy into simracing these days. I've bought the gears and subscribed 
 ***
 
 This [now](/tags/now) page was inspired by [Derek Sivers - How and why to make a /now page on your site](https://sive.rs/now2).
+
+## Previous /nows

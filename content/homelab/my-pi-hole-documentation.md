@@ -1,6 +1,6 @@
 ---
 title: My Pi-Hole Documentation
-subtitle: ''
+subtitle: 
 draft: false
 date: 2025-08-25T00:00:00+08:00
 tags:

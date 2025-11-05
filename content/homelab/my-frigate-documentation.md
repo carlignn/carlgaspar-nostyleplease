@@ -1,6 +1,6 @@
 ---
 title: My Frigate Documentation
-subtitle: null
+subtitle: 
 draft: false
 date: 2025-08-27T00:00:00+08:00
 tags:
