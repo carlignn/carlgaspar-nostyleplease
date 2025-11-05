@@ -2,17 +2,16 @@
 
 ## Hugoing
 
-* Install NPM: sudo apt install npm
-* Install TinaCMS if not yet installed: npm install @tinacms/cli
-* Install Hugo if not yet installed: sudo apt install hugo -y
+* Install NPM: `sudo apt install npm`
+* Install TinaCMS if not yet installed: `npm install tinacms @tinacms/cli`
+* Install Hugo if not yet installed: `sudo apt install hugo -y`
 * Remove and reinstall old modules if outdated:
 ```shell
 	rm -rf node_modules package-lock.json
 	npm install
 ```
-* To run the code: npm run dev (this only runs inside the VM)
-* To run the code: hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D (this tells Hugo to listen on all interfaces)
-
+* To run the code: `npm run dev` (this only runs inside the VM)
+* To run the code: `npx tinacms dev --host 0.0.0.0 -c "hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D"` (this tells Hugo to be accessible via LAN. The problem is TinaCMS is still only accessible in localhost)
 
 ## Commiting
 
@@ -56,7 +55,7 @@ First posted on: 2025-01-09T00:00:00+08:00
 
 * Internal use or guides are dated - `0001-01-01T00:00:00+08:00`.
 * Some post doesn't use date although very rare.
-* Adding classes in markdown is possible through Goldmark renders, just search it. 
+* Adding classes in markdown is possible through Goldmark renders. 
 * **NEVER USE H1, ONLY THE TITLE IS H1**.
 
 ***

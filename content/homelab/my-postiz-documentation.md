@@ -1,11 +1,17 @@
 ---
 title: My Postiz Documentation
-subtitle: ''
+subtitle: 
 draft: false
 date: 2025-08-27T00:00:00+08:00
 tags:
   - all
   - documentation
+---
+
+##
+
+This will no longer be used in my Homelab. It was very unstable and fails most of the time. I'm moving this posting service to the free tier of Buffer, with 3 social medias and one I'm manually scheduling.
+
 ---
 
 ## Installation
