@@ -32,6 +32,11 @@ Every post needs to have the **all** tag.
 * security
 * write-up
 
+## Now
+* draft: false (It still won't show since there's still an index.md)
+* If need to update, duplicate, rename file to now-date-mm-dd.md and rename title to title now-date-mm-dd.
+* (INFO) _index.md will be the filename so that the other posts inside will be rendered.
+
 ## Draft
 * draft: true
 * If you can't update yet, add "_draft-" in front of the filename so that it's visibly visible.
