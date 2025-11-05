@@ -23,13 +23,6 @@
       <description>I was on my bed ready to go to sleep and thinking of my blog posts in this website. I want to edit some post but I can&amp;rsquo;t unless I -&#xA;Go back in front of my computer again and let go of the thought of falling asleep Open TinaCMS just for it to break everything again (some elements are using goldmark renders which can break the posts if updated in rich-text editor) Only to find out that I haven&amp;rsquo;t pushed from my computer - the code in production is not the latest This still won&amp;rsquo;t do since I need to rearrange some of the directories Have the test environment accessible anywhere overseerr - request manager plex - media manager prowlarr - indexer (for radarr and sonarr) qbittorrent - torrent client radarr - movie collection manager (connects to qbt) sonarr - tv show collection manager (connects to qbt) </description>
     </item>
     <item>
-      <title>what is up</title>
-      <link>http://10.10.30.2:1313/now/</link>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/now/</guid>
-      <description>Okay, so here&amp;rsquo;s what&amp;rsquo;s up.&#xA;I was on a 2-year hiatus and my focus went everywhere.&#xA;Growth on:&#xA;self improvement networking/communication media family/friends emotional quotient Now I&amp;rsquo;m back catching up.&#xA;I was told to be the commissioner for our next basketball league. I need to create a blog post about it. The usual league is called WKND(short for weakend since it only happens every weekend) League. This one that I&amp;rsquo;m commissioning is the shorter and older(35 yo and up only) version of the league.</description>
-    </item>
-    <item>
       <title>DotA 2 - Reaching Divine Rank</title>
       <link>http://10.10.30.2:1313/posts/dota-2-reaching-divine-rank/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0800</pubDate>
@@ -175,6 +168,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-pi-hole-documentation/</guid>
       <description>First posted on: 2025-01-01T00:00:00+08:00&#xA;I have since moved Pi-Hole + Unbound to OPNSense. My OPNSense Documentation - Unbound&#xA;Run the Pi-Hole helper script to simplify the LXC creation.&#xA;bash -c &amp;#34;$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh)&amp;#34; Add the blacklists to improve adblocking https://firebog.net/.&#xA;For NSFW, try This doesn&amp;rsquo;t look like it&amp;rsquo;s working.&#xA;Unbound Just follow the official guide. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.</description>
+    </item>
+    <item>
+      <title>what is up</title>
+      <link>http://10.10.30.2:1313/now/now-2025-08-25/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/now/now-2025-08-25/</guid>
+      <description>Okay, so here&amp;rsquo;s what&amp;rsquo;s up.&#xA;I was on a 2-year hiatus and my focus went everywhere.&#xA;Growth on:&#xA;self improvement networking/communication media family/friends emotional quotient Now I&amp;rsquo;m back catching up.&#xA;I was told to be the commissioner for our next basketball league. I need to create a blog post about it. The usual league is called WKND(short for weakend since it only happens every weekend) League. This one that I&amp;rsquo;m commissioning is the shorter and older(35 yo and up only) version of the league.</description>
     </item>
     <item>
       <title>i3wm Configuration and Setup on Debian Linux</title>
