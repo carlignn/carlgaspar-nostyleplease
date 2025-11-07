@@ -29,8 +29,8 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 
 * Best Player of the Game: COM **CARLDSS**
 * OVR: 99 - CARLDSS.COM
-* League: WKND G League S1
-* Red Team - Win: Round 2 v Purple Team
+* League: LEAGUE G League S1
+* Red Team - Player Card
 * 251106, Artist: @carlignn
 * 🔥 Rare, 1 of 1, Original Card, WKND '25, carldss.com
 
