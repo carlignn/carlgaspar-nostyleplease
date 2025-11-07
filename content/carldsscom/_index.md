@@ -11,7 +11,7 @@ tags:
 | :--------------------------------------: | :------------------------------------------: | :----------------------------------------: |
 | [facebook](https://facebook.com/carldsscom/)  | [instagram](https://instagram.com/carldsscom/) | [threads](https://threads.net/carldsscom/) |
 |   [twitter](https://twitter.com/carldsscom/)                                              | [youtube](https://youtube.com/@carldsscom/)  |   [bluesky](https://bsky.app/profile/carldsscom.bsky.social/)
-|    [tiktok](https://www.tiktok.com/@carldsscom)                                      |            -                                  |     [imgur](https://imgur.com/user/carlignn/favorites/folder/12659563/carldsscom)                                       |
+|    [tiktok](https://www.tiktok.com/@carldsscom)                                      |            -                                  |     [imgur](https://imgur.com/gallery/carldss-com-showcase-t5LeA1r)                                       |
 |                                          |                                              |                                            |
 
 ##
