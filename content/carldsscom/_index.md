@@ -1,0 +1,41 @@
+---
+title: carldss.com
+draft: false
+tags:
+  - all
+---
+
+##
+
+|                                          |                                              |                                            |
+| :--------------------------------------: | :------------------------------------------: | :----------------------------------------: |
+| [facebook](https://facebook.com/carldsscom/)  | [instagram](https://instagram.com/carldsscom/) | [threads](https://threads.net/carldsscom/) |
+|   [twitter](https://twitter.com/carldsscom/)                                              | [youtube](https://youtube.com/@carldsscom/)  |   [bluesky](https://bsky.app/profile/carldsscom.bsky.social/)
+|    [tiktok](https://www.tiktok.com/@carldsscom)                                      |            -                                  |     [imgur](/)                                       |
+|                                          |                                              |                                            |
+
+##
+
+carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more. Check out all leagues below or read about [PROJECT CARLDSS.COM](/projects/carldsscom-custom-collectible-cards/).
+
+We're hoping to reach more leagues. Reach out to any of our socials if you want one.
+
+##
+
+![](https://i.imgur.com/Df2aJtn.png)
+{.carldss}
+
+## Card Details
+
+* Best Player of the Game: COM **CARLDSS**
+* OVR: 99 - CARLDSS.COM
+* League: WKND G League S1
+* Red Team - Win: Round 2 v Purple Team
+* 251106, Artist: @carlignn
+* 🔥 Rare, 1 of 1, Original Card, WKND '25, carldss.com
+
+## Poster
+
+![](https://i.imgur.com/EYqTFho.png)
+
+## All Leagues
