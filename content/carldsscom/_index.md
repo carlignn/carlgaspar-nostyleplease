@@ -22,7 +22,7 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 
 ##
 
-![](https://i.imgur.com/Df2aJtn.png)
+![](https://i.imgur.com/7v3zLae.png)
 {.carldss}
 
 ## Card Details
@@ -32,11 +32,11 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 * League: LEAGUE G League S1
 * Red Team - Player Card
 * 251106, Artist: @carlignn
-* 🔥 Rare, 1 of 1, Original Card, WKND '25, carldss.com
+* 🔥 Rare, 1 of 1, Original Card, LEAGUE '25, carldss.com
 
-## Poster ([Animated](https://imgur.com/zu0hWx7))
+## [Animated](https://i.imgur.com/qouxzE9) Poster
 
-![](https://i.imgur.com/EYqTFho.png)
+![](https://i.imgur.com/3tiZlQu.png) 
 
 ---
 
