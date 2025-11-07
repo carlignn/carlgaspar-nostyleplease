@@ -9,7 +9,7 @@ tags:
 
 ##
 
-I've created Carldss as a token/reward for our basketball players in our [REC LEAGUE](/posts/i-was-an-announcer-today). carldss.com is a custom designed card for games/leagues with the players’ information, stats, their league, player images, and more.
+I've created carldss.com as an award for the basketball players of our [REC LEAGUE](/posts/i-was-an-announcer-today). It is a custom designed card for leagues with the players’ information, stats, their league, player images, and more. Promoting gratification and accomplishment on the efforts of the players.
 
 I'm hoping to reach more leagues. Reach out to any of the socials on the [OFFICIAL WEBSITE](/carldsscom) if you want one.
 
@@ -27,14 +27,13 @@ I'm hoping to reach more leagues. Reach out to any of the socials on the [OFFICI
 * 251106, Artist: @carlignn
 * 🔥 Rare, 1 of 1, Original Card, WKND '25, carldss.com
 
-## Poster
+## Poster ([Animated](https://imgur.com/zu0hWx7))
 
 ![](https://i.imgur.com/EYqTFho.png)
 
 ---
 
-More [DEMO SCREENSHOTS](https://i.imgur.com/a/t5LeA1r) uploaded in Imgur.
-
 ## Technologies Used
 
 * Affinity Photo 2 for iPad
+* CapCut for iPad
