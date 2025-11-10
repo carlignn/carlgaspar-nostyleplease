@@ -11,7 +11,7 @@ tags:
 
 I've created carldss.com as an award for the basketball players of our [REC LEAGUE](/posts/i-was-an-announcer-today). It is a custom designed card for leagues with the players’ information, stats, their league, player images, and more. Promoting gratification and accomplishment on the efforts of the players.
 
-I'm hoping to reach more leagues. Reach out to any of the socials on the [OFFICIAL WEBSITE](/carldsscom) if you want one.
+I'm hoping to reach more leagues. Checkout [ALL LEAGUES](/carldsscom#all-leagues) or reach out to any of the socials on the [OFFICIAL WEBSITE](/carldsscom) if you want one.
 
 ##
 
@@ -27,9 +27,9 @@ I'm hoping to reach more leagues. Reach out to any of the socials on the [OFFICI
 * 251106, Artist: @carlignn
 * 🔥 Rare, 1 of 1, Original Card, LEAGUE '25, carldss.com
 
-## [Animated](https://i.imgur.com/qouxzE9) Poster
+## [Animated](https://i.imgur.com/qouxzE9) Poster - [IG](https://www.instagram.com/p/DQwryjtD6SX/) / [TT](https://www.tiktok.com/@carldsscom/video/7570009813279657223)
 
-![](https://i.imgur.com/3tiZlQu.png) 
+![](https://i.imgur.com/3tiZlQu.png)
 
 ---
 

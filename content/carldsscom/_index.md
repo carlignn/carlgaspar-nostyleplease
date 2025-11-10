@@ -16,7 +16,7 @@ tags:
 
 ##
 
-carldss.com is a custom designed card for leagues with the players’ information, stats, their league, player images, and more. Promoting gratification and accomplishment on the efforts of the players. Check out all leagues below or read about [PROJECT CARLDSS.COM](/projects/carldsscom-custom-collectible-cards/).
+carldss.com is a custom designed card for leagues with the players’ information, stats, their league, player images, and more. Promoting gratification and accomplishment on the efforts of the players. Check out [ALL LEAGUES](#all-leagues) below or read about [PROJECT CARLDSS.COM](/projects/carldsscom-custom-collectible-cards/).
 
 We're hoping to reach more leagues. Reach out to any of our socials if you want one.
 
@@ -34,7 +34,7 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 * 251106, Artist: @carlignn
 * 🔥 Rare, 1 of 1, Original Card, LEAGUE '25, carldss.com
 
-## [Animated](https://i.imgur.com/qouxzE9) Poster
+## [Animated](https://i.imgur.com/qouxzE9) Poster - [IG](https://www.instagram.com/p/DQwryjtD6SX/) / [TT](https://www.tiktok.com/@carldsscom/video/7570009813279657223)
 
 ![](https://i.imgur.com/3tiZlQu.png) 
 

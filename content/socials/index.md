@@ -5,7 +5,7 @@ tags:
   - all
 ---
 
-Cybersecurity Officer, Developer, Minimalist, Gamer, Jack of all trades, Master of none. I'm @carlignn everywhere.
+Cybersecurity Officer, Developer, Minimalist, Gamer, Jack of all trades, Master of none, Owner of [carldss.com](https://carldss.com/). I'm @carlignn everywhere.
 
 ***
 
