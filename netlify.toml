@@ -5,4 +5,5 @@ HUGO_ENV = "production"
 
 [build]
 publish = "public"
-command = "tinacms build && hugo"
+command = "tinacms build && hugo --cleanDestinationDir
+"
