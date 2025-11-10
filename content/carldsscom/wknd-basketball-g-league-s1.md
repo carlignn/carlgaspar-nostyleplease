@@ -8,17 +8,35 @@ tags:
 
 ## 
 
-This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND BASKETBALL](https://www.facebook.com/wkndbasketball), [CONTACT US](/carldsscom/carldsscom-socials), check out [All LEAGUES](/carldsscom), or read about [PROJECT CARLDSS](/projects/carldsscom-custom-collectible-cards/).
+This project started in Round 2 so Round 1 will be skipped. Follow the league here [WKND BASKETBALL](https://www.facebook.com/wkndbasketball), [CONTACT US](/carldsscom), check out [All LEAGUES](/carldsscom), or read about [PROJECT CARLDSS](/projects/carldsscom-custom-collectible-cards/).
 
 ## Round 2 Game 4 - 251026
 
-| ![](https://i.imgur.com/cKoP1ED.png) [👍](https://www.facebook.com/wkndbasketball) [📷](https://imgur.com/Ow0Ztzn) 📹Artist? | ![](https://i.imgur.com/cKoP1ED.png) [Fb](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
 |:------------------------------:|:------------------------------:|
 {.carldss}
 
 ## Round 2 Game 5 - 251109
 
-| ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) | ![](https://i.imgur.com/cKoP1ED.png) [Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn) |
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
+|:------------------------------:|:------------------------------:|
+{.carldss}
+
+## Round 2 Game 5 - 251116
+
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
+|:------------------------------:|:------------------------------:|
+{.carldss}
+
+## 3 Point Contest - 251123
+
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
+|:------------------------------:|:------------------------------:|
+{.carldss}
+
+## Finals - 251123
+
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
 |:------------------------------:|:------------------------------:|
 {.carldss}
 
@@ -36,4 +54,5 @@ This project started in Round 2 so Round 1 will be skipped. Follow the league he
 |:------------------------------:|:------------------------------:|:------------------------------:|:------------------------------:|
 {.carldss}
 
-[Facebook](https://www.facebook.com/wkndbasketball) [Imgur](https://imgur.com/Ow0Ztzn)
+## Non-Game Related
+Aris
