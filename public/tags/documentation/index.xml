@@ -6,8 +6,15 @@
     <description>Recent content in Documentation on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Archivebox Documentation</title>
+      <link>http://10.10.30.2:1313/homelab/my-archivebox-documentation/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/homelab/my-archivebox-documentation/</guid>
+      <description>Yeah, this is not it. You&amp;rsquo;re telling me I need to have my cookies in it to be able to archive a private post? That&amp;rsquo;s too much work. I wish there&amp;rsquo;s a way around it. For the meantime, I&amp;rsquo;ll just save my websites on a bookmark and on to the app itself (Facebook, Instagram, YouTube, etc.)</description>
+    </item>
     <item>
       <title>My Cockpit Documentation</title>
       <link>http://10.10.30.2:1313/homelab/my-cockpit-documentation/</link>

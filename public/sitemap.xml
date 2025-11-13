@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://10.10.30.2:1313/tags/all/</loc>
-    <lastmod>2025-11-05T00:00:00+08:00</lastmod>
+    <lastmod>2025-11-13T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/documentation/</loc>
-    <lastmod>2025-11-05T00:00:00+08:00</lastmod>
+    <lastmod>2025-11-13T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/homelab/</loc>
-    <lastmod>2025-11-05T00:00:00+08:00</lastmod>
+    <lastmod>2025-11-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/homelab/my-archivebox-documentation/</loc>
+    <lastmod>2025-11-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/</loc>
+    <lastmod>2025-11-13T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/homelab/my-cockpit-documentation/</loc>
     <lastmod>2025-11-05T00:00:00+08:00</lastmod>
@@ -18,9 +24,6 @@
     <lastmod>2025-11-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/now/</loc>
-    <lastmod>2025-11-05T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/tags/</loc>
     <lastmod>2025-11-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/now/</loc>

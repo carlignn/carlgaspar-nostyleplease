@@ -1,0 +1,11 @@
+---
+title: My Archivebox Documentation
+subtitle: 
+draft: false
+date: 2025-11-13T00:00:00+08:00
+tags:
+  - all
+  - documentation
+---
+
+Yeah, this is not it. You're telling me I need to have my cookies in it to be able to archive a private post? That's too much work. I wish there's a way around it. For the meantime, I'll just save my websites on a bookmark and on to the app itself (Facebook, Instagram, YouTube, etc.) 
