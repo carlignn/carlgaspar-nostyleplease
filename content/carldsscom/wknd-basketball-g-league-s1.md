@@ -18,7 +18,7 @@ This project started in Round 2 so Round 1 will be skipped. Follow the league he
 
 ## Round 2 Game 5 - 251109
 
-| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
+| ![](https://i.imgur.com/Chten21.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/rxw3I0G.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
 |:------------------------------:|:------------------------------:|
 {.carldss}
 
@@ -30,14 +30,14 @@ This project started in Round 2 so Round 1 will be skipped. Follow the league he
 
 ## 3 Point Contest - 251123
 
-| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
-|:------------------------------:|:------------------------------:|
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) |
+|:------------------------------:|
 {.carldss}
 
 ## Finals - 251123
 
-| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) | ![](https://i.imgur.com/C6Vloeq.png) Animated - [IG](https://www.instagram.com/p/DQ0mLPCD9w4/) / [TT](https://www.tiktok.com/@carldsscom/video/7570572441655708946) |
-|:------------------------------:|:------------------------------:|
+| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) |
+|:------------------------------:|
 {.carldss}
 
 ## Test - 250000
