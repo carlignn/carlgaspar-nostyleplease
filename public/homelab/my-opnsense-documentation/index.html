@@ -106,6 +106,16 @@
 <p>Wow, OPNSense has a Tailscale plugin. This had made things a lot easier. Go to System &gt; Firmware &gt; Plugins &gt; Check Show community plugins &gt; Add tailscale &gt; Tailscale should start showing up in the VPN tab together with other VPN providers</p>
 <p>I chose tailscale because of ease of use. I want people to be able to connect to my network then my NAS for their storage needs, and tailscale is the app for that.</p>
 <p>To set it up, go to VPN &gt; Tailscale &gt; Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire <a href="/tags/homelab">homelab</a>. It feels unsafe but it can change in the future after researching more.</p>
+<h3 id="problems">Problems</h3>
+<ul>
+<li>My DNS is not resolving when I&rsquo;m connected to the VPN but on LAN.
+<ul>
+<li>I have to add the IP of my OPNSense in Tailscale Web &gt; DNS &gt; Global name servers</li>
+<li>Then Override DNS servers</li>
+<li>Bonus - enable split tunneling to make accessing websites other than the homelab faster</li>
+</ul>
+</li>
+</ul>
 <h2 id="ntop"><del>Ntop</del></h2>
 <ul>
 <li>This has been uninstalled. I just don&rsquo;t see any use for it as of the moment</li>

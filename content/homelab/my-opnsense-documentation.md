@@ -76,6 +76,13 @@ I chose tailscale because of ease of use. I want people to be able to connect to
 
 To set it up, go to VPN > Tailscale > Authentication and put in the auth keys from your Tailscale client. Then go to settings and enable it. If you want to use it as an Exit Node, just check the box. Make sure to add your subnet to the Advertised Routes tab. I have added 10.10.0.0/16 to cover the entire [homelab](/tags/homelab). It feels unsafe but it can change in the future after researching more.
 
+### Problems
+
+* My DNS is not resolving when I'm connected to the VPN but on LAN.
+  * I have to add the IP of my OPNSense in Tailscale Web > DNS > Global name servers
+  * Then Override DNS servers
+  * Bonus - enable split tunneling to make accessing websites other than the homelab faster
+
 ## ~~Ntop~~
 
 * This has been uninstalled. I just don't see any use for it as of the moment
