@@ -1,7 +1,7 @@
 ---
 title: Test Tex
 draft: false
-date: 2022-08-26T14:28:10.000Z
+date: 2022-08-26T00:00:00+08:00
 tags:
   - all
   - guide

@@ -95,7 +95,7 @@
     <item>
       <title>Incident Response</title>
       <link>http://10.10.30.2:1313/security/zzz-incident-response/</link>
-      <pubDate>Mon, 10 Oct 2022 16:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/zzz-incident-response/</guid>
       <description>Incident response</description>
     </item>
@@ -109,14 +109,14 @@
     <item>
       <title>Hide Yourself When Using the Internet With ProxyChains</title>
       <link>http://10.10.30.2:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</link>
-      <pubDate>Mon, 19 Sep 2022 06:11:00 +0000</pubDate>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</guid>
       <description>Configuring ProxyChains ProxyChains come preinstalled in Kali Linux. All you have to do is find it. I wasn&amp;rsquo;t able to make the locate command work, but I found it in /etc directory.&#xA;Step 1 What you want to do is edit the configuration file. I will be using vim, feel free to use any text editor as you would prefer.&#xA;sudo vim /etc/proxychains4.conf This is what the configuration file would look like.</description>
     </item>
     <item>
       <title>Threat Modeling Fundamentals</title>
       <link>http://10.10.30.2:1313/security/threat-modeling-fundamentals/</link>
-      <pubDate>Thu, 15 Sep 2022 09:25:00 +0000</pubDate>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/threat-modeling-fundamentals/</guid>
       <description>Threat Modeling, The What, Why, Who And When What Is Threat Modeling Threat Modeling is a process of systematically listing all potential ways one can attack an application.&#xA;Systematic approach - repeatable and consistent process during the whole development lifecycle Looking at attacks - actively looking at what can be abused Probable threat scenarios - list of threats Definitions Weakness - software defect, bug Vulnerability - weakness that can be exploited Attack/Incident - target, attack vector, threat actor Attack surface - anything that can be obtained, used, or attacked by a threat actor Risk = Impact * Likelihood Why Should One Perform Threat Modeling Pro-active approach - security upfront Efficient - the sooner a bug or a vulnerability is discovered in the SDLC, the cheaper it is Prioritize bugs - the outcome is the list of potential threats and/or risks of the application, which is used to determine further mitigation strategies that will allow to prioritize the workload Better understanding - will give the developers a whole overview of the system The ultimate objective of threat modeling is risk reduction.</description>
     </item>
@@ -130,7 +130,7 @@
     <item>
       <title>Risk Assessment and Management</title>
       <link>http://10.10.30.2:1313/security/risk-assessment-and-management/</link>
-      <pubDate>Thu, 04 Nov 2021 00:48:00 +0000</pubDate>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/security/risk-assessment-and-management/</guid>
       <description>For many of us that works in Information Security, many of us sees risk as a negative thing. But risk is an essential part of a business. From ISO/IEC 31000 - Risk is the effect of uncertainty on an objective. An effect is a deviation from the expected - positive and/negative.&#xA;Risk Standards ISO/IEC 31000 - Risk Management Principles and Guideline ISO/IEC 27005 - Information Technology - Security Techniques - Information Security Risk Management NIST SP800-39 - Managing Information Security Risk COBIT 5 for Risk NIST SP800-30 Rev 1 - Guide for Conducting Risk Assessment HTRA - Harmonized Threat and Risk Assessment Risk Management begins with: Knowing what has to be protected Identification of assets Determining asset value Understanding risk culture of the organization Risk acceptance Risk tolerance Risk Relative to Information Security Management Information Security Risk is a potential that a given threat will exploit vulnerabilities of an asset or group of assets and thereby cause harm to the organization.</description>
     </item>

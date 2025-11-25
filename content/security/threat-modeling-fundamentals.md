@@ -1,7 +1,7 @@
 ---
 title: "Threat Modeling Fundamentals"
 draft: false
-date: 2022-09-15T09:25:00Z
+date: 2022-09-15T00:00:00+08:00
 tags:
   - all
   - security

@@ -9,7 +9,7 @@ tags:
   - sports
 ---
 
-I've decided to coach and train players of our league just to try. I've been on the trainee side since I was a kid, now it's time to be a trainer. Here's how the program will look in 2 hours time.
+I've decided to coach and train players of our league just to try and see what it feels like. I want to raise the floor of the league. I've been on the trainee side since I was a kid, now it's time to be the trainer. Here's how the program will look in 2 hours time.
 
 ## Training A
 

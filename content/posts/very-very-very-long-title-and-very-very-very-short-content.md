@@ -1,7 +1,7 @@
 ---
 title: Very Very very long title and very very very short content
 draft: false
-date: 2020-07-08T00:00:00.000+08:00
+date: 2020-07-08T00:00:00+08:00
 tags:
   - all
   - guide

@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://10.10.30.2:1313/tags/all/</loc>
-    <lastmod>2025-11-19T00:00:00+08:00</lastmod>
+    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/game/</loc>
+    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/posts/</loc>
+    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/</loc>
+    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/posts/top-10-games-from-classic-systems-of-all-time/</loc>
+    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/documentation/</loc>
+    <lastmod>2025-11-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/posts/my-retrobat-documentation/</loc>
+    <lastmod>2025-11-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/posts/my-retro-gaming-setup/</loc>
+    <lastmod>2025-11-21T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/basketball/</loc>
     <lastmod>2025-11-19T00:00:00+08:00</lastmod>
@@ -11,17 +32,8 @@
     <loc>http://10.10.30.2:1313/posts/my-basketball-training-program/</loc>
     <lastmod>2025-11-19T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://10.10.30.2:1313/posts/</loc>
-    <lastmod>2025-11-19T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://10.10.30.2:1313/tags/sports/</loc>
     <lastmod>2025-11-19T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/tags/</loc>
-    <lastmod>2025-11-19T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/tags/documentation/</loc>
-    <lastmod>2025-11-17T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/homelab/</loc>
     <lastmod>2025-11-17T00:00:00+08:00</lastmod>
@@ -50,9 +62,6 @@
     <loc>http://10.10.30.2:1313/posts/dota-2-reaching-divine-rank/</loc>
     <lastmod>2025-11-02T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://10.10.30.2:1313/tags/game/</loc>
-    <lastmod>2025-11-02T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://10.10.30.2:1313/tags/human/</loc>
     <lastmod>2025-11-02T00:00:00+08:00</lastmod>
   </url><url>
@@ -78,10 +87,10 @@
     <lastmod>2025-10-19T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/exercise/</loc>
-    <lastmod>2025-10-04T01:31:00+00:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/my-acl-reconstruction-log/</loc>
-    <lastmod>2025-10-04T01:31:00+00:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/ai/</loc>
     <lastmod>2025-09-08T00:00:00+08:00</lastmod>
@@ -209,47 +218,47 @@
     <loc>http://10.10.30.2:1313/security/zzz-incident-response-tools/</loc>
     <lastmod>2022-11-09T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://10.10.30.2:1313/homelab/nslookup-primer/</loc>
-    <lastmod>2022-10-25T16:00:01+00:00</lastmod>
-  </url><url>
     <loc>http://10.10.30.2:1313/homelab/dns-record-types-primer/</loc>
+    <lastmod>2022-10-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/homelab/nslookup-primer/</loc>
     <lastmod>2022-10-25T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/zzz-cybersecurity-interview-answers/</loc>
     <lastmod>2022-10-23T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/zzz-incident-response/</loc>
-    <lastmod>2022-10-10T16:00:00+00:00</lastmod>
+    <lastmod>2022-10-10T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</loc>
     <lastmod>2022-10-10T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/hacking/</loc>
-    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</loc>
-    <lastmod>2022-09-19T06:11:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/threat-modeling-fundamentals/</loc>
-    <lastmod>2022-09-15T09:25:00+00:00</lastmod>
+    <lastmod>2022-09-15T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</loc>
     <lastmod>2022-09-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/guide/</loc>
-    <lastmod>2022-08-26T22:28:10+08:00</lastmod>
+    <lastmod>2022-08-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/test-hans/</loc>
-    <lastmod>2022-08-26T22:28:10+08:00</lastmod>
+    <lastmod>2022-08-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/test-tex/</loc>
-    <lastmod>2022-08-26T14:28:10+00:00</lastmod>
+    <lastmod>2022-08-26T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/</loc>
-    <lastmod>2022-08-25T21:30:04+08:00</lastmod>
+    <lastmod>2022-08-25T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/security/risk-assessment-and-management/</loc>
-    <lastmod>2021-11-04T00:48:00+00:00</lastmod>
+    <lastmod>2021-11-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/app/</loc>
     <lastmod>2021-09-30T00:00:00+08:00</lastmod>
@@ -261,16 +270,16 @@
     <lastmod>2021-09-25T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/moisturizers-for-your-lips-the-truth-about-petroleum-jelly/</loc>
-    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
+    <lastmod>2021-09-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/product/</loc>
-    <lastmod>2021-09-22T01:31:00+00:00</lastmod>
+    <lastmod>2021-09-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/philippines/</loc>
-    <lastmod>2021-09-21T14:30:00+00:00</lastmod>
+    <lastmod>2021-09-21T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/the-philippine-government/</loc>
-    <lastmod>2021-09-21T14:30:00+00:00</lastmod>
+    <lastmod>2021-09-21T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/post-example-with-headings-and-toc/</loc>
     <lastmod>2020-07-09T00:00:00+08:00</lastmod>

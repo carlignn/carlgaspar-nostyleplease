@@ -163,18 +163,18 @@
       <description>Introduction I started this homelab journey because I already exhausted my 1 TB external SSD. I looked for options and I found NAS as the best one. I&amp;rsquo;ve been trying to justify buying/creating a server for years, it will help with upskilling they (I) said, but that reason is just not enough. Cloud options are always available and some are also free. But now that I have a NAS requirement, I figured that relying in the cloud for storage will really be costly.</description>
     </item>
     <item>
-      <title>NSLookup Primer</title>
-      <link>http://10.10.30.2:1313/homelab/nslookup-primer/</link>
-      <pubDate>Tue, 25 Oct 2022 16:00:01 +0000</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/nslookup-primer/</guid>
-      <description>nslookup is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&#xA;nslookup can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: nslookup&#xA;Related: MX Record Primer</description>
-    </item>
-    <item>
       <title>DNS Record Types Primer</title>
       <link>http://10.10.30.2:1313/homelab/dns-record-types-primer/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/dns-record-types-primer/</guid>
       <description>When you start trying to manage your domain’s DNS for the first time, everything can seem very confusing. Don’t panic! DNS records can be intimidating, but they’re not so hard once you get a feel for them. Below are explanations of the more common types.&#xA;A Records These are also called Address Records or sometimes Host Records. A record only resolves to IP addresses. These records point your domain to the IP address of your website or hosting.</description>
+    </item>
+    <item>
+      <title>NSLookup Primer</title>
+      <link>http://10.10.30.2:1313/homelab/nslookup-primer/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/homelab/nslookup-primer/</guid>
+      <description>nslookup is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.&#xA;nslookup can be used in two modes: interactive and non-interactive. To initiate interactive mode, type the command name only: nslookup&#xA;Related: MX Record Primer</description>
     </item>
   </channel>
 </rss>

@@ -82,6 +82,8 @@ To set it up, go to VPN > Tailscale > Authentication and put in the auth keys fr
   * I have to add the IP of my OPNSense in Tailscale Web > DNS > Global name servers
   * Then Override DNS servers
   * Bonus - enable split tunneling to make accessing websites other than the homelab faster
+* When ssh-ing to a machine using the dns name, it's redirecting to NGINX Proxy Manager instead of the machine itself.
+  * I have to add an additional entry in OPNSense (hl1proxmox1-**ssh**..) and assign it with the actual IP of the machine
 
 ## ~~Ntop~~
 

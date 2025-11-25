@@ -2,7 +2,7 @@
 _template: archetype
 title: "The Philippine Government"
 draft: false
-date: 2021-09-21T14:30:00Z
+date: 2021-09-21T00:00:00+08:00
 tags:
   - all
   - philippines

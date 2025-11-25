@@ -115,6 +115,11 @@
 <li>Bonus - enable split tunneling to make accessing websites other than the homelab faster</li>
 </ul>
 </li>
+<li>When ssh-ing to a machine using the dns name, it&rsquo;s redirecting to NGINX Proxy Manager instead of the machine itself.
+<ul>
+<li>I have to add an additional entry in OPNSense (hl1proxmox1-<strong>ssh</strong>..) and assign it with the actual IP of the machine</li>
+</ul>
+</li>
 </ul>
 <h2 id="ntop"><del>Ntop</del></h2>
 <ul>
