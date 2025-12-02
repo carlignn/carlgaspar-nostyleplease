@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://10.10.30.2:1313/tags/all/</loc>
-    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
+    <lastmod>2025-12-02T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/documentation/</loc>
+    <lastmod>2025-12-02T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/homelab/</loc>
+    <lastmod>2025-12-02T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/homelab/my-caddy-documentation/</loc>
+    <lastmod>2025-12-02T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/</loc>
+    <lastmod>2025-12-02T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/game/</loc>
     <lastmod>2025-11-25T00:00:00+08:00</lastmod>
@@ -11,14 +23,8 @@
     <loc>http://10.10.30.2:1313/posts/</loc>
     <lastmod>2025-11-25T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://10.10.30.2:1313/tags/</loc>
-    <lastmod>2025-11-25T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://10.10.30.2:1313/posts/top-10-games-from-classic-systems-of-all-time/</loc>
     <lastmod>2025-11-25T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/tags/documentation/</loc>
-    <lastmod>2025-11-22T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/my-retrobat-documentation/</loc>
     <lastmod>2025-11-22T00:00:00+08:00</lastmod>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>http://10.10.30.2:1313/tags/sports/</loc>
     <lastmod>2025-11-19T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/homelab/</loc>
-    <lastmod>2025-11-17T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/homelab/_draft-my-phone-backup-documentation/</loc>
     <lastmod>2025-11-17T00:00:00+08:00</lastmod>

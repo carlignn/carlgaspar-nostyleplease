@@ -6,14 +6,21 @@
     <description>Recent content in Documentation on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Caddy Documentation</title>
+      <link>http://10.10.30.2:1313/homelab/my-caddy-documentation/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/homelab/my-caddy-documentation/</guid>
+      <description>Just drag and drop the web app files in /var/www/.&#xA;Then update the Caddy configuration in /etc/caddy/Caddyfile.&#xA;# Static site 1 site1.local { root * /var/www/site1 file_server } # Static site 2 site2.local { root * /var/www/site2 file_server } </description>
+    </item>
     <item>
       <title>My Retrobat Documentation</title>
       <link>http://10.10.30.2:1313/posts/my-retrobat-documentation/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/posts/my-retrobat-documentation/</guid>
-      <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.</description>
+      <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS. (RetroArch on a different folder).&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.&#xA;Currated List for iPad (RetroArch) Top 10 Games from Classic Systems of All Time - these roms will be stored on a separate folder to be maintained continuously and be used for iPad only to save local space.</description>
     </item>
     <item>
       <title>My Phone Backup Documentation</title>

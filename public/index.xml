@@ -6,8 +6,15 @@
     <description>Recent content on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Caddy Documentation</title>
+      <link>http://10.10.30.2:1313/homelab/my-caddy-documentation/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/homelab/my-caddy-documentation/</guid>
+      <description>Caddy is a web server that I will use to host a few servers locally. I&amp;rsquo;m used to apache but it&amp;rsquo;s not available in the Proxmox VE Helper Scripts. I don&amp;rsquo;t want to go through manual installation, as they say Keep it Simple, Stupid!&#xA;Just drag and drop the web app files in /var/www/&#xA;/var/www/ ├── site1/ │ ├── index.html │ ├── css/ │ ├── js/ │ └── images/ └── site2/ ├── index.</description>
+    </item>
     <item>
       <title>Top 10 Games from Classic Systems of All Time</title>
       <link>http://10.10.30.2:1313/posts/top-10-games-from-classic-systems-of-all-time/</link>
@@ -83,7 +90,7 @@
       <link>http://10.10.30.2:1313/carldsscom/wknd-basketball-g-league-s1/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/carldsscom/wknd-basketball-g-league-s1/</guid>
-      <description> This project started in Round 2 so Round 1 will be skipped. Follow the league here WKND BASKETBALL, CONTACT US, check out All LEAGUES, or read about PROJECT CARLDSS.&#xA;Round 2 Game 4 - 251026 Animated - IG / TT Animated - IG / TT Round 2 Game 5 - 251109 Animated - IG / TT Animated - IG / TT Round 2 Game 6 - 251116 Animated - IG / TT Animated - IG / TT 3 Point King - 251130 Animated - IG / TT Season MVP - 251130 Animated - IG / TT Champions - 251130 Season Referees - 251130 Animated - IG / TT Animated - IG / TT Animated - IG / TT Animated - IG / TT Other Player Cards Animated - IG / TT </description>
+      <description> This project started in Round 2 so Round 1 will be skipped. Follow the league here WKND BASKETBALL, CONTACT US, check out All LEAGUES, or read about PROJECT CARLDSS.&#xA;Round 2 Game 4 - 251026 Animated - IG / TT Animated - IG / TT Round 2 Game 5 - 251109 Animated - IG / TT Animated - IG / TT Round 2 Game 6 - 251116 Animated - IG / TT Animated - IG / TT 3 Point King - 251130 Animated - IG / TT Season MVP - 251130 Animated - IG / TT Champions - 251130 Season Referees - 251130 Animated - IG / TT Animated - IG / TT Animated - IG / TT Animated - IG / TT Other Cards Animated - IG / TT </description>
     </item>
     <item>
       <title>carldss.com - Custom Collectible Cards</title>

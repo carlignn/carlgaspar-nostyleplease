@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      My Caddy Documentation
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-12-02 00:00:00 &#43;0800 &#43;0800">
+            
+                2025-12-02
+            
+        </time>
+    </p>
+
+    <h1>My Caddy Documentation</h1>
+
+    
+        
+        
+        
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+        
+            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/documentation">documentation</a>, <a href="/tags/software-development">software development</a></p>
+        
+    
+
+    <p></p>
+
+    <p>Caddy is a web server that I will use to host a few servers locally. I&rsquo;m used to apache but it&rsquo;s not available in the Proxmox VE Helper Scripts. I don&rsquo;t want to go through manual installation, as they say Keep it Simple, Stupid!</p>
+<p>Just drag and drop the web app files in <code>/var/www/</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/var/www/
+</span></span><span style="display:flex;"><span>    ├── site1/
+</span></span><span style="display:flex;"><span>    │     ├── index.html
+</span></span><span style="display:flex;"><span>    │     ├── css/
+</span></span><span style="display:flex;"><span>    │     ├── js/
+</span></span><span style="display:flex;"><span>    │     └── images/
+</span></span><span style="display:flex;"><span>    └── site2/
+</span></span><span style="display:flex;"><span>          ├── index.html
+</span></span><span style="display:flex;"><span>          └── ...
+</span></span></code></pre></div><p>Then update the Caddy configuration in <code>/etc/caddy/Caddyfile</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#0f0"># Static site 1</span>
+</span></span><span style="display:flex;"><span>site1.local {
+</span></span><span style="display:flex;"><span>    root * /var/www/site1
+</span></span><span style="display:flex;"><span>    file_server
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0"># Static site 2</span>
+</span></span><span style="display:flex;"><span>site2.local {
+</span></span><span style="display:flex;"><span>    root * /var/www/site2
+</span></span><span style="display:flex;"><span>    file_server
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+</article>
+
+            </div>
+        </main>
+	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
+    </body>
+</html>

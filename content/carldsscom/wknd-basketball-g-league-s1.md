@@ -60,7 +60,7 @@ This project started in Round 2 so Round 1 will be skipped. Follow the league he
 |:------------------------------:|:------------------------------:|:------------------------------:|:------------------------------:|
 {.carldss}
 
-## Other Player Cards
+## Other Cards
 
 | ![](https://i.imgur.com/upfidaV.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) |
 |:------------------------------:|
