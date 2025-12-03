@@ -30,7 +30,7 @@ This project started in Round 2 so Round 1 will be skipped. Follow the league he
 
 ## 3 Point King - 251130
 
-| ![](https://i.imgur.com/TD2wwF0.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) |
+| ![](https://i.imgur.com/cKoP1ED.png) Animated - [IG](https://www.instagram.com/p/DQ0GNjuE-Mx/) / [TT](https://www.tiktok.com/@carldsscom/video/7570502153727577351) |
 |:------------------------------:|
 {.carldss}
 

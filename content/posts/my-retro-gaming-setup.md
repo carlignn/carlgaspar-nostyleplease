@@ -13,7 +13,7 @@ tags:
 * iPad
 
 ## PC
-My PC will host [Apollo](https://github.com/ClassicOldSong/Apollo) - fork of Sunshine which will stream the games to my iPad which will be the console of choice.
+My PC will host host Retrobat as the main game console. [Apollo](https://github.com/ClassicOldSong/Apollo) - fork of Sunshine will be used to stream the games to my iPad which will be the console of choice (if needed).
 
 ## Homelab
 As of the moment, my homelab will be the storage of my roms, I'm not sure if there will be a use of it other than storage but we'll see.
@@ -26,7 +26,7 @@ Now, I don't want to play touching a screen for buttons, I'd need a dedicated on
 Here are the software that I'll put on my iPad:
 
   * RetroArch
-  * PPSSPP
+  * ~~PPSSPP~~ - no need since PPSSPP is already in RetroArch
   * Moonlight - the software that I'll use to connect to Apollo on my computer
 
 ## Coverage
@@ -42,7 +42,7 @@ Here are the software that I'll put on my iPad:
 | 16-bit                        | TurboGrafx-16 / PC Engine  | iPad   | RetroArch                | Perfect.                                                        |
 | 32-bit / 64-bit               | PlayStation 1              | iPad   | RetroArch                | Excellent.                                                      |
 | 32-bit / 64-bit               | Sega Saturn                | iPad   | RetroArch                | Playable but minor glitches in some games.                      |
-| 32-bit / 64-bit               | Dreamcast                  | iPad   | RetroArch                |                                                                 |
+| 32-bit / 64-bit               | Dreamcast                  | iPad   | RetroArch                | **DOESN'T WORK ON IPAD**                                        |
 | 32-bit / 64-bit               | N64                        | iPad   | RetroArch                | Many games smooth; some heavy titles may stutter.               |
 | 32-bit / 64-bit               | Game Boy / Color / Advance | iPad   | RetroArch                | Perfect native.                                                 |
 | 32-bit / 64-bit               | DS                         | iPad   | RetroArch (melonDS core) | Works very well; Delta also possible but RetroArch preferred.   |
@@ -59,10 +59,12 @@ Here are the software that I'll put on my iPad:
 | 8th gen                       | PS3                        | PC     | RPCS3                    | Streamable; heavy CPU requirement.                              |
 | PC Games                      | Steam / Epic / GOG         | PC     | Steam Link / Moonlight   | Can stream to iPad.                                             |
 
+I will not be getting all the games on each console. Realistically, I don't think I'll be even able to play it all.
+
 ## Roms (Set 1) - Classic Systems (Arcade to PS1)
 These are the classic roms. I can save all the roms from these systems since their sizes are not that big to store.
 
-Almost all Roms in the **Classic Systems** will run on both RetroArch (iPad) and RetroBat (PC). But only [top 10 games on every console of all time](/posts/top-10-games-from-classic-systems-of-all-time) will be installed on the iPad to save space.
+Almost all Roms in the **Classic Systems** will run on both RetroArch (iPad) and RetroBat (PC). But only **top 10 games on every console of all time and currated list** will be installed on the iPad due to limited space.
 
 ### Roadblocks
 * iPad doesn't support GameCube and Dreamcast Cores.
@@ -90,6 +92,7 @@ All Roms in the **Modern Systems** will run only on RetroBat.
   * Last Remnant, The (USA)
 
 ## References
+* EBZero [Best-Of](https://www.reddit.com/r/Roms/comments/10hviqi/sharing_my_best_of_rom_packs/) games from the classic systems
 * [Top Games](https://docs.google.com/spreadsheets/d/1RlzGfcQ7Iky9MpD7tzI5dyw0WnNhvBoYKndGaAhzOYQ/edit?gid=0#gid=0) by [Venture Fox](https://www.reddit.com/r/Roms/comments/17jriyi/compilation_of_recommended_games/)
 * BIOS Packs [Reddit](https://www.reddit.com/r/Roms/comments/gh3i98/full_clean_bioses_set_for_retroarch_retropie/) | [Github](https://github.com/Abdess/retroarch_system/releases/tag/v20220308)
 * [Top Roms](https://github.com/cdahmedeh/TopRoms/) by cdahmedeh (not sure if I'm using this, it's too much)
