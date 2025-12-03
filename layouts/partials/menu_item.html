@@ -3,7 +3,7 @@
         <li>
             {{- with $item.url -}} <!-- If the tiile is a link -->
                 {{ if eq $item.special "theme_toggle" }} <!-- If theme toggle -->
-                    +- <a href="{{ $item.url }}" onclick="toggleTheme(); return false;">{{ safeHTML $item.title }}</a>
+                    - <a href="{{ $item.url }}" onclick="toggleTheme(); return false;">{{ safeHTML $item.title }}</a> +
                 {{ else if eq $item.title "projects" }} <!-- If projects, add the link to custom (promote) -->
                     <a href="{{ $item.url }}">{{ safeHTML $item.title }}</a> > <a href="carldsscom">carldss.com</a>
                 {{ else }}
