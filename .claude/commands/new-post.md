@@ -1,0 +1,1 @@
+Create a new blog post for this Hugo site. Ask me for the post title, then create the post file in the appropriate content directory with proper frontmatter including title, date, and draft status.

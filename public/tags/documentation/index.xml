@@ -13,7 +13,7 @@
       <link>http://10.10.30.2:1313/homelab/my-caddy-documentation/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/homelab/my-caddy-documentation/</guid>
-      <description>Just drag and drop the web app files in /var/www/.&#xA;Then update the Caddy configuration in /etc/caddy/Caddyfile.&#xA;# Static site 1 site1.local { root * /var/www/site1 file_server } # Static site 2 site2.local { root * /var/www/site2 file_server } </description>
+      <description>Caddy is a web server that I will use to host a few servers locally. I&amp;rsquo;m used to apache but it&amp;rsquo;s not available in the Proxmox VE Helper Scripts. I don&amp;rsquo;t want to go through manual installation, as they say Keep it Simple, Stupid!&#xA;Just drag and drop the web app files in /var/www/&#xA;/var/www/ ├── site1/ │ ├── index.html │ ├── css/ │ ├── js/ │ └── images/ └── site2/ ├── index.</description>
     </item>
     <item>
       <title>My Retrobat Documentation</title>

@@ -1,30 +1,55 @@
 // -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
-
-    &.ioda { filter: invert(0); }
-  }
+// Define color scheme variables
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --link-color: #0000ee;
+  --link-hover-color: #0000cc;
+  --border-color: #000000;
+  --code-bg: #000000;
+  --code-text: #ffffff;
+  --target-bg: #ffff00;
+  --shadow-color: gray;
 }
 
-body[a="dark"] { @include dark-appearance; }
-
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --link-color: #6bb6ff;
+  --link-hover-color: #89c9ff;
+  --border-color: #404040;
+  --code-bg: #2d2d2d;
+  --code-text: #e0e0e0;
+  --target-bg: #4a4a00;
+  --shadow-color: #000000;
+}
 
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+  html[data-theme="auto"],
+  body[data-theme="auto"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #6bb6ff;
+    --link-hover-color: #89c9ff;
+    --border-color: #404040;
+    --code-bg: #2d2d2d;
+    --code-text: #e0e0e0;
+    --target-bg: #4a4a00;
+    --shadow-color: #000000;
+  }
 }
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: var(--bg-color); }
 
 html { height: 100%; }
 
 body {
-  color: black;
+  color: var(--text-color);
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -43,7 +68,7 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background: var(--target-bg); }
 
 .w {
   max-width: 640px;
@@ -61,6 +86,9 @@ hr {
 
 pre {
   padding: 1em;
+  background: var(--code-bg);
+  color: var(--code-text);
+  overflow-x: auto;
 }
 
 table {
@@ -71,14 +99,14 @@ table {
 }
 
 table, th, td {
-  border: thin solid black;
+  border: thin solid var(--border-color);
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
-  color: white;
-  background: black;
+  color: var(--code-text);
+  background: var(--code-bg);
 
   // Added to wrap the texts on codeblocks, it's overflowing without this
   white-space: pre-wrap;   /* allow wrapping */
@@ -95,7 +123,7 @@ code.has-jax {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid var(--border-color);
   padding: 1rem;
 
   p { margin: 0; }
@@ -108,7 +136,12 @@ img {
 }
 
 a {
-  color:blue
+  color: var(--link-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
 }
 
 table {
@@ -156,7 +189,7 @@ table.my-acl-reconstruction-log-table th:nth-child(4) { width: 13%; text-align: 
   min-width: 255px;
   width: 41%; // make the carldss card sized
   border-radius: 4%;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px var(--shadow-color);
 }
 // Used in Carldss - Custom Playing Cards - Round corners and irl size
 

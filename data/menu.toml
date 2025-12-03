@@ -1,6 +1,11 @@
 [[entries]] # info has been overriden in menu_item.html
 title = "info"
 
+  [[entries.entries]] # theme toggle has been overriden in menu_item.html
+  title = "theme"
+  url = "#"
+  special = "theme_toggle"
+
   [[entries.entries]] # whoami and portfolio has been overriden in menu_item.html
   title = "whoami, portfolio"
 

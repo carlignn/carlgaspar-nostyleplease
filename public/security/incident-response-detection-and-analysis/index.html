@@ -16,10 +16,32 @@
   
   
   <link rel="stylesheet" href="/css/main.css" />
+  <script>
+    
+    (function() {
+      
+      var saved = localStorage.getItem('theme') || localStorage.getItem('darkMode');
+
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+        
+        if (!localStorage.getItem('theme')) {
+          localStorage.setItem('theme', saved);
+          localStorage.removeItem('darkMode');
+        }
+      } else {
+        
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = prefersDark ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        
+      }
+    })();
+  </script>
   
   
 </head>
-<body a="light">
+<body data-theme="light">
         <main class="page-content" aria-label="Content">
             <div class="w">
 <a href="/">..</a>
@@ -89,6 +111,8 @@
 
             </div>
         </main>
+	
+	<script type="text/javascript" src="/js/theme_toggle.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/han-css@3/dist/han.min.js"></script>
     </body>
 </html>

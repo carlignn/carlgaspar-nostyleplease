@@ -28,6 +28,11 @@ title = "rss"
 url = "index.xml"
 
 [[entries]]
+title = "dark mode"
+url = "#"
+special = "dark-mode-toggle"
+
+[[entries]]
 title = "another list"
 
   [[entries.entries]]

@@ -1,0 +1,1 @@
+Build the Hugo site. Run `hugo` command and report any errors or warnings. Show the build summary.
