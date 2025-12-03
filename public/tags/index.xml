@@ -93,13 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>http://10.10.30.2:1313/tags/security/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Write-Up</title>
       <link>http://10.10.30.2:1313/tags/write-up/</link>
       <pubDate>Mon, 09 Oct 2023 00:00:00 +0800</pubDate>

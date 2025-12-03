@@ -6,21 +6,6 @@
     <description>Recent content in Security on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Homelab Configuration Series</title>
-      <link>http://10.10.30.2:1313/homelab/_draft-homelab-configuration-series/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/_draft-homelab-configuration-series/</guid>
-      <description>Introduction I started this homelab journey because I already exhausted my 1 TB external SSD. I looked for options and I found NAS as the best one. I&amp;rsquo;ve been trying to justify buying/creating a server for years, it will help with upskilling they (I) said, but that reason is just not enough. Cloud options are always available and some are also free. But now that I have a NAS requirement, I figured that relying in the cloud for storage will really be costly.</description>
-    </item>
-    <item>
-      <title>Information Security Governance for CISM®</title>
-      <link>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</link>
-      <pubDate>Mon, 10 Oct 2022 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</guid>
-      <description>Enterprise Governance&#xA;Information Security Governance&#xA;Exam Topics&#xA;Organizational culture&#xA;Legal, regulatory, and contractual requirements&#xA;Organizational structure, roles, and responsibilities&#xA;GRC = Governance, Risk, Compliance&#xA;Key points&#xA;Governance is key to the establishment of accountability and direction&#xA;Governance should eb addressed from an enterprise-wide viewpoint&#xA;Information security strategy must be aligned with organizational mission and goals&#xA;Factors That Influence Governance Organizational Culture Organizational norms and behaviors Management style: Autocratic (Taylorism) - All decisions are made by managers and everyone who&amp;rsquo;s not a manager just does what their tool to do.</description>
-    </item>
   </channel>
 </rss>
