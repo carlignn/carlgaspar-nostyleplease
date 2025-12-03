@@ -32,11 +32,15 @@ Then update the Caddy configuration in `/etc/caddy/Caddyfile`
 site1.local {
     root * /var/www/site1
     file_server
+    tls internal
 }
 
 # Static site 2
 site2.local {
     root * /var/www/site2
     file_server
+    tls internal
 }
 ```
+
+Finally, add the site in Local DNS - in my case, it's in OPNSense > Unbound.

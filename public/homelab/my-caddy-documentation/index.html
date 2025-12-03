@@ -72,14 +72,17 @@
 </span></span><span style="display:flex;"><span>site1.local {
 </span></span><span style="display:flex;"><span>    root * /var/www/site1
 </span></span><span style="display:flex;"><span>    file_server
+</span></span><span style="display:flex;"><span>    tls internal
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#0f0"># Static site 2</span>
 </span></span><span style="display:flex;"><span>site2.local {
 </span></span><span style="display:flex;"><span>    root * /var/www/site2
 </span></span><span style="display:flex;"><span>    file_server
+</span></span><span style="display:flex;"><span>    tls internal
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>Finally, add the site in Local DNS - in my case, it&rsquo;s in OPNSense &gt; Unbound.</p>
+
 </article>
 
             </div>
