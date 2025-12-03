@@ -6,7 +6,6 @@ draft: true
 tags:
   - all
   - cheatsheet
-  - security
 ---
 
 ## URLs

@@ -58,13 +58,6 @@
       <description>Research The Domain DNS Dumpster Doing a research on the domain using DNS Dumpster will provide DNS Records, much like the same information you&amp;rsquo;ll get when you register a web server.&#xA;Shodan.io Used to identify externally exposed ports, web servers, and devices. Using this tool will give you the perspective of an attacker scanning an entity.&#xA;VirusTotal If an organization is compromised by an actor who is then leveraging that compromised infrastructure to attack other organizations, other organizations may have already reported that to virus total.</description>
     </item>
     <item>
-      <title>Information Security Governance for CISM®</title>
-      <link>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</link>
-      <pubDate>Mon, 10 Oct 2022 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/security/zzz-information-security-governance-for-cism/</guid>
-      <description>Enterprise Governance&#xA;Information Security Governance&#xA;Exam Topics&#xA;Organizational culture&#xA;Legal, regulatory, and contractual requirements&#xA;Organizational structure, roles, and responsibilities&#xA;GRC = Governance, Risk, Compliance&#xA;Key points&#xA;Governance is key to the establishment of accountability and direction&#xA;Governance should eb addressed from an enterprise-wide viewpoint&#xA;Information security strategy must be aligned with organizational mission and goals&#xA;Factors That Influence Governance Organizational Culture Organizational norms and behaviors Management style: Autocratic (Taylorism) - All decisions are made by managers and everyone who&amp;rsquo;s not a manager just does what their tool to do.</description>
-    </item>
-    <item>
       <title>Red Team Adversary Emulation With Caldera Part 1</title>
       <link>http://10.10.30.2:1313/security/_draft-red-team-adversary-emulation-with-caldera-part-1/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0800</pubDate>

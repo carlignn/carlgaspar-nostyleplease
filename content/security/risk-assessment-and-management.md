@@ -4,7 +4,6 @@ draft: false
 date: 2021-11-04T00:00:00+08:00
 tags:
   - all
-  - security
 ---
 
 For many of us that works in Information Security, many of us sees risk as a negative thing. But risk is an essential part of a business. From **ISO/IEC 31000** - Risk is the effect of uncertainty on an objective. An effect is a deviation from the expected - positive and/negative.

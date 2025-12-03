@@ -7,7 +7,6 @@ tags:
   - all
   - redteam
   - write-up
-  - security
 ---
 
 how to use the Mitre ATT\&CK.

@@ -6,7 +6,6 @@ draft: true
 tags:
   - all
   - security
-  - write-up
 ---
 
 Enterprise Governance

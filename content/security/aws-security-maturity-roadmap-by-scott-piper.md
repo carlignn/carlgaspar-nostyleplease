@@ -4,7 +4,6 @@ subtitle: Write-up from Scott Piper's blog on AWS Security Maturity Roadmap
 date: 2023-09-20T00:00:00+08:00
 tags:
   - all
-  - security
   - write-up
 ---
 

@@ -6,28 +6,21 @@
     <description>Recent content in Game on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://10.10.30.2:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Top 10 Games from Classic Systems of All Time</title>
-      <link>http://10.10.30.2:1313/posts/top-10-games-from-classic-systems-of-all-time/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/top-10-games-from-classic-systems-of-all-time/</guid>
-      <description>NES game 1 Master System game 2 </description>
-    </item>
     <item>
       <title>My Retrobat Documentation</title>
       <link>http://10.10.30.2:1313/posts/my-retrobat-documentation/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/posts/my-retrobat-documentation/</guid>
-      <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS. (RetroArch on a different folder).&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.&#xA;Currated List for iPad (RetroArch) Top 10 Games from Classic Systems of All Time - these roms will be stored on a separate folder to be maintained continuously and be used for iPad only to save local space.</description>
+      <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS. (RetroArch on a different folder).&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.</description>
     </item>
     <item>
       <title>My Retro Gaming Setup</title>
       <link>http://10.10.30.2:1313/posts/my-retro-gaming-setup/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0800</pubDate>
       <guid>http://10.10.30.2:1313/posts/my-retro-gaming-setup/</guid>
-      <description>Components PC Homelab iPad PC My PC will host Apollo - fork of Sunshine which will stream the games to my iPad which will be the console of choice.&#xA;Homelab As of the moment, my homelab will be the storage of my roms, I&amp;rsquo;m not sure if there will be a use of it other than storage but we&amp;rsquo;ll see.&#xA;iPad I have an iPad Pro 11 M2 laying around, I use for leisure and editing photos.</description>
+      <description>Components PC Homelab iPad PC My PC will host host Retrobat as the main game console. Apollo - fork of Sunshine will be used to stream the games to my iPad which will be the console of choice (if needed).&#xA;Homelab As of the moment, my homelab will be the storage of my roms, I&amp;rsquo;m not sure if there will be a use of it other than storage but we&amp;rsquo;ll see.</description>
     </item>
     <item>
       <title>DotA 2 - Reaching Divine Rank</title>
