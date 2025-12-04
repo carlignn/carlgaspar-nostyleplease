@@ -69,10 +69,6 @@ Almost all Roms in the **Classic Systems** will run on both RetroArch (iPad) and
 ### Roadblocks
 * iPad doesn't support GameCube and Dreamcast Cores.
 * iPad can't load games from an external storage. It will still download the games locally defeating it's purpose.
-### Commit List
-* Initial Commit - EBZero on [Reddit](https://www.reddit.com/r/Roms/comments/10hviqi/sharing_my_best_of_rom_packs/) has their Best-Of games from the classic systems
-* PS1 - Added:
-  * Pepsiman (Japan)
 
 ## Roms (Set 2) - Modern Systems (PS2 and Above)
 No need to get all the Rom sets from the Modern Systems, the files are too big, just grab what's the best and save it.
@@ -82,14 +78,7 @@ All Roms in the **Modern Systems** will run only on RetroBat.
 ### Roadblocks
 * XBOX files had to be converted to xiso file
 ### Commit List
-* Initial Commit - EBZero on [Reddit](https://www.reddit.com/r/Roms/comments/10hviqi/sharing_my_best_of_rom_packs/) has their Best-Of games from the classic systems
-* XBOX 360, XBOX, PS2, Virtual Boy, Wii, PS3 - [Top Games](https://docs.google.com/spreadsheets/d/1RlzGfcQ7Iky9MpD7tzI5dyw0WnNhvBoYKndGaAhzOYQ/edit?gid=0#gid=0) by [Venture Fox](https://www.reddit.com/r/Roms/comments/17jriyi/compilation_of_recommended_games/)
-* PS2 - Added:
-  * Grand Theft Auto - Liberty City Stories (USA)
-  * Grand Theft Auto - Vice City Stories (USA)
-  * Grand Theft Auto III (USA)
-* XBOX 360 - Added:
-  * Last Remnant, The (USA)
+* The list has been moved to [My Rom Commit List](/posts/my-rom-commit-list)
 
 ## References
 * EBZero [Best-Of](https://www.reddit.com/r/Roms/comments/10hviqi/sharing_my_best_of_rom_packs/) games from the classic systems

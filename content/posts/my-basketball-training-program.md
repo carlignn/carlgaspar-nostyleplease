@@ -18,15 +18,17 @@ I've decided to coach and train players of our league just to try and see what i
 
 ### Cardio - *estimated time 20 mins*
 * Jog - full length of court - lateral - backward - lateral (5x)
-* Add sprint if there's time or farming rice - 5 people, loser repeat
-
-> Water break for winners
+  * Playful jog(?)
+  * High knees w/ lay
+  * Hip-hop jog(?)
+  * Cross-over
+  * Sprint
 
 ### Stretching - *estimated time 10 mins*
 8 seconds each, 2 claps after each stretch
 * Upper
   * Neck - up, down, left, right
-  * Shoulder - hands behind back stretch
+  * Shoulder - hands behind the back stretch
   * Shoulder - cross body
   * Hands - hands together stretch, front, up, left, right, back
 * Lower
@@ -39,12 +41,17 @@ I've decided to coach and train players of our league just to try and see what i
 * Active
   * Knee to chest jumps (10x)
 
+### Cardio
+* Add sprint if there's time or farming rice - 5 people, loser repeat, or both
+
+> Water break for winners
+
 ### Passing - *estimated time 10 mins*
-* 3 people running and passing
-* ?Bullseye passing
+* 3 or 2 people running and passing
+* ?Bullseye passing - NO
 
 ### Shooting - *estimated time 20 mins*
-* Layup lines drill
+* Layup lines drill - first to 30
 * Play off two feet
   * Freethrow line - drive off two feet and finish
   * Wing - receive ball to freethrow line and shoot
@@ -68,6 +75,6 @@ I've decided to coach and train players of our league just to try and see what i
 ## References
 * [Bullseye Passing - Basketball Passing Drill](https://www.youtube.com/watch?v=tY2RFEpG6I8)
 * [Basketball Drill for Better Layups - Play Off Two Feet](https://www.youtube.com/watch?v=YzSXr6uNNVQ)
-* [Basketball Dribbling Drill - COMPETITIVE!](https://www.youtube.com/watch?v=ADM_nsX7lkA)
 * [Offense Drill - No Dribbles (Handle Pressure, Less TO's)](https://www.youtube.com/watch?v=Nl5_FGpJTRQ)
+* [Basketball Dribbling Drill - COMPETITIVE!](https://www.youtube.com/watch?v=ADM_nsX7lkA)
 * [Basketball : Cool Down](https://www.youtube.com/watch?v=dYKBeCjay_c)
