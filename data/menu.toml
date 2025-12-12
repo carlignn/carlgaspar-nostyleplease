@@ -16,10 +16,6 @@ title = "info"
 #  title = "owner of"
 
 [[entries]]
-title = "search"
-url = "search"
-
-[[entries]]
 title = "all posts"
 
   [entries.post_list]
