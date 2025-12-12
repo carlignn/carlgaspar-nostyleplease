@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+<div data-pagefind-ignore>
 <header>
     <h1>{{ $.Site.Title | lower }}</h1>
     {{- if $.Site.Params.theme_config.show_description -}}
@@ -8,5 +8,5 @@
 </header>
 {{ .Content }}
 {{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
-
+</div>
 {{ end }}

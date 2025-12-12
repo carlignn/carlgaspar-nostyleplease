@@ -308,6 +308,8 @@
   </url><url>
     <loc>http://10.10.30.2:1313/posts/zzz-commands/</loc>
   </url><url>
+    <loc>http://10.10.30.2:1313/search/</loc>
+  </url><url>
     <loc>http://10.10.30.2:1313/socials/</loc>
   </url><url>
     <loc>http://10.10.30.2:1313/about/</loc>

@@ -6,7 +6,7 @@
 
   <title>
     
-      My Lessons Learned
+      Search
     
   </title>
 
@@ -46,41 +46,36 @@
             <div class="w">
 <a href="/">..</a>
 
-<article>
-    <p class="post-meta">
-        <time datetime="2025-09-08 00:00:00 &#43;0800 &#43;0800">
-            
-                2025-09-08
-            
-        </time>
-    </p>
+<input type="text" id="search-input" placeholder="Search..." data-pagefind-ignore>
 
-    <h1>My Lessons Learned</h1>
+    <ul id="search-results"></ul>
+    <script>
+        (async function() {
+            const pagefind = await import('/pagefind/pagefind.js');
+            const input = document.getElementById('search-input');
+            const results = document.getElementById('search-results');
 
-    
-        
-        
-        
-            
-        
-            
-                
-            
-        
-        
-            <p style="font-size: 75%; margin-left: 4%;">tags: <a href="/tags/ai">ai</a></p>
-        
-    
+            input.addEventListener('input', async (e) => {
+                const query = e.target.value;
+                results.innerHTML = '';
 
-    <p>This is for AI to query once it&#39;s capable.</p>
+                if (query.length < 2) return;
 
-    <p>7/11/25 (Friday night) - I can&rsquo;t figure out why I can&rsquo;t finish my tasks in Habitica at this time. I have them all listed but I don&rsquo;t understand why I&rsquo;m not doing it. I figured days later that I&rsquo;ve become fixated on that Twitch thing playing in the background. Sometimes, I get blinded by the things in front of me. Be better than that.</p>
-<p>Drafts -
-Stop just hovering through the surface, go with the details. Mouth breathing, pronunciation, etc.</p>
-<p>The break up incident, emotions.</p>
-<p>When speaking, it&rsquo;s hard to open up when you didn&rsquo;t talk for long.</p>
+                const search = await pagefind.search(query);
+                for (const result of search.results.slice(0, 20)) {
+                    const data = await result.data();
+                    const li = document.createElement('li');
+                    const date = data.meta?.date || '';
+                    const title = data.meta?.title?.toLowerCase() || data.url;
+                    li.innerHTML = `
+            <span>${date}</span>
+            <a href="${data.url}">${title}</a>`;
+                    results.appendChild(li);
+                }
+            });
+        })();
+    </script>
 
-</article>
 
             </div>
         </main>

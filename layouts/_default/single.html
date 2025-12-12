@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article>
+<article data-pagefind-body>
+    <span data-pagefind-meta="date" style="display: none;">{{ .Date | time.Format "2006-01-02" }}</span>
     <p class="post-meta">
         <time datetime="{{ .Date }}">
             {{ if (eq (.Date | time.Format site.Params.theme_config.date_format) "0001-01-01") }}
@@ -12,7 +13,7 @@
         </time>
     </p>
 
-    <h1>{{ .Title }}</h1>
+    <h1 data-pagefind-meta="title">{{ .Title }}</h1>
 
     {{ with .Params.tags }}
         {{ $base := "tags/" | relURL }}

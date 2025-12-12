@@ -46,7 +46,7 @@ body[data-theme="dark"] {
 // see: https://stackoverflow.com/a/61265706
 html, body { background: var(--bg-color); }
 
-html { height: 100%; }
+html { height: 100%; overflow-y: scroll; }
 
 body {
   color: var(--text-color);
@@ -200,3 +200,20 @@ table.carldss td {
   border: none !important;
 }
 // Used in Carldss - Remove all borders of tables in /carldss
+
+// Search input styled to look like h1
+#search-input {
+  display: block;
+  background: transparent;
+  color: var(--text-color);
+  border: none;
+  font-family: inherit;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: inherit;
+  padding: 0;
+  margin: 0.67em 0;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+}
