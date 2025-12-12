@@ -1,15 +1,17 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article>
+<article data-pagefind-body>
+    <span data-pagefind-meta="date" style="display: none;">{{ .Date | time.Format "2006-01-02" }}</span>
     <p class="post-meta">
         <time datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
     </p>
 
-    <h1>{{ .Title }}</h1>
+    <h1 data-pagefind-meta="title">{{ .Title }}</h1>
 
+    <div data-pagefind-ignore>
     {{ with .Params.tags }}
         {{ $base := "tags/" | relURL }}
         {{ $links := slice }}
@@ -26,5 +28,6 @@
     <p>{{ .Params.subtitle }}</p>
 
     {{ .Content }}
+    </div>
 </article>
 {{ end }}

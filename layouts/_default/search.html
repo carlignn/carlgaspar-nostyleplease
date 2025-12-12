@@ -1,12 +1,13 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<input type="text" id="search-input" placeholder="Search..." data-pagefind-ignore>
+<input type="text" id="search-input" placeholder="Search..." autocomplete="off" data-pagefind-ignore>
 
     <ul id="search-results"></ul>
     <script>
         (async function() {
             const pagefind = await import('/pagefind/pagefind.js');
+            await pagefind.init();
             const input = document.getElementById('search-input');
             const results = document.getElementById('search-results');
 

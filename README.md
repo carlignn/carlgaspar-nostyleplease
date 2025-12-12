@@ -12,6 +12,7 @@
 ```
 * To run the code: `npm run dev` (this only runs inside the VM)
 * To run the code: `npx tinacms dev --host 0.0.0.0 -c "hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D"` (this tells Hugo to be accessible via LAN. The problem is TinaCMS is still only accessible in localhost, remove --host 0.0.0.0 if it's not running)
+* To run the code: `npx tinacms dev -c "hugo && npx pagefind --site public && hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D"` (this will rebuild the pagefind as well) ( TinaCMS still cannot be run in code server)
 
 ## Commiting
 

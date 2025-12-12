@@ -15,6 +15,7 @@
 
     <h1 data-pagefind-meta="title">{{ .Title }}</h1>
 
+    <div data-pagefind-ignore>
     {{ with .Params.tags }}
         {{ $base := "tags/" | relURL }}
         {{ $links := slice }}
@@ -31,5 +32,6 @@
     <p>{{ .Params.subtitle }}</p>
 
     {{ .Content }}
+    </div>
 </article>
 {{ end }}
