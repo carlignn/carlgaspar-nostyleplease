@@ -20,7 +20,7 @@ tags:
 * PSX - Added:
   * Pepsiman (Japan)
 
-## Start of interest in sports local multiplayer
+## Start of interest in sports that supports local multiplayer
   * PS2 - Added:
     * NBA Street Vol. 2 (USA)
     * NBA Street V3 (USA)
@@ -54,7 +54,7 @@ tags:
     * Fight Night Round 4 (USA)
     * Madden NFL 25 (USA)
 
-## Start of interest in Dragon Ball franchise
+## Start of interest in the Dragon Ball franchise
   ### Story (chronological order)
   * GBA - Added:
     * Dragon Ball - Advanced Adventure (USA)

@@ -43,4 +43,6 @@ site2.local {
 }
 ```
 
-Finally, add the site in Local DNS - in my case, it's in OPNSense > Unbound.
+Then add the site in Local DNS - in my case, it's in OPNSense > Unbound.
+
+Finally, `systemctl reload caddy` to reload Caddy.
