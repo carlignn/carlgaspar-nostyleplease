@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://10.10.30.2:1313/tags/all/</loc>
-    <lastmod>2025-12-04T00:00:00+08:00</lastmod>
+    <lastmod>2025-12-16T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/now/</loc>
+    <lastmod>2025-12-16T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/tags/</loc>
+    <lastmod>2025-12-16T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://10.10.30.2:1313/now/</loc>
+    <lastmod>2025-12-16T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/game/</loc>
     <lastmod>2025-12-04T00:00:00+08:00</lastmod>
@@ -12,9 +21,6 @@
     <lastmod>2025-12-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/</loc>
-    <lastmod>2025-12-04T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/tags/</loc>
     <lastmod>2025-12-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/tags/documentation/</loc>
@@ -59,10 +65,7 @@
     <loc>http://10.10.30.2:1313/homelab/my-code-server-documentation/</loc>
     <lastmod>2025-11-05T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://10.10.30.2:1313/tags/now/</loc>
-    <lastmod>2025-11-05T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://10.10.30.2:1313/now/</loc>
+    <loc>http://10.10.30.2:1313/now/now-2025-11-25/</loc>
     <lastmod>2025-11-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://10.10.30.2:1313/posts/dota-2-reaching-divine-rank/</loc>
