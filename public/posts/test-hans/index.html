@@ -89,21 +89,27 @@ aeioua̍e̍i̍o̍u̍
 
 
 <div class="comments">
-  <script src="https://giscus.app/client.js"
-    data-repo="carlignn/carlgaspar-nostyleplease"
-    data-repo-id="R_kgDOIDaPAw"
-    data-category="Comments"
-    data-category-id="DIC_kwDOIDaPA84Cz6IE"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
+  <script>
+    (function() {
+      var theme = document.documentElement.getAttribute('data-theme') || 'light';
+      var script = document.createElement('script');
+      script.src = 'https://giscus.app/client.js';
+      script.setAttribute('data-repo', 'carlignn\/carlgaspar-nostyleplease');
+      script.setAttribute('data-repo-id', 'R_kgDOIDaPAw');
+      script.setAttribute('data-category', 'Comments');
+      script.setAttribute('data-category-id', 'DIC_kwDOIDaPA84Cz6IE');
+      script.setAttribute('data-mapping', 'pathname');
+      script.setAttribute('data-strict', '0');
+      script.setAttribute('data-reactions-enabled', '1');
+      script.setAttribute('data-emit-metadata', '0');
+      script.setAttribute('data-input-position', 'top');
+      script.setAttribute('data-theme', theme);
+      script.setAttribute('data-lang', 'en');
+      script.setAttribute('data-loading', 'lazy');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.async = true;
+      document.currentScript.parentNode.appendChild(script);
+    })();
   </script>
 </div>
 

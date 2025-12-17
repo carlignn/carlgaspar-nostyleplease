@@ -6,6 +6,17 @@
   const DARK = 'dark';
   const LIGHT = 'light';
 
+  // Sync giscus theme with site theme
+  function setGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (iframe) {
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: theme } } },
+        'https://giscus.app'
+      );
+    }
+  }
+
   // Initialize theme from localStorage or system preference
   function init() {
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -30,6 +41,7 @@
     document.documentElement.setAttribute('data-theme', newMode);
     document.body.setAttribute('data-theme', newMode);
     localStorage.setItem(STORAGE_KEY, newMode);
+    setGiscusTheme(newMode);
   };
 
   // Run initialization on DOM ready
