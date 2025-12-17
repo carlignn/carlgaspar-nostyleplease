@@ -5,6 +5,7 @@ date: 2023-07-19T00:00:00+08:00
 draft: true
 tags:
   - all
+comments: false
 ---
 
 I found this blog on Reddit and I will try my best to answer them. I will answer them on my own, then I will answer from a different perspective based on my research.

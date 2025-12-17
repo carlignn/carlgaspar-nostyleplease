@@ -3,6 +3,7 @@ title: 'whoami'
 subtitle: This is me in 10 minutes.
 tags:
   - all
+comments: false
 ---
 
 ***

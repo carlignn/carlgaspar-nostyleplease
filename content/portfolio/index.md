@@ -2,6 +2,7 @@
 title: ''
 tags:
   - all
+comments: false
 ---
 
 # Cyber Security Specialist

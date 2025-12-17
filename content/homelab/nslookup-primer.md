@@ -6,6 +6,7 @@ draft: false
 tags:
   - all
   - primer
+comments: true
 ---
 
 `nslookup` is a command-line tool used for testing and troubleshooting DNS servers. Basically, just as its name says, it will lookup for the name server of any domain.

@@ -6,6 +6,7 @@ date: 2025-08-28T00:00:00+08:00
 tags:
   - all
   - human
+comments: true
 ---
 
 ## Question

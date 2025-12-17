@@ -7,6 +7,7 @@ tags:
   - guide
 category: example3
 custom_js: [mouse_coords]
+comments: true
 ---
 
 This post is strange. It also has some custom js.

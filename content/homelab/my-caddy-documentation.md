@@ -7,6 +7,7 @@ tags:
   - all
   - documentation
   - software development
+comments: true
 ---
 
 Caddy is a web server that I will use to host a few servers locally. I'm used to apache but it's not available in the Proxmox VE Helper Scripts. I don't want to go through manual installation, as they say Keep it Simple, Stupid!

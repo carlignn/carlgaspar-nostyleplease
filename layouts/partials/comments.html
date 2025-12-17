@@ -1,0 +1,20 @@
+{{ if eq .Params.comments true }}
+<div class="comments">
+  <script src="https://giscus.app/client.js"
+    data-repo="{{ site.Params.giscus.repo }}"
+    data-repo-id="{{ site.Params.giscus.repoID }}"
+    data-category="{{ site.Params.giscus.category }}"
+    data-category-id="{{ site.Params.giscus.categoryID }}"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+{{ end }}

@@ -6,6 +6,7 @@ date: 2023-07-12T00:00:00+08:00
 tags:
   - all
   - game
+comments: false
 ---
 
 ## Pokemon Sweeping

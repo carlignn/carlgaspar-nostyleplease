@@ -6,6 +6,7 @@ tags:
   - all
   - exercise
   - human
+comments: true
 ---
 
 | Title                                                          | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Week/Day | Date     |

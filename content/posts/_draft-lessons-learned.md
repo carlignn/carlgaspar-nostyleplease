@@ -6,6 +6,7 @@ draft: true
 tags:
   - all
   - ai
+comments: false
 ---
 
 7/11/25 (Friday night) - I can't figure out why I can't finish my tasks in Habitica at this time. I have them all listed but I don't understand why I'm not doing it. I figured days later that I've become fixated on that Twitch thing playing in the background. Sometimes, I get blinded by the things in front of me. Be better than that.

@@ -5,6 +5,7 @@ date: 2025-11-21T00:00:00+08:00
 tags:
   - all
   - game
+comments: true
 ---
 
 ## Components

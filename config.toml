@@ -34,3 +34,8 @@ pluralizelisttitles = false
     back_home_text = ".."
     date_format = "2006-01-02"
     appearance = "light"
+  [params.giscus]
+    repo = "carlignn/carlgaspar-nostyleplease"
+    repoID = "R_kgDOIDaPAw"
+    category = "Comments"
+    categoryID = "DIC_kwDOIDaPA84Cz6IE"

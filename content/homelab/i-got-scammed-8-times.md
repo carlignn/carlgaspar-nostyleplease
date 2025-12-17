@@ -5,6 +5,7 @@ draft: false
 date: 2025-11-13T00:00:00+08:00
 tags:
   - all
+comments: true
 ---
 
 I've got failing SSDs for a year now since I started my [HOMELAB](/homelab) journey. It is all a Samsung 870 EVO 1TB SSD. I've bought 8 in total - 5 have failed and 3 more waiting for their demise.

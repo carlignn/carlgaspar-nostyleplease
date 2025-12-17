@@ -6,6 +6,7 @@ date: 2025-08-27T00:00:00+08:00
 tags:
   - all
   - documentation
+comments: true
 ---
 
 I'm worried about the state of my digital memories and personal data after seeing a lot of people failed by their NAS. I'm thinking about putting this existing one onto my parents house as an offsite backup and build a new one that I can rack to save space. I thought that was a good idea but at the same time, it's really expensive, so I've just decided (maybe for the meantime, until I can find another reason to build a new computer LOL) to put the backup in the cloud.

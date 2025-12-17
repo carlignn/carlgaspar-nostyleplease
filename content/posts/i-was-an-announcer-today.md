@@ -7,6 +7,7 @@ tags:
   - all
   - basketball
   - sports
+comments: true
 ---
 
 ***

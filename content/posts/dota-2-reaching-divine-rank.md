@@ -7,6 +7,7 @@ tags:
   - all
   - human
   - game
+comments: true
 ---
 
 I DID IT! Finally reached Divine rank (4600 mmr) in DotA 2! I just want to prove to myself that I understand the mechanics of the game and I'm still capable of solving problems. I've been playing this game on and off even before my age reached double digits.

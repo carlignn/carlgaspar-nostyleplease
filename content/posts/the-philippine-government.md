@@ -6,6 +6,7 @@ date: 2021-09-21T00:00:00+08:00
 tags:
   - all
   - philippines
+comments: true
 ---
 
 When we were young, there are times in our studies where there are topics or lessons that our brain can't comprehend. In this blog, I will discuss what I learned reviewing the really important topic - The Philippine Government. I learned that it is all based on the Philippine Constitution.

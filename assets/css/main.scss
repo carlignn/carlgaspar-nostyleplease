@@ -217,3 +217,10 @@ table.carldss td {
   outline: none;
   box-sizing: border-box;
 }
+
+// Giscus comments section
+.comments {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--border-color);
+}

@@ -5,6 +5,7 @@ draft: true
 subtitle: My answers to the 60 Cybersecurity Interview Questions by DanielMiessler
 tags:
   - all
+comments: false
 ---
 
 [https://danielmiessler.com/study/infosec\_interview\_questions/](https://danielmiessler.com/study/infosec_interview_questions/ "https://danielmiessler.com/study/infosec_interview_questions/")

@@ -3,6 +3,7 @@ title: Socials
 draft: false
 tags:
   - all
+comments: false
 ---
 
 Cybersecurity Officer, Developer, Minimalist, Gamer, Jack of all trades, Master of none, Owner of [carldss.com](https://carldss.com/). I'm @carlignn everywhere.

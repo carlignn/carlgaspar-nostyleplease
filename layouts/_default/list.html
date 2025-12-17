@@ -7,4 +7,6 @@
 {{ .Content }}
 {{ partial "post_list.html" (dict "context" . "section" .Section)}}
 </div>
+
+{{ partial "comments.html" . }}
 {{ end }}

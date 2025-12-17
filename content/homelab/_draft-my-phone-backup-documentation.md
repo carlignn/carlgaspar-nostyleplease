@@ -6,6 +6,7 @@ date: 2025-11-17T00:00:00+08:00
 tags:
   - all
   - documentation
+comments: false
 ---
 
 Phone > has direct access to all NAS on VPN (SMB) > NAS/hdd

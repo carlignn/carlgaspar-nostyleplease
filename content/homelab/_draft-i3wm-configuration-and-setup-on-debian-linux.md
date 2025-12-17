@@ -5,6 +5,7 @@ date: 2025-01-02T00:00:00+08:00
 draft: true
 tags:
   - all
+comments: false
 ---
 
 This post has been paused for the meantime due to priorities.

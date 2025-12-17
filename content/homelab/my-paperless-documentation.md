@@ -6,6 +6,7 @@ date: 2025-09-08T00:00:00+08:00
 tags:
   - all
   - documentation
+comments: true
 ---
 
 The installation will be as a container in TrueNAS Scale to centralize media/document storage and processing.

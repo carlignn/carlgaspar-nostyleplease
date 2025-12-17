@@ -6,6 +6,7 @@ draft: true
 tags:
   - all
   - cheatsheet
+comments: false
 ---
 
 ## URLs

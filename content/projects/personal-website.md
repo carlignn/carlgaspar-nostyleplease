@@ -4,6 +4,7 @@ draft: false
 date: 2025-10-28T00:00:00+08:00
 tags:
   - all
+comments: true
 ---
 
 [It's More Find in the Philippines](https://play.google.com/store/apps/details?id=com.galore.imfitphilippines) is a 2D android-based find the hidden object game. Over a hundred objects are hidden in the different regions of the Philippines. It features most of the known objects from every region which lets you explore the country as well as learn trivia provided by the game. It's More find in the Philippines lets you explore the country. Users will be asked to look for precious objects related to certain places. Users will consume energy to play a level or a stage.

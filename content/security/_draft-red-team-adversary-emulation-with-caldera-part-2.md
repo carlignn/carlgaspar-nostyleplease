@@ -7,6 +7,7 @@ tags:
   - all
   - redteam
   - write-up
+comments: false
 ---
 
 how to use the Mitre ATT\&CK.

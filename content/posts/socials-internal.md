@@ -4,6 +4,7 @@ draft: false
 date: 0001-01-01T00:00:00+08:00
 tags:
   - all
+comments: true
 ---
 
 *This is the same with the official [socials](/socials) link but with additional not-super-important links. For internal tracking only.*

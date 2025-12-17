@@ -7,6 +7,7 @@ tags:
   - all
   - game
   - documentation
+comments: true
 ---
 
 ---
