@@ -68,7 +68,7 @@ These are the classic roms. I can save all the roms from these systems since the
 Almost all Roms in the **Classic Systems** will run on both RetroArch (iPad) and RetroBat (PC). But only **top 10 games on every console of all time and currated list** will be installed on the iPad due to limited space.
 
 ### Roadblocks
-* iPad doesn't support GameCube and Dreamcast Cores.
+* iPad doesn't support 3DS, GameCube, and Dreamcast Cores.
 * iPad can't load games from an external storage. It will still download the games locally defeating it's purpose.
 
 ## Roms (Set 2) - Modern Systems (PS2 and Above)
@@ -77,7 +77,8 @@ No need to get all the Rom sets from the Modern Systems, the files are too big, 
 All Roms in the **Modern Systems** will run only on RetroBat.
 
 ### Roadblocks
-* XBOX files had to be converted to xiso file
+* XBOX files had to be converted to xiso file.
+* Switch roms are not publicly available yet for emulation.
 ### Commit List
 * The list has been moved to [My Rom Commit List](/posts/my-rom-commit-list)
 
