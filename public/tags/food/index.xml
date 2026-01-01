@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on Carl Gaspar</title>
+    <link>http://10.10.30.2:1313/tags/food/</link>
+    <description>Recent content in Food on Carl Gaspar</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://10.10.30.2:1313/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makati City So Far</title>
+      <link>http://10.10.30.2:1313/posts/_draft-makati-city-so-far/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/posts/_draft-makati-city-so-far/</guid>
+      <description>Makati so far is 4 out of 4.&#xA;We always see good food recommendations online and most of the time, it&amp;rsquo;s located in Makati. Here&amp;rsquo;s where we&amp;rsquo;ve been so far and it&amp;rsquo;s all 10/10.&#xA;Mala Malatang Persian Samgyupsal New Bombay </description>
+    </item>
+  </channel>
+</rss>
