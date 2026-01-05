@@ -25,7 +25,7 @@ title = "all posts"
   show_more_url = "tags/all"
 
 [[entries]]
-title = "posts by tag"
+title = "posts by category"
 
 #  [[entries.entries]] # Tag link moved to menu_item.html (manual)
 #    title = "tags"
@@ -63,6 +63,10 @@ title = "posts by tag"
     show_more = true
     show_more_text = "see more projects..."
     show_more_url = "projects"
+
+  [[entries.entries]]
+    title = "quotes"
+    url = "quotes"
 
 [[entries]]
 title = "socials"
