@@ -195,3 +195,33 @@ comments: true
 > 
 >
 >-- James Clear in -- [3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self](https://jamesclear.com/3-2-1/january-1-2026)
+
+- *01/16/26* - Gary Tan on strategy.
+>“Always play the hand you have, not the one you wish you had.”
+>
+> 
+>
+>-- Gary Tan in -- [3-2-1: On comparison, life strategy, and stopping negative thought spirals](https://jamesclear.com/3-2-1/january-15-2026)
+
+- *01/17/26* - James Clear on habits and procrastination.
+>“Missing once is an accident.
+>
+> 
+>
+>Missing twice is the start of a new habit.”
+>
+> 
+>
+>-- James Clear in -- [Cybersecurity Goals for 2026](https://www.youtube.com/watch?v=w-l571Lu8N0)
+
+- *01/27/26* - CGP Grey on politics.
+>Rule 0
+>
+> 
+>
+>Without power you can affect nothing
+>
+> 
+>
+>-- CGP Grey in -- [You Would Be a Terrible Leader](https://youtu.be/rStL7niR7gs?si=0jeLEvH3Ofrib6B9&t=1068)
+
