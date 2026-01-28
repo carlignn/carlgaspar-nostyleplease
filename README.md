@@ -25,7 +25,7 @@ tags:
 - security
 subtitle: "Optional tagline" - Secondary text below title
 description: "Custom SEO description" - overrides auto-generated
-image: "/images/my-image.jpg"
+image: "/images/my-image.jpg" - Put in /static/images
 comments: true
 mathjax: false
 
