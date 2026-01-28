@@ -14,6 +14,21 @@
 * To run the code: `npx tinacms dev --host 0.0.0.0 -c "hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D"` (this tells Hugo to be accessible via LAN. The problem is TinaCMS is still only accessible in localhost, remove --host 0.0.0.0 if it's not running)
 * To run the code: `npx tinacms dev -c "hugo && npx pagefind --site public && hugo server --bind 0.0.0.0 --baseURL http://10.10.30.2 -D"` (this will rebuild the pagefind as well) ( TinaCMS still cannot be run in code server)
 
+## Front Matters
+
+title: "My Post Title" - Page title (used in heading, SEO, social)
+date: 2025-01-28T00:00:00+08:00
+draft: false - Set false to publish
+tags:
+- all - Always include all tag, plus topic tags
+- guide
+- security
+subtitle: "Optional tagline" - Secondary text below title
+description: "Custom SEO description" - overrides auto-generated
+image: "/images/my-image.jpg"
+comments: true
+mathjax: false
+
 ## Commiting
 
 If there are changes: git add .
