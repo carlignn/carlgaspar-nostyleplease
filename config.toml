@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://carlgaspar.com/"
 title = "Carl Gaspar"
 pluralizelisttitles = false
 
@@ -30,6 +30,8 @@ pluralizelisttitles = false
 
 [params]
   favicon = "/logo.png"
+  description = "Carl Gaspar's personal blog about technology and development"
+  author = "Carl Gaspar"
   [params.theme_config]
     back_home_text = ".."
     date_format = "2006-01-02"
