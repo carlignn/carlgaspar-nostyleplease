@@ -16,6 +16,7 @@
   <!-- SEO Meta Tags -->
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}" />
   <meta name="author" content="{{ $.Site.Params.author }}" />
+  {{ if .Draft }}<meta name="robots" content="noindex, nofollow" />{{ end }}
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <!-- Open Graph (Facebook, LinkedIn) -->
