@@ -2,130 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on Carl Gaspar</title>
-    <link>http://10.10.30.2:1313/tags/documentation/</link>
+    <link>https://carlgaspar.com/tags/documentation/</link>
     <description>Recent content in Documentation on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://10.10.30.2:1313/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://carlgaspar.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Caddy Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-caddy-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-caddy-documentation/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-caddy-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-caddy-documentation/</guid>
       <description>Caddy is a web server that I will use to host a few servers locally. I&amp;rsquo;m used to apache but it&amp;rsquo;s not available in the Proxmox VE Helper Scripts. I don&amp;rsquo;t want to go through manual installation, as they say Keep it Simple, Stupid!&#xA;Just drag and drop the web app files in /var/www/&#xA;/var/www/ ├── site1/ │ ├── index.html │ ├── css/ │ ├── js/ │ └── images/ └── site2/ ├── index.</description>
     </item>
     <item>
       <title>My Retrobat Documentation</title>
-      <link>http://10.10.30.2:1313/posts/my-retrobat-documentation/</link>
+      <link>https://carlgaspar.com/posts/my-retrobat-documentation/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/my-retrobat-documentation/</guid>
+      <guid>https://carlgaspar.com/posts/my-retrobat-documentation/</guid>
       <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS. (RetroArch on a different folder).&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.</description>
     </item>
     <item>
-      <title>My Phone Backup Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/_draft-my-phone-backup-documentation/</link>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/_draft-my-phone-backup-documentation/</guid>
-      <description>Phone &amp;gt; has direct access to all NAS on VPN (SMB) &amp;gt; NAS/hdd Phone &amp;gt; DropSyncFiles &amp;gt; dropsyncs Obsidian Phone &amp;gt; FolderSyncPRO the whole phone to NAS on VPN (SMB) &amp;gt; NAS/hdd/critical/personal_data/Mobile/</description>
-    </item>
-    <item>
       <title>My Archivebox Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-archivebox-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-archivebox-documentation/</link>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-archivebox-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-archivebox-documentation/</guid>
       <description>Yeah, this is not it. You&amp;rsquo;re telling me I need to have my cookies in it to be able to archive a private post? That&amp;rsquo;s too much work. I wish there&amp;rsquo;s a way around it. For the meantime, I&amp;rsquo;ll just save my websites on a bookmark and on to the app itself (Facebook, Instagram, YouTube, etc.)&#xA;This definitely looks better than Karakeep but there&amp;rsquo;s no folder management. Therefore, this is not the solution for me just like PaperlessNGX.</description>
     </item>
     <item>
       <title>My Cockpit Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-cockpit-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-cockpit-documentation/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-cockpit-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-cockpit-documentation/</guid>
       <description>I have installed Cockpit in an LXC inside Proxmox. I think it&amp;rsquo;s a good program, it&amp;rsquo;s just not the right one for my use case. Proxmox already has a good GUI for servers and I no longer see any use for this one.</description>
     </item>
     <item>
       <title>My Code Server Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-code-server-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-code-server-documentation/</link>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-code-server-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-code-server-documentation/</guid>
       <description>I was on my bed ready to go to sleep and thinking of my blog posts in this website. I want to edit some post but I can&amp;rsquo;t unless I -&#xA;Go back in front of my computer again and let go of the thought of falling asleep Open TinaCMS just for it to break everything again (some elements are using goldmark renders which can break the posts if updated in rich-text editor) Only to find out that I haven&amp;rsquo;t pushed from my computer - the code in production is not the latest This still won&amp;rsquo;t do since I need to rearrange some of the directories Have the test environment accessible anywhere overseerr - request manager plex - media manager prowlarr - indexer (for radarr and sonarr) qbittorrent - torrent client radarr - movie collection manager (connects to qbt) sonarr - tv show collection manager (connects to qbt) </description>
     </item>
     <item>
       <title>My Paperless Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-paperless-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-paperless-documentation/</link>
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-paperless-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-paperless-documentation/</guid>
       <description>The installation will be as a container in TrueNAS Scale to centralize media/document storage and processing.&#xA;Paperless-ngx Write in all the passwords, username, email, etc. No need to change anything aside for the Storage Configuration. I&amp;rsquo;ve decided to create my own Host Path to easily manage the configurations.&#xA;This installation will also have an android applicatoin called Paperless Mobile. It works well, just add the IP address and port when logging in.</description>
     </item>
     <item>
       <title>My Notification Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-notification-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-notification-documentation/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-notification-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-notification-documentation/</guid>
       <description>For this project, I&amp;rsquo;ve seen options between Discord, SMS, and email. I ended up with email as it seems like it&amp;rsquo;s the best for my use case: open industry standard, has been around forever, and isn&amp;rsquo;t going anywhere.&#xA;Problem The guides are only set for Gmail. Why? They already offer a standard SMTP interface. I use ProtonMail - and they don&amp;rsquo;t.&#xA;Fix I&amp;rsquo;ve done my research and here are the options that I found:</description>
     </item>
     <item>
       <title>My Backblaze Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-backblaze-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-backblaze-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-backblaze-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-backblaze-documentation/</guid>
       <description>I&amp;rsquo;m worried about the state of my digital memories and personal data after seeing a lot of people failed by their NAS. I&amp;rsquo;m thinking about putting this existing one onto my parents house as an offsite backup and build a new one that I can rack to save space. I thought that was a good idea but at the same time, it&amp;rsquo;s really expensive, so I&amp;rsquo;ve just decided (maybe for the meantime, until I can find another reason to build a new computer LOL) to put the backup in the cloud.</description>
     </item>
     <item>
       <title>My Frigate Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-frigate-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-frigate-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-frigate-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-frigate-documentation/</guid>
       <description>Hardware I wanted something that would last a long time, the common brands based from my research are HikVision and Dahua. Here are my requirements:&#xA;Supports Frigate High quality - atleast 4mp With POE - so that there are less wires and no more trouble of looking for the nearest power outlet Lightweight - I need it to be as light as possible because I can&amp;rsquo;t drill in my current place so I have to stick it on the ceiling.</description>
     </item>
     <item>
       <title>My OPNSense Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-opnsense-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-opnsense-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-opnsense-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-opnsense-documentation/</guid>
       <description>Hardware I have no choice but to buy a new hardware because we moved to a new place, therefore the internet has changed too - for the worse. Just like before, it has the option to configure subnet but it&amp;rsquo;s not working!&#xA;My options were the NanoPI R5S router, Gl.inet stuff, then this one - the Lenovo m720q - the best mini PC that you could get for cheap.&#xA;I chose this one because of the upgradability and aesthetics, and the price difference is also not that high so might as well settle for the one that pleases my eyes the most.</description>
     </item>
     <item>
       <title>My Portainer Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-portainer-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-portainer-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-portainer-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-portainer-documentation/</guid>
       <description>Installation Run this Proxmox helper script to create a Debian LXC with Docker inside. Then enabled portainer from the initial configuration.&#xA;bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)&amp;#34; IPv4 = static IPv6 = disabled Docker compose = enabled Portainer GUI = enabled Portainer agent = disabled Expose docker TCP socket = disabled Configuration Connect the agents in Environments &amp;gt; Docker Standalone&#xA;Name - hl1postiz1 all lowercase Environment address - 10.10.30.2:9001 always at 9001 port so far Reference Proxmox Helper Scripts for Docker </description>
     </item>
     <item>
       <title>My Postiz Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-postiz-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-postiz-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-postiz-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-postiz-documentation/</guid>
       <description>This will no longer be used in my Homelab. It was very unstable and fails most of the time. I&amp;rsquo;m moving this posting service to the free tier of Buffer, with 3 social medias and one I&amp;rsquo;m manually scheduling.&#xA;Installation Run this Proxmox helper script to create a Debian LXC with Docker inside.&#xA;bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)&amp;#34; IPv4 = static IPv6 = disabled Docker compose = enabled Portainer GUI = disabled Portainer agent = enabled Expose docker TCP socket = disabled Create a postiz folder in the root</description>
     </item>
     <item>
       <title>My TrueNAS Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-truenas-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-truenas-documentation/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-truenas-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-truenas-documentation/</guid>
       <description>Hardware A lot of the hardware came from my old PC. I was thinking of a reason to upgrade my computer parts and thought..&#xA;I think I need a NAS.. maybe?&#xA;Case - Sagittarius 8-bay Motherboard - ASUS TUF GAMING B550M-PLUS (WIFI) CPU - AMD Ryzen 5 3600 RAM - TEAMGROUP-UD4-3600 - 16gb * 2 HBA - LSI 9208-8I (used) GPU - Nvdia GT210 I needed a GPU because the CPU that I have isn&amp;rsquo;t capable of running headless.</description>
     </item>
     <item>
       <title>My Arr Stack Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-arr-stack-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-arr-stack-documentation/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-arr-stack-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-arr-stack-documentation/</guid>
       <description> First posted on: 2025-01-09T00:00:00+08:00&#xA;overseerr - request manager plex - media manager prowlarr - indexer (for radarr and sonarr) qbittorrent - torrent client radarr - movie collection manager (connects to qbt) sonarr - tv show collection manager (connects to qbt) </description>
     </item>
     <item>
       <title>My Pi-Hole Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-pi-hole-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-pi-hole-documentation/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-pi-hole-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-pi-hole-documentation/</guid>
       <description>First posted on: 2025-01-01T00:00:00+08:00&#xA;I have since moved Pi-Hole + Unbound to OPNSense. My OPNSense Documentation - Unbound&#xA;Run the Pi-Hole helper script to simplify the LXC creation.&#xA;bash -c &amp;#34;$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pihole.sh)&amp;#34; Add the blacklists to improve adblocking https://firebog.net/.&#xA;For NSFW, try This doesn&amp;rsquo;t look like it&amp;rsquo;s working.&#xA;Unbound Just follow the official guide. It is as easy as it is already included in the Pi-hole LXC installer. Everything is already good to go after installation.</description>
-    </item>
-    <item>
-      <title>Learning Flutter From CSEReviewer</title>
-      <link>http://10.10.30.2:1313/posts/zzz-learning-flutter-from-csereviewer/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/zzz-learning-flutter-from-csereviewer/</guid>
-      <description>Global Key In Flutter, you can use a GlobalKey to access a child widget&amp;rsquo;s functions from multiple parents. To achieve this, you can create a GlobalKey in the child widget and pass it to both parents.&#xA;Here&amp;rsquo;s an example of how you can use GlobalKey with two different parents and a single child:&#xA;Create the child widget and define a GlobalKey inside it: class ChildWidget extends StatefulWidget { const ChildWidget({Key? key}) : super(key: key); @override _ChildWidgetState createState() =&amp;gt; _ChildWidgetState(); } class _ChildWidgetState extends State&amp;lt;ChildWidget&amp;gt; { GlobalKey&amp;lt;_ChildWidgetState&amp;gt; childKey = GlobalKey&amp;lt;_ChildWidgetState&amp;gt;(); void childFunction() { // Function logic here } @override Widget build(BuildContext context) { return Container( // Child widget UI ); } } Pass the childKey to both parent widgets and store a reference to it: class ParentWidget extends StatelessWidget { final GlobalKey&amp;lt;_ChildWidgetState&amp;gt; childKey; const ParentWidget({Key?</description>
     </item>
   </channel>
 </rss>

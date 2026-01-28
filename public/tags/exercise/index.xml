@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exercise on Carl Gaspar</title>
-    <link>http://10.10.30.2:1313/tags/exercise/</link>
+    <link>https://carlgaspar.com/tags/exercise/</link>
     <description>Recent content in Exercise on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://10.10.30.2:1313/tags/exercise/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://carlgaspar.com/tags/exercise/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My ACL Reconstruction Log</title>
-      <link>http://10.10.30.2:1313/posts/my-acl-reconstruction-log/</link>
+      <link>https://carlgaspar.com/posts/my-acl-reconstruction-log/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/my-acl-reconstruction-log/</guid>
+      <guid>https://carlgaspar.com/posts/my-acl-reconstruction-log/</guid>
       <description>Title Note Week/Day Date I am going for prehab to strengthen my muscles prior to operation. W-2 I am now doing all the exercises by myself everyday prior to operation. I followed this guy&amp;rsquo;s guide: https://www.youtube.com/watch?v=Czx6LUnG1cs W-1 Surgery day I was put to mild sleep, then after an hour, it&amp;rsquo;s done, good shit! I feel weird that everything is okay, I can do ankle pumps but not quad sets but nothing hurts, I was waiting in a room and feel like I can go out and pee by myself.</description>
     </item>
   </channel>
