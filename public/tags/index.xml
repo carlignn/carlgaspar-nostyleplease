@@ -2,129 +2,171 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Carl Gaspar</title>
-    <link>https://carlgaspar.com/tags/</link>
+    <link>http://10.10.30.2:1313/tags/</link>
     <description>Recent content in Tags on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://carlgaspar.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.10.30.2:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All</title>
-      <link>https://carlgaspar.com/tags/all/</link>
+      <link>http://10.10.30.2:1313/tags/all/</link>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/all/</guid>
+      <guid>http://10.10.30.2:1313/tags/all/</guid>
       <description></description>
     </item>
     <item>
-      <title>Now</title>
-      <link>https://carlgaspar.com/tags/now/</link>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/now/</guid>
+      <title>Food</title>
+      <link>http://10.10.30.2:1313/tags/food/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/food/</guid>
       <description></description>
     </item>
     <item>
-      <title>Game</title>
-      <link>https://carlgaspar.com/tags/game/</link>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/game/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Documentation</title>
-      <link>https://carlgaspar.com/tags/documentation/</link>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/documentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Development</title>
-      <link>https://carlgaspar.com/tags/software-development/</link>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/software-development/</guid>
+      <title>Quotes</title>
+      <link>http://10.10.30.2:1313/tags/quotes/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/quotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Basketball</title>
-      <link>https://carlgaspar.com/tags/basketball/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/basketball/</guid>
+      <link>http://10.10.30.2:1313/tags/basketball/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/basketball/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>http://10.10.30.2:1313/tags/game/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Now</title>
+      <link>http://10.10.30.2:1313/tags/now/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/now/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>http://10.10.30.2:1313/tags/documentation/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>http://10.10.30.2:1313/tags/software-development/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Sports</title>
-      <link>https://carlgaspar.com/tags/sports/</link>
+      <link>http://10.10.30.2:1313/tags/sports/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/sports/</guid>
+      <guid>http://10.10.30.2:1313/tags/sports/</guid>
       <description></description>
     </item>
     <item>
       <title>Human</title>
-      <link>https://carlgaspar.com/tags/human/</link>
+      <link>http://10.10.30.2:1313/tags/human/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/human/</guid>
+      <guid>http://10.10.30.2:1313/tags/human/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>https://carlgaspar.com/tags/business/</link>
+      <link>http://10.10.30.2:1313/tags/business/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/business/</guid>
+      <guid>http://10.10.30.2:1313/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Exercise</title>
-      <link>https://carlgaspar.com/tags/exercise/</link>
+      <link>http://10.10.30.2:1313/tags/exercise/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/exercise/</guid>
+      <guid>http://10.10.30.2:1313/tags/exercise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://10.10.30.2:1313/tags/ai/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Primer</title>
-      <link>https://carlgaspar.com/tags/primer/</link>
+      <link>http://10.10.30.2:1313/tags/primer/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/primer/</guid>
+      <guid>http://10.10.30.2:1313/tags/primer/</guid>
       <description></description>
     </item>
     <item>
       <title>Write-Up</title>
-      <link>https://carlgaspar.com/tags/write-up/</link>
+      <link>http://10.10.30.2:1313/tags/write-up/</link>
       <pubDate>Mon, 09 Oct 2023 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/write-up/</guid>
+      <guid>http://10.10.30.2:1313/tags/write-up/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blueteam</title>
+      <link>http://10.10.30.2:1313/tags/blueteam/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/blueteam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redteam</title>
+      <link>http://10.10.30.2:1313/tags/redteam/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/redteam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheatsheet</title>
+      <link>http://10.10.30.2:1313/tags/cheatsheet/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0800</pubDate>
+      <guid>http://10.10.30.2:1313/tags/cheatsheet/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>https://carlgaspar.com/tags/hacking/</link>
+      <link>http://10.10.30.2:1313/tags/hacking/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/hacking/</guid>
+      <guid>http://10.10.30.2:1313/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Guide</title>
-      <link>https://carlgaspar.com/tags/guide/</link>
+      <link>http://10.10.30.2:1313/tags/guide/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/guide/</guid>
+      <guid>http://10.10.30.2:1313/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>App</title>
-      <link>https://carlgaspar.com/tags/app/</link>
+      <link>http://10.10.30.2:1313/tags/app/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/app/</guid>
+      <guid>http://10.10.30.2:1313/tags/app/</guid>
       <description></description>
     </item>
     <item>
       <title>Product</title>
-      <link>https://carlgaspar.com/tags/product/</link>
+      <link>http://10.10.30.2:1313/tags/product/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/product/</guid>
+      <guid>http://10.10.30.2:1313/tags/product/</guid>
       <description></description>
     </item>
     <item>
       <title>Philippines</title>
-      <link>https://carlgaspar.com/tags/philippines/</link>
+      <link>http://10.10.30.2:1313/tags/philippines/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0800</pubDate>
-      <guid>https://carlgaspar.com/tags/philippines/</guid>
+      <guid>http://10.10.30.2:1313/tags/philippines/</guid>
       <description></description>
     </item>
   </channel>
