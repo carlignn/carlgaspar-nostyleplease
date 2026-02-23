@@ -225,3 +225,8 @@ comments: true
 >
 >-- CGP Grey in -- [You Would Be a Terrible Leader](https://youtu.be/rStL7niR7gs?si=0jeLEvH3Ofrib6B9&t=1068)
 
+- *02/23/26* - Climber Elizabeth Rose on suffering:
+>“Suffering isn’t something I avoid. It’s something I love—I love what it brings, what’s on the other side of it. When we’re climbing Mt. Everest, we’re all suffering together, facing the same battle, chasing the same dream. Suffering makes the accomplishment that much more fulfilling.”
+>
+> 
+>-- Elizabeth Rose in -- [Taste in People](https://fs.blog/brain-food/february-15-2026/)
