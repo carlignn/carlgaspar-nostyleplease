@@ -2,66 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game on Carl Gaspar</title>
-    <link>http://10.10.30.2:1313/tags/game/</link>
+    <link>https://carlgaspar.com/tags/game/</link>
     <description>Recent content in Game on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://10.10.30.2:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Basketball Bag</title>
-      <link>http://10.10.30.2:1313/posts/_draft-my-basketball-bag/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/_draft-my-basketball-bag/</guid>
-      <description>Guard Dribbling Passing Shooting Perimeter Threes Center </description>
-    </item>
+    <lastBuildDate>Thu, 04 Dec 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://carlgaspar.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Rom Commit List</title>
-      <link>http://10.10.30.2:1313/posts/my-rom-commit-list/</link>
+      <link>https://carlgaspar.com/posts/my-rom-commit-list/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/my-rom-commit-list/</guid>
+      <guid>https://carlgaspar.com/posts/my-rom-commit-list/</guid>
       <description>Commit List Initial Commit - EBZero on Reddit has their Best-Of games from the classic systems XBOX 360, XBOX, PS2, Virtual Boy, Wii, PS3, 3DS - Top Games by Venture Fox PS2 - Added: Grand Theft Auto - Liberty City Stories (USA) Grand Theft Auto - Vice City Stories (USA) Grand Theft Auto III (USA) XBOX 360 - Added: Last Remnant, The (USA) PSX - Added: Pepsiman (Japan) Start of interest in sports that supports local multiplayer PS2 - Added: NBA Street Vol.</description>
     </item>
     <item>
       <title>My Retrobat Documentation</title>
-      <link>http://10.10.30.2:1313/posts/my-retrobat-documentation/</link>
+      <link>https://carlgaspar.com/posts/my-retrobat-documentation/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/my-retrobat-documentation/</guid>
+      <guid>https://carlgaspar.com/posts/my-retrobat-documentation/</guid>
       <description>Retrobat will run on my Personal Computer instead of a separate dedicated machine.&#xA;Roms All roms will be stored in the NAS.&#xA;Symbolic links Symbolic links will be used in Retrobat for the roms to connect to the NAS.&#xA;BIOS Default BIOS will be stored in the NAS. (RetroArch on a different folder).&#xA;Screenscraper All media about the roms will be stored together with the roms in the NAS.</description>
     </item>
     <item>
       <title>My Retro Gaming Setup</title>
-      <link>http://10.10.30.2:1313/posts/my-retro-gaming-setup/</link>
+      <link>https://carlgaspar.com/posts/my-retro-gaming-setup/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/my-retro-gaming-setup/</guid>
+      <guid>https://carlgaspar.com/posts/my-retro-gaming-setup/</guid>
       <description>Components PC Homelab iPad PC My PC will host host Retrobat as the main game console. Apollo - fork of Sunshine will be used to stream the games to my iPad which will be the console of choice (if needed).&#xA;Homelab As of the moment, my homelab will be the storage of my roms, I&amp;rsquo;m not sure if there will be a use of it other than storage but we&amp;rsquo;ll see.</description>
     </item>
     <item>
       <title>DotA 2 - Reaching Divine Rank</title>
-      <link>http://10.10.30.2:1313/posts/dota-2-reaching-divine-rank/</link>
+      <link>https://carlgaspar.com/posts/dota-2-reaching-divine-rank/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/dota-2-reaching-divine-rank/</guid>
+      <guid>https://carlgaspar.com/posts/dota-2-reaching-divine-rank/</guid>
       <description>I DID IT! Finally reached Divine rank (4600 mmr) in DotA 2! I just want to prove to myself that I understand the mechanics of the game and I&amp;rsquo;m still capable of solving problems. I&amp;rsquo;ve been playing this game on and off even before my age reached double digits.&#xA;First I tried to reach 3000 mmr (tiered rank does not exist yet at that time) from 2000 mmr then I stopped for 8 years.</description>
     </item>
     <item>
       <title>Being Part of the Top 1.1% - How Valorant Helped Me Think Critically</title>
-      <link>http://10.10.30.2:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</link>
+      <link>https://carlgaspar.com/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</guid>
+      <guid>https://carlgaspar.com/posts/being-part-of-the-top-1.1-percent-how-valorant-helped-me-think-critically/</guid>
       <description>First posted on: 2021-11-30T00:00:00+08:00&#xA;Introduction Valorant is a free-to play 5 versus 5 FPS (first-person tactical hero shooter) game developed and published by Riot Games on 2020. Simply put, it&amp;rsquo;s like CS:GO but with abilities.&#xA;I played this game because I don&amp;rsquo;t have anything to play at that time, the system requirements is pretty low, and my computer can easily handle it. It is not my first FPS game but I can confidently say that it is the first FPS game that I seriously played.</description>
     </item>
     <item>
-      <title>My PokeMMO Pokemon Guide</title>
-      <link>http://10.10.30.2:1313/posts/zzz-my-pokemmo-pokemon-guide/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/posts/zzz-my-pokemmo-pokemon-guide/</guid>
-      <description>Pokemon Sweeping These are the Pokemons that I will use to complete the story.&#xA;Guide Gyarados&amp;rsquo; hidden ability (Moxie) is super strong. When you kill an enemy, Gyarados will increase its attack stat.&#xA;Pokemon: Gyarados Moves: Dragon Dance, Rain Dance, Waterfall, Crunch Nature: Adamant IV Priority: Attack Gender: Female (for breeding) Hidden Ability: Yes Item: None (yet) Pokemon: Charizard Moves: Heatwave, Fire Blast, Flamethrower, Sunny Day Nature: Modest IV Priority: Special Attack Gender: Female (for breeding) Hidden Ability: Yes Item: None (yet) Pokemon: Alakazam Moves: None (yet) Nature: Modest IV Priority: Special Attack Gender: Female (for breeding) Hidden Ability: No (no HA available) Item: None (yet) Pokemon: Wash Rotom Pokemon: Scizor Pokemon: Starmie Moves: Trick?</description>
-    </item>
-    <item>
       <title>It&#39;s More Find in the Philippines</title>
-      <link>http://10.10.30.2:1313/projects/it-s-more-find-in-the-philippines/</link>
+      <link>https://carlgaspar.com/projects/it-s-more-find-in-the-philippines/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/projects/it-s-more-find-in-the-philippines/</guid>
+      <guid>https://carlgaspar.com/projects/it-s-more-find-in-the-philippines/</guid>
       <description>It&amp;rsquo;s More Find in the Philippines is a 2D android-based find the hidden object game. Over a hundred objects are hidden in the different regions of the Philippines. It features most of the known objects from every region which lets you explore the country as well as learn trivia provided by the game. It&amp;rsquo;s More find in the Philippines lets you explore the country. Users will be asked to look for precious objects related to certain places.</description>
     </item>
   </channel>

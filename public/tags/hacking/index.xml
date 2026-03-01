@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking on Carl Gaspar</title>
-    <link>http://10.10.30.2:1313/tags/hacking/</link>
+    <link>https://carlgaspar.com/tags/hacking/</link>
     <description>Recent content in Hacking on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://10.10.30.2:1313/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://carlgaspar.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hide Yourself When Using the Internet With ProxyChains</title>
-      <link>http://10.10.30.2:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</link>
+      <link>https://carlgaspar.com/security/hide-yourself-when-using-the-internet-with-proxychains/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/security/hide-yourself-when-using-the-internet-with-proxychains/</guid>
+      <guid>https://carlgaspar.com/security/hide-yourself-when-using-the-internet-with-proxychains/</guid>
       <description>Configuring ProxyChains ProxyChains come preinstalled in Kali Linux. All you have to do is find it. I wasn&amp;rsquo;t able to make the locate command work, but I found it in /etc directory.&#xA;Step 1 What you want to do is edit the configuration file. I will be using vim, feel free to use any text editor as you would prefer.&#xA;sudo vim /etc/proxychains4.conf This is what the configuration file would look like.</description>
     </item>
   </channel>

@@ -30,6 +30,7 @@ pluralizelisttitles = false
 
 [params]
   favicon = "/logo.png"
+  image = "/logo.png"
   description = "Security. Code. Homelab. Tech. Basketball. Photography. Life. — Personal blog by Carl Gaspar."
   author = "Carl Gaspar"
   [params.theme_config]

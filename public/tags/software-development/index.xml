@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Development on Carl Gaspar</title>
-    <link>http://10.10.30.2:1313/tags/software-development/</link>
+    <link>https://carlgaspar.com/tags/software-development/</link>
     <description>Recent content in Software Development on Carl Gaspar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Dec 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://10.10.30.2:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://carlgaspar.com/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Caddy Documentation</title>
-      <link>http://10.10.30.2:1313/homelab/my-caddy-documentation/</link>
+      <link>https://carlgaspar.com/homelab/my-caddy-documentation/</link>
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>http://10.10.30.2:1313/homelab/my-caddy-documentation/</guid>
+      <guid>https://carlgaspar.com/homelab/my-caddy-documentation/</guid>
       <description>Caddy is a web server that I will use to host a few servers locally. I&amp;rsquo;m used to apache but it&amp;rsquo;s not available in the Proxmox VE Helper Scripts. I don&amp;rsquo;t want to go through manual installation, as they say Keep it Simple, Stupid!&#xA;Just drag and drop the web app files in /var/www/&#xA;/var/www/ ├── site1/ │ ├── index.html │ ├── css/ │ ├── js/ │ └── images/ └── site2/ ├── index.</description>
     </item>
   </channel>

@@ -38,7 +38,37 @@
   {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ else }}{{ with $.Site.Params.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end }}{{ end }}
 
   <!-- Structured Data (JSON-LD) -->
-  {{ if .IsPage }}
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "{{ $.Site.Title }}",
+        "url": "{{ $.Site.BaseURL }}",
+        "description": "{{ $.Site.Params.description }}"
+      },
+      {
+        "@type": "Person",
+        "name": "{{ $.Site.Params.author }}",
+        "url": "{{ $.Site.BaseURL }}",
+        "sameAs": [
+          "https://www.linkedin.com/in/carlignn/",
+          "https://github.com/carlignn/",
+          "https://facebook.com/carlignn/",
+          "https://instagram.com/carlignn/",
+          "https://youtube.com/@carlignn/",
+          "https://twitter.com/cxrlignn/",
+          "https://bsky.app/profile/carlignn.carlgaspar.com/",
+          "https://threads.net/carlignn/",
+          "https://www.tiktok.com/@carlignn"
+        ]
+      }
+    ]
+  }
+  </script>
+  {{ else if .IsPage }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,7 +78,8 @@
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
     "author": {
       "@type": "Person",
-      "name": "{{ $.Site.Params.author }}"
+      "name": "{{ $.Site.Params.author }}",
+      "url": "{{ $.Site.BaseURL }}"
     },
     "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 200 }}{{ end }}{{ end }}"
   }
