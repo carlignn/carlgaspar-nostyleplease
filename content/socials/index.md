@@ -15,7 +15,7 @@ The influencer.
 |                                            |                                          |                                              |                                            |                                                              |
 | :----------------------------------------: | :--------------------------------------: | :------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------: |
 | [facebook](https://facebook.com/carlignn/) | [threads](https://threads.net/carlignn/) | [instagram](https://instagram.com/carlignn/) |  [youtube](https://youtube.com/@carlignn/) | [bluesky](https://bsky.app/profile/carlignn.carlgaspar.com/) |
-|  [twitter](https://twitter.com/cxrlignn/)  |   [twitch](https://twitch.tv/carlignn/)  |                                              | [tiktok](https://www.tiktok.com/@carlignn) |          [strava](https://anilist.co/user/carlignn/)         |
+|  [twitter](https://twitter.com/cxrlignn/)  |   [twitch](https://twitch.tv/carlignn/)  |                                              | [tiktok](https://www.tiktok.com/@carlignn) |          [strava](https://www.strava.com/athletes/143231181)         |
 |                                            |                                          |                                              |                                            |                                                              |
 
 The consumer.
