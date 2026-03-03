@@ -1,7 +1,6 @@
 ---
 title: Socials Internal
 draft: false
-date: 0001-01-01T00:00:00+08:00
 tags:
   - all
 comments: true
