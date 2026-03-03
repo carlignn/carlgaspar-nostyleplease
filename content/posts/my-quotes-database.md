@@ -230,3 +230,15 @@ comments: true
 >
 > 
 >-- Elizabeth Rose in -- [Taste in People](https://fs.blog/brain-food/february-15-2026/)
+
+- *03/04/26* - Shane Parrish on arguing with a fool:
+>Arguing with a fool doesn’t change them; it changes you.
+>
+> 
+>-- Shane Parrish in -- [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
+
+- *03/04/26* - Shane Parrish on talent and potential:
+>Talent and potential mean nothing if you can’t consistently do the boring things when you don’t feel like doing them.
+>
+> 
+>-- Shane Parrish in -- [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
