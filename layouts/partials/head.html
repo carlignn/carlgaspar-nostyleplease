@@ -53,6 +53,8 @@
         "@type": "Person",
         "name": "{{ $.Site.Params.author }}",
         "url": "{{ $.Site.BaseURL }}",
+        "image": "{{ "carlgaspar.jpg" | absURL }}",
+        "description": "{{ $.Site.Params.description }}",
         "sameAs": [
           "https://www.linkedin.com/in/carlignn/",
           "https://github.com/carlignn/",
@@ -79,7 +81,8 @@
     "author": {
       "@type": "Person",
       "name": "{{ $.Site.Params.author }}",
-      "url": "{{ $.Site.BaseURL }}"
+      "url": "{{ $.Site.BaseURL }}",
+      "image": "{{ "carlgaspar.jpg" | absURL }}"
     },
     "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 200 }}{{ end }}{{ end }}"
   }
