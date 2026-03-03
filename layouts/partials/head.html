@@ -2,6 +2,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1d1d1d" media="(prefers-color-scheme: dark)" />
 
   <title>
     {{ if and (not .IsHome) (eq .Title "") }}
@@ -14,14 +16,18 @@
   </title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}" />
+  {{- $desc := "" -}}
+  {{- with .Description -}}{{- $desc = . -}}
+  {{- else -}}{{- with .Summary -}}{{- $desc = (. | plainify | truncate 200) -}}
+  {{- else -}}{{- $desc = $.Site.Params.description -}}{{- end -}}{{- end -}}
+  <meta name="description" content="{{ $desc | truncate 160 }}" />
   <meta name="author" content="{{ $.Site.Params.author }}" />
   {{ if .Draft }}<meta name="robots" content="noindex, nofollow" />{{ end }}
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <!-- Open Graph (Facebook, LinkedIn) -->
   <meta property="og:title" content="{{ .Title | default $.Site.Title }}" />
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 200 }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}" />
+  <meta property="og:description" content="{{ $desc }}" />
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:site_name" content="{{ $.Site.Title }}" />
@@ -33,8 +39,10 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@cxrlignn" />
+  <meta name="twitter:creator" content="@cxrlignn" />
   <meta name="twitter:title" content="{{ .Title | default $.Site.Title }}" />
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 200 }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ end }}" />
+  <meta name="twitter:description" content="{{ $desc }}" />
   {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ else }}{{ with $.Site.Params.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end }}{{ end }}
 
   <!-- Structured Data (JSON-LD) -->
@@ -89,7 +97,7 @@
   </script>
   {{ end }}
 
-  <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
+  <link rel="icon" type="image/png" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
   {{ $style := $sass | css.Sass $options }}
