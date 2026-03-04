@@ -3,7 +3,6 @@ title: Pesofolio - Philippine Stock Exchange Portfolio Tracker
 draft: false
 date: 2021-09-30T00:00:00+08:00
 tags:
-  - all
   - app
 comments: true
 ---

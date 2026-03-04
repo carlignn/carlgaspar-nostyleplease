@@ -1,7 +1,6 @@
 ---
 title: 'whoami'
 tags:
-  - all
 comments: false
 ---
 

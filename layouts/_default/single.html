@@ -20,9 +20,7 @@
         {{ $base := "tags/" | relURL }}
         {{ $links := slice }}
         {{ range . }}
-            {{ if ne . "all" }}
-                {{ $links = $links | append (printf `<a href="%s%s">%s</a>` $base (urlize .) .) }}
-            {{ end }}
+            {{ $links = $links | append (printf `<a href="%s%s">%s</a>` $base (urlize .) .) }}
         {{ end }}
         {{ if gt (len $links) 0 }}
             <p style="font-size: 75%; margin-left: 4%;">tags: {{ delimit $links ", " | safeHTML }}</p>

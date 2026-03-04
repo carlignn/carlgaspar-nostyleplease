@@ -4,7 +4,6 @@ subtitle: 'Uhh, why am I here?'
 date: 2024-12-22T00:00:00+08:00
 draft: true
 tags:
-  - all
 comments: false
 ---
 

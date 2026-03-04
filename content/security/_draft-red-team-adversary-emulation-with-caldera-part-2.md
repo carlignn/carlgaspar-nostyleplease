@@ -4,7 +4,6 @@ subtitle: Write-up from HackerSploit's Red Team Adversary Emulation With Caldera
 draft: true
 date: 2023-07-05T00:00:00+08:00
 tags:
-  - all
   - redteam
   - write-up
 comments: false

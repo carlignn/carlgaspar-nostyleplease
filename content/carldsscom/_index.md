@@ -2,7 +2,6 @@
 title: carldss.com
 draft: false
 tags:
-  - all
 comments: true
 ---
 

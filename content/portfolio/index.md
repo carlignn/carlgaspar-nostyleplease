@@ -1,7 +1,6 @@
 ---
 title: ''
 tags:
-  - all
 comments: false
 ---
 

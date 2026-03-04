@@ -4,7 +4,6 @@ subtitle: "This guide is outdated, it is not recommended to virtualize TrueNAS i
 date: 2024-12-30T00:00:00+08:00
 draft: false
 tags:
-  - all
 comments: true
 ---
 

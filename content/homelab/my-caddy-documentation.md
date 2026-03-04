@@ -4,7 +4,6 @@ subtitle:
 draft: false
 date: 2025-12-02T00:00:00+08:00
 tags:
-  - all
   - documentation
   - software development
 comments: true

@@ -4,7 +4,6 @@ subtitle: Redmi Note 14 Pro+
 draft: true
 date: 2025-11-17T00:00:00+08:00
 tags:
-  - all
   - documentation
 comments: false
 ---

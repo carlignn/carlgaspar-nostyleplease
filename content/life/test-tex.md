@@ -1,0 +1,15 @@
+---
+title: Test Tex
+draft: false
+date: 2022-08-26T00:00:00+08:00
+tags:
+  - guide
+mathjax: true
+comments: true
+---
+
+\< texi `\varphi` >
+\< texd `\begin{aligned}
+\varphi &\Rightarrow \psi \\
+\varnothing &\rightarrow A
+\end{aligned}` >

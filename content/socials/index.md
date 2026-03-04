@@ -2,7 +2,6 @@
 title: Socials
 draft: false
 tags:
-  - all
 comments: false
 ---
 

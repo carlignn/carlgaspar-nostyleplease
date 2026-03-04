@@ -4,7 +4,6 @@ date: 2022-10-23T00:00:00+08:00
 draft: true
 subtitle: My answers to the 60 Cybersecurity Interview Questions by DanielMiessler
 tags:
-  - all
 comments: false
 ---
 

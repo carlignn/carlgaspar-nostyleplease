@@ -22,7 +22,7 @@ title = "all posts"
   limit = 3
   show_more = true
   show_more_text = "see all posts..."
-  show_more_url = "tags/all"
+  show_more_url = "all"
 
 [[entries]]
 title = "posts by category"
@@ -30,6 +30,10 @@ title = "posts by category"
 #  [[entries.entries]] # Tag link moved to menu_item.html (manual)
 #    title = "tags"
 #    url = "tags"
+
+  [[entries.entries]]
+    title = "life"
+    url = "life"
 
   [[entries.entries]]
     title = "security"

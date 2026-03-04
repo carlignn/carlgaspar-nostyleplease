@@ -3,7 +3,6 @@ title: "Risk Assessment and Management"
 draft: false
 date: 2021-11-04T00:00:00+08:00
 tags:
-  - all
 comments: true
 ---
 
