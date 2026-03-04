@@ -68,9 +68,6 @@ title = "posts by category"
     show_more_text = "see more projects..."
     show_more_url = "projects"
 
-  [[entries.entries]]
-    title = "quotes"
-    url = "quotes"
 
 [[entries]]
 title = "socials"
