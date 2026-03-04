@@ -1,5 +1,6 @@
 baseURL = "https://carlgaspar.com/"
 title = "Carl Gaspar"
+languageCode = "en"
 pluralizelisttitles = false
 
 [module]

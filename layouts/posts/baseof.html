@@ -9,11 +9,11 @@
         </main>
 	{{ $themeJS := resources.Get "js/theme_toggle.js" }}
 	<script type="text/javascript" src="{{ $themeJS.RelPermalink }}"></script>
-    </body>
-    {{- if .Params.custom_js -}}
-        {{- range .Params.custom_js -}}
-            {{ $js := resources.Get (print "js/" . ".js") }}
-            <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+        {{- if .Params.custom_js -}}
+            {{- range .Params.custom_js -}}
+                {{ $js := resources.Get (print "js/" . ".js") }}
+                <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+            {{- end -}}
         {{- end -}}
-    {{- end -}}
+    </body>
 </html>

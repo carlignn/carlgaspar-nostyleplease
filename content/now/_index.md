@@ -45,7 +45,7 @@ I was told to be the commissioner for our next basketball league. I need to crea
 
 ## Homelab
 
-* I just finised firewall-ing and VPN-ing my homelab. I can now access it from anywhere! NICE! [OPNSense](homelab/my-opnsense-documentation/)
+* I just finised firewall-ing and VPN-ing my homelab. I can now access it from anywhere! NICE! [OPNSense](/homelab/my-opnsense-documentation/)
 * I'm working on notifications as of the moment, so I can receive alerts when something goes wrong.
 
 ## Software Engineering
@@ -81,7 +81,7 @@ I've developed a new habit - bad habit, I've been rating the media that I'm cons
 
 My partner asked me to find a good console for her father, we only thought of Nintendo Switch back then but it's super expensive, I remember this one time on my rehab - a kid was playing games on a handheld. I asked his mother where'd they get that and she said it's her husband that bought that. I searched for that console and now I'm on a rabbit hole of which console should I get while maximizing what I already have, and **ROMS**! Oh roms, I'm stuck with downloading everything or just keeping what the bests. I ended up keeping all the roms with the low sizes from their consoles and just got the 100 best games from each console that has too big rom file size.
 
-It took me days to find the proper roms, machine, and console, check out [My Retro Gaming Setup](/posts/my-retro-gaming-setup), [My Rom Commit List](my-rom-commit-list), and [My Retrobat Documentation](my-retrobat-documentation). It went from looking for console for her father to looking for the one for me LOL.
+It took me days to find the proper roms, machine, and console, check out [My Retro Gaming Setup](/posts/my-retro-gaming-setup), [My Rom Commit List](/posts/my-rom-commit-list), and [My Retrobat Documentation](/posts/my-retrobat-documentation). It went from looking for console for her father to looking for the one for me LOL.
 
 I'm really addicted to Mario Kart and Mario Party. They're really well made, really entertaining, and most important is you can play it with friends. AMAZING!
 

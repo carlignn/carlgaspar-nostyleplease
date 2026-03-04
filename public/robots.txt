@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /*_draft-*
-Disallow: /*zzz-*
-
-Sitemap: https://carlgaspar.com/sitemap.xml
