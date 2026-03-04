@@ -43,7 +43,7 @@ title = "posts by category"
     limit = 2
     section = "security"
     show_more = true
-    show_more_text = "see more posts..."
+    show_more_text = "see more security..."
     show_more_url = "security"
 
   [[entries.entries]]
@@ -54,7 +54,7 @@ title = "posts by category"
     limit = 2
     section = "homelab"
     show_more = true
-    show_more_text = "see more posts..."
+    show_more_text = "see more homelab..."
     show_more_url = "homelab"
 
   [[entries.entries]]
