@@ -20,7 +20,6 @@ title: "My Post Title" - Page title (used in heading, SEO, social)
 date: 2025-01-28T00:00:00+08:00
 draft: false - Set false to publish
 tags:
-- all - Always include all tag, plus topic tags
 - guide
 - security
 subtitle: "Optional tagline" - Secondary text below title
@@ -38,9 +37,6 @@ If ready to push: git push origin master
 ## Tags
 Needs to be alphabetical.
 
-Every post needs to have the **all** tag.
-
-* all - all posts should have this tag
 * guide - for guides
 * human - human related
 * philippines
