@@ -5,7 +5,11 @@
     <span data-pagefind-meta="date" style="display: none;">{{ .Date | time.Format "2006-01-02" }}</span>
     <p class="post-meta">
         <time datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format }}
+            {{ if (eq (.Date | time.Format site.Params.theme_config.date_format) "0001-01-01") }}
+                {{ "" }}
+            {{ else }}
+                {{ .Date | time.Format site.Params.theme_config.date_format }}
+            {{ end }}
         </time>
     </p>
 
