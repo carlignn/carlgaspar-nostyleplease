@@ -13,6 +13,7 @@ A mobile quiz app for Philippine Civil Service Exam preparation. Covers Numerica
 
 ## Features
 
+- Over 3000 questions avaialable
 - 6 quiz categories: Numerical, Analytical, Clerical, Verbal, General Information, and Random
 - Question of the Day with daily notifications
 - Score tracking per category
