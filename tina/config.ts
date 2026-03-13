@@ -42,6 +42,25 @@ export default defineConfig({
       },
       {
         format: "md",
+        label: "All",
+        name: "all",
+        path: "content/all",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
+          },
+        ],
+      },
+      {
+        format: "md",
         label: "About",
         name: "about",
         path: "content/about",
@@ -93,6 +112,35 @@ export default defineConfig({
         label: "Homelab",
         name: "Homelab",
         path: "content/homelab",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        ui: {
+          filename: {
+            // if disabled, the editor can not edit the filename
+            readonly: false,
+            // Example of using a custom slugify function
+            slugify: values => {
+              // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
+              return `${values?.title ? values.title.toLowerCase().replace(/ /g, '-') : 'no-title'}`
+            },
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "title",
+          },
+          ...archetypeFields(),
+        ],
+      },
+      {
+        format: "md",
+        label: "Life",
+        name: "life",
+        path: "content/life",
         frontmatterFormat: "yaml",
         match: {
           include: "**/*",
@@ -221,6 +269,25 @@ export default defineConfig({
             label: "title",
           },
           ...archetypeFields(),
+        ],
+      },
+      {
+        format: "md",
+        label: "Search",
+        name: "search_content",
+        path: "content/search",
+        frontmatterFormat: "yaml",
+        match: {
+          include: "**/*",
+        },
+        fields: [
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
+          },
         ],
       },
       {
