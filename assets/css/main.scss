@@ -201,6 +201,34 @@ table.carldss td {
 }
 // Used in Carldss - Remove all borders of tables in /carldss
 
+// Used in IMFITPH - Landscape screenshot grid with rounded corners
+.imfitph img {
+  width: 100%;
+  border-radius: 4%;
+  box-shadow: 5px 5px 5px var(--shadow-color);
+}
+
+table.imfitph,
+table.imfitph th,
+table.imfitph td {
+  border: none !important;
+}
+// Used in IMFITPH - Landscape screenshot grid with rounded corners
+
+// Used in Pesofolio - Screenshot grid with rounded corners
+.pesofolio img {
+  width: 100%;
+  border-radius: 4%;
+  box-shadow: 5px 5px 5px var(--shadow-color);
+}
+
+table.pesofolio,
+table.pesofolio th,
+table.pesofolio td {
+  border: none !important;
+}
+// Used in Pesofolio - Screenshot grid with rounded corners
+
 // Search input styled to look like h1
 #search-input {
   display: block;

@@ -33,18 +33,11 @@ The only portfolio tracker that tracks the Philippine Stock Exchange with the op
 
 ## Screenshots
 
-![](/images/projects/pesofolio-screenshot-1.jpg)
-![](/images/projects/pesofolio-screenshot-2.jpg)
-![](/images/projects/pesofolio-screenshot-3.jpg)
-![](/images/projects/pesofolio-screenshot-4.jpg)
-![](/images/projects/pesofolio-screenshot-5.jpg)
-![](/images/projects/pesofolio-screenshot-6.jpg)
-![](/images/projects/pesofolio-screenshot-7.jpg)
-![](/images/projects/pesofolio-screenshot-8.jpg)
-![](/images/projects/pesofolio-screenshot-9.jpg)
-![](/images/projects/pesofolio-screenshot-10.jpg)
-![](/images/projects/pesofolio-screenshot-11.jpg)
-![](/images/projects/pesofolio-screenshot-12.jpg)
+| ![](/images/projects/pesofolio-screenshot-1.jpg) | ![](/images/projects/pesofolio-screenshot-2.jpg) | ![](/images/projects/pesofolio-screenshot-3.jpg) | ![](/images/projects/pesofolio-screenshot-4.jpg) |
+|:------------------------------:|:------------------------------:|:------------------------------:|:------------------------------:|
+| ![](/images/projects/pesofolio-screenshot-5.jpg) | ![](/images/projects/pesofolio-screenshot-6.jpg) | ![](/images/projects/pesofolio-screenshot-7.jpg) | ![](/images/projects/pesofolio-screenshot-8.jpg) |
+| ![](/images/projects/pesofolio-screenshot-9.jpg) | ![](/images/projects/pesofolio-screenshot-10.jpg) | ![](/images/projects/pesofolio-screenshot-11.jpg) | ![](/images/projects/pesofolio-screenshot-12.jpg) |
+{.pesofolio}
 
 ## Technologies Used
 

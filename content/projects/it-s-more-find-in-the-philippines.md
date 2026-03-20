@@ -21,15 +21,12 @@ The game was uploaded and last updated at the Google Play Store on Jan 14, 2018.
 
 ## Screenshots
 
-![](/images/projects/imfitph-screenshot-1.png)
-![](/images/projects/imfitph-screenshot-2.png)
-![](/images/projects/imfitph-screenshot-3.png)
-![](/images/projects/imfitph-screenshot-4.png)
-![](/images/projects/imfitph-screenshot-5.png)
-![](/images/projects/imfitph-screenshot-6.png)
-![](/images/projects/imfitph-screenshot-7.png)
-![](/images/projects/imfitph-screenshot-8.png)
-![](/images/projects/imfitph-screenshot-9.png)
+| ![](/images/projects/imfitph-screenshot-1.png) | ![](/images/projects/imfitph-screenshot-2.png) |
+|:------------------------------:|:------------------------------:|
+| ![](/images/projects/imfitph-screenshot-4.png) | ![](/images/projects/imfitph-screenshot-5.png) |
+| ![](/images/projects/imfitph-screenshot-6.png) | ![](/images/projects/imfitph-screenshot-7.png) |
+| ![](/images/projects/imfitph-screenshot-8.png) | ![](/images/projects/imfitph-screenshot-9.png) |
+{.imfitph}
 
 ## The Team
 
