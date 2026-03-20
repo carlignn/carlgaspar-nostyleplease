@@ -7,9 +7,9 @@ tags:
 comments: true
 ---
 
-A mobile quiz app for Philippine Civil Service Exam preparation. Covers Numerical Ability, Analytical Ability, Clerical Ability, Verbal Ability, and General Information. Includes a Question of the Day system that automatically posts daily to Facebook.
+A mobile quiz app for Philippine Civil Service Exam preparation. Covers Numerical Ability, Analytical Ability, Clerical Ability, Verbal Ability, and General Information. Includes a Question of the Day system that automatically posts daily to Facebook. [Link to Google Play Store](https://play.google.com/store/apps/details?id=com.gasparlabs.csereviewer1).
 
-[Play Store](https://play.google.com/store/apps/details?id=com.gasparlabs.csereviewer1)
+![](/images/projects/cse-reviewer-banner.png)
 
 ## Features
 

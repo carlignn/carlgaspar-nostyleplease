@@ -9,11 +9,11 @@ comments: true
 
 I've got failing SSDs for a year now since I started my [HOMELAB](/homelab) journey. It is all a Samsung 870 EVO 1TB SSD. I've bought 8 in total - 5 have failed and 3 more waiting for their demise.
 
-![](https://i.imgur.com/Z0u2Yn2.png)
+![](/images/homelab/scammed-ssd-orders.png)
 
 I was blaming my Windows installation since it's too heavy than the linux installations that I've been doing so far. I never tried to install Windows again because of that. Then when I was trying to passthrough my GPU, then whatever homelab stuff that I've been doing. Probably due to too much read and write on the disk that it failed right away. I never checked what's the current pricing of SSDs. It turns out I was buying it for half the price and I only realized it after the eight time I bought it (yeah, I'm stupid). Now that I look at it, it's the same shop delisting and relisting that same SSD.
 
-![](https://i.imgur.com/md68Sdk.png)
+![](/images/homelab/scammed-ssd-internals.png)
 
 Look at the inside, what the hell is this?! Ugh! What at an expensive and very long lesson PHP18,910. JESUS! Now that I computed it and see it accumulated, I feel bad for myself. It could have been 2 more Lenovo MiniPC nodes or 3 sturdy and long lasting SSDs! I can feel the counterfeit lighter than the **REAL** SSD.
 

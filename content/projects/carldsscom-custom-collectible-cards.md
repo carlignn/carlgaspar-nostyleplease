@@ -15,7 +15,7 @@ I'm hoping to reach more leagues. Checkout [ALL LEAGUES](/carldsscom#all-leagues
 
 ##
 
-![](https://i.imgur.com/7v3zLae.png)
+![](/images/carldsscom/carldss-card.png)
 {.carldss}
 
 ## Details
@@ -29,7 +29,7 @@ I'm hoping to reach more leagues. Checkout [ALL LEAGUES](/carldsscom#all-leagues
 
 ## [Animated](https://i.imgur.com/qouxzE9) Poster - [IG](https://www.instagram.com/p/DQwryjtD6SX/) / [TT](https://www.tiktok.com/@carldsscom/video/7570009813279657223)
 
-![](https://i.imgur.com/3tiZlQu.png)
+![](/images/carldsscom/carldss-poster.png)
 
 ---
 

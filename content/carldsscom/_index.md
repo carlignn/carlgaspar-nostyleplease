@@ -22,7 +22,7 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 
 ##
 
-![](https://i.imgur.com/7v3zLae.png)
+![](/images/carldsscom/carldss-card.png)
 {.carldss}
 
 ## Card Details
@@ -36,7 +36,7 @@ We're hoping to reach more leagues. Reach out to any of our socials if you want 
 
 ## [Animated](https://i.imgur.com/qouxzE9) Poster - [IG](https://www.instagram.com/p/DQwryjtD6SX/) / [TT](https://www.tiktok.com/@carldsscom/video/7570009813279657223)
 
-![](https://i.imgur.com/3tiZlQu.png) 
+![](/images/carldsscom/carldss-poster.png) 
 
 ---
 

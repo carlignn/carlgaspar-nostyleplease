@@ -15,13 +15,21 @@ The main mission of the game is to find all the hidden objects in each stage and
 
 As of Sep 25, 2021, the game became publicly available again on Google Play Store after submitting the updated forms to the Google Play Console.
 
-![](https://i.imgur.com/SdQF4AX.jpg)
+![](/images/projects/imfitph-banner.jpg)
 
 The game was uploaded and last updated at the Google Play Store on Jan 14, 2018. However due to the lack of updates and maintenance the game was removed on Dec 18, 2020. After it was removed, the game was still made available to the public via downloading the .apk and .obb file then manually install it on an Android phone. However, playing the game is not possible due to the recent updates with the Android Operating System, even if you do alter the game permissions. I know, Android OS is a weird place to be.
 
 ## Screenshots
 
-[SCREENSHOTS](https://i.imgur.com/a/2cHNX0i) of the game uploaded in Imgur.
+![](/images/projects/imfitph-screenshot-1.png)
+![](/images/projects/imfitph-screenshot-2.png)
+![](/images/projects/imfitph-screenshot-3.png)
+![](/images/projects/imfitph-screenshot-4.png)
+![](/images/projects/imfitph-screenshot-5.png)
+![](/images/projects/imfitph-screenshot-6.png)
+![](/images/projects/imfitph-screenshot-7.png)
+![](/images/projects/imfitph-screenshot-8.png)
+![](/images/projects/imfitph-screenshot-9.png)
 
 ## The Team
 

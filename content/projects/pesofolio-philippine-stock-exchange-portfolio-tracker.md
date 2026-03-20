@@ -9,7 +9,7 @@ comments: true
 
 The only portfolio tracker that tracks the Philippine Stock Exchange with the option of multiple accounts to manage your assets simpler, better and easier. Sophisticated enough for professional investors but simple enough to use for enthusiastic first timers. Just browse for your stock of choice and Pesofolio will track that for you: gaining value, losing value, total net worth, percent increase, etc..
 
-![](https://i.imgur.com/xim3YBv.jpg)
+![](/images/projects/pesofolio-banner.jpg)
 
 [Link to Google Play Store](https://play.google.com/store/apps/details?id=com.galoreentertainment.pesofolio)
 
@@ -33,7 +33,18 @@ The only portfolio tracker that tracks the Philippine Stock Exchange with the op
 
 ## Screenshots
 
-Application [SCREENSHOTS](https://imgur.com/a/RV2Mpka) uploaded in Imgur.
+![](/images/projects/pesofolio-screenshot-1.jpg)
+![](/images/projects/pesofolio-screenshot-2.jpg)
+![](/images/projects/pesofolio-screenshot-3.jpg)
+![](/images/projects/pesofolio-screenshot-4.jpg)
+![](/images/projects/pesofolio-screenshot-5.jpg)
+![](/images/projects/pesofolio-screenshot-6.jpg)
+![](/images/projects/pesofolio-screenshot-7.jpg)
+![](/images/projects/pesofolio-screenshot-8.jpg)
+![](/images/projects/pesofolio-screenshot-9.jpg)
+![](/images/projects/pesofolio-screenshot-10.jpg)
+![](/images/projects/pesofolio-screenshot-11.jpg)
+![](/images/projects/pesofolio-screenshot-12.jpg)
 
 ## Technologies Used
 
