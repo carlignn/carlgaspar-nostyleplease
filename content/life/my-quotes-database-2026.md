@@ -103,3 +103,9 @@ comments: true
 >
 >
 >-- Shane Parrish in -- [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
+
+- *03/30/26* - Shane Parrish on money and time:
+>We spend time chasing money, then spend money chasing time.
+>
+>
+>-- Shane Parrish in -- [Second Chances](https://fs.blog/brain-food/march-29-2026/)
