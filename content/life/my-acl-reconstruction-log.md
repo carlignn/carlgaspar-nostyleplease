@@ -11,6 +11,7 @@ comments: true
 
 | Title | Note | Week/Day | Date |
 | --- | --- | --- | --- |
+| Doctor visit | Check up with the doctor. He said the operation is already healed. My only problem now is the confidence, the psychology of trusting my knee again. | W28-D196 | 04/16/26 |
 | | | W26-D176 | 03/04/26 |
 | Eleventh rehab | Over the Christmas and new year, I've gain 3 kilos. I didn't workout even once. Got back bit by bit and then January 26 I'm back for rehab. My PT Resigned and got assigned with a new one. They don't know what they're doing. It's like a reset. Before the PT, I just realized that I've been doing the hamstring curls wrong, I'm just exercising the back of my knee and there was no progress for the past 3 months. I have adjusted the machine to hit my hamstring directly and it's all good now. It hurts now when I do it but that's how it's supposed to be since I had a hamstring graft. | W20-D139 | 01/26/26 |
 | Tenth rehab | They changed my workout and it's fucking exhausting. I don't know why, probably has something to do with breathing? | D85 | 12/03/25 |

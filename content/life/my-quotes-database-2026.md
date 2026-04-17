@@ -109,3 +109,15 @@ comments: true
 >
 >
 >-- Shane Parrish in -- [Second Chances](https://fs.blog/brain-food/march-29-2026/)
+
+- *04/06/26* - Jim Rohn on why we set goals:
+>The ultimate reason for setting goals is to entice you to become the person it takes to achieve them.
+>
+>
+>-- Shane Parrish in -- [Second Chances](https://fs.blog/brain-food/april-5-2026/)
+
+- *04/17/26* - On finding your true passion:
+>"If you lived in a world where everyone made the exact same salary, what would you choose to do for work?"
+>
+>
+>-- James Clear in -- [3-2-1: April 16, 2026](https://jamesclear.com/3-2-1/april-16-2026)
