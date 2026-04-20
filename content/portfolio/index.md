@@ -20,7 +20,7 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 
 * Led TPRM efforts: SIG questionnaire reviews, document/artifact validation, and risk assessments. Reorganized 5 years of vendor data in ZenGRC, cutting turnaround time by 75%.
 * Run daily and weekly security operations across a 10-tool stack (CrowdStrike EDR, Varonis DLP, LogRhythm SIEM, Proofpoint, Nessus, Forcepoint, MaaS360, M365 Security, Duo MFA, AD auditing), and serve in the on-call rotation for after-hours monitoring and escalation of high-priority incidents.
-* Built a TPRM automation web app that processes vendor questionnaires and documents via drag-and-drop, automatically scoring and generating comprehensive PDF risk assessments – replacing a manual Excel-based process.
+* Built a TPRM web app that ingests vendor questionnaires and documents via drag-and-drop, auto-scoring and generating PDF risk assessments – replacing the manual Excel workflow.
 * Led on-site TPRM audits, HITRUST, and PCI DSS walkthroughs at multiple locations (Manila, Davao, Iloilo) for both internal company sites and BPO partners.
 * Developed Power BI dashboards pulling data from security tool APIs and daily reports, providing visibility into SIEM alerts, ticket volumes by priority level, email activity, analyst turnaround time, and operational metrics.
 * Administered Delinea Secret Server (PAM) across four integrated AD environments – completed initial rollout and owned upgrades, onsite/offsite backups, DB maintenance, access control, and MFA integration.
@@ -41,7 +41,6 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 * Analyzed phishing emails and their attachments to identify potential threats and vulnerabilities, providing recommendations for mitigation strategies and educating employees on how to recognize and avoid phishing attacks.
 * Configured PAM policies tailored to seamlessly align with our existing infrastructure setup, with a key focus on safeguarding critical production servers to mitigate any potential downtime impact.
 * Managed user provisioning and deprovisioning for MFA accounts, ensuring timely access for authorized users and revoking access for departing employees.
-* Conducted regular security assessments and audits across MFA, PAM, and integrated systems to identify issues and recommend improvements.
 * Established IT asset inventory for visibility and control, and led software evaluation including security and compliance vetting before procurement.
 * Managed corporate knowledge base via Confluence and SharePoint, improving IT documentation and cross-team collaboration.
 
@@ -74,5 +73,5 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 
 * **[Homelab](https://carlgaspar.com/homelab/)** – Self-hosted infra: Proxmox VE, TrueNAS, OPNSense, Docker, Tailscale, Backblaze B2, and more.
 * **[CSE Reviewer](https://play.google.com/store/apps/details?id=com.gasparlabs.csereviewer1)** – Android quiz app (3,000+ Civil Service Exam questions) with Flask admin panel; Flutter, Dart, Python, Firebase, Docker, GitHub Actions.
-* **[Personal Website](https://www.carlgaspar.com/)** – Life, tech, cybersecurity, and development blog; Hugo, TinaCMS, Netlify, Cloudflare, Giscus, etc.
+* **[Personal Website](https://www.carlgaspar.com/)** – Life, tech, cybersecurity, and development blog; Hugo, TinaCMS, Netlify, Cloudflare, Giscus.
 * **[Pesofolio](https://carlgaspar.com/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/)** – Android PSE stock tracker; Kotlin, Python, AWS (IAM, DynamoDB, Lambda, API Gateway).
