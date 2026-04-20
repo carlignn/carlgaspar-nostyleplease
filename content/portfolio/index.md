@@ -10,9 +10,9 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 
 # Skills
 
-**Security:** Risk Management | TPRM | GRC | PCI DSS | HITRUST | Incident Response | Vulnerability Assessment | Threat Modeling | Malware Analysis | SIEM | EDR | DLP | PAM | IAM | Endpoint Security | Network Security | Server Security | Data Privacy | Business Continuity | DevSecOps
+**Security:** Risk Management, TPRM, GRC, PCI DSS, HITRUST, Incident Response, Vulnerability Assessment, Threat Modeling, Malware Analysis, SIEM, EDR, DLP, PAM, IAM, Endpoint Security, Network Security, Server Security, Data Privacy, Business Continuity, DevSecOps
 
-**Technical:** Python | Bash | PowerShell | Power BI | PostgreSQL | AWS (IAM, DynamoDB, Lambda, API Gateway) | Docker | Git | CI/CD | Linux | Kotlin | Flutter | ReactJS
+**Technical:** Python, Bash, PowerShell, Power BI, PostgreSQL, AWS (IAM, DynamoDB, Lambda, API Gateway), Docker, Git, CI/CD, Linux, Kotlin, Flutter, ReactJS
 
 # Experience
 
