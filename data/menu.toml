@@ -51,7 +51,7 @@ title = "posts by category"
     url = "homelab"
 
     [entries.entries.post_list]
-    limit = 2
+    limit = 1
     section = "homelab"
     show_more = true
     show_more_text = "see more homelab..."
@@ -62,7 +62,7 @@ title = "posts by category"
     url = "projects"
 
     [entries.entries.post_list]
-    limit = 1
+    limit = 2
     section = "projects"
     show_more = true
     show_more_text = "see more projects..."

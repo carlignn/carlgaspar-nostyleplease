@@ -2,7 +2,7 @@
 title: "TPRM Assessment Tool"
 slug: tprm-assessment-tool
 draft: true
-date: 2026-04-23T00:00:00+08:00
+date: 2026-04-24T00:00:00+08:00
 tags:
   - app
   - security
