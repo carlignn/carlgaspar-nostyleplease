@@ -1,12 +1,12 @@
 ---
-title: "TPRM Assessment Tool"
 slug: tprm-assessment-tool
-draft: true
-date: 2026-04-24T00:00:00+08:00
+comments: true
+title: TPRM Assessment Tool
+draft: false
+date: 2026-04-23T16:00:00.000Z
 tags:
   - app
   - security
-comments: true
 ---
 
 Personal project. A web app that ingests SIG questionnaires via drag-and-drop, auto-scores responses, and generates PDF risk reports.
