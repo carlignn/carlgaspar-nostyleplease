@@ -121,3 +121,41 @@ comments: true
 >
 >
 >-- James Clear in -- [3-2-1: April 16, 2026](https://jamesclear.com/3-2-1/april-16-2026)
+
+- *04/28/26* - Shane Parrish on skill versus story:
+>Skill is whatever happens repeatedly. Everything else is a story.
+>
+>
+>-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+
+- *04/28/26* - Shane Parrish on planning ahead:
+>The real reason to plan the night before is to deny you the option of planning again tomorrow morning.
+>
+>
+>-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+
+- *04/28/26* - Shane Parrish on facing fear:
+>One way to beat fear is with steps so small they don't scare you.
+>
+>
+>
+>As you get closer to fear, you realize there was never anything there to be afraid of.
+>
+>
+>-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+
+- *04/28/26* - James Clear on investing in great people:
+>"Exceptional people are rare. When you find someone wonderful, invest in them.
+>
+>
+>
+>- When you find a great employee, pay them well.
+>- When you find a great friend, prioritize the relationship.
+>- When you find a great spouse, out-love them each day.
+>
+>
+>
+>Relationships are probably the most important part of life. Take care of the great ones."
+>
+>
+>-- James Clear in -- [3-2-1: April 23, 2026](https://jamesclear.com/3-2-1/april-23-2026)
