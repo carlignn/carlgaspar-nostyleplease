@@ -159,3 +159,9 @@ comments: true
 >
 >
 >-- James Clear in -- [3-2-1: April 23, 2026](https://jamesclear.com/3-2-1/april-23-2026)
+
+- *05/04/26* - Baba Hari Dass on learning:
+>"Teach in order to learn."
+>
+>
+>-- Baba Hari Dass in -- [3-2-1: On making adjustments, how to handle criticism, and the secret to improvement](https://jamesclear.com/3-2-1/april-30-2026)
