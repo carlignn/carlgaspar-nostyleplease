@@ -16,7 +16,7 @@ comments: true
 >
 >
 >
->-- Daniel Miessler in -- [Unsupervised Learning NO. 474](https://newsletter.danielmiessler.com/p/ul-474)
+>-- Daniel Miessler in [Unsupervised Learning NO. 474](https://newsletter.danielmiessler.com/p/ul-474)
 
 - *01/02/26* - Daniel Miessler's thoughts on raising children.
 >How Much Do Flaws and Traumas Enhance Us?
@@ -27,14 +27,14 @@ comments: true
 >
 >
 >
->-- Daniel Miessler in -- [Unsupervised Learning NO. 474](https://newsletter.danielmiessler.com/p/ul-474)
+>-- Daniel Miessler in [Unsupervised Learning NO. 474](https://newsletter.danielmiessler.com/p/ul-474)
 
 - *01/06/26* - James Clear on goals and lifestyles.
 >"New goals don't deliver new results. New lifestyles do. And a lifestyle is a process, not an outcome. For this reason, all of your energy should go into building better habits, not chasing better results."
 >
 >
 >
->-- James Clear in -- [3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self](https://jamesclear.com/3-2-1/january-1-2026)
+>-- James Clear in [3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self](https://jamesclear.com/3-2-1/january-1-2026)
 
 - *01/06/26* - James Clear on goals and lifestyles.
 >"Improvements are only temporary until they become part of who you are.
@@ -55,14 +55,14 @@ comments: true
 >
 >
 >
->-- James Clear in -- [3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self](https://jamesclear.com/3-2-1/january-1-2026)
+>-- James Clear in [3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self](https://jamesclear.com/3-2-1/january-1-2026)
 
 - *01/16/26* - Gary Tan on strategy.
 >"Always play the hand you have, not the one you wish you had."
 >
 >
 >
->-- Gary Tan in -- [3-2-1: On comparison, life strategy, and stopping negative thought spirals](https://jamesclear.com/3-2-1/january-15-2026)
+>-- Gary Tan in [3-2-1: On comparison, life strategy, and stopping negative thought spirals](https://jamesclear.com/3-2-1/january-15-2026)
 
 - *01/17/26* - James Clear on habits and procrastination.
 >"Missing once is an accident.
@@ -73,7 +73,7 @@ comments: true
 >
 >
 >
->-- James Clear in -- [Cybersecurity Goals for 2026](https://www.youtube.com/watch?v=w-l571Lu8N0)
+>-- James Clear in [Cybersecurity Goals for 2026](https://www.youtube.com/watch?v=w-l571Lu8N0)
 
 - *01/27/26* - CGP Grey on politics.
 >Rule 0
@@ -84,55 +84,55 @@ comments: true
 >
 >
 >
->-- CGP Grey in -- [You Would Be a Terrible Leader](https://youtu.be/rStL7niR7gs?si=0jeLEvH3Ofrib6B9&t=1068)
+>-- CGP Grey in [You Would Be a Terrible Leader](https://youtu.be/rStL7niR7gs?si=0jeLEvH3Ofrib6B9&t=1068)
 
 - *02/23/26* - Climber Elizabeth Rose on suffering:
 >"Suffering isn't something I avoid. It's something I love—I love what it brings, what's on the other side of it. When we're climbing Mt. Everest, we're all suffering together, facing the same battle, chasing the same dream. Suffering makes the accomplishment that much more fulfilling."
 >
 >
->-- Elizabeth Rose in -- [Taste in People](https://fs.blog/brain-food/february-15-2026/)
+>-- Elizabeth Rose in [Taste in People](https://fs.blog/brain-food/february-15-2026/)
 
 - *03/04/26* - Shane Parrish on arguing with a fool:
 >Arguing with a fool doesn't change them; it changes you.
 >
 >
->-- Shane Parrish in -- [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
+>-- Shane Parrish in [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
 
 - *03/04/26* - Shane Parrish on talent and potential:
 >Talent and potential mean nothing if you can't consistently do the boring things when you don't feel like doing them.
 >
 >
->-- Shane Parrish in -- [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
+>-- Shane Parrish in [Internal Battles](https://fs.blog/brain-food/march-1-2026/)
 
 - *03/30/26* - Shane Parrish on money and time:
 >We spend time chasing money, then spend money chasing time.
 >
 >
->-- Shane Parrish in -- [Second Chances](https://fs.blog/brain-food/march-29-2026/)
+>-- Shane Parrish in [Second Chances](https://fs.blog/brain-food/march-29-2026/)
 
 - *04/06/26* - Jim Rohn on why we set goals:
 >The ultimate reason for setting goals is to entice you to become the person it takes to achieve them.
 >
 >
->-- Shane Parrish in -- [Second Chances](https://fs.blog/brain-food/april-5-2026/)
+>-- Shane Parrish in [Second Chances](https://fs.blog/brain-food/april-5-2026/)
 
 - *04/17/26* - On finding your true passion:
 >"If you lived in a world where everyone made the exact same salary, what would you choose to do for work?"
 >
 >
->-- James Clear in -- [3-2-1: April 16, 2026](https://jamesclear.com/3-2-1/april-16-2026)
+>-- James Clear in [3-2-1: April 16, 2026](https://jamesclear.com/3-2-1/april-16-2026)
 
 - *04/28/26* - Shane Parrish on skill versus story:
 >Skill is whatever happens repeatedly. Everything else is a story.
 >
 >
->-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+>-- Shane Parrish in [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
 
 - *04/28/26* - Shane Parrish on planning ahead:
 >The real reason to plan the night before is to deny you the option of planning again tomorrow morning.
 >
 >
->-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+>-- Shane Parrish in [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
 
 - *04/28/26* - Shane Parrish on facing fear:
 >One way to beat fear is with steps so small they don't scare you.
@@ -142,7 +142,7 @@ comments: true
 >As you get closer to fear, you realize there was never anything there to be afraid of.
 >
 >
->-- Shane Parrish in -- [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
+>-- Shane Parrish in [Wealth isn't a Distinction](https://fs.blog/brain-food/april-26-2026/)
 
 - *04/28/26* - James Clear on investing in great people:
 >"Exceptional people are rare. When you find someone wonderful, invest in them.
@@ -158,10 +158,10 @@ comments: true
 >Relationships are probably the most important part of life. Take care of the great ones."
 >
 >
->-- James Clear in -- [3-2-1: April 23, 2026](https://jamesclear.com/3-2-1/april-23-2026)
+>-- James Clear in [3-2-1: April 23, 2026](https://jamesclear.com/3-2-1/april-23-2026)
 
 - *05/04/26* - Baba Hari Dass on learning:
 >"Teach in order to learn."
 >
 >
->-- Baba Hari Dass in -- [3-2-1: On making adjustments, how to handle criticism, and the secret to improvement](https://jamesclear.com/3-2-1/april-30-2026)
+>-- Baba Hari Dass in [3-2-1: On making adjustments, how to handle criticism, and the secret to improvement](https://jamesclear.com/3-2-1/april-30-2026)

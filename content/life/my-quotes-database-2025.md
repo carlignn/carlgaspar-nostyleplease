@@ -12,7 +12,7 @@ comments: true
 >
 >
 >
->-- Linus Sebastian in -- [An Unfiltered Conversation with Linus Tech Tips](https://youtu.be/nmNzEf7dXsw?si=mQrAsS79YFSVSML9&t=5489)
+>-- Linus Sebastian in [An Unfiltered Conversation with Linus Tech Tips](https://youtu.be/nmNzEf7dXsw?si=mQrAsS79YFSVSML9&t=5489)
 
 - *Undated* - Daniel Miessler on favoring someone.
 >To find out who rules over you, simply determine who you're not allowed to criticize.
@@ -38,7 +38,7 @@ comments: true
 >
 >
 >
->-- James Clear in -- [# 3-2-1: On balancing gratitude and ambition, the best things in life, and feeling like you have enough](https://jamesclear.com/3-2-1/october-23-2025)
+>-- James Clear in [# 3-2-1: On balancing gratitude and ambition, the best things in life, and feeling like you have enough](https://jamesclear.com/3-2-1/october-23-2025)
 
 - *Undated* - James Clear on how to optimize doing what you love.
 >"Brainstorm some answers to these questions:
@@ -56,7 +56,7 @@ comments: true
 >
 >
 >
->-- James Clear in -- [# 3-2-1: The importance of bad days, making the most money per minute, and how to start a revolution](https://jamesclear.com/3-2-1/october-30-2025)
+>-- James Clear in [# 3-2-1: The importance of bad days, making the most money per minute, and how to start a revolution](https://jamesclear.com/3-2-1/october-30-2025)
 
 - *Undated* - James Clear on communication.
 >"One easy way to show you care about others is to ask them questions about their life.
@@ -73,14 +73,14 @@ comments: true
 >
 >
 >
->-- James Clear in -- [# 3-2-1: On having high standards, the secret to willpower, and how to be strong yet flexible](https://jamesclear.com/3-2-1/november-27-2025)
+>-- James Clear in [# 3-2-1: On having high standards, the secret to willpower, and how to be strong yet flexible](https://jamesclear.com/3-2-1/november-27-2025)
 
 - *Undated* - James Clear on focusing on the journey instead of the reward. This is what I'm trying to do right now, enjoying everything before that destination.
 >My takeaway? Do things where you enjoy the journey because many times the chase will end up being more fun than the reward.
 >
 >
 >
->-- James Clear in -- [# 3-2-1: On having high standards, the secret to willpower, and how to be strong yet flexible](https://jamesclear.com/3-2-1/november-27-2025)
+>-- James Clear in [# 3-2-1: On having high standards, the secret to willpower, and how to be strong yet flexible](https://jamesclear.com/3-2-1/november-27-2025)
 
 - *Undated* - Shane Parrish on doing more things after work.
 >Mandatory work earns you a living. Voluntary work earns you a future.
@@ -95,7 +95,7 @@ comments: true
 >
 >
 >
->-- Shane Parrish in -- [A Hunger for Excellence](https://fs.blog/brain-food/november-30-2025/)
+>-- Shane Parrish in [A Hunger for Excellence](https://fs.blog/brain-food/november-30-2025/)
 
 - *Undated* - James Clear on just doing it instead of hesitating.
 >"Many situations in life are similar to going on a hike: the view changes once you start walking.
@@ -106,7 +106,7 @@ comments: true
 >
 >
 >
->-- James Clear in -- [# 3-2-1: On what love looks like, the courage to eliminate, and where the grass is greener](https://jamesclear.com/3-2-1/december-4-2025)
+>-- James Clear in [# 3-2-1: On what love looks like, the courage to eliminate, and where the grass is greener](https://jamesclear.com/3-2-1/december-4-2025)
 
 - *Undated* - James Clear on bouncing out of frustration.
 >"Earlier this week I [​read a line​](https://x.com/wizofecom/status/1998391469934030880) that stood out to me, "Your goal in life should be to reduce the amount of time it takes you to get out of a bad state."
@@ -125,14 +125,14 @@ comments: true
 >
 >
 >
->-- James Clear in -- [3-2-1: Being great today, what to do when things don't go well, and favorite type of mental toughness](https://jamesclear.com/3-2-1/december-11-2025)
+>-- James Clear in [3-2-1: Being great today, what to do when things don't go well, and favorite type of mental toughness](https://jamesclear.com/3-2-1/december-11-2025)
 
 - *Undated* - James clear on sunk cost fallacy. Really helpful way on explaining it to people in other words.
 >Are you doing this because it makes you feel curious and alive, or because inertia makes it easy to continue doing and you're hesitant to let go?
 >
 >
 >
->-- James Clear in -- [3-2-1: Being great today, what to do when things don't go well, and favorite type of mental toughness](https://jamesclear.com/3-2-1/december-11-2025)
+>-- James Clear in [3-2-1: Being great today, what to do when things don't go well, and favorite type of mental toughness](https://jamesclear.com/3-2-1/december-11-2025)
 
 - *Undated* - Shane Parrish on networking.
 >The best way to network is to do something interesting.
@@ -143,4 +143,4 @@ comments: true
 >
 >
 >
->-- Shane Parrish in -- [A Hunger for Excellence](https://fs.blog/brain-food/december-21-2025/)
+>-- Shane Parrish in [A Hunger for Excellence](https://fs.blog/brain-food/december-21-2025/)
