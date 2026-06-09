@@ -165,3 +165,15 @@ comments: true
 >
 >
 >-- Baba Hari Dass in [3-2-1: On making adjustments, how to handle criticism, and the secret to improvement](https://jamesclear.com/3-2-1/april-30-2026)
+
+- *05/25/26* - Garth Brooks on wealth:
+>"You aren't wealthy until you have something money can't buy."
+>
+>
+>-- Garth Brooks in [Intelligence vs. Wisdom](https://fs.blog/brain-food/may-24-2026/)
+
+- *05/25/26* - James Clear on the paradox of creating:
+>"When you are creating something, you will usually find that once things appear 90 percent done, you are actually about halfway there. But you have to create the first 90 percent in order to see the half that needs to be revised."
+>
+>
+>-- James Clear in [3-2-1: On making mistakes, the paradox of creating, and why habits translate](https://jamesclear.com/3-2-1/may-21-2026)
