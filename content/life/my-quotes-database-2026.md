@@ -177,3 +177,31 @@ comments: true
 >
 >
 >-- James Clear in [3-2-1: On making mistakes, the paradox of creating, and why habits translate](https://jamesclear.com/3-2-1/may-21-2026)
+
+- *06/15/26* - Shane Parrish on honesty over approval:
+>Aim for accuracy, not approval.
+>
+>
+>
+>Nobody wants a doctor who never gives them bad news, but that's effectively what we do in life when we optimize for people liking us.
+>
+>
+>
+>It's better to have the sting of honesty than the blindness of flattery.
+>
+>
+>-- Shane Parrish in [Brain Food: June 14, 2026](https://fs.blog/brain-food/june-14-2026/)
+
+- *06/15/26* - Shane Parrish on the stories we tell ourselves:
+>Your inner monologue becomes your outer reality.
+>
+>
+>
+>Too much self-criticism, and you stop ambition. Too much arrogance, and you miss things.
+>
+>
+>
+>The most powerful story in the world is the one you tell yourself (about yourself).
+>
+>
+>-- Shane Parrish in [Brain Food: June 14, 2026](https://fs.blog/brain-food/june-14-2026/)
