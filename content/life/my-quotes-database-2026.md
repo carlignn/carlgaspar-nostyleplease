@@ -205,3 +205,18 @@ comments: true
 >
 >
 >-- Shane Parrish in [Brain Food: June 14, 2026](https://fs.blog/brain-food/june-14-2026/)
+
+- *06/24/26* - Daniel Miessler on government and emotional manipulation:
+>"The quality of a government is determined by the ease with which its population can be emotionally manipulated. Emotion vs. Critical Thinking. Bro knowledge vs deeper education. Tribalism vs. Humanism. It's not about religion vs. reason as I used to think when I was younger. It's about whether you deeply understand how the world works and can identify and untangle attempts to manipulate you emotionally.
+>
+>
+>
+>When I think about our government for the last 5-10 years, I'm starting to think less about all the messed-up things that the government is doing, and instead about the deterioration of our education, critical thinking, and wisdom as a population that allowed it. It's like trying to fill up a bathtub when you've taken the plug out of the bottom.
+>
+>
+>
+>And that's why I think the world, and especially Europe, is going to turn away from us. The problem isn't who we've elected. It's the fact that there's no reason to think we won't do it again."
+>
+>
+>
+>-- Daniel Miessler in [Unsupervised Learning NO. 497](https://newsletter.danielmiessler.com/p/ul-497)
