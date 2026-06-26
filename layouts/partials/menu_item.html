@@ -4,6 +4,8 @@
             {{- with $item.url -}} <!-- If the tiile is a link -->
                 {{ if eq $item.special "theme_toggle" }} <!-- If theme toggle -->
                     - <a href="{{ $item.url }}" onclick="toggleTheme(); return false;">{{ safeHTML $item.title }}</a> +
+                {{ else if eq $item.title "projects" }} <!-- If projects, append the GL link -->
+                    <a href="{{ $item.url }}">{{ safeHTML $item.title }}</a> < <a href="https://gasparlabs.com/">gl.</a>
                 {{ else }}
                     <a href="{{ $item.url }}">{{ safeHTML $item.title }}</a>
                 {{ end }}
