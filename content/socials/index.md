@@ -22,6 +22,7 @@ The consumer.
 |                                              |                                                               |                                                |                                          |
 | :------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------: |
 | [anilist](https://anilist.co/user/carlignn/) | [storygraph](https://app.thestorygraph.com/profile/carlignn/) | [letterboxd](https://letterboxd.com/carlignn/) | [trakt](https://trakt.tv/users/carlignn) |
+| [mydramalist](https://mydramalist.com/profile/carlignn) |                                                               |                                                |                                          |
 |                                              |                                                               |                                                |                                          |
 
 The jobseeker.
@@ -38,6 +39,20 @@ The developer.
 | [github](https://github.com/carlignn/) | [imgur](https://imgur.com/user/carlignn) |
 |                                        |                                          |
 
+The recommender.
+
+|                                               |
+| :-------------------------------------------: |
+| [wispr flow](https://wisprflow.ai/r?CARL1488) |
+|                                               |
+
+The supporter.
+
+|                              |
+| :--------------------------: |
+| [buy me a drink](#) |
+|                              |
+
 The youtuber.
 
 |                                            |                                        |                                            |                                                |
@@ -51,5 +66,3 @@ The streamer.
 | :-----------------------------------: | :--------------------------------: | :----------------------------------------: | :---------------------------------------: |
 | [twitch](https://twitch.tv/carlignn/) | [kick](https://kick.com/carlignn/) | [facebook](https://facebook.com/carlignn/) | [youtube](https://youtube.com/@carlignn/) |
 |                                       |                                    |                                            |                                           |
-
-[MyDramaList](https://mydramalist.com/profile/carlignn)

@@ -220,3 +220,14 @@ comments: true
 >
 >
 >-- Daniel Miessler in [Unsupervised Learning NO. 497](https://newsletter.danielmiessler.com/p/ul-497)
+
+- *06/29/26* - James Clear on where you choose to work:
+>"If you want a plant to grow, you can fuss over it every day—watering, weeding, moving it toward the sun. Or you can place it in the right soil and let nature do most of the work. A seed planted in the right spot often thrives on its own. Life is much the same. Progress is not only about how hard you work, but also about where you decide to work.
+>
+>
+>
+>Where is your energy better spent right now: pushing harder or planting yourself in better ground?"
+>
+>
+>
+>-- James Clear in [3-2-1: June 25, 2026](https://jamesclear.com/3-2-1/june-25-2026)
