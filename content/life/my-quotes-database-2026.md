@@ -231,3 +231,15 @@ comments: true
 >
 >
 >-- James Clear in [3-2-1: June 25, 2026](https://jamesclear.com/3-2-1/june-25-2026)
+
+- *07/08/26* - James Clear on how luck works:
+>"What we call luck is often not purely random, but rather the delayed byproduct of consistently putting yourself in good positions."
+>
+>
+>-- James Clear in [3-2-1: How luck works, why improvement is hard, and a call for courage](https://jamesclear.com/3-2-1/july-2-2026)
+
+- *07/08/26* - Shane Parrish on looking like an idiot:
+>So much advantage in life comes from being willing to look like an idiot in the short term.
+>
+>
+>-- Shane Parrish in [Building Trust in Yourself Every Day](https://fs.blog/brain-food/july-5-2026/)
