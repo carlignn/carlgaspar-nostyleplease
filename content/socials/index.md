@@ -21,7 +21,7 @@ The consumer.
 
 |                                              |                                                               |                                                |                                          |
 | :------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------: | :--------------------------------------: |
-| [anilist](https://anilist.co/user/carlignn/) | [storygraph](https://app.thestorygraph.com/profile/carlignn/) | [letterboxd](https://letterboxd.com/carlignn/) | [trakt](https://trakt.tv/users/carlignn) |
+| [anilist](https://anilist.co/user/carlignn/) | [storygraph](https://app.thestorygraph.com/profile/carlignn/) | [letterboxd](https://letterboxd.com/carlignn/) | [serializd](https://www.serializd.com/user/carlignn/profile) |
 | [mydramalist](https://mydramalist.com/profile/carlignn) |                                                               |                                                |                                          |
 |                                              |                                                               |                                                |                                          |
 

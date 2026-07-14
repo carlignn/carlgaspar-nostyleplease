@@ -243,3 +243,9 @@ comments: true
 >
 >
 >-- Shane Parrish in [Building Trust in Yourself Every Day](https://fs.blog/brain-food/july-5-2026/)
+
+- *07/14/26* - Claude on rating art without chasing objectivity:
+>"Objective means true independent of the observer, and art doesn't have that. So stop chasing objectivity—it isn't available. Chase reliability instead: a judgment you'd stand by consistently, not one that shifts with your mood."
+>
+>
+>-- Claude (in conversation)
