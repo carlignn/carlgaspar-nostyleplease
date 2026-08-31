@@ -249,3 +249,9 @@ comments: true
 >
 >
 >-- Claude (in conversation)
+
+- *08/31/26* - Valery Legasov on lies and the truth:
+>"Every lie we tell incurs a debt to the truth."
+>
+>
+>-- Valery Legasov in Chernobyl, Episode 5: "Vichnaya Pamyat"

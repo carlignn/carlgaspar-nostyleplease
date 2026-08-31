@@ -12,7 +12,9 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 
 **Security:** TPRM, GRC, PCI DSS, HITRUST, Incident Response, Vulnerability Assessment, Threat Modeling, Malware Analysis, SIEM, EDR, DLP, PAM, IAM, Endpoint Security, Network Security, DevSecOps
 
-**Technical:** Python, Bash, PowerShell, Power BI, PostgreSQL, AWS (IAM, DynamoDB, Lambda, API Gateway), Docker, Git, CI/CD, Linux, Kotlin, Flutter, ReactJS
+**Technical:** Python, Bash, PowerShell, Dart, Kotlin, SQL, PostgreSQL, Flutter, ReactJS, Flask, REST APIs, Git
+
+**Cloud & Automation:** AWS (IAM, DynamoDB, Lambda, API Gateway), Google Cloud / Firebase (Firestore, Remote Config, Analytics), Docker, Docker Compose, Proxmox, Nginx Proxy Manager, Linux, CI/CD (GitHub Actions), Workflow Automation, Monitoring & Alerting, Power BI
 
 # Experience
 
@@ -70,7 +72,7 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 # Projects
 
 * **[TPRM Risk Assessment Tool](https://carlgaspar.com/projects/tprm-assessment-tool/)** – Web app that ingests SIG questionnaires via drag-and-drop, auto-scoring and generating PDF risk reports; Python stack.
-* **[CSE Reviewer](https://play.google.com/store/apps/details?id=com.gasparlabs.csereviewer1)** – Android quiz app (3,000+ Civil Service Exam questions) with Flask admin panel; Flutter, Dart, Python, Firebase, Docker, GitHub Actions.
+* **[Exam Reviewer Apps](https://play.google.com/store/apps/details?id=com.gasparlabs.csereviewer1)** – Scaled a single exam app into a multi-tenant platform where one shared engine powers multiple licensure reviewers (11,000+ questions, first live on Google Play); Flask CMS, automated multi-channel social media publishing, self-hosted infra with CI/CD and alerting; Flutter, Dart, Python, Firebase, Docker, GitHub Actions, Proxmox.
 * **[Homelab](https://carlgaspar.com/homelab/)** – Self-hosted infra: Proxmox VE, TrueNAS, OPNSense, Docker, Tailscale, Backblaze B2, and more.
 * **[Personal Website](https://www.carlgaspar.com/)** – Life, tech, cybersecurity, and development blog; Hugo, TinaCMS, Netlify, Cloudflare, Giscus.
 * **[Pesofolio](https://carlgaspar.com/projects/pesofolio-philippine-stock-exchange-portfolio-tracker/)** – Android PSE stock tracker; Kotlin, Python, AWS (IAM, DynamoDB, Lambda, API Gateway).
