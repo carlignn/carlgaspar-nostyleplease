@@ -254,4 +254,63 @@ comments: true
 >"Every lie we tell incurs a debt to the truth."
 >
 >
->-- Valery Legasov in Chernobyl, Episode 5: "Vichnaya Pamyat"
+>-- Valery Legasov in [Chernobyl, Episode 5: "Vichnaya Pamyat"](https://en.wikipedia.org/wiki/Chernobyl_%28miniseries%29)
+
+- *09/07/26* - On mistakes and effort:
+>"Mistakes are proof that you're trying."
+
+- *09/10/26* - Shane Parrish on natural versus chosen talent:
+>There are two types of talent: the natural talent you're born with and the chosen talent you earn with your mindset, choices, and work.
+>
+>
+>
+>Natural talent is overrated. Chosen talent is underrated.
+>
+>
+>-- Shane Parrish in [Two Types of Talent](https://fs.blog/brain-food/july-12-2026/)
+
+- *09/10/26* - Economist Milton Friedman on the work required to hold an opinion:
+>"You cannot be sure that you are right unless you understand the arguments against your views better than your opponents do."
+>
+>
+>-- Milton Friedman in [Two Types of Talent](https://fs.blog/brain-food/july-12-2026/)
+
+- *09/15/26* - James Clear on vices and comforts:
+>"Plenty of growth can be found in removing your vices, but the real leaps are unlocked when you stop clinging to your comforts."
+>
+>
+>-- James Clear in [3-2-1: On leisure vs. luxury, unlocking growth, and the many versions of a good life](https://jamesclear.com/3-2-1/july-23-2026)
+
+- *09/18/26* - James Clear on failure versus lessons:
+>"When you're on a good path: It's only a failure if you stop. It's a lesson if you keep going.
+>
+>
+>
+>When you're on a bad path: It's only a failure if you keep going. It's a lesson if you stop."
+>
+>
+>-- James Clear in [3-2-1: On living with lightness, emphasizing what works, and the simple way to gain clarity](https://jamesclear.com/3-2-1/august-6-2026)
+
+- *09/18/26* - James Clear on luck and action:
+>"You can't get lucky if you don't take action. The best opportunity in the world is just a missed opportunity if you don't grab it."
+>
+>
+>-- James Clear in [3-2-1: On living with lightness, emphasizing what works, and the simple way to gain clarity](https://jamesclear.com/3-2-1/august-6-2026)
+
+- *09/21/26* - James Clear on putting off hard conversations:
+>"Delaying a conversation doesn't make it easier."
+>
+>
+>-- James Clear in [3-2-1: On the power of curiosity, winning vs. improving, and taking control of your to-do list](https://jamesclear.com/3-2-1/august-13-2026)
+
+- *09/21/26* - Modernist painter Georgia O'Keeffe on making your vision a reality:
+>"Whether you succeed or not is irrelevant — there is no such thing. Making your unknown known is the important thing."
+>
+>
+>-- Georgia O'Keeffe in [3-2-1: On the power of curiosity, winning vs. improving, and taking control of your to-do list](https://jamesclear.com/3-2-1/august-13-2026)
+
+- *09/21/26* - On patterns and breaking the loop:
+>"Every pattern in your life repeats until you learn the lesson. The moment you choose differently, the loop ends and growth begins."
+>
+>
+>-- Unknown, quoted in [Unsupervised Learning NO. 540](https://newsletter.danielmiessler.com/p/unsupervised-learning-no-540)
