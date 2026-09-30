@@ -314,3 +314,37 @@ comments: true
 >
 >
 >-- Unknown, quoted in [Unsupervised Learning NO. 540](https://newsletter.danielmiessler.com/p/unsupervised-learning-no-540)
+
+- *09/25/26* - James Clear on contribution over consumption:
+>"The measure of a life is not what you consume, but what you contribute.
+>
+>
+>
+>Spend less time owning, consuming, taking. Spend more time giving, creating, making."
+>
+>
+>-- James Clear in [3-2-1: What good judgement requires, how to direct your attention, and the hidden path to happiness](https://jamesclear.com/3-2-1/august-20-2026)
+
+- *09/28/26* - Shane Parrish on the common variable in repeating patterns:
+>"Whatever pattern is repeating in your life has one common variable: you."
+>
+>
+>-- Shane Parrish in [How Steve Jobs Learned to Lead](https://fs.blog/brain-food/september-6-2026/)
+
+- *09/30/26* - Fred Duncan on training specificity:
+>"You get what you train for."
+>
+>
+>-- Fred Duncan in [Sprinting is the ultimate plyometric](https://www.youtube.com/watch?v=KO663y33tNY)
+
+- *09/30/26* - Olympic freestyle skier Eileen Gu on training versus competing:
+>"I train like I've never won, and I compete like I've never lost."
+>
+>
+>-- Eileen Gu in [3-2-1: On starting over, how to train and how to compete, and the magic of consistency](https://jamesclear.com/3-2-1/september-3-2026)
+
+- *09/30/26* - Alex Hormozi on forcing your own growth:
+>"The fastest way to become the person you want to be is to put yourself in a situation where you have no choice but to become them."
+>
+>
+>-- Alex Hormozi, quoted in [Unsupervised Learning NO. 543](https://newsletter.danielmiessler.com/p/unsupervised-learning-no-543)
