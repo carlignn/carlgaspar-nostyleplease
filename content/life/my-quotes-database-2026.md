@@ -348,3 +348,45 @@ comments: true
 >
 >
 >-- Alex Hormozi, quoted in [Unsupervised Learning NO. 543](https://newsletter.danielmiessler.com/p/unsupervised-learning-no-543)
+
+- *10/05/26* - Shane Parrish on time versus focus:
+>"You don't need more time, you need more focus."
+>
+>
+>-- Shane Parrish in [More Focus](https://fs.blog/brain-food/september-27-2026/)
+
+- *10/05/26* - Writer Haruki Murakami on time and money:
+>"Spend your money on the things money can buy. Spend your time on the things money can't buy."
+>
+>
+>-- Haruki Murakami in The Wind-Up Bird Chronicle, quoted in [3-2-1: How to start a new habit, the power of responsibility, and prioritizing the long-term](https://jamesclear.com/3-2-1/september-17-2026)
+
+- *10/14/26* - James Clear on your information diet:
+>"Your mind will follow whatever you feed it.
+>
+>
+>
+>Want better thoughts? Consume better things."
+>
+>
+>-- James Clear in [3-2-1: How to feel good again, choosing your information diet, and the secret to connecting with people](https://jamesclear.com/3-2-1/october-8-2026)
+
+- *10/14/26* - James Clear on breaking the cycle in five minutes:
+>"It only takes five minutes to break the cycle.
+>
+>
+>
+>Five minutes of exercise and you are back on the path. Five minutes of writing and the manuscript is moving forward again. Five minutes of conversation and the relationship is restored.
+>
+>
+>
+>It doesn't take much to feel good again."
+>
+>
+>-- James Clear in [3-2-1: How to feel good again, choosing your information diet, and the secret to connecting with people](https://jamesclear.com/3-2-1/october-8-2026)
+
+- *10/14/26* - Joe Rogan on trying like you're being filmed:
+>"Act like a camera crew is following you when you try. You'll try harder than you ever thought possible."
+>
+>
+>-- Joe Rogan, quoted by Codie Sanchez on [Twitter](https://x.com/Codie_Sanchez/status/2102888514249441311)

@@ -1,7 +1,7 @@
 ---
 title: 'what is up'
 draft: false
-date: 2025-12-16T00:00:00+08:00
+date: 2026-10-14T00:00:00+08:00
 tags:
   - now
 comments: true
@@ -11,89 +11,112 @@ comments: true
 
 Okay, so here's what's up.
 
-I was on a 2-year hiatus and my focus went everywhere.
-
-Growth on:
-- self improvement
-- networking/communication
-- media
-- family/friends
-- emotional quotient
-
-Now I'm back catching up.
-
-I was told to be the commissioner for our next basketball league. I need to create a blog post about it. The usual league is called WKND(short for weakend since it only happens every weekend) League. This one that I'm commissioning is the shorter and older(35 yo and up only) version of the league. I think I'll be calling it Sprint Cup S1. 
-
-## Productivity
-
-* One of the best thing that happened this year is [Habitica](https://habitica.com/). It's now has become my bible. I've made a system that I follow everyday. **This has been my most productive year to date**.
-* I am now posting almost daily on my social media accounts, it made things easier after I discoverd [Buffer](https://buffer.com/). I'm using the free tier to post on Facebook, Blue Sky, and Threads, then manually on Twitter (X). I often use scheduled posts to post on peak times and to make sure I don't spam. 
-* I have a scheduled tasks that happened every Tuesday where I go to my Lightroom in iPad and cull/edit the photos that I need to go in my Instagram account. Pair that with **The Martian** audiobook that I'm listening to as of the moment. 
-
-## Books
-
-* I'm currently reading She Comes First. It's good! [TheStoryGraph](https://app.thestorygraph.com/profile/carlignn)
-* I finished rereading The Alchemist this year.
-* I dropped Holding Up the Universe. I was reading it and felt boring, I read the reviews and it looks like it isn't for me.
+It's been almost a year since the last one of these. The short version: my ACL is fine, the OTHER knee is the problem now, I'm back playing in the league I commission, and I've stopped trying to be only a security guy.
 
 ## Fitness
 
-* I'm focused on prehabbing the muscles around my knee before my knee surgery - ACL reconstruction on the right.
-* On the left, there's patellar tendinitis that doesn't need surgery but just needs strenghtening of surrounding muscles.
-* I found the exercise that worked well for it - [Eccentric Squats](https://www.fix-knee-pain.com/how-to-do-eccentric-squats-for-patellar-tendonitis/)
+This is the big one.
 
-## Homelab
+* My ACL is **fine**. The doctor cleared it months ago. One year post-op came and went and it was honestly just depressing - the thing holding me back isn't even the knee they operated on.
+* The real problem is my **left** knee. Chronic patellar tendinitis, 5 years of it. I finally got it scanned in August and it came back **enlarged and worn, not torn** - years of overload, not one injury. The tendon is thickened but weaker for its size, and there are new blood vessels with new nerves grown into the bad spot. That's what's actually hurting.
+* So I'm on a 12 week block of heavy slow loading now. Muscles change in weeks, tendons change in months. The exercises are treatment for the tendon, delivered through the muscle.
+* I stopped judging it by how a session feels and started tracking numbers instead - the first 5 leg straightenings in the morning (worst rep out of 10, should trend down), the box squat getting lower, and the single leg leg press going from 80kg toward 120kg.
+* I'm finally doing **plyometrics**. First proper session was September and I'm confidently jumping by myself again. First time in 5 years I felt good about that knee. LET'S GO!
+* Every flare restarts the clock, so the fastest thing available isn't a needle. It's a month without a flare.
 
-* I just finised firewall-ing and VPN-ing my homelab. I can now access it from anywhere! NICE! [OPNSense](/homelab/my-opnsense-documentation/)
-* I'm working on notifications as of the moment, so I can receive alerts when something goes wrong.
+## Basketball
 
-## Software Engineering
+I'm playing again! Season 4 of the league I'm the commissioner of. I skipped 3 whole seasons waiting on this knee.
 
-* Currently just working on this website. I've migrated from a previous one which looks huge and a lot of things happening. This one is more **MINIMAL**, I like it.
-* Trying to finish drafts and reviewing some posts that were made by the younger (inexpirienced) me.
-* This looks kinda finished now, I've added theming and search, pretty cool!
-* I've been drawned to vibe coding lately, Claude Code is super fucking awesome!
+I only lasted **one round** though. The left knee started hurting and that was it. It's a weird kind of frustrating - the knee they rebuilt is ready and the one nobody operated on is the one that stopped me.
 
-## Karaoke
+## Productivity
 
-I've gotten **SO** interested in making my own karaoke system at home. I'm down to the rabbit hole again of audio equipments. Here's what I think so far:
+* [Habitica](https://habitica.com/) is still my bible. The system still runs my day.
+* [Buffer](https://buffer.com/) is still doing the posting - Facebook, Bluesky and Threads on the free tier, X manually.
+* The Tuesday Lightroom ritual is **dead**. Haven't touched it in a long time. I'm so lazy.
 
-* Mixer - Yamaha MG10X - this already has a compressor and effects built-in - costs 14k PHP
-* Mic - Phenyx Pro PTU-71A - the most basic wireless mic, the community said that this is good enough - costs 7k PHP
-* Speaker - Alto TX410 - this is an active speaker which was good enough for karaoke, I might buy another one if needed in the future - costs 10k PHP
+## Books
 
-I got torned between using pedals for the effects and compressor or just buy the one built-in. But it looks like it's much more complicated for my use case, so I'm thinking of just buying the Mixer with those built-in. I've only bought the speaker so far, just to see if I really want it. **I'M SO EXICTED!**
+* Still on She Comes First. Page 111, moving slow.
+* I started the One Outs manga. The anime stopped short so I had to go find the rest myself.
 
 ## Media
 
-I have implemeted this system where when I'm consuming media, you can only consume an episode a day. Watching all of it at once is making me desensitized, **unproductive**, or depressed because there's no more new seasons or episodes. One system for binging, where I can put my brain into relax mode - this mode is really bad, don't just do it if you have more important tasks pending.
+I finished a bunch of insanely good stuff this year.
 
-I've developed a new habit - bad habit, I've been rating the media that I'm consuming when there's still a few minutes left on it. Rating it low thinking that they didn't close it well, leaving me updating my rating and review to a good one after.
+* **To Be Hero X** - 10
+* **Wistoria S2** - 10
+* **Food Wars** - 9
+* **Dandadan** - 8, the story is just everywhere
+* **One Outs** - really good. A pitcher who looks like he's going to drag an entire losing team to winning.
+* **Peaky Blinders** - finally done with it
+* Movies: Wake Up Dead Man, and Adolescence which was terrible, jesus christ.
 
-* Savoring - I just finished the Bleach anime and now started the sequels. It is so good it made me just watch one episode a week. I don't want it to end yet without the last season. Savor everything and the feels will keep going!
-* Binging - I started rewatching the Proxy-Pass anime. I know I've watched it before I just forgot what happened, I need to remember so I can score it again. So far, it's 10/10. [Anilist](https://anilist.co/user/carlignn/)
-* Binging(2) - Another one is the Juvenile Justice korean drama. I saw people watching this on Discord channel named Movie Marathon and decided to join. I was bummed that how could a media be good but give us only **the movie**. Well, I've never been glad that I was wrong. It is a *series*, WOOO! [Letterboxd](https://letterboxd.com/carlignn/). I just found out that there's a dedicated site for tracking korean dramas, I created one [MyDramaList](https://mydramalist.com/profile/carlignn)
-* Movie - on a weekend to keep my emotions under control. I don't want it to be forgotten.
-* Completed - Toradora - I just watched it for the nostalgia, and the nostalgia got me. [Review](https://anilist.co/activity/945410280)
+Still savoring **Bleach: TYBW**. I'm on season 4 and still rationing it. It's the anime of animes, I don't want it to end yet.
+
+Currently binging **Gnosia**. We're on episode 9 and I feel like it's too repetitive, but it keeps me watching anyway. My expectations are low and I'm genuinely not sure what to expect. LOL
+
+The other thing I did this year was build myself an actual rating system, because one number was always too small. Now I score four things separately - craft, story, hit (the aura, the goosebumps) and would I rewatch it. Hit is the mood-sensitive one, so quarantining it there stops it from poisoning the rest. And I never rate on the day I finish something, and never two things on the same day.
+
+## Business / Building
+
+* **Gaspar Labs** is the studio brand now, and the reviewer apps live under it on the Play Store. This is the one that actually shipped.
+* **RPS**, my game, is at MVP. I'm leaning toward self publishing and self marketing rather than chasing a publisher.
+* **Sugar free white chocolate.** Low insulin, monk fruit, and the ones I made are pretty good! But this one's in the back of my mind now because **scaling is really hard** - nutrition facts, weight, approvals, all of that.
+* **Shirts.** Plain shirts with different designs, printed off a programmable sewing machine like the one I saw on YouTube. Same problem - scaling is tough. Also back of mind.
+
+Both of the product ideas are parked for the same reason. Making one of something is easy and fun. Making a thousand is a completely different job.
+
+## Software Engineering
+
+* The reviewer apps under Gaspar Labs - the biggest thing I've actually put in front of users.
+* RPS, the game.
+* This website, still. I keep tinkering.
+
+## Homelab
+
+Maintenance mode. The firewall and VPN are done, notifications are done, and I'm mostly just keeping it running now instead of adding things. [OPNSense](/homelab/my-opnsense-documentation/) and [notifications](/homelab/my-notification-documentation/) if you want the writeups.
+
+## Watches
+
+New hobby - **watch making**. Seiko mods.
+
+The plan is a Santos, then an AP, then a Nautilus. The AP and the Nautilus are skeletons on NH72. The Santos will be on an NH36 or 38, the no date one with the heart, although the Santos won't have an open heart.
+
+So far I've only bought a few parts. I'm not sure if I'll go further than those three, because it becomes too much, the movements have gotten super expensive, and I'm not going to wear them all anyway. So there's that.
+
+I spent months last year deciding which Citizen to buy as my first real watch. That's off the table now - I'd rather build them than buy one.
+
+## Karaoke
+
+**DONE!** I built it.
+
+Yamaha MG06X for the mixer (not the MG10X I was eyeing), a Phenyx mic, the PA speaker, and storage for all of it. I've already used it as the commentator for our playoffs and finals games. SO WORTH IT.
 
 ## Gaming
 
-My partner asked me to find a good console for her father, we only thought of Nintendo Switch back then but it's super expensive, I remember this one time on my rehab - a kid was playing games on a handheld. I asked his mother where'd they get that and she said it's her husband that bought that. I searched for that console and now I'm on a rabbit hole of which console should I get while maximizing what I already have, and **ROMS**! Oh roms, I'm stuck with downloading everything or just keeping what the bests. I ended up keeping all the roms with the low sizes from their consoles and just got the 100 best games from each console that has too big rom file size.
+I stopped for a bit. I'm planning on getting into a turn based game next.
 
-It took me days to find the proper roms, machine, and console, check out [My Retro Gaming Setup](/posts/my-retro-gaming-setup), [My Rom Commit List](/posts/my-rom-commit-list), and [My Retrobat Documentation](/posts/my-retrobat-documentation). It went from looking for console for her father to looking for the one for me LOL.
+Simracing cooled off too. The Moza rig is sitting right there, I'm just not driving it.
 
-I'm really addicted to Mario Kart and Mario Party. They're really well made, really entertaining, and most important is you can play it with friends. AMAZING!
+## Skills
 
-## Gaming (2)
+I've stopped trying to be only a security guy.
 
-I've been heavy into simracing these days. I've bought the gears and subscribed to iRacing. I forgot what it's called but it's like when someone is a newbie into a new hobby and decided to buy all the stuff without thinking much about it. What do I have:
+With AI rising I can't lock myself and my skills to security only, I need to learn more things. So I'm going wide instead of deep - security, software development, AI, product, and honestly every hobby on this page counts too. Not all of it has to be for a job. Some of it is just to be happy, to talk to people, to have hobbies.
 
-* Steering wheel - Moza ES Formula Wheel Mod
-* Wheel base - Moza DD R5
-* Pedal - SR-P Lite w Performance Kit w Alien Mods Load-Cell Kit
-* Wheel Stand - Next Level Racing 2.0
+The one thing I actually need to fix is **talking**. I work from home on a night shift and I don't talk the entire day, so when talking is needed my mouth is just everywhere, I can't talk straight, I'm mumbling. It's a skill that went cold, not a personality thing. So now I do tongue twisters before I read, I read out loud with a lower and deeper voice, and I'm looking into Toastmasters.
 
-**UPDATE**: F1 2025 Season has ended and the regulations for the cars will change next year. There's already available car for purchase but I don't want to buy it yet until it's verified to be as accurate as the regulations said it'd be. I guess let's wait for the season to start!
+## On the back of my mind
+
+* **Snapmaker U1.** I want it and I'm openly trying to justify it lol. The best case I've got is prototype the part in plastic, then order the final one machined in aluminum.
+* **A bike.** Mostly because of my knee. Leaning internal gear hub, and a fixie is ruled out for obvious reasons.
+* **Toastmasters.** Still just researching clubs.
+
+## Gear
+
+Studio monitors - a pair of **Edifier MR5** for the desk. They're the cheapest ones I found, and the thing that sold me is that the other options at that price were **per piece**. That's how I ended up with these.
 
 ***
 
