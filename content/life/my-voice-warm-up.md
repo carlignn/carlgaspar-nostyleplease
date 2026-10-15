@@ -3,6 +3,7 @@ title: My Voice Warm-Up
 draft: false
 date: 2026-10-14T00:00:00+08:00
 tags:
+  - favorited
   - speaking
   - routine
 comments: true

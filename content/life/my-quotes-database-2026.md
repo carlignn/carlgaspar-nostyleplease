@@ -3,6 +3,7 @@ title: My Quotes Database 2026
 draft: false
 date: 2026-01-01T00:00:00+08:00
 tags:
+  - favorited
   - quotes
 comments: true
 ---
