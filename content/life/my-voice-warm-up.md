@@ -14,7 +14,7 @@ I work from home and I barely talk all day. When talking is finally needed, my m
 
 ## 1. Wake up the voice (1 minute)
 
-- [ ] **Hum** with lips closed for 20 seconds, until you feel the buzz in your face.
+- [ ] **Hum** — with lips closed for 20 seconds, until you feel the buzz in your face.
 - [ ] **Lip trills** — blow through loose lips like a motorboat. Slide the pitch low to high and back, 3 times.
 - [ ] **Siren** — on "ng" (as in *sing*), glide from your lowest note to your highest and back, 2 times.
 - [ ] **Big yawn-sigh** — open wide, sigh out on "haaa". Relaxes the throat and jaw.

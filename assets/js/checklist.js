@@ -16,10 +16,21 @@
       box.checked = false; // ignore any state the browser tries to restore
       box.setAttribute('autocomplete', 'off');
 
-      // Wrap the whole item in a label so the text is a tap target too.
+      // Wrap the item in a label so the text is a tap target too. Everything
+      // after the checkbox goes in one span, otherwise inline markup like
+      // **bold** would become a separate flex item and break the line.
       var li = box.parentNode;
       var label = document.createElement('label');
-      while (li.firstChild) label.appendChild(li.firstChild);
+      var text = document.createElement('span');
+
+      li.removeChild(box);
+      while (li.firstChild) text.appendChild(li.firstChild);
+      if (text.firstChild && text.firstChild.nodeType === 3) {
+        text.firstChild.nodeValue = text.firstChild.nodeValue.replace(/^\s+/, '');
+      }
+
+      label.appendChild(box);
+      label.appendChild(text);
       li.appendChild(label);
     }
 
