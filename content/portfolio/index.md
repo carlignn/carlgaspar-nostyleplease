@@ -23,7 +23,7 @@ Cybersecurity professional with 8+ years across GRC, TPRM, vulnerability managem
 * Led TPRM efforts: SIG questionnaire reviews, document/artifact validation, and risk assessments. Reorganized 5 years of vendor data in ZenGRC, cutting turnaround time by 75%.
 * Run daily and weekly security operations across a 10-tool stack (CrowdStrike EDR, Varonis DLP, LogRhythm SIEM, Proofpoint, Nessus, Forcepoint, MaaS360, M365 Security, Duo MFA, AD auditing), and serve in the on-call rotation for after-hours monitoring and escalation of high-priority incidents.
 * Built a TPRM web app that ingests SIG questionnaires and/or documents via drag-and-drop, auto-scoring and generating PDF risk assessments – replacing the manual Excel workflow.
-* Led on-site TPRM audits, HITRUST, and PCI DSS walkthroughs at multiple locations (Manila, Davao, Iloilo) for both internal company sites and BPO partners.
+* Led on-site TPRM audits and HITRUST/PCI DSS walkthroughs across 6 sites in the Philippines – internal company locations plus two global BPO partners, one audited across three facilities.
 * Developed Power BI dashboards pulling data from security tool APIs and daily reports, providing visibility into SIEM alerts, ticket volumes by priority level, email activity, analyst turnaround time, and operational metrics.
 * Administered Delinea Secret Server (PAM) across four integrated AD environments – completed initial rollout and owned upgrades, onsite/offsite backups, DB maintenance, access control, and MFA integration.
 * Analyzed threat intelligence from security tools, validating malicious IPs and domains via AbuseIPDB and VirusTotal, and implementing geoblocking and IP blocking rules in Palo Alto firewalls.
