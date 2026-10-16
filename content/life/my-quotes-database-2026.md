@@ -391,3 +391,29 @@ comments: true
 >
 >
 >-- Joe Rogan, quoted by Codie Sanchez on [Twitter](https://x.com/Codie_Sanchez/status/2102888514249441311)
+
+- *10/16/26* - James Clear on being uncomfortable for five minutes:
+>"Are you willing to be uncomfortable for 5 minutes?
+>
+>
+>
+>Exercising is easier once you've started the workout. Conversation is easier once you're already talking. Writing is easier once you're in the middle of it.
+>
+>
+>
+>But many rewards in life will elude you if you're not willing to be a little uncomfortable at first."
+>
+>
+>-- James Clear in [3-2-1: On refusing to give up, the refrains of nature, and making things fun](https://jamesclear.com/3-2-1/october-15-2026)
+
+- *10/16/26* - James Clear on success:
+>"Success is wanting to be where you are."
+>
+>
+>-- James Clear in [3-2-1: On refusing to give up, the refrains of nature, and making things fun](https://jamesclear.com/3-2-1/october-15-2026)
+
+- *10/16/26* - Roman emperor Marcus Aurelius on refusing to give up:
+>"Until death, all defeat is psychological."
+>
+>
+>-- Marcus Aurelius, quoted in [3-2-1: On refusing to give up, the refrains of nature, and making things fun](https://jamesclear.com/3-2-1/october-15-2026)
