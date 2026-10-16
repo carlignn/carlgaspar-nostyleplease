@@ -51,7 +51,20 @@ I finished a bunch of insanely good stuff this year.
 * **Dandadan** - 8, the story is just everywhere
 * **One Outs** - 10, really good. A pitcher who looks like he's going to drag an entire losing team to winning.
 * **Peaky Blinders** - 9, finally done with it. It got repetitive in my opinion
-* Movies: **Wake Up Dead Man**, **Adolescence**, and **Backrooms** which were all terrible, jesus christ.
+* Movies that were actually good: **Obsession** - 5/5, **Project Hail Mary** - 4.5/5, **The Odyssey** - 4.5/5, **Predestination** - 4.5/5. And **Chernobyl** - 5/5, which is a miniseries but it's going in here anyway. [Letterboxd](https://letterboxd.com/carlignn/)
+* **Adolescence** - I really don't like that. But that's just my emotion, not a technical judgment.
+* **Backrooms** - terrible, jesus christ.
+
+Kdramas came back in a big way too. **Business Proposal** over the holidays was my first one in a while - binged it in 2 days - and it just kept going from there. [MyDramaList](https://mydramalist.com/profile/carlignn)
+
+* **It's Okay to Not Be Okay** - 9.5, problematic parents and their kids breaking the wheel. Very touching.
+* **Smile, You** - 9. This is my childhood. I watched it on our thick TV with my mother, brother and sister, and I finally found it again after years of looking. 45 episodes, they really dragged it, but SO nostalgic.
+* **Can This Love Be Translated?** - 9. The story isn't that great, Go Youn Jung carried the entire show on her back LOL
+* **Business Proposal** - 9. Not deep, I liked it anyway.
+* **Crash Landing on You** - 8.5. Terrible CGI and weird voice delays, carried by the leads.
+* Dropped **The East Palace** at episode 3, it felt childish. Dropping **Alchemy of Souls** too.
+
+Before Can This Love Be Translated? I dropped 2 or 3 Netflix kdramas in a row because the stories were super terrible. When a Netflix kdrama is meh, it's REALLY meh.
 
 Still savoring **Bleach: TYBW**. I'm on season 4 and still rationing it. It's the anime of animes, I don't want it to end yet.
 
