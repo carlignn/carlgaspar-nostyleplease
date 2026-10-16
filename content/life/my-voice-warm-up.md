@@ -20,13 +20,13 @@ I work from home and I barely talk all day. When talking is finally needed, my m
 - [ ] **Siren** — on "ng" (as in *sing*), glide from your lowest note to your highest and back, 2 times.
 - [ ] **Big yawn-sigh** — open wide, sigh out on "haaa". Relaxes the throat and jaw.
 
-## 2. Wake up the mouth (tongue twisters)
+## 2. Wake up the mouth (twisters and drills)
 
 Slow and clear first, then faster. Clean beats fast. Short ones: say them 3 times in a row.
 
 ### P / F
 1. [ ] Four fine fresh fish for you.
-2. [ ] Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked.
+2. [ ] Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?
 3. [ ] Fred fed Ted bread, and Ted fed Fred bread.
 4. [ ] A proper copper coffee pot.
 5. [ ] Friendly fleas and fireflies.
@@ -55,44 +55,68 @@ Slow and clear first, then faster. Clean beats fast. Short ones: say them 3 time
 22. [ ] Swan swam over the sea. Swim, swan, swim! Swan swam back again. Well swum, swan!
 23. [ ] Fresh French fried fish.
 
+### Z / S
+24. [ ] Zoo, sue. Zip, sip. Zeal, seal.
+25. [ ] Lazy Susan's roses.
+26. [ ] Zach's socks come in sixteen sizes.
+27. [ ] Please pass the peas, the cheese, and the beans.
+28. [ ] Those clothes close easily.
+29. [ ] The busy buzzing bees buzz past the buses.
+
 ### Short vs long vowels
-24. [ ] Ship, sheep.
-25. [ ] Full, fool.
-26. [ ] Sit, seat.
-27. [ ] Fill, feel.
-28. [ ] Look, Luke.
+30. [ ] Ship, sheep.
+31. [ ] Full, fool.
+32. [ ] Sit, seat.
+33. [ ] Fill, feel.
+34. [ ] Look, Luke.
 
 ### R / L
-29. [ ] Red lorry, yellow lorry.
-30. [ ] Red leather, yellow leather.
-31. [ ] Rubber baby buggy bumpers.
-32. [ ] Truly rural.
-33. [ ] Lesser leather never weathered wetter weather better.
-34. [ ] Eleven benevolent elephants.
+35. [ ] Red lorry, yellow lorry.
+36. [ ] Red leather, yellow leather.
+37. [ ] Rubber baby buggy bumpers.
+38. [ ] Truly rural.
+39. [ ] Lesser leather never weathered wetter weather better.
+40. [ ] Eleven benevolent elephants.
 
 ### W / WH
-35. [ ] Which witch is which?
-36. [ ] How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck, he would, as much as he could, and chuck as much wood as a woodchuck would if a woodchuck could chuck wood.
-37. [ ] Whether the weather is cold, or whether the weather is hot, we'll weather the weather, whatever the weather, whether we like it or not.
+41. [ ] Which witch is which?
+42. [ ] How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck, he would, as much as he could, and chuck as much wood as a woodchuck would if a woodchuck could chuck wood.
+43. [ ] Whether the weather is cold, or whether the weather is hot, we'll weather the weather, whatever the weather, whether we like it or not.
 
 ### CH / J
-38. [ ] Cheap ship trip.
-39. [ ] How can a clam cram in a clean cream can?
-40. [ ] Chester Cheetah chews a chunk of cheap cheddar cheese.
-41. [ ] Judge Jerry jumbled the jelly jars.
+44. [ ] Cheap ship trip.
+45. [ ] How can a clam cram in a clean cream can?
+46. [ ] Chester Cheetah chews a chunk of cheap cheddar cheese.
+47. [ ] Judge Jerry jumbled the jelly jars.
 
 ### K / G
-42. [ ] Greek grapes.
-43. [ ] Good blood, bad blood.
-44. [ ] Crisp crusts crackle crunchily.
-45. [ ] Kitty caught the kitten in the kitchen.
+48. [ ] Greek grapes.
+49. [ ] Good blood, bad blood.
+50. [ ] Crisp crusts crackle crunchily.
+51. [ ] Kitty caught the kitten in the kitchen.
+
+### NG
+52. [ ] Sing, singing, singer. Ring, ringing, ringer.
+53. [ ] Bring the long, strong string.
+54. [ ] Thing, think. Sing, sink. Rang, rank.
+55. [ ] The young singer is bringing a ringing song.
+56. [ ] Hanging, banging, clanging, swinging.
+
+### Endings and final clusters
+57. [ ] Walked, talked, asked, helped.
+58. [ ] Needed, wanted, started, decided.
+59. [ ] Played, called, cleaned, arrived.
+60. [ ] Asks, desks, texts, guests.
+61. [ ] Sixth, sixths. Month, months. Clothes, cloths.
+62. [ ] He texts the facts to the guests.
+63. [ ] The lists exist, and the tests ended.
 
 ### Speed
-46. [ ] Unique New York, unique New York, you know you need unique New York.
-47. [ ] Toy boat.
-48. [ ] Irish wristwatch.
-49. [ ] Can you can a can as a canner can can a can?
-50. [ ] Brisk brave brigadiers brandished broad bright blades.
+64. [ ] Unique New York, unique New York, you know you need unique New York.
+65. [ ] Toy boat.
+66. [ ] Irish wristwatch.
+67. [ ] Can you can a can as a canner can can a can?
+68. [ ] Brisk brave brigadiers brandished broad bright blades.
 
 ## 3. Say it back (1 minute)
 
