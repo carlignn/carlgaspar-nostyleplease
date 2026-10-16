@@ -11,7 +11,7 @@ comments: true
 
 Okay, so here's what's up.
 
-It's been almost a year since the last one of these. The short version: my ACL is fine, the OTHER knee is the problem now, I'm back playing in the league I commission, and I've stopped trying to be only a security guy.
+It's been almost a year since the last one of these. The short version: my ACL is fine, the OTHER knee is the problem now, I'm back playing in the league where I'm also the commissioner.
 
 ## Fitness
 
@@ -49,13 +49,13 @@ I finished a bunch of insanely good stuff this year.
 * **Wistoria S2** - 10
 * **Food Wars** - 9
 * **Dandadan** - 8, the story is just everywhere
-* **One Outs** - really good. A pitcher who looks like he's going to drag an entire losing team to winning.
-* **Peaky Blinders** - finally done with it
-* Movies: Wake Up Dead Man, and Adolescence which was terrible, jesus christ.
+* **One Outs** - 10, really good. A pitcher who looks like he's going to drag an entire losing team to winning.
+* **Peaky Blinders** - 9, finally done with it. It got repetitive in my opinion
+* Movies: **Wake Up Dead Man**, **Adolescence**, and **Backrooms** which were all terrible, jesus christ.
 
 Still savoring **Bleach: TYBW**. I'm on season 4 and still rationing it. It's the anime of animes, I don't want it to end yet.
 
-Currently binging **Gnosia**. We're on episode 9 and I feel like it's too repetitive, but it keeps me watching anyway. My expectations are low and I'm genuinely not sure what to expect. LOL
+Currently binging **Gnosia**. We're on episode 9 and I feel like it's too repetitive, but it keeps me watching anyway. My expectations are low and I'm genuinely not sure what to expect. It could be the sunk cost fallacy keeping me on it LOL
 
 The other thing I did this year was build myself an actual rating system, because one number was always too small. Now I score four things separately - craft, story, hit (the aura, the goosebumps) and would I rewatch it. Hit is the mood-sensitive one, so quarantining it there stops it from poisoning the rest. And I never rate on the day I finish something, and never two things on the same day.
 
@@ -64,7 +64,8 @@ The other thing I did this year was build myself an actual rating system, becaus
 * **Gaspar Labs** is the studio brand now, and the reviewer apps live under it on the Play Store. This is the one that actually shipped.
 * **RPS**, my game, is at MVP. I'm leaning toward self publishing and self marketing rather than chasing a publisher.
 * **Sugar free white chocolate.** Low insulin, monk fruit, and the ones I made are pretty good! But this one's in the back of my mind now because **scaling is really hard** - nutrition facts, weight, approvals, all of that.
-* **Shirts.** Plain shirts with different designs, printed off a programmable sewing machine like the one I saw on YouTube. Same problem - scaling is tough. Also back of mind.
+* **Shirts.** Plain shirts with different designs, printed off a programmable sewing machine like the one I saw on YouTube. Same problem - scaling is tough. Also back of my mind.
+* **3D Printing.** not sure what to do here. Same problem - scaling is tough, back of my mind.
 
 Both of the product ideas are parked for the same reason. Making one of something is easy and fun. Making a thousand is a completely different job.
 
@@ -82,7 +83,7 @@ Maintenance mode. The firewall and VPN are done, notifications are done, and I'm
 
 New hobby - **watch making**. Seiko mods.
 
-The plan is a Santos, then an AP, then a Nautilus. The AP and the Nautilus are skeletons on NH72. The Santos will be on an NH36 or 38, the no date one with the heart, although the Santos won't have an open heart.
+The plan is a Santos, then an AP, then a Nautilus. The AP and the Nautilus are skeletons on NH72. The Santos will be on an NH38, the no date one with the heart, although the Santos won't have an open heart. This is just to avoid that ghost click since I don't like dates.
 
 So far I've only bought a few parts. I'm not sure if I'll go further than those three, because it becomes too much, the movements have gotten super expensive, and I'm not going to wear them all anyway. So there's that.
 
@@ -92,21 +93,21 @@ I spent months last year deciding which Citizen to buy as my first real watch. T
 
 **DONE!** I built it.
 
-Yamaha MG06X for the mixer (not the MG10X I was eyeing), a Phenyx mic, the PA speaker, and storage for all of it. I've already used it as the commentator for our playoffs and finals games. SO WORTH IT.
+Yamaha MG06X for the mixer (not the MG10X I was eyeing), Phenyx Pro PTU-71-2H mic, the Alto - TX410 PA speaker, and storage for all of it. I've already used it as the commentator for our playoffs and finals games. SO WORTH IT.
+
+I wish I took the one that can mount to the rack though, so that it's easier to move around.
 
 ## Gaming
 
-I stopped for a bit. I'm planning on getting into a turn based game next.
+I stopped for a bit. I'm planning on getting into Chrono Trigger once I got the time.
 
 Simracing cooled off too. The Moza rig is sitting right there, I'm just not driving it.
 
 ## Skills
 
-I've stopped trying to be only a security guy.
+With the rise of AI I can't just lock myself and my skills to a specialization, I need to learn more things. So I'm going wide instead of deep - security, software development, AI, product, and honestly every hobby on this page counts too. Not all of it has to be for a job. Some of it is for me to be happy, to talk to people, to have hobbies.
 
-With AI rising I can't lock myself and my skills to security only, I need to learn more things. So I'm going wide instead of deep - security, software development, AI, product, and honestly every hobby on this page counts too. Not all of it has to be for a job. Some of it is just to be happy, to talk to people, to have hobbies.
-
-The one thing I actually need to fix is **talking**. I work from home on a night shift and I don't talk the entire day, so when talking is needed my mouth is just everywhere, I can't talk straight, I'm mumbling. It's a skill that went cold, not a personality thing. So now I do tongue twisters before I read, I read out loud with a lower and deeper voice, and I'm looking into Toastmasters.
+The one thing I actually need to fix is **talking and communication**. I work from home on a night shift and sometimes I don't open my mouth for the entire day, so when talking is needed my mouth is just everywhere, I can't talk straight, I'm mumbling. It's a skill that went cold, not a personality thing. So now I do tongue twisters before I read, I read out loud with a lower and deeper voice, and I'm looking into Toastmasters.
 
 ## On the back of my mind
 
